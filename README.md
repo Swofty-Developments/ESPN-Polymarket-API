@@ -1,7 +1,7 @@
 # ESPN ↔ Polymarket Map
 
 Map an ESPN game to its Polymarket market — event slug, the "yes" outcome, and token id — across
-**15 leagues**. One Rust reference plus native Python and JS ports, all **byte-identical** (enforced
+**18 leagues**. One Rust reference plus native Python and JS ports, all **byte-identical** (enforced
 by a shared corpus), with a daily canary that checks the real APIs.
 
 [![corpus](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/corpus.yml/badge.svg)](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/corpus.yml)
@@ -12,8 +12,9 @@ by a shared corpus), with a daily canary that checks the real APIs.
 
 | Sport | Leagues |
 |---|---|
-| US (2-way moneyline) | `nfl` · `nba` · `wnba` · `mlb` · `nhl` · `college-football` · `mens-college-basketball` |
-| Soccer (3-way home/away/draw) | `fifa.world` · `eng.1` (EPL) · `esp.1` (La Liga) · `ger.1` (Bundesliga) · `ita.1` (Serie A) · `fra.1` (Ligue 1) · `uefa.champions` (UCL) · `usa.1` (MLS) |
+| Team, 2-way moneyline | `nfl` · `nba` · `wnba` · `mlb` · `nhl` · `college-football` · `mens-college-basketball` |
+| Soccer, 3-way home/away/draw | `fifa.world` · `eng.1` (EPL) · `esp.1` (La Liga) · `ger.1` (Bundesliga) · `ita.1` (Serie A) · `fra.1` (Ligue 1) · `uefa.champions` (UCL) · `usa.1` (MLS) |
+| Individual, head-to-head | `atp` · `wta` (tennis) · `ufc` (MMA) |
 
 ## Install
 

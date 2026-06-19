@@ -27,7 +27,11 @@ const LEAGUE_LABELS = {
   "fifa.world": "FIFA World Cup", "eng.1": "Premier League", "esp.1": "La Liga",
   "ger.1": "Bundesliga", "ita.1": "Serie A", "fra.1": "Ligue 1",
   "uefa.champions": "Champions League", "usa.1": "MLS",
+  atp: "ATP Tennis", wta: "WTA Tennis", ufc: "UFC",
 };
+
+// Athlete sports list hundreds of matches/fights per day; sample to keep the daily run fast.
+const MAX_GAMES_PER_LEAGUE = 40;
 
 // Run `fn` over `items` with bounded concurrency, preserving result order.
 async function pool(items, concurrency, fn) {
@@ -129,6 +133,10 @@ async function run() {
       }
     })
   );
+  for (const b of boards) {
+    b.dropped = Math.max(0, b.games.length - MAX_GAMES_PER_LEAGUE);
+    if (b.dropped > 0) b.games = b.games.slice(0, MAX_GAMES_PER_LEAGUE);
+  }
   const tasks = boards.flatMap((b) => b.games.map((game) => ({ league: b.league, game })));
   const probes = await pool(tasks, 12, (t) => probeGame(t.league, t.game));
 
@@ -143,6 +151,7 @@ async function run() {
       ...agg,
       legs_with_token: mine.reduce((a, p) => a + p.legs, 0),
       unlisted: mine.filter((p) => p.bucket === "unlisted").length,
+      sampled_out: b.dropped || 0,
     };
     for (const p of mine) if (p.issue) issues.push(p.issue);
   }
@@ -161,7 +170,8 @@ async function run() {
   console.log(`canary ${status.status.toUpperCase()} @ ${status.generated_at}`);
   for (const [k, v] of Object.entries(leagues)) {
     const cov = v.active ? `${v.resolved}/${v.active}` : "N/A";
-    console.log(`  ${(v.label || k).padEnd(16)} ${String(v.status).padEnd(8)} resolved=${cov} legs=${v.legs_with_token} unlisted=${v.unlisted}`);
+    const sampled = v.sampled_out ? ` (+${v.sampled_out} sampled out)` : "";
+    console.log(`  ${(v.label || k).padEnd(16)} ${String(v.status).padEnd(8)} resolved=${cov} legs=${v.legs_with_token} unlisted=${v.unlisted}${sampled}`);
   }
   if (issues.length) {
     console.log(`\n${issues.length} signal(s):`);
