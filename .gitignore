@@ -12,3 +12,4 @@ Cargo.lock
 dist-test/
 uv.lock
 .uv/
+canary/dashboard/status.json
