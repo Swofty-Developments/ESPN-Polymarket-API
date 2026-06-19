@@ -1,41 +1,50 @@
 # ESPN ↔ Polymarket Map
 
-A canonical, continuously-verified crosswalk between **ESPN sports entities** and
-**Polymarket markets** — team/athlete name normalization, market-slug derivation,
-and outcome-index resolution — with a live conformance signal that hits the real
-APIs every day and tells you the moment the mapping drifts.
+A canonical, continuously-verified crosswalk between **ESPN games** and **Polymarket markets**:
+given an ESPN game, it tells you the Polymarket event slug, which outcome is "yes", and the token id
+to trade — across **NBA, MLB, NHL, and the FIFA World Cup**. A daily canary hits the real APIs and
+flags the moment the mapping drifts.
 
 [![corpus](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/corpus.yml/badge.svg)](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/corpus.yml)
 [![canary](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/canary.yml/badge.svg)](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/canary.yml)
-[![license: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](#legal--tos)
+[![license](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](#license--disclaimer)
 
-> **Status: implemented (v0.1).** Rust reference + Python and JS native ports, all green against a
-> shared conformance corpus; a live canary maps today's NBA / MLB / NHL / FIFA World Cup games.
-> This README remains the design spec; the normative algorithm lives in
-> [`docs/architecture.md`](docs/architecture.md).
+The library ships in three languages — a Rust reference and native Python and JS ports — that all
+produce **byte-identical results**, enforced by a shared conformance corpus on every commit.
 
----
+## Install
 
-## Quick start
+> Registry publishing is pending the org's tokens; until then, install from this repo.
 
-Given an ESPN game, get the Polymarket event slug, which outcome is "yes", and the live price —
-across **NBA, MLB, NHL, and the FIFA World Cup** (2-way moneylines and 3-way home/away/draw).
+```sh
+# Rust
+cargo add espn-polymarket-map            # or: git = "https://github.com/Swofty-Developments/ESPN-Polymarket-API"
 
-**Rust**
+# Python
+pip install espn-polymarket-map          # or: pip install "git+https://github.com/Swofty-Developments/ESPN-Polymarket-API#subdirectory=bindings/python"
 
-```rust
-use espn_polymarket_map::client::{EspnClient, map_game};
+# JavaScript / TypeScript
+npm install espn-polymarket-map
+```
 
-for game in EspnClient::scoreboard("fifa.world")? {
-    let r = map_game(&game)?;            // hits ESPN + Polymarket
-    println!("{} @ {} -> {} ({})", game.away.abbr, game.home.abbr, r.pm_event_slug, r.resolved);
-    for o in &r.outcomes {               // home / away / draw
-        println!("  {} {:?} @ {}", o.selection, o.token_id, o.price);
-    }
+## Usage
+
+Map today's games against live Polymarket data. The clients use the public, keyless ESPN and
+Polymarket endpoints — no API key, no secrets.
+
+**TypeScript**
+
+```ts
+import { EspnClient, mapGame } from "espn-polymarket-map";
+
+for (const game of await EspnClient.scoreboard("fifa.world")) {
+  const r = await mapGame(game);
+  console.log(`${game.away.abbr} @ ${game.home.abbr} -> ${r.pm_event_slug} (${r.resolved})`);
+  for (const o of r.outcomes) console.log(` ${o.selection} ${o.price} ${o.token_id}`);
 }
 ```
 
-**Python** (`pip install espn-polymarket-map`)
+**Python**
 
 ```python
 from espn_polymarket_map import EspnClient, map_game
@@ -43,299 +52,135 @@ from espn_polymarket_map import EspnClient, map_game
 for game in EspnClient.scoreboard("nba"):
     r = map_game(game)
     print(game.away.abbr, "@", game.home.abbr, "->", r.pm_event_slug, r.resolved)
-    for o in r.outcomes:                  # away / home (index-resolved by name, never position)
-        print(" ", o.selection, o.token_id, o.price)
+    for o in r.outcomes:
+        print(" ", o.selection, o.price, o.token_id)
 ```
 
-**JavaScript / TypeScript** (`npm i espn-polymarket-map`)
+**Rust**
 
-```ts
-import { EspnClient, mapGame } from "espn-polymarket-map";
+```rust
+use espn_polymarket_map::client::{map_game, EspnClient};
 
-for (const game of await EspnClient.scoreboard("mlb")) {
-  const r = await mapGame(game);
-  console.log(game.away.abbr, "@", game.home.abbr, "->", r.pm_event_slug, r.resolved);
-  for (const o of r.outcomes) console.log(" ", o.selection, o.token_id, o.price);
+for game in EspnClient::scoreboard("mlb")? {
+    let r = map_game(&game)?;
+    println!("{} @ {} -> {} ({})", game.away.abbr, game.home.abbr, r.pm_event_slug, r.resolved);
 }
 ```
 
-All three also expose the **pure, offline core** the corpus tests — `parseEspnEvent` / `parsePmEvent`
-/ `resolve` / `candidateSlugs` / `normalize` — so you can map data you already have without any
-network calls. Every implementation returns the identical `MapResult` shape (see
-[`docs/architecture.md`](docs/architecture.md)).
+Already have the payloads? Skip the network and call the **pure core** the corpus tests directly —
+`parseEspnEvent` / `parsePmEvent` / `resolve` / `candidateSlugs` / `normalize` (snake_case in Rust
+and Python). It is deterministic and offline.
 
----
+## What you get back
 
-## Why this exists
-
-Anyone mirroring or arbing sports prediction markets has to answer one annoying
-question over and over: *given an ESPN game, which Polymarket market is the same
-event, and which outcome is "yes"?* There is no published, maintained answer. The
-join is fragile in a handful of recurring ways:
-
-1. **Team-name / abbreviation mismatches** — ESPN's abbreviation is not Polymarket's
-   team code (`COD` vs `cdr`, `URU` vs `ury`), and full names get word-order-swapped
-   (`Congo DR` vs `DR Congo`). Noisy country names defeat Polymarket's search.
-2. **Outcome-index flips** — Polymarket lists outcomes `[away, home]`; if you assume
-   `home` is index 0 you quote the wrong side of the book.
-3. **Slug-format drift** — date basis (ET vs UTC, ±1 day), missing year, endpoint
-   version changes.
-4. **Market-type assumptions** — building a sub-market suffix from an abbreviation
-   only ever matches the home team; 3-way soccer needs home/away/draw legs.
-5. **Caching brittleness** — a market listed late (near kickoff) stays unresolved if
-   a failed lookup is cached permanently.
-6. **Upstream instability** — ESPN silently changes payload shapes; Polymarket
-   returns 403s and reshapes search relevance.
-
-Each of those is normally discovered *in production, minutes after it breaks*. This
-project's job is to make every one of them a deterministic test failure or a
-one-line reviewable PR **before** it costs anything.
-
-### Scope
-
-**In scope (public):** the mapping data, the normalization/resolution algorithm, the
-conformance corpus, and the live verification job.
-
-**Out of scope:** anything downstream of the mapping — trading, market-making,
-order routing, private schemas. This library answers "which market, which outcome,"
-and stops there.
-
----
-
-## The core idea: three layers, three different problems
-
-The "mapping" is really three different kinds of thing. Treating them separately is
-the whole design.
-
-| Layer | Examples | Cross-language? | How it's verified |
-|---|---|---|---|
-| **Data tables** | abbreviation crosswalks (`COD→cdr`), team aliases (`congo dr ↔ dr congo`), slug templates (`{league}-{away}-{home}-{date}`) | Trivially — it's just data | JSON Schema + corpus |
-| **Algorithm** | normalize → template slug → candidate dates → token-match → resolve outcome index | Yes — one reference impl, others verified against the shared corpus | Conformance corpus (every commit) |
-| **I/O adaptation** | reacting to ESPN payload-shape changes, Polymarket 403s / search reshuffles | No — this is reactive glue to opaque third parties | Live canary (daily, against real APIs) |
-
-Almost all real-world breakage is **layer 1 (data drift)** or **layer 3 (upstream
-changed)**. Very little is layer-2 algorithm bugs. That split drives the testing
-strategy below.
-
-### Two changers, two defenses
-
-"Find every problem when the mapping changes" conflates two different *changers*:
-
-- **A teammate edits the mapping** → caught by the **conformance corpus**: frozen
-  (real ESPN payload + real Polymarket payload → expected output) cases that every
-  language implementation must pass on every commit. Deterministic, fast, offline.
-- **ESPN or Polymarket changes their data** → frozen fixtures can *never* catch
-  this. Caught by the **live canary**: a scheduled job that hits the real APIs,
-  runs the mapping, and asserts coverage/sanity on live games.
-
-You need both. Neither alone is "finds all problems."
-
----
-
-## Repository structure
-
-```
-espn-polymarket-map/
-├── data/                          # THE PRODUCT — language-neutral source of truth
-│   ├── schema/                    # JSON Schema for every data file below
-│   │   ├── crosswalk.schema.json
-│   │   └── slug-templates.schema.json
-│   ├── crosswalk/                 # ESPN ↔ Polymarket entity tables, per sport
-│   │   ├── soccer.json            # abbr ↔ PM code ↔ aliases (from _SOCCER_* tables)
-│   │   ├── nba.json
-│   │   ├── mlb.json
-│   │   └── nhl.json
-│   ├── slug-templates.json        # {league}-{away}-{home}-{date}, date-basis rules
-│   └── VERSION                    # data semver — bumped on every crosswalk change
-│
-├── corpus/                        # THE CROSS-LANGUAGE CONTRACT
-│   ├── cases/                     # one file per case: inputs → expected output
-│   │   ├── soccer-congo-dr-word-order.json
-│   │   ├── nba-outcome-index-flip.json
-│   │   └── ...
-│   └── README.md                  # how to record a new case
-│
-├── core-rs/                       # reference implementation (Rust)
-│   ├── src/
-│   └── Cargo.toml
-│
-├── bindings/
-│   ├── python/                    # native port → published to PyPI
-│   └── js/                        # native port → published to npm
-│
-├── canary/                        # the daily live-API verification job
-│   ├── run.*                      # hit real ESPN + PM, run mapping, classify result
-│   └── dashboard/                 # published status page (GitHub Pages)
-│
-├── docs/
-│   ├── adding-a-team-mapping.md   # highest-leverage contributor doc
-│   └── architecture.md
-│
-└── .github/workflows/
-    ├── corpus.yml                 # runs the corpus across all langs on every push
-    └── canary.yml                 # cron — runs the live check, publishes status
-```
-
-The **crown jewel is `data/`, not code.** The algorithm is small and stable; the
-thing that rots daily is the crosswalk. Everything else is a thin wrapper around the
-data.
-
----
-
-## Cross-language strategy
-
-Public adoption rewards **idiomatic native packages** — a Rust dev wants a real
-crate, a Python dev wants a wheel that isn't secretly a wasm blob. So:
-
-**One reference implementation + corpus-as-contract.**
-
-- **Rust (`core-rs`)** is the reference implementation.
-- **Python** and **JS** are real native ports published to PyPI / npm.
-- All three are *required to pass the identical `corpus/cases/*.json`* in CI on every
-  PR. The corpus **is** the spec. If a change makes Python disagree with the corpus,
-  CI goes red. This is what lets the README claim "verified identical across
-  languages" without shipping a compiled core to people who wanted a library.
-- The `data/` tables are embedded into each binding at build time, so there is
-  exactly one source for the crosswalk.
-
-A single compiled core (Rust → PyO3 + WASM) was considered and **rejected for v1**:
-the algorithm is ~300 lines, triple-maintenance is cheap, and native packages are
-friendlier to adopt. Revisit only if the algorithm grows substantially complex or an
-external consumer needs guaranteed bit-identical behavior.
-
----
-
-## The conformance corpus
-
-A corpus case is a recorded real-world input and its correct output:
+`resolve` returns a `MapResult`. Outcome indices are resolved by **matching team names, never by
+position**, so an `[away, home]` flip can't quote you the wrong side. `price` and `token_id` are
+verbatim strings from Polymarket (no floats), so the result is identical across languages.
 
 ```jsonc
-// corpus/cases/soccer-congo-dr-word-order.json
 {
-  "description": "ESPN 'Congo DR' must match Polymarket 'DR Congo' despite word order",
-  "espn":  { /* recorded ESPN scoreboard/summary slice */ },
-  "polymarket": { /* recorded Polymarket gamma/search slice */ },
-  "expected": {
-    "pm_slug": "fifwc-cdr-mar-2026-06-20",
-    "yes_index": 0,
-    "resolved": true
-  }
+  "resolved": true,
+  "league": "fifa.world",
+  "kind": "three_way",                       // or "two_way" for NBA/MLB/NHL moneylines
+  "espn_event_id": "760444",
+  "pm_event_slug": "fifwc-bra-hai-2026-06-19",
+  "pm_market_slug": null,                    // set for two_way; null for three_way
+  "home": { "espn_abbr": "BRA", "name": "Brazil", "pm_code": "bra" },
+  "away": { "espn_abbr": "HAI", "name": "Haiti",  "pm_code": "hai" },
+  "outcomes": [
+    { "selection": "home", "team": "Brazil", "pm_market_slug": "fifwc-bra-hai-2026-06-19-bra",
+      "pm_outcome": "Yes", "outcome_index": 0, "token_id": "10304…4686", "price": "0.885" },
+    { "selection": "away", "team": "Haiti",  "pm_market_slug": "fifwc-bra-hai-2026-06-19-hai", "…": "…" },
+    { "selection": "draw", "team": null,     "pm_market_slug": "fifwc-bra-hai-2026-06-19-draw", "…": "…" }
+  ]
 }
 ```
 
-Rules:
-- Cases are recorded from **real** API payloads, not hand-written stubs, so they
-  capture the actual shapes that break.
-- Every known historical failure mode gets a regression case (word-order swaps,
-  index flips, late listings, missing year in slug, etc.).
-- Every language implementation runs the full corpus. Green corpus = the
-  implementations agree, by construction.
+## The hard cases it handles
 
----
+The ESPN→Polymarket join is fragile in recurring ways. Each is a regression case in the corpus:
 
-## The live canary
+- **Team-code divergence** — ESPN's abbreviation is not Polymarket's code: `SA`→`sas`, `VGK`→`las`,
+  `COD`→`cdr`, `CPV`→`cvi`. Curaçao is even coded `kor` on Polymarket (and South Korea is `kr`).
+- **Word-order swaps** — ESPN `Congo DR` vs Polymarket `DR Congo`; matched by token set, not string.
+- **Outcome-index flips** — Polymarket lists `[away, home]` for some sports; the side is resolved by name.
+- **Name spelling** — ESPN `Cape Verde` vs Polymarket `Cabo Verde`; ESPN `South Korea` vs `Korea Republic`.
+- **Date-basis drift** — Polymarket dates slugs by the **US-Eastern** day, so a `00:30Z` kickoff lands on
+  the previous calendar date. Candidate dates cover Eastern, UTC, and ±1.
+- **Market shape** — 2-way sports have one moneyline market `[teamA, teamB]`; soccer is three Yes/No legs
+  (home / away / draw), each a separate market.
 
-A scheduled GitHub Action (cron, e.g. each morning) that:
+## How it works
 
-1. hits the **real** ESPN API for today's games,
-2. hits the **real** Polymarket API,
-3. runs the mapping on them,
-4. asserts: every active game resolved to a PM market; every leg got a token; no
-   market sits at an untraded 50%; `P(home) + P(away) ≈ 1`.
+The mapping is three different kinds of thing, verified three different ways:
 
-It needs **no secrets** — ESPN's `site.api` is keyless and Polymarket's gamma is
-public — which is exactly what lets the whole job be public and reproducible.
+| Layer | What | Verified by |
+|---|---|---|
+| **Data** | crosswalk tables + slug templates (`data/`) | JSON Schema + corpus |
+| **Algorithm** | normalize → derive slug → match teams → resolve outcome | conformance corpus, offline, every commit |
+| **I/O** | reacting to live ESPN/Polymarket changes | the canary, against real APIs, daily |
 
-### Failure classification (this is what makes the signal trustworthy)
+Almost all breakage is data drift or an upstream change — rarely an algorithm bug. The **corpus** is
+the cross-language contract: each case is a recorded `{espn, polymarket} → expected` pair, and all
+three implementations must reproduce every `expected` exactly (see [`corpus/README.md`](corpus/README.md)).
+The full algorithm is specified in [`docs/architecture.md`](docs/architecture.md). A single compiled
+core (PyO3 + WASM) was considered and rejected for v1: the algorithm is small, and native packages
+adopt better than a wasm blob.
 
-A canary that flips red on every upstream hiccup is noise. Every failure is bucketed:
+## Repository layout
+
+```
+data/        the product — crosswalk tables + slug templates (+ JSON Schema). single source of truth.
+corpus/      the contract — recorded {espn, polymarket} -> expected cases, run by every language.
+core-rs/     Rust reference implementation (offline core + optional HTTP clients).
+bindings/    native ports: python/ and js/.
+canary/      daily live-API verification job (run.mjs, classify.mjs) + status dashboard.
+docs/        architecture.md (normative spec), adding-a-team-mapping.md (top contributor doc).
+scripts/     seed-crosswalk.mjs (bootstrap data), sync-data.mjs (embed into bindings), validate-data.mjs.
+```
+
+## The data is the product
+
+`data/crosswalk/<league>.json` is keyed by lowercased ESPN abbreviation:
+
+```jsonc
+"vgk": { "espn": "VGK", "pm": "las", "name": "Vegas Golden Knights",
+         "aliases": ["golden knights", "vegas", "las vegas"] }
+```
+
+`pm` is the Polymarket slug code; `aliases` are extra labels used to match Polymarket outcome strings.
+The data is versioned independently (`data/VERSION`) — a crosswalk fix is a data patch, not a library
+release — and embedded into each binding at build time by `scripts/sync-data.mjs`.
+
+## Live canary
+
+A daily GitHub Action maps every live game and buckets each result, so the signal stays trustworthy
+instead of flipping red on every upstream hiccup:
 
 | Bucket | Meaning | Action |
 |---|---|---|
-| **Outage** | ESPN/PM returned 5xx / timeout / 403 | retry w/ backoff; if still down, mark dashboard **yellow**. No issue, no PR. Nothing is broken on our end. |
-| **Drift** | request succeeded but the *shape* changed (missing field, enum became object) | **fail loud**, auto-open an **Issue**. A human must change code. |
-| **Mapping gap** | shape fine, but an active game/team didn't resolve, or a leg got no token, or indices look inverted | auto-open a **PR** with the proposed crosswalk row already filled in. |
+| **outage** | ESPN/Polymarket 5xx / timeout / 403 | retry; dashboard yellow. Nothing is broken here. |
+| **drift** | request succeeded but the payload shape changed | open an Issue — a human must change code. |
+| **gap** | shape fine, but a live game/team didn't resolve | open a PR with the proposed crosswalk row filled in. |
 
-### Auto-PR for mapping gaps
+The gap auto-PR ([`scripts/canary-followup.mjs`](scripts/canary-followup.mjs)) turns "discover in prod
+after it broke" into "approve a one-line PR before kickoff." Status is published to a GitHub Pages
+dashboard (`canary/dashboard/`); the canary no-ops gracefully off-season.
 
-When the canary finds an unmapped entity it can confidently guess (ESPN team `CPV`
-unmapped; a live PM market's name contains "Cape Verde"), it **writes the data row
-and opens a PR with a real diff**:
-
-```diff
-// data/crosswalk/soccer.json
-     "cmr": { "espn": "CMR", "pm": "cmr", "name": "Cameroon" },
-+    "cpv": { "espn": "CPV", "pm": "cpv", "name": "Cape Verde",
-+             "aliases": ["cabo verde"] },
-```
-
-PR body: "canary saw ESPN game 401234 with team `CPV` unmapped; PM market
-`fifwc-cpv-mex-2026-06-20` looks like the match; proposed row above." You review one
-line and merge, or correct the guess and merge.
-
-This turns "discover in prod 25 minutes after it broke" into "approve a one-line PR
-before kickoff," and turns public maintenance into a contribution funnel: anyone can
-fix a mapping without understanding the algorithm.
-
-### Off-season / no-games
-
-The canary must no-op gracefully when there are no live games (coverage = N/A, not
-0% red), or it screams every off-season.
-
-### Public dashboard
-
-The canary publishes a GitHub Pages status page: per-sport coverage %, last-good
-timestamp, open drift issues, and a history graph. The README badge reads the latest
-run. "Green, and it checks real APIs every morning" is the trust signal.
-
----
-
-## Versioning & releases
-
-The **data** changes far more often than the **code**, so version it independently:
-
-- `data/VERSION` is its own semver. A crosswalk fix is a **data patch release**, not
-  a library release.
-- Language bindings depend on a data version and re-release when they need a newer
-  one.
-
-This keeps each changelog honest — "added Cape Verde" is a data bump, not a v2.
-
----
+> Two repo settings enable the scheduled canary: Settings → Pages → Source = **GitHub Actions**, and
+> Settings → Actions → Workflow permissions → **Read and write** + **Allow Actions to create PRs**.
 
 ## Contributing
 
-The single most important doc is [`docs/adding-a-team-mapping.md`](docs/adding-a-team-mapping.md):
+Most contributions are a one-line data fix. See [`docs/adding-a-team-mapping.md`](docs/adding-a-team-mapping.md):
+record a corpus case from the real payloads, add the crosswalk row, and CI proves it green in all three
+languages. Run the suites with `cargo test` (Rust), `uv run --with pytest pytest` (Python), and
+`npm test` (JS).
 
-1. Record a corpus case from the real payloads.
-2. Add the crosswalk row.
-3. CI proves it (corpus passes in every language).
+## License & disclaimer
 
-Because the canary auto-files gap PRs with the row already written, most mapping
-contributions are "review one line and merge."
+Dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your option.
 
----
-
-## Legal / ToS
-
-This project consumes **unofficial** ESPN endpoints and Polymarket's public gamma
-API. It publishes a *crosswalk and code* — not bulk ESPN/Polymarket data. It is not
-affiliated with or endorsed by ESPN or Polymarket, and the upstream endpoints may
-change or break without notice. Code is released under an OSI-approved license
-(MIT/Apache-2.0); see `LICENSE`.
-
----
-
-## Roadmap
-
-- **v0.1 ✅** — `data/` schema + soccer/NBA/MLB/NHL crosswalks; Rust reference impl; conformance
-  corpus seeded from real recorded payloads covering every known historical failure.
-- **v0.2 ✅** — Python binding (`espn_polymarket_map`); corpus CI across Rust + Python.
-- **v0.3 ✅** — live canary with failure classification + Pages dashboard.
-- **v0.4 ✅** — auto-PR funnel for mapping gaps (`scripts/canary-followup.mjs`).
-- **v0.5 ✅** — JS/TS binding (`espn-polymarket-map`); corpus CI across all three languages.
-- **Next** — publish to crates.io / PyPI / npm; additional sports (NFL, college, tennis); reconsider
-  a compiled shared core only if the algorithm grows substantially complex.
-
-Everything above ships in this repo today. "Publish to registries" is intentionally a maintainer
-action (it requires the org's tokens), not something the build does on its own.
+This project consumes unofficial ESPN endpoints and Polymarket's public gamma API, and publishes a
+crosswalk and code — not bulk ESPN/Polymarket data. It is not affiliated with or endorsed by ESPN or
+Polymarket, and those endpoints may change or break without notice.
