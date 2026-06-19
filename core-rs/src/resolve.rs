@@ -91,7 +91,6 @@ pub fn resolve(league: &str, game: &EspnGame, pm: &PmEvent) -> MapResult {
         return result;
     }
 
-    // two_way
     let ml = pm.markets.iter().find(|m| m.slug == pm.slug).or_else(|| {
         pm.markets
             .iter()

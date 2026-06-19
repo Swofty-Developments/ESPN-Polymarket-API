@@ -18,12 +18,12 @@ def normalize(s: str) -> str:
     collapse any run of non-``[a-z0-9]`` characters into a single space; trim.
     """
     out: List[str] = []
-    prev_space = True  # suppress leading spaces
+    prev_space = True
     for ch in unicodedata.normalize("NFD", s):
         cp = ord(ch)
         if 0x300 <= cp <= 0x36F:
-            continue  # combining mark
-        # ASCII lowercase mirrors Rust's char::to_ascii_lowercase (only A-Z fold).
+            continue
+        # Fold only A-Z, mirroring Rust's char::to_ascii_lowercase.
         if "A" <= ch <= "Z":
             lower = ch.lower()
         else:
@@ -32,8 +32,6 @@ def normalize(s: str) -> str:
             out.append(lower)
             prev_space = False
         else:
-            # Any other character (ASCII punctuation/space or surviving non-ASCII
-            # letter) collapses to a single space.
             if not prev_space:
                 out.append(" ")
                 prev_space = True

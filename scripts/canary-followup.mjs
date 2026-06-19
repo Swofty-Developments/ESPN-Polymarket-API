@@ -27,7 +27,7 @@ const dryRun = (label, cmd) => console.log(`[dry-run] ${label}: ${cmd}`);
 const drift = (status.issues || []).filter((i) => i.bucket === "drift");
 const gaps = (status.issues || []).filter((i) => i.bucket === "gap");
 
-// ---- drift -> issues (deduped by title) -------------------------------------------------
+// drift -> issues, deduped by title.
 for (const d of drift) {
   const title = `canary: drift — ${d.message.split(":")[0]}`;
   if (!hasGh) {
@@ -44,7 +44,7 @@ for (const d of drift) {
   console.log(`opened issue: ${title}`);
 }
 
-// ---- gaps -> a single PR with proposed crosswalk rows ------------------------------------
+// gaps -> a single PR with proposed crosswalk rows.
 if (gaps.length) {
   // Parse the proposed rows out of each gap message (JSON array tail).
   const proposals = [];
@@ -57,7 +57,7 @@ if (gaps.length) {
     } catch {}
   }
 
-  // Apply each proposal to the right crosswalk file (only if the abbr isn't already mapped).
+  // Apply each proposal to its crosswalk file, skipping abbreviations already mapped.
   const templates = JSON.parse(readFileSync(join(ROOT, "data/slug-templates.json"), "utf8"));
   let changed = 0;
   const applied = [];
@@ -67,7 +67,7 @@ if (gaps.length) {
     const path = join(ROOT, "data/crosswalk", `${stem}.json`);
     const cw = JSON.parse(readFileSync(path, "utf8"));
     const key = (row.espn || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-    if (!key || cw.teams[key]) continue; // already mapped — skip
+    if (!key || cw.teams[key]) continue;
     cw.teams[key] = { espn: row.espn, pm: row.pm, name: row.name, aliases: row.aliases || [] };
     // keep keys sorted for a clean diff
     cw.teams = Object.fromEntries(Object.keys(cw.teams).sort().map((k) => [k, cw.teams[k]]));

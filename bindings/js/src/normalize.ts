@@ -15,11 +15,11 @@ export function normalize(s: string): string {
   // NFD decomposition so diacritics become base char + combining mark.
   const decomposed = s.normalize("NFD");
   let out = "";
-  let prevSpace = true; // suppress leading spaces
+  let prevSpace = true;
   for (const ch of decomposed) {
     const cp = ch.codePointAt(0)!;
     if (cp >= 0x300 && cp <= 0x36f) {
-      continue; // combining mark
+      continue;
     }
     const lower = asciiLower(ch);
     if (isAsciiAlphanumeric(lower)) {

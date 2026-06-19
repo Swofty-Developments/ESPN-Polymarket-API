@@ -150,7 +150,6 @@ pub fn map_game(game: &EspnGame) -> Result<MapResult, ClientError> {
         }
     }
 
-    // Search fallback.
     let query = format!("{} {}", game.away.display_name, game.home.display_name);
     if let Ok(events) = PolymarketClient::search(&query) {
         for ev in events {

@@ -45,7 +45,6 @@ pub fn parse_utc(ts: &str) -> Option<(i64, i64, i64, i64, i64)> {
     let y = num(0, 4)?;
     let mo = num(5, 2)?;
     let d = num(8, 2)?;
-    // position 10 is 'T' (or space)
     let h = num(11, 2)?;
     let mi = num(14, 2)?;
     Some((y, mo, d, h, mi))
@@ -65,12 +64,12 @@ pub fn candidate_dates(kickoff_utc: &str) -> Vec<String> {
         let minutes = days * 1440 + h * 60 + mi;
         let et_days = (minutes - 300).div_euclid(1440);
         let (ey, em, ed) = civil_from_days(et_days);
-        push(fmt_date(ey, em, ed)); // Eastern estimate
-        push(fmt_date(y, mo, d)); // UTC date
+        push(fmt_date(ey, em, ed));
+        push(fmt_date(y, mo, d));
         let (em1y, em1m, em1d) = civil_from_days(et_days - 1);
-        push(fmt_date(em1y, em1m, em1d)); // Eastern - 1
+        push(fmt_date(em1y, em1m, em1d));
         let (up1y, up1m, up1d) = civil_from_days(days + 1);
-        push(fmt_date(up1y, up1m, up1d)); // UTC + 1
+        push(fmt_date(up1y, up1m, up1d));
     }
     out
 }

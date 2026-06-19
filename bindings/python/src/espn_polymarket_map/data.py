@@ -1,8 +1,7 @@
 """Embedded data tables (crosswalk + slug templates), parsed once on first use.
 
-The data is the single source of truth in the repo ``data/`` directory; a synced
-copy is embedded at ``espn_polymarket_map/_data`` and loaded from there at runtime
-(never from ``../../data``).
+The repo ``data/`` directory is the single source of truth; a synced copy is
+embedded at ``espn_polymarket_map/_data`` and loaded from there at runtime.
 """
 
 from __future__ import annotations
@@ -62,7 +61,6 @@ class Data:
     ) -> None:
         self.data_version = data_version
         self.leagues = leagues
-        # crosswalk stem -> (lowercased espn abbr -> team)
         self._crosswalks = crosswalks
 
     def league(self, league: str) -> Optional[LeagueConfig]:

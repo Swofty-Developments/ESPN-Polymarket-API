@@ -56,7 +56,6 @@ export interface TeamBlock {
  * serialized JSON matches the corpus contract exactly.
  */
 export interface Outcome {
-  /** "home" | "away" | "draw". */
   selection: "home" | "away" | "draw";
   /** Team display name, or `null` for the draw leg. */
   team: string | null;

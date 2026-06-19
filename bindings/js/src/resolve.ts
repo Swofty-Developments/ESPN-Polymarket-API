@@ -96,7 +96,6 @@ export function resolve(league: string, game: EspnGame, pm: PmEvent): MapResult 
     return result;
   }
 
-  // two_way
   let ml = pm.markets.find((m) => m.slug === pm.slug);
   if (ml === undefined) {
     ml = pm.markets.find((m) => m.sportsMarketType === "moneyline");

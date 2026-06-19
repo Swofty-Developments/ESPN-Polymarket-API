@@ -10,11 +10,11 @@ const STOPWORDS: &[&str] = &["and", "the", "of", "fc", "sc", "afc", "cf"];
 /// non-`[a-z0-9]` characters into a single space.
 pub fn normalize(s: &str) -> String {
     let mut out = String::with_capacity(s.len());
-    let mut prev_space = true; // suppress leading spaces
+    let mut prev_space = true;
     for ch in s.nfd() {
         let cp = ch as u32;
         if (0x300..=0x36F).contains(&cp) {
-            continue; // combining mark
+            continue;
         }
         let lower = ch.to_ascii_lowercase();
         if lower.is_ascii_alphanumeric() {

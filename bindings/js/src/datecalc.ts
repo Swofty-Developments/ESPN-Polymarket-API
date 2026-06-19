@@ -95,12 +95,12 @@ export function candidateDates(kickoffUtc: string): string[] {
     const minutes = days * 1440 + h * 60 + mi;
     const etDays = divEuclid(minutes - 300, 1440);
     const [ey, em, ed] = civilFromDays(etDays);
-    push(fmtDate(ey, em, ed)); // Eastern estimate
-    push(fmtDate(y, mo, d)); // UTC date
+    push(fmtDate(ey, em, ed));
+    push(fmtDate(y, mo, d));
     const [em1y, em1m, em1d] = civilFromDays(etDays - 1);
-    push(fmtDate(em1y, em1m, em1d)); // Eastern - 1
+    push(fmtDate(em1y, em1m, em1d));
     const [up1y, up1m, up1d] = civilFromDays(days + 1);
-    push(fmtDate(up1y, up1m, up1d)); // UTC + 1
+    push(fmtDate(up1y, up1m, up1d));
   }
   return out;
 }

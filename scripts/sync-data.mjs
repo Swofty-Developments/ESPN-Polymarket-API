@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Copy the canonical data/ tables into each language binding so packages are self-contained.
-// The single source of truth is data/. Run after any data change; CI checks for staleness.
+// data/ is the single source of truth. Run after any data change; CI checks for staleness.
 //
 //   node scripts/sync-data.mjs          # write copies
 //   node scripts/sync-data.mjs --check  # exit 1 if any copy is stale (for CI)
@@ -11,7 +11,6 @@ import { dirname, join } from "node:path";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CHECK = process.argv.includes("--check");
 
-// Files copied verbatim into each binding's embedded-data directory.
 const FILES = ["VERSION", "slug-templates.json", "crosswalk/nba.json", "crosswalk/mlb.json", "crosswalk/nhl.json", "crosswalk/soccer.json"];
 
 const TARGETS = [

@@ -88,7 +88,6 @@ def resolve(league: str, game: EspnGame, pm: PmEvent) -> MapResult:
             outcomes=outcomes,
         )
 
-    # two_way
     ml: Optional[PmMarket] = next((m for m in pm.markets if m.slug == pm.slug), None)
     if ml is None:
         ml = next((m for m in pm.markets if m.sports_market_type == "moneyline"), None)

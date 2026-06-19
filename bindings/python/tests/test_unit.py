@@ -32,7 +32,6 @@ def test_normalize_collapses_and_trims() -> None:
 
 def test_tokens_and_content_tokens() -> None:
     assert tokens("New York Knicks") == ["new", "york", "knicks"]
-    # Stopword removal.
     assert content_tokens("Bayern of Munich") == ["bayern", "munich"]
     # Falls back to all tokens when removal empties the set.
     assert content_tokens("The") == ["the"]
@@ -78,7 +77,7 @@ def test_candidate_dates_daytime_same_day() -> None:
 
 def test_candidate_dates_dedup_order() -> None:
     c = candidate_dates("2026-06-20T00:30Z")
-    assert len(c) == len(set(c))  # no duplicates
+    assert len(c) == len(set(c))
 
 
 # --- crosswalk -------------------------------------------------------------

@@ -43,20 +43,15 @@ async function findEvent(game) {
     try {
       const ev = await PolymarketClient.eventBySlug(slug);
       if (ev) return ev;
-    } catch {
-      /* try next */
-    }
+    } catch {}
   }
-  // search fallback
   try {
     const cfg = templates.leagues[game.league];
     const events = await PolymarketClient.search(`${game.away.displayName ?? game.away.display_name ?? ""} ${game.home.displayName ?? game.home.display_name ?? ""}`);
     for (const ev of events || []) {
       if (typeof ev.slug === "string" && ev.slug.startsWith(`${cfg.pm_prefix}-`)) return ev;
     }
-  } catch {
-    /* ignore */
-  }
+  } catch {}
   return null;
 }
 
@@ -145,7 +140,6 @@ async function run() {
   const outPath = join(ROOT, "canary/dashboard/status.json");
   writeFileSync(outPath, JSON.stringify(status, null, 2) + "\n");
 
-  // Human-readable summary.
   console.log(`canary ${status.status.toUpperCase()} @ ${status.generated_at}`);
   for (const [k, v] of Object.entries(leagues)) {
     const cov = v.active ? `${v.resolved}/${v.active}` : "N/A";

@@ -1,14 +1,11 @@
 #!/usr/bin/env node
 // Seed data/crosswalk/<league>.json from ESPN team snapshots + hand-curated overrides.
-//
-// The crosswalk is THE PRODUCT (see README) — this script only *bootstraps* it. Once
-// generated and committed, data/crosswalk/*.json is the source of truth, maintained by
-// hand / the canary's auto-PR funnel. Re-running this regenerates the seed deterministically.
+// This only bootstraps the crosswalk; once committed, data/crosswalk/*.json is the source
+// of truth (maintained by hand / the canary's auto-PR funnel). Re-running is deterministic.
 //
 //   node scripts/seed-crosswalk.mjs
 //
-// Inputs:  scripts/espn-teams/<league>.json   (ESPN /teams snapshots)
-//          scripts/crosswalk-overrides.json   (pm_code + alias divergences)
+// Inputs:  scripts/espn-teams/<league>.json, scripts/crosswalk-overrides.json
 // Output:  data/crosswalk/<league>.json
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -62,7 +59,6 @@ for (const league of LEAGUES) {
     };
   }
 
-  // Deterministic key ordering.
   const ordered = {};
   for (const k of Object.keys(teams).sort()) ordered[k] = teams[k];
 

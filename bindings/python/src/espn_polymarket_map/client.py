@@ -133,7 +133,6 @@ def map_game(game: EspnGame) -> MapResult:
                 return r
             last = r
 
-    # Search fallback.
     query = f"{game.away.display_name} {game.home.display_name}"
     try:
         events = PolymarketClient.search(query)

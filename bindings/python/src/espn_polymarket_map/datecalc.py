@@ -89,13 +89,14 @@ def candidate_dates(kickoff_utc: str) -> List[str]:
         y, mo, d, h, mi = parsed
         days = days_from_civil(y, mo, d)
         minutes = days * 1440 + h * 60 + mi
-        # Floor division on a possibly-negative numerator (Python // is floor).
+        # UTC-5 approximates US-Eastern without a tz database; floor division
+        # (Python //) keeps a pre-1970 negative numerator correct.
         et_days = (minutes - 300) // 1440
         ey, em, ed = civil_from_days(et_days)
-        push(_fmt_date(ey, em, ed))  # Eastern estimate
-        push(_fmt_date(y, mo, d))  # UTC date
+        push(_fmt_date(ey, em, ed))
+        push(_fmt_date(y, mo, d))
         em1y, em1m, em1d = civil_from_days(et_days - 1)
-        push(_fmt_date(em1y, em1m, em1d))  # Eastern - 1
+        push(_fmt_date(em1y, em1m, em1d))
         up1y, up1m, up1d = civil_from_days(days + 1)
-        push(_fmt_date(up1y, up1m, up1d))  # UTC + 1
+        push(_fmt_date(up1y, up1m, up1d))
     return out

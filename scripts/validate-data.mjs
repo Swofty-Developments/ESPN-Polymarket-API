@@ -25,7 +25,6 @@ for (const [league, cfg] of Object.entries(templates.leagues || {})) {
   if (!ORDERS.includes(cfg.slug_order)) errs.push(`${league}: bad slug_order ${cfg.slug_order}`);
   if (!codeRe.test(cfg.pm_prefix || "")) errs.push(`${league}: bad pm_prefix ${cfg.pm_prefix}`);
 
-  // crosswalk
   let cw;
   try {
     cw = read(`data/crosswalk/${cfg.crosswalk}.json`);

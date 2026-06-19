@@ -163,7 +163,6 @@ export async function mapGame(game: EspnGame): Promise<MapResult> {
     }
   }
 
-  // Search fallback.
   const query = `${game.away.displayName} ${game.home.displayName}`;
   try {
     const events = await PolymarketClient.search(query);
