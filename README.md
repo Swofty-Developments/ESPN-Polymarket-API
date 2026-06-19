@@ -5,7 +5,64 @@ A canonical, continuously-verified crosswalk between **ESPN sports entities** an
 and outcome-index resolution — with a live conformance signal that hits the real
 APIs every day and tells you the moment the mapping drifts.
 
-> Status: design / planning. This README is the spec. No implementation yet.
+[![corpus](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/corpus.yml/badge.svg)](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/corpus.yml)
+[![canary](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/canary.yml/badge.svg)](https://github.com/Swofty-Developments/ESPN-Polymarket-API/actions/workflows/canary.yml)
+[![license: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](#legal--tos)
+
+> **Status: implemented (v0.1).** Rust reference + Python and JS native ports, all green against a
+> shared conformance corpus; a live canary maps today's NBA / MLB / NHL / FIFA World Cup games.
+> This README remains the design spec; the normative algorithm lives in
+> [`docs/architecture.md`](docs/architecture.md).
+
+---
+
+## Quick start
+
+Given an ESPN game, get the Polymarket event slug, which outcome is "yes", and the live price —
+across **NBA, MLB, NHL, and the FIFA World Cup** (2-way moneylines and 3-way home/away/draw).
+
+**Rust**
+
+```rust
+use espn_polymarket_map::client::{EspnClient, map_game};
+
+for game in EspnClient::scoreboard("fifa.world")? {
+    let r = map_game(&game)?;            // hits ESPN + Polymarket
+    println!("{} @ {} -> {} ({})", game.away.abbr, game.home.abbr, r.pm_event_slug, r.resolved);
+    for o in &r.outcomes {               // home / away / draw
+        println!("  {} {:?} @ {}", o.selection, o.token_id, o.price);
+    }
+}
+```
+
+**Python** (`pip install espn-polymarket-map`)
+
+```python
+from espn_polymarket_map import EspnClient, map_game
+
+for game in EspnClient.scoreboard("nba"):
+    r = map_game(game)
+    print(game.away.abbr, "@", game.home.abbr, "->", r.pm_event_slug, r.resolved)
+    for o in r.outcomes:                  # away / home (index-resolved by name, never position)
+        print(" ", o.selection, o.token_id, o.price)
+```
+
+**JavaScript / TypeScript** (`npm i espn-polymarket-map`)
+
+```ts
+import { EspnClient, mapGame } from "espn-polymarket-map";
+
+for (const game of await EspnClient.scoreboard("mlb")) {
+  const r = await mapGame(game);
+  console.log(game.away.abbr, "@", game.home.abbr, "->", r.pm_event_slug, r.resolved);
+  for (const o of r.outcomes) console.log(" ", o.selection, o.token_id, o.price);
+}
+```
+
+All three also expose the **pure, offline core** the corpus tests — `parseEspnEvent` / `parsePmEvent`
+/ `resolve` / `candidateSlugs` / `normalize` — so you can map data you already have without any
+network calls. Every implementation returns the identical `MapResult` shape (see
+[`docs/architecture.md`](docs/architecture.md)).
 
 ---
 
@@ -271,10 +328,14 @@ change or break without notice. Code is released under an OSI-approved license
 
 ## Roadmap
 
-- **v0.1** — `data/` schema + soccer/NBA/MLB/NHL crosswalks; Rust reference impl;
-  conformance corpus seeded from known historical failures.
-- **v0.2** — Python binding on PyPI; corpus CI across Rust + Python.
-- **v0.3** — live canary with failure classification + Pages dashboard.
-- **v0.4** — auto-PR funnel for mapping gaps.
-- **v0.5** — JS binding on npm once the corpus contract is proven.
-- **Later** — additional sports; reconsider a compiled shared core only if needed.
+- **v0.1 ✅** — `data/` schema + soccer/NBA/MLB/NHL crosswalks; Rust reference impl; conformance
+  corpus seeded from real recorded payloads covering every known historical failure.
+- **v0.2 ✅** — Python binding (`espn_polymarket_map`); corpus CI across Rust + Python.
+- **v0.3 ✅** — live canary with failure classification + Pages dashboard.
+- **v0.4 ✅** — auto-PR funnel for mapping gaps (`scripts/canary-followup.mjs`).
+- **v0.5 ✅** — JS/TS binding (`espn-polymarket-map`); corpus CI across all three languages.
+- **Next** — publish to crates.io / PyPI / npm; additional sports (NFL, college, tennis); reconsider
+  a compiled shared core only if the algorithm grows substantially complex.
+
+Everything above ships in this repo today. "Publish to registries" is intentionally a maintainer
+action (it requires the org's tokens), not something the build does on its own.
