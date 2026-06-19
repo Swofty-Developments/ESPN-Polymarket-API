@@ -22,11 +22,26 @@ const templates = JSON.parse(readFileSync(join(ROOT, "data/slug-templates.json")
 const STRICT = process.argv.includes("--strict");
 
 const LEAGUE_LABELS = {
-  nba: "NBA",
-  mlb: "MLB",
-  nhl: "NHL",
-  "fifa.world": "FIFA World Cup",
+  nba: "NBA", mlb: "MLB", nhl: "NHL", nfl: "NFL", wnba: "WNBA",
+  "college-football": "NCAA FB", "mens-college-basketball": "NCAA MBB",
+  "fifa.world": "FIFA World Cup", "eng.1": "Premier League", "esp.1": "La Liga",
+  "ger.1": "Bundesliga", "ita.1": "Serie A", "fra.1": "Ligue 1",
+  "uefa.champions": "Champions League", "usa.1": "MLS",
 };
+
+// Run `fn` over `items` with bounded concurrency, preserving result order.
+async function pool(items, concurrency, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  const worker = async () => {
+    while (next < items.length) {
+      const i = next++;
+      results[i] = await fn(items[i]);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker));
+  return results;
+}
 
 // Is a Polymarket event's shape still parseable (the markets carry real outcome arrays)?
 function shapeOk(event) {
@@ -47,9 +62,15 @@ async function findEvent(game) {
   }
   try {
     const cfg = templates.leagues[game.league];
+    // Only accept a real game slug ({prefix}-{code}-{code}-{date}), never futures/props
+    // like "nfl-dailies-..." that merely share the prefix.
+    const gameSlug = new RegExp(`^${cfg.pm_prefix}-[a-z0-9]+-[a-z0-9]+-\\d{4}-\\d{2}-\\d{2}$`);
     const events = await PolymarketClient.search(`${game.away.displayName ?? game.away.display_name ?? ""} ${game.home.displayName ?? game.home.display_name ?? ""}`);
+    // Search can return a tangential game (shared team name); only accept one that actually
+    // resolves to THIS matchup. A candidate-slug hit that fails to resolve is a real gap and
+    // is reported; a search miss is just "unlisted".
     for (const ev of events || []) {
-      if (typeof ev.slug === "string" && ev.slug.startsWith(`${cfg.pm_prefix}-`)) return ev;
+      if (typeof ev.slug === "string" && gameSlug.test(ev.slug) && resolveGame(game.league, game, ev).resolved) return ev;
     }
   } catch {}
   return null;
@@ -74,59 +95,56 @@ function proposedRow(game, result) {
   }));
 }
 
+// Probe one game: find its Polymarket event, resolve, classify. Pure of shared state.
+async function probeGame(league, game) {
+  let event = null;
+  try {
+    event = await findEvent(game);
+  } catch (e) {
+    return { league, bucket: "unlisted", legs: 0, issue: { bucket: "outage", message: `Polymarket lookup failed for ${game.away.abbr}@${game.home.abbr}: ${String(e).slice(0, 120)}` } };
+  }
+  const result = event ? resolveGame(league, game, event) : null;
+  const resolved = !!result?.resolved;
+  const bucket = classifyGame({ eventFound: !!event, shapeOk: shapeOk(event), resolved });
+  let issue = null;
+  if (bucket === "drift") {
+    issue = { bucket: "drift", message: `${league}: ${event.slug} shape changed (outcomes unparseable) — needs code change` };
+  } else if (bucket === "gap") {
+    const rows = proposedRow(game, result);
+    issue = { bucket: "gap", message: `${league}: ${game.away.abbr}@${game.home.abbr} found ${event.slug} but didn't resolve; proposed: ${JSON.stringify(rows.map((r) => r.suggested))}` };
+  }
+  return { league, bucket, legs: resolved ? legsWithToken(result) : 0, issue };
+}
+
 async function run() {
+  const cfgs = Object.entries(templates.leagues);
+
+  // Fetch every scoreboard in parallel, then probe all games with bounded concurrency.
+  const boards = await Promise.all(
+    cfgs.map(async ([league]) => {
+      try {
+        return { league, games: await EspnClient.scoreboard(league), outage: false };
+      } catch (e) {
+        return { league, games: [], outage: true, err: String(e).slice(0, 140) };
+      }
+    })
+  );
+  const tasks = boards.flatMap((b) => b.games.map((game) => ({ league: b.league, game })));
+  const probes = await pool(tasks, 12, (t) => probeGame(t.league, t.game));
+
   const leagues = {};
   const issues = [];
-
-  for (const [league, cfg] of Object.entries(templates.leagues)) {
-    let games = [];
-    let outage = false;
-    try {
-      games = await EspnClient.scoreboard(league);
-    } catch (e) {
-      outage = true;
-      issues.push({ bucket: "outage", message: `ESPN scoreboard for ${league} failed: ${String(e).slice(0, 140)}` });
-    }
-
-    const probes = [];
-    let legs = 0;
-    for (const game of games) {
-      let event = null;
-      try {
-        event = await findEvent(game);
-      } catch (e) {
-        // treat a hard error talking to gamma as an outage signal for this probe
-        issues.push({ bucket: "outage", message: `Polymarket lookup failed for ${game.away.abbr}@${game.home.abbr}: ${String(e).slice(0, 120)}` });
-      }
-      const ok = shapeOk(event);
-      let resolved = false;
-      let result = null;
-      if (event) {
-        result = resolveGame(league, game, event);
-        resolved = !!result.resolved;
-        if (resolved) legs += legsWithToken(result);
-      }
-      const bucket = classifyGame({ eventFound: !!event, shapeOk: ok, resolved });
-      probes.push({ bucket });
-
-      if (bucket === "drift") {
-        issues.push({ bucket: "drift", message: `${league}: ${event.slug} shape changed (outcomes unparseable) — needs code change` });
-      } else if (bucket === "gap") {
-        const rows = proposedRow(game, result);
-        issues.push({
-          bucket: "gap",
-          message: `${league}: ${game.away.abbr}@${game.home.abbr} found ${event.slug} but didn't resolve; proposed: ${JSON.stringify(rows.map((r) => r.suggested))}`,
-        });
-      }
-    }
-
-    const agg = aggregateLeague(probes, outage);
-    leagues[league] = {
-      label: LEAGUE_LABELS[league] || league,
+  for (const b of boards) {
+    if (b.outage) issues.push({ bucket: "outage", message: `ESPN scoreboard for ${b.league} failed: ${b.err}` });
+    const mine = probes.filter((p) => p.league === b.league);
+    const agg = aggregateLeague(mine.map((p) => ({ bucket: p.bucket })), b.outage);
+    leagues[b.league] = {
+      label: LEAGUE_LABELS[b.league] || b.league,
       ...agg,
-      legs_with_token: legs,
-      unlisted: probes.filter((p) => p.bucket === "unlisted").length,
+      legs_with_token: mine.reduce((a, p) => a + p.legs, 0),
+      unlisted: mine.filter((p) => p.bucket === "unlisted").length,
     };
+    for (const p of mine) if (p.issue) issues.push(p.issue);
   }
 
   const status = {
