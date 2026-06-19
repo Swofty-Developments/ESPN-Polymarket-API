@@ -1,0 +1,58 @@
+name: canary
+
+on:
+  schedule:
+    - cron: "0 13 * * *" # ~09:00 ET daily
+  workflow_dispatch:
+    inputs:
+      strict:
+        description: "Exit non-zero on drift/gap"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: canary
+  cancel-in-progress: false
+
+jobs:
+  canary:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build JS binding (canary dogfoods it)
+        working-directory: bindings/js
+        run: |
+          npm install
+          npm run build
+
+      - name: Run canary against live APIs
+        run: node canary/run.mjs
+        continue-on-error: true
+
+      - name: File issues / open gap PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/canary-followup.mjs
+
+      - name: Publish dashboard to Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: canary/dashboard
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
