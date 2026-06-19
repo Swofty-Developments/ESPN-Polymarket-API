@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Swofty-Developments/ESPN-Polymarket-API/data/schema/slug-templates.schema.json",
+  "title": "Slug templates",
+  "description": "Per-league configuration for deriving Polymarket slugs from ESPN games.",
+  "type": "object",
+  "required": ["version", "leagues"],
+  "additionalProperties": true,
+  "properties": {
+    "$schema": { "type": "string" },
+    "description": { "type": "string" },
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "leagues": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["espn_path", "pm_prefix", "kind", "slug_order", "date_basis", "crosswalk"],
+        "additionalProperties": false,
+        "properties": {
+          "espn_path": {
+            "type": "string",
+            "description": "ESPN site.api path segment, e.g. 'basketball/nba'.",
+            "pattern": "^[a-z.]+/[a-z0-9.]+$"
+          },
+          "pm_prefix": {
+            "type": "string",
+            "description": "Polymarket slug prefix, e.g. 'nba' or 'fifwc'.",
+            "pattern": "^[a-z0-9]+$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": ["two_way", "three_way"],
+            "description": "two_way: single moneyline market [teamA, teamB]. three_way: home/away/draw Yes-No legs."
+          },
+          "slug_order": {
+            "type": "string",
+            "enum": ["away_home", "home_away"],
+            "description": "Preferred team ordering in the slug. Resolvers still try the reverse as a fallback."
+          },
+          "date_basis": {
+            "type": "string",
+            "enum": ["et", "utc"],
+            "description": "Calendar basis for the date segment. 'et' = US Eastern date of kickoff."
+          },
+          "crosswalk": {
+            "type": "string",
+            "description": "Crosswalk file stem under data/crosswalk (without .json)."
+          }
+        }
+      }
+    }
+  }
+}

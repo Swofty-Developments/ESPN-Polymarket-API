@@ -1,0 +1,33 @@
+{
+  "_comment": "Hand-curated divergences between ESPN abbreviations and Polymarket slug/outcome codes, plus extra outcome-matching aliases. Everything not listed here defaults to pm_code = lowercase(espn_abbr). Discovered empirically from real Polymarket game slugs (see scripts/seed-crosswalk.mjs and docs/architecture.md).",
+  "nba": {
+    "pm_code": { "GS": "gsw", "NO": "nop", "NY": "nyk", "SA": "sas", "UTAH": "uta", "WSH": "was" },
+    "aliases": {}
+  },
+  "mlb": {
+    "pm_code": { "CHW": "cws", "ATH": "oak" },
+    "aliases": { "ATH": ["oakland athletics", "athletics", "oakland"] }
+  },
+  "nhl": {
+    "pm_code": { "CGY": "cal", "LA": "lak", "MTL": "mon", "VGK": "las" },
+    "aliases": { "VGK": ["vegas golden knights", "golden knights", "vegas", "las vegas"] }
+  },
+  "fifa.world": {
+    "pm_code": {
+      "COD": "cdr", "CPV": "cvi", "CRO": "hrv", "CUW": "kor", "KOR": "kr",
+      "NED": "nld", "POR": "prt", "SUI": "che", "URU": "ury"
+    },
+    "aliases": {
+      "COD": ["dr congo", "congo dr", "democratic republic of the congo", "democratic republic of congo"],
+      "CPV": ["cabo verde", "cape verde"],
+      "CUW": ["curacao"],
+      "KOR": ["korea republic", "south korea", "republic of korea", "korea"],
+      "TUR": ["turkiye", "turkey"],
+      "CIV": ["cote d ivoire", "cote divoire", "ivory coast"],
+      "BIH": ["bosnia and herzegovina", "bosnia herzegovina", "bosnia"],
+      "IRN": ["ir iran", "iran"],
+      "CZE": ["czech republic", "czechia"],
+      "NED": ["the netherlands", "netherlands", "holland"]
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "nhl",
+  "teams": {
+    "ana": {
+      "espn": "ANA",
+      "pm": "ana",
+      "name": "Anaheim Ducks",
+      "aliases": [
+        "anaheim",
+        "ducks"
+      ]
+    },
+    "bos": {
+      "espn": "BOS",
+      "pm": "bos",
+      "name": "Boston Bruins",
+      "aliases": [
+        "boston",
+        "bruins"
+      ]
+    },
+    "buf": {
+      "espn": "BUF",
+      "pm": "buf",
+      "name": "Buffalo Sabres",
+      "aliases": [
+        "buffalo",
+        "sabres"
+      ]
+    },
+    "car": {
+      "espn": "CAR",
+      "pm": "car",
+      "name": "Carolina Hurricanes",
+      "aliases": [
+        "carolina",
+        "hurricanes"
+      ]
+    },
+    "cbj": {
+      "espn": "CBJ",
+      "pm": "cbj",
+      "name": "Columbus Blue Jackets",
+      "aliases": [
+        "blue jackets",
+        "columbus"
+      ]
+    },
+    "cgy": {
+      "espn": "CGY",
+      "pm": "cal",
+      "name": "Calgary Flames",
+      "aliases": [
+        "calgary",
+        "flames"
+      ]
+    },
+    "chi": {
+      "espn": "CHI",
+      "pm": "chi",
+      "name": "Chicago Blackhawks",
+      "aliases": [
+        "blackhawks",
+        "chicago"
+      ]
+    },
+    "col": {
+      "espn": "COL",
+      "pm": "col",
+      "name": "Colorado Avalanche",
+      "aliases": [
+        "avalanche",
+        "colorado"
+      ]
+    },
+    "dal": {
+      "espn": "DAL",
+      "pm": "dal",
+      "name": "Dallas Stars",
+      "aliases": [
+        "dallas",
+        "stars"
+      ]
+    },
+    "det": {
+      "espn": "DET",
+      "pm": "det",
+      "name": "Detroit Red Wings",
+      "aliases": [
+        "detroit",
+        "red wings"
+      ]
+    },
+    "edm": {
+      "espn": "EDM",
+      "pm": "edm",
+      "name": "Edmonton Oilers",
+      "aliases": [
+        "edmonton",
+        "oilers"
+      ]
+    },
+    "fla": {
+      "espn": "FLA",
+      "pm": "fla",
+      "name": "Florida Panthers",
+      "aliases": [
+        "florida",
+        "panthers"
+      ]
+    },
+    "la": {
+      "espn": "LA",
+      "pm": "lak",
+      "name": "Los Angeles Kings",
+      "aliases": [
+        "kings",
+        "los angeles"
+      ]
+    },
+    "min": {
+      "espn": "MIN",
+      "pm": "min",
+      "name": "Minnesota Wild",
+      "aliases": [
+        "minnesota",
+        "wild"
+      ]
+    },
+    "mtl": {
+      "espn": "MTL",
+      "pm": "mon",
+      "name": "Montreal Canadiens",
+      "aliases": [
+        "canadiens",
+        "montreal"
+      ]
+    },
+    "nj": {
+      "espn": "NJ",
+      "pm": "nj",
+      "name": "New Jersey Devils",
+      "aliases": [
+        "devils",
+        "new jersey"
+      ]
+    },
+    "nsh": {
+      "espn": "NSH",
+      "pm": "nsh",
+      "name": "Nashville Predators",
+      "aliases": [
+        "nashville",
+        "predators"
+      ]
+    },
+    "nyi": {
+      "espn": "NYI",
+      "pm": "nyi",
+      "name": "New York Islanders",
+      "aliases": [
+        "islanders",
+        "new york"
+      ]
+    },
+    "nyr": {
+      "espn": "NYR",
+      "pm": "nyr",
+      "name": "New York Rangers",
+      "aliases": [
+        "new york",
+        "rangers"
+      ]
+    },
+    "ott": {
+      "espn": "OTT",
+      "pm": "ott",
+      "name": "Ottawa Senators",
+      "aliases": [
+        "ottawa",
+        "senators"
+      ]
+    },
+    "phi": {
+      "espn": "PHI",
+      "pm": "phi",
+      "name": "Philadelphia Flyers",
+      "aliases": [
+        "flyers",
+        "philadelphia"
+      ]
+    },
+    "pit": {
+      "espn": "PIT",
+      "pm": "pit",
+      "name": "Pittsburgh Penguins",
+      "aliases": [
+        "penguins",
+        "pittsburgh"
+      ]
+    },
+    "sea": {
+      "espn": "SEA",
+      "pm": "sea",
+      "name": "Seattle Kraken",
+      "aliases": [
+        "kraken",
+        "seattle"
+      ]
+    },
+    "sj": {
+      "espn": "SJ",
+      "pm": "sj",
+      "name": "San Jose Sharks",
+      "aliases": [
+        "san jose",
+        "sharks"
+      ]
+    },
+    "stl": {
+      "espn": "STL",
+      "pm": "stl",
+      "name": "St. Louis Blues",
+      "aliases": [
+        "blues",
+        "st louis"
+      ]
+    },
+    "tb": {
+      "espn": "TB",
+      "pm": "tb",
+      "name": "Tampa Bay Lightning",
+      "aliases": [
+        "lightning",
+        "tampa bay"
+      ]
+    },
+    "tor": {
+      "espn": "TOR",
+      "pm": "tor",
+      "name": "Toronto Maple Leafs",
+      "aliases": [
+        "maple leafs",
+        "toronto"
+      ]
+    },
+    "utah": {
+      "espn": "UTAH",
+      "pm": "utah",
+      "name": "Utah Mammoth",
+      "aliases": [
+        "mammoth",
+        "utah"
+      ]
+    },
+    "van": {
+      "espn": "VAN",
+      "pm": "van",
+      "name": "Vancouver Canucks",
+      "aliases": [
+        "canucks",
+        "vancouver"
+      ]
+    },
+    "vgk": {
+      "espn": "VGK",
+      "pm": "las",
+      "name": "Vegas Golden Knights",
+      "aliases": [
+        "golden knights",
+        "las vegas",
+        "vegas"
+      ]
+    },
+    "wpg": {
+      "espn": "WPG",
+      "pm": "wpg",
+      "name": "Winnipeg Jets",
+      "aliases": [
+        "jets",
+        "winnipeg"
+      ]
+    },
+    "wsh": {
+      "espn": "WSH",
+      "pm": "wsh",
+      "name": "Washington Capitals",
+      "aliases": [
+        "capitals",
+        "washington"
+      ]
+    }
+  }
+}

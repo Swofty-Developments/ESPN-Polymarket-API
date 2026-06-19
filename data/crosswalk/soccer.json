@@ -1,0 +1,322 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "fifa.world",
+  "teams": {
+    "alg": {
+      "espn": "ALG",
+      "pm": "alg",
+      "name": "Algeria",
+      "aliases": []
+    },
+    "arg": {
+      "espn": "ARG",
+      "pm": "arg",
+      "name": "Argentina",
+      "aliases": []
+    },
+    "aus": {
+      "espn": "AUS",
+      "pm": "aus",
+      "name": "Australia",
+      "aliases": []
+    },
+    "aut": {
+      "espn": "AUT",
+      "pm": "aut",
+      "name": "Austria",
+      "aliases": []
+    },
+    "bel": {
+      "espn": "BEL",
+      "pm": "bel",
+      "name": "Belgium",
+      "aliases": []
+    },
+    "bih": {
+      "espn": "BIH",
+      "pm": "bih",
+      "name": "Bosnia-Herzegovina",
+      "aliases": [
+        "bosnia",
+        "bosnia and herzegovina",
+        "bosnia herz"
+      ]
+    },
+    "bra": {
+      "espn": "BRA",
+      "pm": "bra",
+      "name": "Brazil",
+      "aliases": []
+    },
+    "can": {
+      "espn": "CAN",
+      "pm": "can",
+      "name": "Canada",
+      "aliases": []
+    },
+    "civ": {
+      "espn": "CIV",
+      "pm": "civ",
+      "name": "Ivory Coast",
+      "aliases": [
+        "cote d ivoire",
+        "cote divoire"
+      ]
+    },
+    "cod": {
+      "espn": "COD",
+      "pm": "cdr",
+      "name": "Congo DR",
+      "aliases": [
+        "democratic republic of congo",
+        "democratic republic of the congo",
+        "dr congo"
+      ]
+    },
+    "col": {
+      "espn": "COL",
+      "pm": "col",
+      "name": "Colombia",
+      "aliases": []
+    },
+    "cpv": {
+      "espn": "CPV",
+      "pm": "cvi",
+      "name": "Cape Verde",
+      "aliases": [
+        "cabo verde"
+      ]
+    },
+    "cro": {
+      "espn": "CRO",
+      "pm": "hrv",
+      "name": "Croatia",
+      "aliases": []
+    },
+    "cuw": {
+      "espn": "CUW",
+      "pm": "kor",
+      "name": "Curaçao",
+      "aliases": []
+    },
+    "cze": {
+      "espn": "CZE",
+      "pm": "cze",
+      "name": "Czechia",
+      "aliases": [
+        "czech republic"
+      ]
+    },
+    "ecu": {
+      "espn": "ECU",
+      "pm": "ecu",
+      "name": "Ecuador",
+      "aliases": []
+    },
+    "egy": {
+      "espn": "EGY",
+      "pm": "egy",
+      "name": "Egypt",
+      "aliases": []
+    },
+    "eng": {
+      "espn": "ENG",
+      "pm": "eng",
+      "name": "England",
+      "aliases": []
+    },
+    "esp": {
+      "espn": "ESP",
+      "pm": "esp",
+      "name": "Spain",
+      "aliases": []
+    },
+    "fra": {
+      "espn": "FRA",
+      "pm": "fra",
+      "name": "France",
+      "aliases": []
+    },
+    "ger": {
+      "espn": "GER",
+      "pm": "ger",
+      "name": "Germany",
+      "aliases": []
+    },
+    "gha": {
+      "espn": "GHA",
+      "pm": "gha",
+      "name": "Ghana",
+      "aliases": []
+    },
+    "hai": {
+      "espn": "HAI",
+      "pm": "hai",
+      "name": "Haiti",
+      "aliases": []
+    },
+    "irn": {
+      "espn": "IRN",
+      "pm": "irn",
+      "name": "Iran",
+      "aliases": [
+        "ir iran"
+      ]
+    },
+    "irq": {
+      "espn": "IRQ",
+      "pm": "irq",
+      "name": "Iraq",
+      "aliases": []
+    },
+    "jor": {
+      "espn": "JOR",
+      "pm": "jor",
+      "name": "Jordan",
+      "aliases": []
+    },
+    "jpn": {
+      "espn": "JPN",
+      "pm": "jpn",
+      "name": "Japan",
+      "aliases": []
+    },
+    "kor": {
+      "espn": "KOR",
+      "pm": "kr",
+      "name": "South Korea",
+      "aliases": [
+        "korea",
+        "korea republic",
+        "republic of korea"
+      ]
+    },
+    "ksa": {
+      "espn": "KSA",
+      "pm": "ksa",
+      "name": "Saudi Arabia",
+      "aliases": []
+    },
+    "mar": {
+      "espn": "MAR",
+      "pm": "mar",
+      "name": "Morocco",
+      "aliases": []
+    },
+    "mex": {
+      "espn": "MEX",
+      "pm": "mex",
+      "name": "Mexico",
+      "aliases": []
+    },
+    "ned": {
+      "espn": "NED",
+      "pm": "nld",
+      "name": "Netherlands",
+      "aliases": [
+        "holland",
+        "the netherlands"
+      ]
+    },
+    "nor": {
+      "espn": "NOR",
+      "pm": "nor",
+      "name": "Norway",
+      "aliases": []
+    },
+    "nzl": {
+      "espn": "NZL",
+      "pm": "nzl",
+      "name": "New Zealand",
+      "aliases": []
+    },
+    "pan": {
+      "espn": "PAN",
+      "pm": "pan",
+      "name": "Panama",
+      "aliases": []
+    },
+    "par": {
+      "espn": "PAR",
+      "pm": "par",
+      "name": "Paraguay",
+      "aliases": []
+    },
+    "por": {
+      "espn": "POR",
+      "pm": "prt",
+      "name": "Portugal",
+      "aliases": []
+    },
+    "qat": {
+      "espn": "QAT",
+      "pm": "qat",
+      "name": "Qatar",
+      "aliases": []
+    },
+    "rsa": {
+      "espn": "RSA",
+      "pm": "rsa",
+      "name": "South Africa",
+      "aliases": []
+    },
+    "sco": {
+      "espn": "SCO",
+      "pm": "sco",
+      "name": "Scotland",
+      "aliases": []
+    },
+    "sen": {
+      "espn": "SEN",
+      "pm": "sen",
+      "name": "Senegal",
+      "aliases": []
+    },
+    "sui": {
+      "espn": "SUI",
+      "pm": "che",
+      "name": "Switzerland",
+      "aliases": []
+    },
+    "swe": {
+      "espn": "SWE",
+      "pm": "swe",
+      "name": "Sweden",
+      "aliases": []
+    },
+    "tun": {
+      "espn": "TUN",
+      "pm": "tun",
+      "name": "Tunisia",
+      "aliases": []
+    },
+    "tur": {
+      "espn": "TUR",
+      "pm": "tur",
+      "name": "Türkiye",
+      "aliases": [
+        "turkey"
+      ]
+    },
+    "uru": {
+      "espn": "URU",
+      "pm": "ury",
+      "name": "Uruguay",
+      "aliases": []
+    },
+    "usa": {
+      "espn": "USA",
+      "pm": "usa",
+      "name": "United States",
+      "aliases": [
+        "usa"
+      ]
+    },
+    "uzb": {
+      "espn": "UZB",
+      "pm": "uzb",
+      "name": "Uzbekistan",
+      "aliases": []
+    }
+  }
+}

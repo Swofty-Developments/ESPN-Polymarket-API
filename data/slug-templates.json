@@ -1,0 +1,39 @@
+{
+  "$schema": "./schema/slug-templates.schema.json",
+  "version": "0.1.0",
+  "description": "Per-league rules for deriving Polymarket event slugs from ESPN games. slug = {pm_prefix}-{c1}-{c2}-{date}, where c1/c2 are Polymarket team codes (see data/crosswalk) ordered by slug_order, and date is the US-Eastern calendar date of kickoff. Resolvers MUST try both orderings and candidate dates (see docs/architecture.md).",
+  "leagues": {
+    "nba": {
+      "espn_path": "basketball/nba",
+      "pm_prefix": "nba",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "nba"
+    },
+    "mlb": {
+      "espn_path": "baseball/mlb",
+      "pm_prefix": "mlb",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "mlb"
+    },
+    "nhl": {
+      "espn_path": "hockey/nhl",
+      "pm_prefix": "nhl",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "nhl"
+    },
+    "fifa.world": {
+      "espn_path": "soccer/fifa.world",
+      "pm_prefix": "fifwc",
+      "kind": "three_way",
+      "slug_order": "home_away",
+      "date_basis": "et",
+      "crosswalk": "soccer"
+    }
+  }
+}

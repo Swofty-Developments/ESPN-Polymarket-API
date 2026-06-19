@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Swofty-Developments/ESPN-Polymarket-API/data/schema/crosswalk.schema.json",
+  "title": "Entity crosswalk",
+  "description": "ESPN <-> Polymarket entity table for one league.",
+  "type": "object",
+  "required": ["league", "teams"],
+  "additionalProperties": true,
+  "properties": {
+    "$schema": { "type": "string" },
+    "league": { "type": "string" },
+    "teams": {
+      "type": "object",
+      "description": "Keyed by lowercased ESPN abbreviation.",
+      "minProperties": 1,
+      "propertyNames": { "pattern": "^[a-z0-9]+$" },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["espn", "pm", "name", "aliases"],
+        "additionalProperties": false,
+        "properties": {
+          "espn": {
+            "type": "string",
+            "description": "ESPN abbreviation as it appears in scoreboard payloads (case-sensitive)."
+          },
+          "pm": {
+            "type": "string",
+            "description": "Polymarket team code used in slugs and (soccer) leg suffixes.",
+            "pattern": "^[a-z0-9]+$"
+          },
+          "name": {
+            "type": "string",
+            "description": "Canonical display name (from ESPN)."
+          },
+          "aliases": {
+            "type": "array",
+            "description": "Extra normalized name variants used to match Polymarket outcome / leg labels (lowercased, diacritics stripped). May be empty.",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  }
+}
