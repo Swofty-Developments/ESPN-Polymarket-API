@@ -1,0 +1,142 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "wnba",
+  "teams": {
+    "atl": {
+      "espn": "ATL",
+      "pm": "atl",
+      "name": "Atlanta Dream",
+      "aliases": [
+        "atlanta",
+        "dream"
+      ]
+    },
+    "chi": {
+      "espn": "CHI",
+      "pm": "chi",
+      "name": "Chicago Sky",
+      "aliases": [
+        "chicago",
+        "sky"
+      ]
+    },
+    "con": {
+      "espn": "CON",
+      "pm": "conn",
+      "name": "Connecticut Sun",
+      "aliases": [
+        "connecticut",
+        "sun"
+      ]
+    },
+    "dal": {
+      "espn": "DAL",
+      "pm": "dal",
+      "name": "Dallas Wings",
+      "aliases": [
+        "dallas",
+        "wings"
+      ]
+    },
+    "gs": {
+      "espn": "GS",
+      "pm": "gsv",
+      "name": "Golden State Valkyries",
+      "aliases": [
+        "golden state",
+        "valkyries"
+      ]
+    },
+    "ind": {
+      "espn": "IND",
+      "pm": "ind",
+      "name": "Indiana Fever",
+      "aliases": [
+        "fever",
+        "indiana"
+      ]
+    },
+    "la": {
+      "espn": "LA",
+      "pm": "la",
+      "name": "Los Angeles Sparks",
+      "aliases": [
+        "los angeles",
+        "sparks"
+      ]
+    },
+    "lv": {
+      "espn": "LV",
+      "pm": "las",
+      "name": "Las Vegas Aces",
+      "aliases": [
+        "aces",
+        "las vegas"
+      ]
+    },
+    "min": {
+      "espn": "MIN",
+      "pm": "min",
+      "name": "Minnesota Lynx",
+      "aliases": [
+        "lynx",
+        "minnesota"
+      ]
+    },
+    "ny": {
+      "espn": "NY",
+      "pm": "nyl",
+      "name": "New York Liberty",
+      "aliases": [
+        "liberty",
+        "new york"
+      ]
+    },
+    "phx": {
+      "espn": "PHX",
+      "pm": "phx",
+      "name": "Phoenix Mercury",
+      "aliases": [
+        "mercury",
+        "phoenix"
+      ]
+    },
+    "por": {
+      "espn": "POR",
+      "pm": "por",
+      "name": "Portland Fire",
+      "aliases": [
+        "fire",
+        "portland",
+        "portlandfire"
+      ]
+    },
+    "sea": {
+      "espn": "SEA",
+      "pm": "sea",
+      "name": "Seattle Storm",
+      "aliases": [
+        "seattle",
+        "storm"
+      ]
+    },
+    "tor": {
+      "espn": "TOR",
+      "pm": "tor",
+      "name": "Toronto Tempo",
+      "aliases": [
+        "tempo",
+        "toronto"
+      ]
+    },
+    "wsh": {
+      "espn": "WSH",
+      "pm": "wsh",
+      "name": "Washington Mystics",
+      "aliases": [
+        "mystics",
+        "washington"
+      ]
+    }
+  }
+}

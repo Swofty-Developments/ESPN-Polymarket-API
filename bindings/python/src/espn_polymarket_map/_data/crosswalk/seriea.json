@@ -1,0 +1,159 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "ita.1",
+  "teams": {
+    "ata": {
+      "espn": "ATA",
+      "pm": "ata",
+      "name": "Atalanta",
+      "aliases": [
+        "atalanta bc"
+      ]
+    },
+    "bol": {
+      "espn": "BOL",
+      "pm": "bol",
+      "name": "Bologna",
+      "aliases": [
+        "bologna fc 1909"
+      ]
+    },
+    "cag": {
+      "espn": "CAG",
+      "pm": "cag",
+      "name": "Cagliari",
+      "aliases": [
+        "cagliari calcio"
+      ]
+    },
+    "como": {
+      "espn": "COMO",
+      "pm": "com",
+      "name": "Como",
+      "aliases": [
+        "como 1907"
+      ]
+    },
+    "fio": {
+      "espn": "FIO",
+      "pm": "fio",
+      "name": "Fiorentina",
+      "aliases": [
+        "acf fiorentina"
+      ]
+    },
+    "fro": {
+      "espn": "FRO",
+      "pm": "fro",
+      "name": "Frosinone",
+      "aliases": []
+    },
+    "gen": {
+      "espn": "GEN",
+      "pm": "gen",
+      "name": "Genoa",
+      "aliases": [
+        "genoa cfc"
+      ]
+    },
+    "int": {
+      "espn": "INT",
+      "pm": "int",
+      "name": "Internazionale",
+      "aliases": [
+        "fc internazionale milano",
+        "inter milan"
+      ]
+    },
+    "juv": {
+      "espn": "JUV",
+      "pm": "juv",
+      "name": "Juventus",
+      "aliases": [
+        "juventus fc"
+      ]
+    },
+    "laz": {
+      "espn": "LAZ",
+      "pm": "laz",
+      "name": "Lazio",
+      "aliases": [
+        "ss lazio"
+      ]
+    },
+    "lec": {
+      "espn": "LEC",
+      "pm": "lec",
+      "name": "Lecce",
+      "aliases": [
+        "us lecce"
+      ]
+    },
+    "mil": {
+      "espn": "MIL",
+      "pm": "mil",
+      "name": "AC Milan",
+      "aliases": [
+        "milan"
+      ]
+    },
+    "mon": {
+      "espn": "MON",
+      "pm": "mon",
+      "name": "Monza",
+      "aliases": []
+    },
+    "nap": {
+      "espn": "NAP",
+      "pm": "nap",
+      "name": "Napoli",
+      "aliases": [
+        "ssc napoli"
+      ]
+    },
+    "par": {
+      "espn": "PAR",
+      "pm": "par",
+      "name": "Parma",
+      "aliases": [
+        "parma calcio 1913"
+      ]
+    },
+    "roma": {
+      "espn": "ROMA",
+      "pm": "rom",
+      "name": "AS Roma",
+      "aliases": []
+    },
+    "sas": {
+      "espn": "SAS",
+      "pm": "sas",
+      "name": "Sassuolo",
+      "aliases": [
+        "us sassuolo calcio"
+      ]
+    },
+    "tor": {
+      "espn": "TOR",
+      "pm": "tor",
+      "name": "Torino",
+      "aliases": [
+        "torino fc"
+      ]
+    },
+    "udi": {
+      "espn": "UDI",
+      "pm": "udi",
+      "name": "Udinese",
+      "aliases": [
+        "udinese calcio"
+      ]
+    },
+    "ven": {
+      "espn": "VEN",
+      "pm": "ven",
+      "name": "Venezia",
+      "aliases": []
+    }
+  }
+}

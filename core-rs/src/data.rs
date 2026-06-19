@@ -43,22 +43,31 @@ pub struct Data {
 
 // Embedded at build time — single source of truth is `data/`.
 const SLUG_TEMPLATES: &str = include_str!("../../data/slug-templates.json");
-const CW_NBA: &str = include_str!("../../data/crosswalk/nba.json");
-const CW_MLB: &str = include_str!("../../data/crosswalk/mlb.json");
-const CW_NHL: &str = include_str!("../../data/crosswalk/nhl.json");
-const CW_SOCCER: &str = include_str!("../../data/crosswalk/soccer.json");
+/// (crosswalk stem, embedded JSON) for every league.
+const CROSSWALKS: &[(&str, &str)] = &[
+    ("nba", include_str!("../../data/crosswalk/nba.json")),
+    ("mlb", include_str!("../../data/crosswalk/mlb.json")),
+    ("nhl", include_str!("../../data/crosswalk/nhl.json")),
+    ("soccer", include_str!("../../data/crosswalk/soccer.json")),
+    ("nfl", include_str!("../../data/crosswalk/nfl.json")),
+    ("wnba", include_str!("../../data/crosswalk/wnba.json")),
+    ("epl", include_str!("../../data/crosswalk/epl.json")),
+    ("ucl", include_str!("../../data/crosswalk/ucl.json")),
+    ("laliga", include_str!("../../data/crosswalk/laliga.json")),
+    ("bundesliga", include_str!("../../data/crosswalk/bundesliga.json")),
+    ("seriea", include_str!("../../data/crosswalk/seriea.json")),
+    ("ligue1", include_str!("../../data/crosswalk/ligue1.json")),
+    ("mls", include_str!("../../data/crosswalk/mls.json")),
+    ("cfb", include_str!("../../data/crosswalk/cfb.json")),
+    ("cbb", include_str!("../../data/crosswalk/cbb.json")),
+];
 /// data/VERSION, trimmed.
 pub const DATA_VERSION: &str = include_str!("../../data/VERSION");
 
 fn load() -> Data {
     let tmpl: SlugTemplates = serde_json::from_str(SLUG_TEMPLATES).expect("slug-templates.json");
     let mut crosswalks = HashMap::new();
-    for (stem, raw) in [
-        ("nba", CW_NBA),
-        ("mlb", CW_MLB),
-        ("nhl", CW_NHL),
-        ("soccer", CW_SOCCER),
-    ] {
+    for &(stem, raw) in CROSSWALKS {
         let f: CrosswalkFile =
             serde_json::from_str(raw).unwrap_or_else(|e| panic!("crosswalk {stem}: {e}"));
         crosswalks.insert(stem.to_string(), f.teams);

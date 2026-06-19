@@ -1,0 +1,153 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "eng.1",
+  "teams": {
+    "ars": {
+      "espn": "ARS",
+      "pm": "ars",
+      "name": "Arsenal",
+      "aliases": []
+    },
+    "avl": {
+      "espn": "AVL",
+      "pm": "ast",
+      "name": "Aston Villa",
+      "aliases": []
+    },
+    "bha": {
+      "espn": "BHA",
+      "pm": "bri",
+      "name": "Brighton & Hove Albion",
+      "aliases": [
+        "brighton"
+      ]
+    },
+    "bou": {
+      "espn": "BOU",
+      "pm": "bou",
+      "name": "AFC Bournemouth",
+      "aliases": [
+        "bournemouth"
+      ]
+    },
+    "bre": {
+      "espn": "BRE",
+      "pm": "bre",
+      "name": "Brentford",
+      "aliases": []
+    },
+    "che": {
+      "espn": "CHE",
+      "pm": "che",
+      "name": "Chelsea",
+      "aliases": []
+    },
+    "cov": {
+      "espn": "COV",
+      "pm": "cov",
+      "name": "Coventry City",
+      "aliases": [
+        "coventry"
+      ]
+    },
+    "cry": {
+      "espn": "CRY",
+      "pm": "cry",
+      "name": "Crystal Palace",
+      "aliases": [
+        "c palace"
+      ]
+    },
+    "eve": {
+      "espn": "EVE",
+      "pm": "eve",
+      "name": "Everton",
+      "aliases": []
+    },
+    "ful": {
+      "espn": "FUL",
+      "pm": "ful",
+      "name": "Fulham",
+      "aliases": []
+    },
+    "hul": {
+      "espn": "HUL",
+      "pm": "hul",
+      "name": "Hull City",
+      "aliases": [
+        "hull"
+      ]
+    },
+    "ips": {
+      "espn": "IPS",
+      "pm": "ips",
+      "name": "Ipswich Town",
+      "aliases": [
+        "ipswich"
+      ]
+    },
+    "lee": {
+      "espn": "LEE",
+      "pm": "lee",
+      "name": "Leeds United",
+      "aliases": [
+        "leeds",
+        "leeds united fc"
+      ]
+    },
+    "liv": {
+      "espn": "LIV",
+      "pm": "liv",
+      "name": "Liverpool",
+      "aliases": []
+    },
+    "man": {
+      "espn": "MAN",
+      "pm": "mun",
+      "name": "Manchester United",
+      "aliases": [
+        "man united"
+      ]
+    },
+    "mnc": {
+      "espn": "MNC",
+      "pm": "mac",
+      "name": "Manchester City",
+      "aliases": [
+        "man city"
+      ]
+    },
+    "new": {
+      "espn": "NEW",
+      "pm": "new",
+      "name": "Newcastle United",
+      "aliases": [
+        "newcastle"
+      ]
+    },
+    "nfo": {
+      "espn": "NFO",
+      "pm": "not",
+      "name": "Nottingham Forest",
+      "aliases": [
+        "nottm forest"
+      ]
+    },
+    "sun": {
+      "espn": "SUN",
+      "pm": "sun",
+      "name": "Sunderland",
+      "aliases": [
+        "sunderland afc"
+      ]
+    },
+    "tot": {
+      "espn": "TOT",
+      "pm": "tot",
+      "name": "Tottenham Hotspur",
+      "aliases": [
+        "spurs"
+      ]
+    }
+  }
+}

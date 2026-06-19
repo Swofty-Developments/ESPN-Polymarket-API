@@ -1,0 +1,167 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "esp.1",
+  "teams": {
+    "ala": {
+      "espn": "ALA",
+      "pm": "ala",
+      "name": "Alavés",
+      "aliases": [
+        "deportivo alaves"
+      ]
+    },
+    "ath": {
+      "espn": "ATH",
+      "pm": "bil",
+      "name": "Athletic Club",
+      "aliases": [
+        "athletic"
+      ]
+    },
+    "atm": {
+      "espn": "ATM",
+      "pm": "mad",
+      "name": "Atlético Madrid",
+      "aliases": [
+        "atletico",
+        "club atletico de madrid"
+      ]
+    },
+    "bar": {
+      "espn": "BAR",
+      "pm": "bar",
+      "name": "Barcelona",
+      "aliases": [
+        "fc barcelona"
+      ]
+    },
+    "bet": {
+      "espn": "BET",
+      "pm": "bet",
+      "name": "Real Betis",
+      "aliases": [
+        "betis",
+        "real betis balompie"
+      ]
+    },
+    "cel": {
+      "espn": "CEL",
+      "pm": "cel",
+      "name": "Celta Vigo",
+      "aliases": [
+        "rc celta de vigo"
+      ]
+    },
+    "elc": {
+      "espn": "ELC",
+      "pm": "elc",
+      "name": "Elche",
+      "aliases": [
+        "elche cf"
+      ]
+    },
+    "esp": {
+      "espn": "ESP",
+      "pm": "esp",
+      "name": "Espanyol",
+      "aliases": [
+        "rcd espanyol de barcelona"
+      ]
+    },
+    "get": {
+      "espn": "GET",
+      "pm": "get",
+      "name": "Getafe",
+      "aliases": [
+        "getafe cf"
+      ]
+    },
+    "gir": {
+      "espn": "GIR",
+      "pm": "gir",
+      "name": "Girona",
+      "aliases": [
+        "girona fc"
+      ]
+    },
+    "lev": {
+      "espn": "LEV",
+      "pm": "lev",
+      "name": "Levante",
+      "aliases": [
+        "levante ud"
+      ]
+    },
+    "mll": {
+      "espn": "MLL",
+      "pm": "mal",
+      "name": "Mallorca",
+      "aliases": [
+        "rcd mallorca"
+      ]
+    },
+    "osa": {
+      "espn": "OSA",
+      "pm": "osa",
+      "name": "Osasuna",
+      "aliases": [
+        "ca osasuna"
+      ]
+    },
+    "ovi": {
+      "espn": "OVI",
+      "pm": "ovi",
+      "name": "Real Oviedo",
+      "aliases": []
+    },
+    "ray": {
+      "espn": "RAY",
+      "pm": "ray",
+      "name": "Rayo Vallecano",
+      "aliases": [
+        "rayo",
+        "rayo vallecano de madrid"
+      ]
+    },
+    "rma": {
+      "espn": "RMA",
+      "pm": "rea",
+      "name": "Real Madrid",
+      "aliases": [
+        "real madrid cf"
+      ]
+    },
+    "rso": {
+      "espn": "RSO",
+      "pm": "rso",
+      "name": "Real Sociedad",
+      "aliases": [
+        "real sociedad de futbol"
+      ]
+    },
+    "sev": {
+      "espn": "SEV",
+      "pm": "sev",
+      "name": "Sevilla",
+      "aliases": [
+        "sevilla fc"
+      ]
+    },
+    "val": {
+      "espn": "VAL",
+      "pm": "val",
+      "name": "Valencia",
+      "aliases": [
+        "valencia cf"
+      ]
+    },
+    "vil": {
+      "espn": "VIL",
+      "pm": "vil",
+      "name": "Villarreal",
+      "aliases": [
+        "villarreal cf"
+      ]
+    }
+  }
+}

@@ -34,6 +34,94 @@
       "slug_order": "home_away",
       "date_basis": "et",
       "crosswalk": "soccer"
+    },
+    "nfl": {
+      "espn_path": "football/nfl",
+      "pm_prefix": "nfl",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "nfl"
+    },
+    "wnba": {
+      "espn_path": "basketball/wnba",
+      "pm_prefix": "wnba",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "wnba"
+    },
+    "eng.1": {
+      "espn_path": "soccer/eng.1",
+      "pm_prefix": "epl",
+      "kind": "three_way",
+      "slug_order": "home_away",
+      "date_basis": "et",
+      "crosswalk": "epl"
+    },
+    "uefa.champions": {
+      "espn_path": "soccer/uefa.champions",
+      "pm_prefix": "ucl",
+      "kind": "three_way",
+      "slug_order": "home_away",
+      "date_basis": "et",
+      "crosswalk": "ucl"
+    },
+    "esp.1": {
+      "espn_path": "soccer/esp.1",
+      "pm_prefix": "lal",
+      "kind": "three_way",
+      "slug_order": "home_away",
+      "date_basis": "et",
+      "crosswalk": "laliga"
+    },
+    "ger.1": {
+      "espn_path": "soccer/ger.1",
+      "pm_prefix": "bun",
+      "kind": "three_way",
+      "slug_order": "home_away",
+      "date_basis": "et",
+      "crosswalk": "bundesliga"
+    },
+    "ita.1": {
+      "espn_path": "soccer/ita.1",
+      "pm_prefix": "sea",
+      "kind": "three_way",
+      "slug_order": "home_away",
+      "date_basis": "et",
+      "crosswalk": "seriea"
+    },
+    "fra.1": {
+      "espn_path": "soccer/fra.1",
+      "pm_prefix": "fl1",
+      "kind": "three_way",
+      "slug_order": "home_away",
+      "date_basis": "et",
+      "crosswalk": "ligue1"
+    },
+    "usa.1": {
+      "espn_path": "soccer/usa.1",
+      "pm_prefix": "mls",
+      "kind": "three_way",
+      "slug_order": "home_away",
+      "date_basis": "et",
+      "crosswalk": "mls"
+    },
+    "college-football": {
+      "espn_path": "football/college-football",
+      "pm_prefix": "cfb",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "cfb"
+    },
+    "mens-college-basketball": {
+      "espn_path": "basketball/mens-college-basketball",
+      "pm_prefix": "cbb",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "cbb"
     }
   }
 }

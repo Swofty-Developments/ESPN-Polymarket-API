@@ -39,7 +39,10 @@ interface CrosswalkFile {
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(HERE, "_data");
 
-const CROSSWALK_STEMS = ["nba", "mlb", "nhl", "soccer"] as const;
+const CROSSWALK_STEMS = [
+  "nba", "mlb", "nhl", "soccer", "nfl", "wnba", "epl", "ucl",
+  "laliga", "bundesliga", "seriea", "ligue1", "mls", "cfb", "cbb",
+] as const;
 
 function readJson<T>(...parts: string[]): T {
   const path = join(DATA_DIR, ...parts);

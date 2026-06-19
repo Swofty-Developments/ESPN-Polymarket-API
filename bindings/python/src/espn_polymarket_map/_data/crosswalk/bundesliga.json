@@ -1,0 +1,155 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "ger.1",
+  "teams": {
+    "b04": {
+      "espn": "B04",
+      "pm": "b04",
+      "name": "Bayer Leverkusen",
+      "aliases": [
+        "bayer 04 leverkusen",
+        "leverkusen"
+      ]
+    },
+    "bmg": {
+      "espn": "BMG",
+      "pm": "moe",
+      "name": "Borussia Mönchengladbach",
+      "aliases": [
+        "gladbach"
+      ]
+    },
+    "dor": {
+      "espn": "DOR",
+      "pm": "dor",
+      "name": "Borussia Dortmund",
+      "aliases": [
+        "bv borussia 09 dortmund",
+        "dortmund"
+      ]
+    },
+    "fca": {
+      "espn": "FCA",
+      "pm": "aug",
+      "name": "FC Augsburg",
+      "aliases": [
+        "augsburg"
+      ]
+    },
+    "fcu": {
+      "espn": "FCU",
+      "pm": "uni",
+      "name": "1. FC Union Berlin",
+      "aliases": [
+        "union berlin"
+      ]
+    },
+    "hdh": {
+      "espn": "HDH",
+      "pm": "hei",
+      "name": "1. FC Heidenheim 1846",
+      "aliases": [
+        "heidenheim"
+      ]
+    },
+    "hsv": {
+      "espn": "HSV",
+      "pm": "hsv",
+      "name": "Hamburg SV",
+      "aliases": [
+        "hamburg",
+        "hamburger sv"
+      ]
+    },
+    "koe": {
+      "espn": "KOE",
+      "pm": "koe",
+      "name": "FC Cologne",
+      "aliases": [
+        "1 fc koln",
+        "cologne"
+      ]
+    },
+    "m05": {
+      "espn": "M05",
+      "pm": "mai",
+      "name": "Mainz",
+      "aliases": [
+        "1 fsv mainz 05"
+      ]
+    },
+    "mun": {
+      "espn": "MUN",
+      "pm": "bay",
+      "name": "Bayern Munich",
+      "aliases": [
+        "bayern",
+        "fc bayern munchen"
+      ]
+    },
+    "rbl": {
+      "espn": "RBL",
+      "pm": "lei",
+      "name": "RB Leipzig",
+      "aliases": []
+    },
+    "scf": {
+      "espn": "SCF",
+      "pm": "fre",
+      "name": "SC Freiburg",
+      "aliases": [
+        "freiburg"
+      ]
+    },
+    "sge": {
+      "espn": "SGE",
+      "pm": "ein",
+      "name": "Eintracht Frankfurt",
+      "aliases": [
+        "frankfurt"
+      ]
+    },
+    "stp": {
+      "espn": "STP",
+      "pm": "pau",
+      "name": "St. Pauli",
+      "aliases": [
+        "fc st pauli 1910"
+      ]
+    },
+    "svw": {
+      "espn": "SVW",
+      "pm": "wer",
+      "name": "Werder Bremen",
+      "aliases": [
+        "bremen",
+        "sv werder bremen"
+      ]
+    },
+    "tsg": {
+      "espn": "TSG",
+      "pm": "hof",
+      "name": "TSG Hoffenheim",
+      "aliases": [
+        "hoffenheim",
+        "tsg 1899 hoffenheim"
+      ]
+    },
+    "vfb": {
+      "espn": "VFB",
+      "pm": "stu",
+      "name": "VfB Stuttgart",
+      "aliases": [
+        "stuttgart"
+      ]
+    },
+    "wob": {
+      "espn": "WOB",
+      "pm": "wol",
+      "name": "VfL Wolfsburg",
+      "aliases": [
+        "wolfsburg"
+      ]
+    }
+  }
+}

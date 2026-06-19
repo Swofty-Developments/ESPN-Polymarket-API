@@ -1,0 +1,247 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "usa.1",
+  "teams": {
+    "atl": {
+      "espn": "ATL",
+      "pm": "atl",
+      "name": "Atlanta United FC",
+      "aliases": [
+        "atlanta"
+      ]
+    },
+    "atx": {
+      "espn": "ATX",
+      "pm": "aus",
+      "name": "Austin FC",
+      "aliases": [
+        "austin"
+      ]
+    },
+    "chi": {
+      "espn": "CHI",
+      "pm": "chi",
+      "name": "Chicago Fire FC",
+      "aliases": [
+        "chicago"
+      ]
+    },
+    "cin": {
+      "espn": "CIN",
+      "pm": "fcc",
+      "name": "FC Cincinnati",
+      "aliases": [
+        "cincinnati"
+      ]
+    },
+    "clb": {
+      "espn": "CLB",
+      "pm": "clb",
+      "name": "Columbus Crew",
+      "aliases": [
+        "columbus"
+      ]
+    },
+    "clt": {
+      "espn": "CLT",
+      "pm": "clt",
+      "name": "Charlotte FC",
+      "aliases": [
+        "charlotte"
+      ]
+    },
+    "col": {
+      "espn": "COL",
+      "pm": "col",
+      "name": "Colorado Rapids",
+      "aliases": [
+        "colorado",
+        "colorado rapids sc"
+      ]
+    },
+    "dal": {
+      "espn": "DAL",
+      "pm": "dal",
+      "name": "FC Dallas",
+      "aliases": [
+        "dallas"
+      ]
+    },
+    "dc": {
+      "espn": "DC",
+      "pm": "dcu",
+      "name": "D.C. United",
+      "aliases": [
+        "d c united sc"
+      ]
+    },
+    "hou": {
+      "espn": "HOU",
+      "pm": "hou",
+      "name": "Houston Dynamo FC",
+      "aliases": [
+        "houston"
+      ]
+    },
+    "la": {
+      "espn": "LA",
+      "pm": "lag",
+      "name": "LA Galaxy",
+      "aliases": [
+        "los angeles galaxy"
+      ]
+    },
+    "lafc": {
+      "espn": "LAFC",
+      "pm": "laf",
+      "name": "LAFC",
+      "aliases": [
+        "los angeles fc"
+      ]
+    },
+    "mia": {
+      "espn": "MIA",
+      "pm": "mia",
+      "name": "Inter Miami CF",
+      "aliases": [
+        "miami"
+      ]
+    },
+    "min": {
+      "espn": "MIN",
+      "pm": "min",
+      "name": "Minnesota United FC",
+      "aliases": [
+        "minnesota"
+      ]
+    },
+    "mtl": {
+      "espn": "MTL",
+      "pm": "mim",
+      "name": "CF Montréal",
+      "aliases": []
+    },
+    "ne": {
+      "espn": "NE",
+      "pm": "ner",
+      "name": "New England Revolution",
+      "aliases": [
+        "new england"
+      ]
+    },
+    "nsh": {
+      "espn": "NSH",
+      "pm": "nas",
+      "name": "Nashville SC",
+      "aliases": [
+        "nashville"
+      ]
+    },
+    "nyc": {
+      "espn": "NYC",
+      "pm": "nyc",
+      "name": "New York City FC",
+      "aliases": [
+        "nycfc"
+      ]
+    },
+    "orl": {
+      "espn": "ORL",
+      "pm": "orl",
+      "name": "Orlando City SC",
+      "aliases": [
+        "orlando"
+      ]
+    },
+    "phi": {
+      "espn": "PHI",
+      "pm": "phi",
+      "name": "Philadelphia Union",
+      "aliases": [
+        "philadelphia"
+      ]
+    },
+    "por": {
+      "espn": "POR",
+      "pm": "por",
+      "name": "Portland Timbers",
+      "aliases": [
+        "portland"
+      ]
+    },
+    "rbny": {
+      "espn": "RBNY",
+      "pm": "nyr",
+      "name": "Red Bull New York",
+      "aliases": [
+        "new york red bulls",
+        "red bull ny"
+      ]
+    },
+    "rsl": {
+      "espn": "RSL",
+      "pm": "rsl",
+      "name": "Real Salt Lake",
+      "aliases": [
+        "salt lake"
+      ]
+    },
+    "sd": {
+      "espn": "SD",
+      "pm": "sdg",
+      "name": "San Diego FC",
+      "aliases": [
+        "san diego"
+      ]
+    },
+    "sea": {
+      "espn": "SEA",
+      "pm": "sea",
+      "name": "Seattle Sounders FC",
+      "aliases": [
+        "seattle"
+      ]
+    },
+    "sj": {
+      "espn": "SJ",
+      "pm": "sje",
+      "name": "San Jose Earthquakes",
+      "aliases": [
+        "san jose"
+      ]
+    },
+    "skc": {
+      "espn": "SKC",
+      "pm": "skc",
+      "name": "Sporting Kansas City",
+      "aliases": [
+        "kansas city"
+      ]
+    },
+    "stl": {
+      "espn": "STL",
+      "pm": "stl",
+      "name": "St. Louis CITY SC",
+      "aliases": [
+        "st louis"
+      ]
+    },
+    "tor": {
+      "espn": "TOR",
+      "pm": "tor",
+      "name": "Toronto FC",
+      "aliases": [
+        "toronto"
+      ]
+    },
+    "van": {
+      "espn": "VAN",
+      "pm": "vwh",
+      "name": "Vancouver Whitecaps",
+      "aliases": [
+        "vancouver",
+        "vancouver whitecaps fc"
+      ]
+    }
+  }
+}
