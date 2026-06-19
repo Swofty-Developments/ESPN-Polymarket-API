@@ -34,7 +34,8 @@ for (const [league, cfg] of Object.entries(templates.leagues || {})) {
   }
   const teams = cw.teams || {};
   const n = Object.keys(teams).length;
-  if (n === 0) errs.push(`${cfg.crosswalk}: no teams`);
+  // Athlete sports (tennis, MMA) intentionally have an empty crosswalk — resolved by name.
+  if (n === 0 && cfg.entity !== "athlete") errs.push(`${cfg.crosswalk}: no teams`);
   const pmSeen = new Map();
   for (const [key, t] of Object.entries(teams)) {
     if (!codeRe.test(key)) errs.push(`${cfg.crosswalk}.${key}: key not [a-z0-9]`);

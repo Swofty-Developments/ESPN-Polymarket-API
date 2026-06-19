@@ -18,6 +18,11 @@
         "required": ["espn_path", "pm_prefix", "kind", "slug_order", "date_basis", "crosswalk"],
         "additionalProperties": false,
         "properties": {
+          "entity": {
+            "type": "string",
+            "enum": ["team", "athlete"],
+            "description": "team (default) builds slugs from a crosswalk; athlete (tennis, MMA) has no fixed table and is looked up by search and resolved by name."
+          },
           "espn_path": {
             "type": "string",
             "description": "ESPN site.api path segment, e.g. 'basketball/nba'.",

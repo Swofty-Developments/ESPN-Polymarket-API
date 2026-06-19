@@ -11,8 +11,7 @@
     "league": { "type": "string" },
     "teams": {
       "type": "object",
-      "description": "Keyed by lowercased ESPN abbreviation.",
-      "minProperties": 1,
+      "description": "Keyed by lowercased ESPN abbreviation. Empty for athlete sports (resolved by name).",
       "propertyNames": { "pattern": "^[a-z0-9]+$" },
       "additionalProperties": {
         "type": "object",

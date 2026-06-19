@@ -122,6 +122,33 @@
       "slug_order": "away_home",
       "date_basis": "et",
       "crosswalk": "cbb"
+    },
+    "atp": {
+      "espn_path": "tennis/atp",
+      "pm_prefix": "atp",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "athlete",
+      "entity": "athlete"
+    },
+    "wta": {
+      "espn_path": "tennis/wta",
+      "pm_prefix": "wta",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "athlete",
+      "entity": "athlete"
+    },
+    "ufc": {
+      "espn_path": "mma/ufc",
+      "pm_prefix": "ufc",
+      "kind": "two_way",
+      "slug_order": "away_home",
+      "date_basis": "et",
+      "crosswalk": "athlete",
+      "entity": "athlete"
     }
   }
 }
