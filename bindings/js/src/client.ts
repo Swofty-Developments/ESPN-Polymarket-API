@@ -113,10 +113,24 @@ async function fetchScoreboard(league: string, date: string | null): Promise<Esp
       : [];
   const games: EspnGame[] = [];
   for (const e of events) {
-    const g = parseEspnEvent(e, league);
-    if (g !== null) games.push(g);
+    // Athlete sports nest individual matches/fights: a UFC card has competitions[], a tennis
+    // tournament has groupings[].competitions[]. Team sports are one game per event.
+    const units = cfg.entity === "athlete" ? athleteCompetitions(e) : [e];
+    for (const u of units) {
+      const g = parseEspnEvent(u, league);
+      if (g !== null) games.push(g);
+    }
   }
   return games;
+}
+
+function athleteCompetitions(event: unknown): unknown[] {
+  if (typeof event !== "object" || event === null) return [];
+  const ev = event as any;
+  const out: unknown[] = [];
+  if (Array.isArray(ev.competitions)) out.push(...ev.competitions);
+  if (Array.isArray(ev.groupings)) for (const g of ev.groupings) if (Array.isArray(g?.competitions)) out.push(...g.competitions);
+  return out;
 }
 
 /** Polymarket gamma client. */

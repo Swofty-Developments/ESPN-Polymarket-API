@@ -82,12 +82,30 @@ class EspnClient:
         events = payload.get("events") if isinstance(payload, dict) else None
         if not isinstance(events, list):
             events = []
+        athlete = cfg.entity == "athlete"
         games: List[EspnGame] = []
         for e in events:
-            g = parse_espn_event(e, league)
-            if g is not None:
-                games.append(g)
+            # Athlete sports nest individual matches/fights (UFC: competitions[];
+            # tennis: groupings[].competitions[]). Team sports are one game per event.
+            units = _athlete_competitions(e) if athlete else [e]
+            for u in units:
+                g = parse_espn_event(u, league)
+                if g is not None:
+                    games.append(g)
         return games
+
+
+def _athlete_competitions(event: Any) -> List[Any]:
+    if not isinstance(event, dict):
+        return []
+    out: List[Any] = []
+    if isinstance(event.get("competitions"), list):
+        out.extend(event["competitions"])
+    if isinstance(event.get("groupings"), list):
+        for g in event["groupings"]:
+            if isinstance(g, dict) and isinstance(g.get("competitions"), list):
+                out.extend(g["competitions"])
+    return out
 
 
 class PolymarketClient:

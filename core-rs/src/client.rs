@@ -86,11 +86,38 @@ impl EspnClient {
             .and_then(Value::as_array)
             .cloned()
             .unwrap_or_default();
-        Ok(events
-            .iter()
-            .filter_map(|e| parse_espn_event(e, league))
-            .collect())
+        let athlete = cfg.entity == "athlete";
+        let mut games = Vec::new();
+        for e in &events {
+            // Athlete sports nest individual matches/fights (UFC: competitions[]; tennis:
+            // groupings[].competitions[]). Team sports are one game per event.
+            if athlete {
+                for u in athlete_competitions(e) {
+                    if let Some(g) = parse_espn_event(u, league) {
+                        games.push(g);
+                    }
+                }
+            } else if let Some(g) = parse_espn_event(e, league) {
+                games.push(g);
+            }
+        }
+        Ok(games)
     }
+}
+
+fn athlete_competitions(event: &Value) -> Vec<&Value> {
+    let mut out = Vec::new();
+    if let Some(cs) = event.get("competitions").and_then(Value::as_array) {
+        out.extend(cs.iter());
+    }
+    if let Some(gs) = event.get("groupings").and_then(Value::as_array) {
+        for g in gs {
+            if let Some(cs) = g.get("competitions").and_then(Value::as_array) {
+                out.extend(cs.iter());
+            }
+        }
+    }
+    out
 }
 
 /// Polymarket gamma client.

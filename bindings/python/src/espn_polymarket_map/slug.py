@@ -21,6 +21,9 @@ def candidate_slugs(game: EspnGame) -> List[str]:
     cfg = data().league(game.league)
     if cfg is None:
         return []
+    # Athlete sports (tennis, MMA) have unpredictable slug codes — looked up by search.
+    if cfg.entity == "athlete":
+        return []
     away = team_code(game.league, game.away.abbr)
     home = team_code(game.league, game.home.abbr)
     if cfg.slug_order == "away_home":

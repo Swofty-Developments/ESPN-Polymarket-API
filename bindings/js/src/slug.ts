@@ -18,6 +18,8 @@ import type { EspnGame } from "./models.js";
 export function candidateSlugs(game: EspnGame): string[] {
   const cfg = data().league(game.league);
   if (!cfg) return [];
+  // Athlete sports (tennis, MMA) have unpredictable slug codes — looked up by search.
+  if (cfg.entity === "athlete") return [];
   const away = teamCode(game.league, game.away.abbr);
   const home = teamCode(game.league, game.home.abbr);
   const pairs: [string, string][] =

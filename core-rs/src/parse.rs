@@ -41,25 +41,50 @@ pub fn parse_espn_event(json: &Value, league: &str) -> Option<EspnGame> {
         }
     };
     let competitors = comp.get("competitors").and_then(Value::as_array)?;
+    if competitors.len() < 2 {
+        return None;
+    }
 
-    let side_of = |home_away: &str| -> Option<EspnSide> {
-        let c = competitors.iter().find(|c| s(c, "homeAway") == home_away)?;
-        let team = c.get("team").unwrap_or(c);
-        Some(EspnSide {
-            abbr: s(team, "abbreviation"),
-            display_name: s(team, "displayName"),
-            short_name: s(team, "shortDisplayName"),
-            location: s(team, "location"),
-            nickname: s(team, "name"),
-        })
+    // A side is a team (most sports) or an athlete (tennis, MMA); read whichever is present.
+    let side = |c: &Value| -> EspnSide {
+        let t = c.get("team").or_else(|| c.get("athlete")).unwrap_or(c);
+        EspnSide {
+            abbr: s(t, "abbreviation"),
+            display_name: s(t, "displayName"),
+            short_name: {
+                let sd = s(t, "shortDisplayName");
+                if sd.is_empty() {
+                    s(t, "shortName")
+                } else {
+                    sd
+                }
+            },
+            location: s(t, "location"),
+            nickname: {
+                let n = s(t, "name");
+                if n.is_empty() {
+                    s(t, "lastName")
+                } else {
+                    n
+                }
+            },
+        }
+    };
+
+    // Use explicit home/away when present; otherwise fall back to competitor order
+    // (athlete head-to-head events have no home/away).
+    let find = |ha: &str| competitors.iter().find(|c| s(c, "homeAway") == ha);
+    let (home, away) = match (find("home"), find("away")) {
+        (Some(h), Some(a)) => (h, a),
+        _ => (&competitors[1], &competitors[0]),
     };
 
     Some(EspnGame {
         league: league.to_string(),
         espn_event_id: s(json, "id"),
         kickoff_utc: kickoff,
-        home: side_of("home")?,
-        away: side_of("away")?,
+        home: side(home),
+        away: side(away),
     })
 }
 

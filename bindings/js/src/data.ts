@@ -18,6 +18,8 @@ export interface LeagueConfig {
   slug_order: string;
   date_basis: string;
   crosswalk: string;
+  /** "team" (default) or "athlete" (tennis, MMA — no crosswalk, looked up by search). */
+  entity?: "team" | "athlete";
 }
 
 export interface CrosswalkTeam {
@@ -41,7 +43,7 @@ const DATA_DIR = join(HERE, "_data");
 
 const CROSSWALK_STEMS = [
   "nba", "mlb", "nhl", "soccer", "nfl", "wnba", "epl", "ucl",
-  "laliga", "bundesliga", "seriea", "ligue1", "mls", "cfb", "cbb",
+  "laliga", "bundesliga", "seriea", "ligue1", "mls", "cfb", "cbb", "athlete",
 ] as const;
 
 function readJson<T>(...parts: string[]): T {

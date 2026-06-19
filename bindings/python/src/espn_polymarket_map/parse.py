@@ -71,32 +71,36 @@ def parse_espn_event(json_obj: Any, league: str) -> Optional[EspnGame]:
         kickoff = _s(json_obj, "date")
 
     competitors = comp.get("competitors") if isinstance(comp, dict) else None
-    if not isinstance(competitors, list):
+    if not isinstance(competitors, list) or len(competitors) < 2:
         return None
 
-    def side_of(home_away: str) -> Optional[EspnSide]:
-        match = None
-        for c in competitors:
-            if _s(c, "homeAway") == home_away:
-                match = c
-                break
-        if match is None:
-            return None
-        team = match.get("team") if isinstance(match, dict) else None
-        if not isinstance(team, dict):
-            team = match
+    def side(c: Any) -> EspnSide:
+        # A side is a team (most sports) or an athlete (tennis, MMA).
+        t = c.get("team") if isinstance(c, dict) else None
+        if not isinstance(t, dict):
+            t = c.get("athlete") if isinstance(c, dict) else None
+        if not isinstance(t, dict):
+            t = c
         return EspnSide(
-            abbr=_s(team, "abbreviation"),
-            display_name=_s(team, "displayName"),
-            short_name=_s(team, "shortDisplayName"),
-            location=_s(team, "location"),
-            nickname=_s(team, "name"),
+            abbr=_s(t, "abbreviation"),
+            display_name=_s(t, "displayName"),
+            short_name=_s(t, "shortDisplayName") or _s(t, "shortName"),
+            location=_s(t, "location"),
+            nickname=_s(t, "name") or _s(t, "lastName"),
         )
 
-    home = side_of("home")
-    away = side_of("away")
-    if home is None or away is None:
+    def find(home_away: str) -> Any:
+        for c in competitors:
+            if _s(c, "homeAway") == home_away:
+                return c
         return None
+
+    h, a = find("home"), find("away")
+    if h is None or a is None:
+        # Athlete head-to-head events carry no home/away — fall back to competitor order.
+        a, h = competitors[0], competitors[1]
+    home = side(h)
+    away = side(a)
 
     return EspnGame(
         league=league,

@@ -57,24 +57,30 @@ export function parseEspnEvent(json: Json, league: string): EspnGame | null {
   if (kickoff === "") kickoff = s(json, "date");
 
   const competitors = isObject(comp) ? comp.competitors : undefined;
-  if (!Array.isArray(competitors)) return null;
+  if (!Array.isArray(competitors) || competitors.length < 2) return null;
 
-  const sideOf = (homeAway: string): EspnSide | null => {
-    const c = competitors.find((x) => s(x, "homeAway") === homeAway);
-    if (c === undefined) return null;
-    const team = isObject(c) && isObject(c.team) ? c.team : c;
+  // A side is a team (most sports) or an athlete (tennis, MMA).
+  const side = (c: Json): EspnSide => {
+    const t = isObject(c) && isObject(c.team) ? c.team : isObject(c) && isObject(c.athlete) ? c.athlete : c;
     return {
-      abbr: s(team, "abbreviation"),
-      displayName: s(team, "displayName"),
-      shortName: s(team, "shortDisplayName"),
-      location: s(team, "location"),
-      nickname: s(team, "name"),
+      abbr: s(t, "abbreviation"),
+      displayName: s(t, "displayName"),
+      shortName: s(t, "shortDisplayName") || s(t, "shortName"),
+      location: s(t, "location"),
+      nickname: s(t, "name") || s(t, "lastName"),
     };
   };
 
-  const home = sideOf("home");
-  const away = sideOf("away");
-  if (home === null || away === null) return null;
+  const find = (homeAway: string): Json | undefined => competitors.find((x) => s(x, "homeAway") === homeAway);
+  let h = find("home");
+  let a = find("away");
+  if (h === undefined || a === undefined) {
+    // Athlete head-to-head events carry no home/away — fall back to competitor order.
+    a = competitors[0];
+    h = competitors[1];
+  }
+  const home = side(h);
+  const away = side(a);
 
   return {
     league,

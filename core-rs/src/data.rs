@@ -4,6 +4,10 @@ use serde::Deserialize;
 use std::collections::HashMap;
 use std::sync::OnceLock;
 
+fn default_entity() -> String {
+    "team".to_string()
+}
+
 #[derive(Debug, Clone, Deserialize)]
 pub struct LeagueConfig {
     pub espn_path: String,
@@ -12,6 +16,9 @@ pub struct LeagueConfig {
     pub slug_order: String,
     pub date_basis: String,
     pub crosswalk: String,
+    /// "team" (default) or "athlete" (tennis, MMA — no crosswalk, looked up by search).
+    #[serde(default = "default_entity")]
+    pub entity: String,
 }
 
 #[derive(Debug, Deserialize)]
@@ -63,6 +70,7 @@ const CROSSWALKS: &[(&str, &str)] = &[
     ("mls", include_str!("../../data/crosswalk/mls.json")),
     ("cfb", include_str!("../../data/crosswalk/cfb.json")),
     ("cbb", include_str!("../../data/crosswalk/cbb.json")),
+    ("athlete", include_str!("../../data/crosswalk/athlete.json")),
 ];
 /// data/VERSION, trimmed.
 pub const DATA_VERSION: &str = include_str!("../../data/VERSION");

@@ -13,6 +13,10 @@ pub fn candidate_slugs(game: &EspnGame) -> Vec<String> {
     let Some(cfg) = data().league(&game.league) else {
         return Vec::new();
     };
+    // Athlete sports (tennis, MMA) have unpredictable slug codes — they are looked up by search.
+    if cfg.entity == "athlete" {
+        return Vec::new();
+    }
     let away = team_code(&game.league, &game.away.abbr);
     let home = team_code(&game.league, &game.home.abbr);
     let pairs: [(String, String); 2] = if cfg.slug_order == "away_home" {

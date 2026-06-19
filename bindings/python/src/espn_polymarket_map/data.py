@@ -33,6 +33,8 @@ class LeagueConfig:
     slug_order: str
     date_basis: str
     crosswalk: str
+    # "team" (default) or "athlete" (tennis, MMA — no crosswalk, looked up by search).
+    entity: str = "team"
 
 
 @dataclass(frozen=True)
@@ -89,6 +91,7 @@ def _load() -> Data:
             slug_order=raw["slug_order"],
             date_basis=raw["date_basis"],
             crosswalk=raw["crosswalk"],
+            entity=raw.get("entity", "team"),
         )
 
     crosswalks: Dict[str, Dict[str, CrosswalkTeam]] = {}
