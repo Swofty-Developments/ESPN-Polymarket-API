@@ -1,0 +1,1154 @@
+{
+  "description": "ESPN 'Cape Verde' (CPV) ↔ Polymarket 'Cabo Verde' (code cvi) — matched via crosswalk alias.",
+  "espn": {
+    "competitions": [
+      {
+        "altGameNote": "FIFA World Cup, Group H",
+        "attendance": 67640,
+        "broadcast": "",
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "FOX",
+              "Tele",
+              "Peacock"
+            ]
+          }
+        ],
+        "competitors": [
+          {
+            "form": "DWDDW",
+            "homeAway": "home",
+            "id": "164",
+            "order": 0,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "0-1-0",
+                "type": "total"
+              }
+            ],
+            "score": "0",
+            "statistics": [
+              {
+                "abbreviation": "APP",
+                "displayValue": "0",
+                "name": "appearances"
+              },
+              {
+                "abbreviation": "FC",
+                "displayValue": "10",
+                "name": "foulsCommitted"
+              },
+              {
+                "abbreviation": "CW",
+                "displayValue": "11",
+                "name": "wonCorners"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "0",
+                "name": "goalAssists"
+              },
+              {
+                "abbreviation": "PP",
+                "displayValue": "74.3",
+                "name": "possessionPct"
+              },
+              {
+                "abbreviation": "SHAST",
+                "displayValue": "19",
+                "name": "shotAssists"
+              },
+              {
+                "abbreviation": "SOG",
+                "displayValue": "7",
+                "name": "shotsOnTarget"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "0",
+                "name": "totalGoals"
+              },
+              {
+                "abbreviation": "SHOT",
+                "displayValue": "27",
+                "name": "totalShots"
+              }
+            ],
+            "team": {
+              "abbreviation": "ESP",
+              "alternateColor": "800000",
+              "color": "c60b1e",
+              "displayName": "Spain",
+              "id": "164",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/team/_/id/164/spain",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/164/spain",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:164&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/164/spain",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:164&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/164/spain",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:164&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "Spain",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+              "name": "Spain",
+              "shortDisplayName": "Spain",
+              "uid": "s:600~t:164",
+              "venue": {
+                "id": "55"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:164",
+            "winner": false
+          },
+          {
+            "form": "DWWLL",
+            "homeAway": "away",
+            "id": "2597",
+            "order": 1,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "0-1-0",
+                "type": "total"
+              }
+            ],
+            "score": "0",
+            "statistics": [
+              {
+                "abbreviation": "APP",
+                "displayValue": "0",
+                "name": "appearances"
+              },
+              {
+                "abbreviation": "FC",
+                "displayValue": "1",
+                "name": "foulsCommitted"
+              },
+              {
+                "abbreviation": "CW",
+                "displayValue": "1",
+                "name": "wonCorners"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "0",
+                "name": "goalAssists"
+              },
+              {
+                "abbreviation": "PP",
+                "displayValue": "25.7",
+                "name": "possessionPct"
+              },
+              {
+                "abbreviation": "SHAST",
+                "displayValue": "4",
+                "name": "shotAssists"
+              },
+              {
+                "abbreviation": "SOG",
+                "displayValue": "1",
+                "name": "shotsOnTarget"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "0",
+                "name": "totalGoals"
+              },
+              {
+                "abbreviation": "SHOT",
+                "displayValue": "6",
+                "name": "totalShots"
+              }
+            ],
+            "team": {
+              "abbreviation": "CPV",
+              "alternateColor": "EF3340",
+              "color": "000080",
+              "displayName": "Cape Verde",
+              "id": "2597",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/team/_/id/2597/cape-verde",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/2597/cape-verde",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2597&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/2597/cape-verde",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2597&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/2597/cape-verde",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2597&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "Cape Verde",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+              "name": "Cape Verde",
+              "shortDisplayName": "Cape Verde",
+              "uid": "s:600~t:2597",
+              "venue": {
+                "id": "4603"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:2597",
+            "winner": false
+          }
+        ],
+        "date": "2026-06-15T16:00Z",
+        "details": [
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Sidny Lopes Cabral",
+                "fullName": "Sidny Lopes Cabral",
+                "id": "332394",
+                "jersey": "13",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/332394/sidny-lopes-cabral",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "LB",
+                "shortName": "S. Lopes Cabral",
+                "team": {
+                  "id": "2597"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "16'",
+              "value": 933.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "shootout": false,
+            "team": {
+              "id": "2597"
+            },
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "yellowCard": true
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Pedri ",
+                "fullName": "Pedri ",
+                "id": "250465",
+                "jersey": "20",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/250465/pedri",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "LM",
+                "shortName": "Pedri ",
+                "team": {
+                  "id": "164"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "90'+3'",
+              "value": 5400.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "shootout": false,
+            "team": {
+              "id": "164"
+            },
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "yellowCard": true
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "geoBroadcasts": [
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "FOX"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Tele"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Peacock"
+            },
+            "region": "us",
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "description": "Cape Verde pulled off the shock of the 2026 World Cup thus far as they held European champions Spain to a battling goalless draw in their Group H opener in Atlanta.",
+            "shortLinkText": "Spain shocked by Cape Verde in World Cup opener",
+            "type": "Recap"
+          }
+        ],
+        "id": "760428",
+        "notes": [],
+        "odds": [
+          null
+        ],
+        "playByPlayAthletes": true,
+        "playByPlayAvailable": true,
+        "recent": false,
+        "startDate": "2026-06-15T16:00Z",
+        "status": {
+          "clock": 5400.0,
+          "displayClock": "90'+5'",
+          "period": 2,
+          "type": {
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "shortDetail": "FT",
+            "state": "post"
+          }
+        },
+        "timeValid": true,
+        "uid": "s:600~l:606~e:760428~c:760428",
+        "venue": {
+          "address": {
+            "city": "Atlanta, Georgia",
+            "country": "USA"
+          },
+          "fullName": "Mercedes-Benz Stadium",
+          "id": "7485"
+        },
+        "wasSuspended": false
+      }
+    ],
+    "date": "2026-06-15T16:00Z",
+    "id": "760428",
+    "links": [
+      {
+        "href": "https://www.espn.com/soccer/match/_/gameId/760428/cape-verde-spain",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Summary",
+        "text": "Summary"
+      },
+      {
+        "href": "https://www.espn.com/soccer/video/_/gameId/760428",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "highlights",
+          "desktop"
+        ],
+        "shortText": "Highlights",
+        "text": "Highlights"
+      },
+      {
+        "href": "https://www.espn.com/soccer/report/_/gameId/760428",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Report",
+        "text": "Report"
+      },
+      {
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/760428",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Statistics",
+        "text": "Statistics"
+      },
+      {
+        "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "bracket",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Bracket",
+        "text": "Bracket"
+      }
+    ],
+    "name": "Cape Verde at Spain",
+    "season": {
+      "slug": "group-stage",
+      "type": 13802,
+      "year": 2026
+    },
+    "shortName": "CPV @ ESP",
+    "status": {
+      "clock": 5400.0,
+      "displayClock": "90'+5'",
+      "period": 2,
+      "type": {
+        "completed": true,
+        "description": "Full Time",
+        "detail": "FT",
+        "id": "28",
+        "name": "STATUS_FULL_TIME",
+        "shortDetail": "FT",
+        "state": "post"
+      }
+    },
+    "uid": "s:600~l:606~e:760428",
+    "venue": {
+      "displayName": "Mercedes-Benz Stadium"
+    }
+  },
+  "expected": {
+    "away": {
+      "espn_abbr": "CPV",
+      "name": "Cape Verde",
+      "pm_code": "cvi"
+    },
+    "espn_event_id": "760428",
+    "home": {
+      "espn_abbr": "ESP",
+      "name": "Spain",
+      "pm_code": "esp"
+    },
+    "kind": "three_way",
+    "league": "fifa.world",
+    "outcomes": [
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-esp-cvi-2026-06-15-esp",
+        "pm_outcome": "Yes",
+        "price": "0",
+        "selection": "home",
+        "team": "Spain",
+        "token_id": "3612393435281522540359979834655761894598376313180591710384535406994913064931"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-esp-cvi-2026-06-15-cvi",
+        "pm_outcome": "Yes",
+        "price": "0",
+        "selection": "away",
+        "team": "Cape Verde",
+        "token_id": "85135836978485179530031184162395126176783303519695757365796392230161124240788"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-esp-cvi-2026-06-15-draw",
+        "pm_outcome": "Yes",
+        "price": "1",
+        "selection": "draw",
+        "team": null,
+        "token_id": "83072215710101175871081563765894926731657038656927257285040774204247563097609"
+      }
+    ],
+    "pm_event_slug": "fifwc-esp-cvi-2026-06-15",
+    "pm_market_slug": null,
+    "resolved": true
+  },
+  "league": "fifa.world",
+  "polymarket": {
+    "active": true,
+    "archived": false,
+    "automaticallyActive": true,
+    "automaticallyResolved": true,
+    "closed": true,
+    "closedTime": "2026-06-15T20:24:57Z",
+    "commentCount": 0,
+    "createdAt": "2026-04-06T22:19:18.067517Z",
+    "creationDate": "2026-04-06T22:30:00.636487Z",
+    "cyom": false,
+    "deploying": false,
+    "deployingTimestamp": "2026-04-06T22:19:22.136576Z",
+    "description": "This event is for the upcoming FIFA World Cup game, scheduled for Monday, June 15, 2026 between Spain and Cabo Verde.",
+    "elapsed": "",
+    "enableNegRisk": true,
+    "enableOrderBook": true,
+    "endDate": "2026-06-15T16:00:00Z",
+    "ended": true,
+    "eventDate": "2026-06-15",
+    "eventMetadata": {
+      "context_description": "Spain and Cabo Verde met in Group H at the 2026 FIFA World Cup in Atlanta, with the latter earning their first-ever tournament point through a disciplined defensive display and strong goalkeeping that frustrated Spain's attacking lines throughout both halves. Trader consensus on the draw at full time reflects the confirmed 0-0 result after 90 minutes plus stoppage time, as Cabo Verde limited clear chances despite Spain's possession dominance and European champion pedigree. Late substitutions and set-piece threats failed to break the deadlock. Only an official match void due to unforeseen administrative issues could alter resolution, though none have been reported.",
+      "context_requires_regen": true,
+      "context_updated_at": "2026-06-15T20:15:43.303Z",
+      "opticOddsFixtureId": "20260615BD573495",
+      "opticOddsGameId": "19268-34199-2026-06-15",
+      "opticOddsNumericalId": 566629,
+      "sportradarGameId": "sr:sport_event:66456994"
+    },
+    "eventWeek": 1,
+    "featured": false,
+    "finishedTimestamp": "2026-06-15T17:59:59.02595Z",
+    "gameId": 90086922,
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "id": "351727",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "live": false,
+    "markets": [
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:24:55Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"3612393435281522540359979834655761894598376313180591710384535406994913064931\", \"21862621641339836174497511094063892750017129328914984752742038084309716186124\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 19:58:27+00",
+        "comboStatus": "enabled",
+        "conditionId": "0xa5501b4dc0c99c382b1c2871ad9141c7f58509a0f962f70a38bb6566ec570049",
+        "createdAt": "2026-04-06T22:19:18.253988Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:20:52.771536Z",
+        "description": "In the upcoming game, scheduled for June 15, 2026\nIf Spain wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T16:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 16:00:00+00",
+        "groupItemThreshold": "0",
+        "groupItemTitle": "Spain",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897070",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.001,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "20260615BD573495",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Spain",
+          "opticOddsSelectionLine": "home",
+          "opticOddsTeamId": "9ECA5CC9A2A6A4AA"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0x521c88dd1ac8087839a9bce309a1471472c610632e9d612d8fcdfcfdb6dc0000",
+        "negRiskOther": false,
+        "negRiskRequestID": "0xb56e56123605ed32e8f50259f50506f34169ab7903bd40c8d16393cd9dbad7ba",
+        "new": false,
+        "oneDayPriceChange": -0.8945,
+        "oneMonthPriceChange": -0.8995,
+        "oneWeekPriceChange": -0.9045,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1107413250132172873224635916030721458874274285221305485470547607907458875392",
+          "1107413250132172873224635916030721458874274285221305485470547607907458875393"
+        ],
+        "question": "Will Spain win on 2026-06-15?",
+        "questionID": "0x521c88dd1ac8087839a9bce309a1471472c610632e9d612d8fcdfcfdb6dc0000",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 1.5,
+        "rewardsMinSize": 1000,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-esp-cvi-2026-06-15-esp",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:26:16.976208Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T19:58:27Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T21:42:19.347779Z",
+        "volume": "21209383.43092772",
+        "volumeClob": 21209383.43092772,
+        "volumeNum": 21209383.43092772
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:24:59Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 1,
+        "bestBid": 0.999,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"83072215710101175871081563765894926731657038656927257285040774204247563097609\", \"73473441294695490078665625988041105196042883387447724791485322875037171038163\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 20:24:57+00",
+        "comboStatus": "enabled",
+        "conditionId": "0xc34b198e91f197098da3f782c066328e199a6342e6798753de2bfa9ae568ae93",
+        "createdAt": "2026-04-06T22:19:18.535494Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:20:52.773238Z",
+        "description": "In the upcoming game, scheduled for June 15, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T16:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 16:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Draw (Spain vs. Cabo Verde)",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897071",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.999,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "20260615BD573495",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Draw",
+          "opticOddsSelectionLine": "draw"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0x521c88dd1ac8087839a9bce309a1471472c610632e9d612d8fcdfcfdb6dc0000",
+        "negRiskOther": false,
+        "negRiskRequestID": "0x35b2bc35e992b3eedeaf7b210d5c71db8955e7a160b7d7fc7cb0edfa43215001",
+        "new": false,
+        "oneDayPriceChange": 0.928,
+        "oneMonthPriceChange": 0.9295,
+        "oneWeekPriceChange": 0.928,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"1\", \"0\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1107413250132172873224635916030721458874274285221305485470547607907458875648",
+          "1107413250132172873224635916030721458874274285221305485470547607907458875649"
+        ],
+        "question": "Will Spain vs. Cabo Verde end in a draw?",
+        "questionID": "0x521c88dd1ac8087839a9bce309a1471472c610632e9d612d8fcdfcfdb6dc0001",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 1.5,
+        "rewardsMinSize": 1000,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-esp-cvi-2026-06-15-draw",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:26:21.122073Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T20:24:57Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T21:42:19.875238Z",
+        "volume": "4400220.152896995",
+        "volumeClob": 4400220.152896995,
+        "volumeNum": 4400220.152896995
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:25:05Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"85135836978485179530031184162395126176783303519695757365796392230161124240788\", \"113403530567138533647502570248479720592349088370966223613082930982224615009933\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 19:58:27+00",
+        "comboStatus": "enabled",
+        "conditionId": "0xf29e8ca118bc47e9d5d162191382c8700213730e6f5959d69b006c64e16685a8",
+        "createdAt": "2026-04-06T22:19:18.817549Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:20:52.774414Z",
+        "description": "In the upcoming game, scheduled for June 15, 2026\nIf Cabo Verde wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T16:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 16:00:00+00",
+        "groupItemThreshold": "2",
+        "groupItemTitle": "Cabo Verde",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897072",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.001,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "20260615BD573495",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Cabo Verde",
+          "opticOddsSelectionLine": "away",
+          "opticOddsTeamId": "5587A39275F66090"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0x521c88dd1ac8087839a9bce309a1471472c610632e9d612d8fcdfcfdb6dc0000",
+        "negRiskOther": false,
+        "negRiskRequestID": "0xaae22927c3e487a5687fa1a05fb68e1cfabd788967ed00fb528a939f6dd8d84e",
+        "new": false,
+        "oneDayPriceChange": -0.033,
+        "oneMonthPriceChange": -0.022,
+        "oneWeekPriceChange": -0.032,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1107413250132172873224635916030721458874274285221305485470547607907458875904",
+          "1107413250132172873224635916030721458874274285221305485470547607907458875905"
+        ],
+        "question": "Will Cabo Verde win on 2026-06-15?",
+        "questionID": "0x521c88dd1ac8087839a9bce309a1471472c610632e9d612d8fcdfcfdb6dc0002",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 0,
+        "rewardsMinSize": 0,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-esp-cvi-2026-06-15-cvi",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:26:27.074192Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T19:58:27Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T21:42:20.521666Z",
+        "volume": "6908118.161684922",
+        "volumeClob": 6908118.161684922,
+        "volumeNum": 6908118.161684922
+      }
+    ],
+    "negRisk": true,
+    "negRiskAugmented": false,
+    "negRiskMarketID": "0x521c88dd1ac8087839a9bce309a1471472c610632e9d612d8fcdfcfdb6dc0000",
+    "new": false,
+    "openInterest": 17377609.235875,
+    "pendingDeployment": false,
+    "period": "VFT",
+    "requiresTranslation": false,
+    "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+    "restricted": true,
+    "score": "0-0",
+    "series": [
+      {
+        "active": true,
+        "archived": false,
+        "closed": false,
+        "commentCount": 4788,
+        "createdAt": "2026-03-26T22:29:37.657465Z",
+        "featured": false,
+        "id": "11433",
+        "liquidity": 129439598.38155,
+        "recurrence": "daily",
+        "requiresTranslation": false,
+        "restricted": true,
+        "seriesType": "single",
+        "slug": "soccer-fifwc",
+        "ticker": "soccer-fifwc",
+        "title": "FIFA World Cup",
+        "updatedAt": "2026-06-19T08:33:46.130732Z",
+        "volume": 19767408.452362016,
+        "volume24hr": 162684822.33945516
+      }
+    ],
+    "seriesSlug": "soccer-fifwc",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "slug": "fifwc-esp-cvi-2026-06-15",
+    "sport": {
+      "createdAt": "2026-04-06T19:15:16.986929Z",
+      "id": 174,
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "ordering": "home",
+      "resolution": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+      "series": "11433",
+      "sport": "fifwc",
+      "tags": "1, 100639, 100350, 102232"
+    },
+    "startDate": "2026-04-06T22:30:00.636492Z",
+    "startTime": "2026-06-15T16:00:00Z",
+    "tags": [
+      {
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "forceShow": false,
+        "id": "100350",
+        "label": "Soccer",
+        "requiresTranslation": false,
+        "slug": "soccer",
+        "updatedAt": "2026-04-17T20:33:09.955379Z"
+      },
+      {
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "forceHide": true,
+        "forceShow": false,
+        "id": "1",
+        "label": "Sports",
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "requiresTranslation": false,
+        "slug": "sports",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "updatedBy": 15
+      },
+      {
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "forceShow": false,
+        "id": "100639",
+        "label": "Games",
+        "requiresTranslation": false,
+        "slug": "games",
+        "updatedAt": "2026-03-09T22:28:03.358133Z"
+      },
+      {
+        "createdAt": "2025-06-08T02:11:18.665669Z",
+        "id": "102232",
+        "label": "FIFA World Cup",
+        "requiresTranslation": false,
+        "slug": "fifa-world-cup",
+        "updatedAt": "2026-04-17T20:58:26.597292Z"
+      }
+    ],
+    "teams": [
+      {
+        "abbreviation": "esp",
+        "color": "#aa181d",
+        "createdAt": "2026-04-06T19:41:38.149856Z",
+        "id": 3270249,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Spain-5cfe661c09.png",
+        "name": "Spain",
+        "ordering": "home",
+        "providerId": 958,
+        "record": "0-1-0",
+        "updatedAt": "2026-06-03T18:08:32.100681Z"
+      },
+      {
+        "abbreviation": "cvi",
+        "color": "#164a9c",
+        "createdAt": "2026-04-06T19:41:39.490479Z",
+        "id": 3270263,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Cabo Verde-eaec07ae28.png",
+        "name": "Cabo Verde",
+        "ordering": "away",
+        "providerId": 1079,
+        "record": "0-1-0",
+        "updatedAt": "2026-06-03T15:57:43.298881Z"
+      }
+    ],
+    "ticker": "fifwc-esp-cvi-2026-06-15",
+    "title": "Spain vs. Cabo Verde",
+    "updatedAt": "2026-06-19T08:34:21.462181Z",
+    "volume": 32517721.745509636
+  }
+}

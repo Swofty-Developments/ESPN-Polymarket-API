@@ -1,0 +1,1412 @@
+{
+  "description": "ESPN 'HAI @ BRA' kicks off 00:30Z (next UTC day) but Polymarket dates the slug to the prior US-Eastern day; home-away slug order; three legs home/away/draw.",
+  "espn": {
+    "competitions": [
+      {
+        "altGameNote": "FIFA World Cup, Group C",
+        "attendance": 0,
+        "broadcast": "",
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "FOX",
+              "Tele",
+              "FOX One"
+            ]
+          }
+        ],
+        "competitors": [
+          {
+            "form": "DWWWL",
+            "homeAway": "home",
+            "id": "205",
+            "leaders": [
+              {
+                "abbreviation": "G",
+                "displayName": "Goals",
+                "leaders": [
+                  {
+                    "athlete": {
+                      "active": true,
+                      "displayName": "Vinícius Júnior",
+                      "fullName": "Vinícius Júnior ",
+                      "id": "252107",
+                      "jersey": "7",
+                      "links": [
+                        {
+                          "href": "https://www.espn.com/soccer/player/_/id/252107/vinicius-junior",
+                          "isHidden": false,
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ]
+                        }
+                      ],
+                      "position": {
+                        "abbreviation": "F"
+                      },
+                      "shortName": "Vinícius Júnior",
+                      "team": {
+                        "id": "205"
+                      }
+                    },
+                    "displayValue": "1",
+                    "team": {
+                      "id": "205"
+                    },
+                    "value": 1.0
+                  }
+                ],
+                "name": "goals",
+                "shortDisplayName": "Goals"
+              },
+              {
+                "abbreviation": "G",
+                "displayName": "Goals",
+                "leaders": [
+                  {
+                    "athlete": {
+                      "active": true,
+                      "displayName": "Vinícius Júnior",
+                      "fullName": "Vinícius Júnior ",
+                      "id": "252107",
+                      "jersey": "7",
+                      "links": [
+                        {
+                          "href": "https://www.espn.com/soccer/player/_/id/252107/vinicius-junior",
+                          "isHidden": false,
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ]
+                        }
+                      ],
+                      "position": {
+                        "abbreviation": "F"
+                      },
+                      "shortName": "Vinícius Júnior",
+                      "team": {
+                        "id": "205"
+                      }
+                    },
+                    "displayValue": "1",
+                    "team": {
+                      "id": "205"
+                    },
+                    "value": 1.0
+                  }
+                ],
+                "name": "goalsLeaders",
+                "shortDisplayName": "Goals"
+              }
+            ],
+            "order": 0,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "0-1-0",
+                "type": "total"
+              }
+            ],
+            "score": "0",
+            "statistics": [],
+            "team": {
+              "abbreviation": "BRA",
+              "alternateColor": "193375",
+              "color": "fee000",
+              "displayName": "Brazil",
+              "id": "205",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/team/_/id/205/brazil",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/205/brazil",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:205&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/205/brazil",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:205&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/205/brazil",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:205&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "Brazil",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+              "name": "Brazil",
+              "shortDisplayName": "Brazil",
+              "uid": "s:600~t:205",
+              "venue": {
+                "id": "10660"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:205",
+            "winner": false
+          },
+          {
+            "form": "LLWDL",
+            "homeAway": "away",
+            "id": "2654",
+            "leaders": [
+              {
+                "abbreviation": "G",
+                "displayName": "Goals",
+                "leaders": [
+                  {
+                    "athlete": {
+                      "active": true,
+                      "displayName": "Johny Placide",
+                      "fullName": "Johny Placide",
+                      "id": "89090",
+                      "jersey": "1",
+                      "links": [
+                        {
+                          "href": "https://www.espn.com/soccer/player/_/id/89090/johny-placide",
+                          "isHidden": false,
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ]
+                        }
+                      ],
+                      "position": {
+                        "abbreviation": "G"
+                      },
+                      "shortName": "J. Placide",
+                      "team": {
+                        "id": "2654"
+                      }
+                    },
+                    "displayValue": "0",
+                    "team": {
+                      "id": "2654"
+                    },
+                    "value": 0.0
+                  }
+                ],
+                "name": "goals",
+                "shortDisplayName": "Goals"
+              },
+              {
+                "abbreviation": "G",
+                "displayName": "Goals",
+                "leaders": [
+                  {
+                    "athlete": {
+                      "active": true,
+                      "displayName": "Johny Placide",
+                      "fullName": "Johny Placide",
+                      "id": "89090",
+                      "jersey": "1",
+                      "links": [
+                        {
+                          "href": "https://www.espn.com/soccer/player/_/id/89090/johny-placide",
+                          "isHidden": false,
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ]
+                        }
+                      ],
+                      "position": {
+                        "abbreviation": "G"
+                      },
+                      "shortName": "J. Placide",
+                      "team": {
+                        "id": "2654"
+                      }
+                    },
+                    "displayValue": "0",
+                    "team": {
+                      "id": "2654"
+                    },
+                    "value": 0.0
+                  }
+                ],
+                "name": "goalsLeaders",
+                "shortDisplayName": "Goals"
+              }
+            ],
+            "order": 1,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "0-0-1",
+                "type": "total"
+              }
+            ],
+            "score": "0",
+            "statistics": [],
+            "team": {
+              "abbreviation": "HAI",
+              "alternateColor": "FFFFFF",
+              "color": "0033a0",
+              "displayName": "Haiti",
+              "id": "2654",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/team/_/id/2654/haiti",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/2654/haiti",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2654&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/2654/haiti",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2654&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/2654/haiti",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2654&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "Haiti",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+              "name": "Haiti",
+              "shortDisplayName": "Haiti",
+              "uid": "s:600~t:2654",
+              "venue": {
+                "id": "10143"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:2654",
+            "winner": false
+          }
+        ],
+        "date": "2026-06-20T00:30Z",
+        "details": [],
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "geoBroadcasts": [
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "FOX"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Tele"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "FOX One"
+            },
+            "region": "us",
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            }
+          }
+        ],
+        "id": "760444",
+        "notes": [],
+        "odds": [
+          {
+            "details": "BRA -900",
+            "drawOdds": {
+              "link": {
+                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34169480%3Foutcomes%3D0ML84838569_2",
+                "isExternal": true,
+                "isHidden": false,
+                "isPremium": false,
+                "language": "en-US",
+                "rel": [
+                  "draw",
+                  "desktop",
+                  "bets",
+                  "draftkings"
+                ],
+                "shortText": "Draw Bet",
+                "text": "Draw Bet"
+              },
+              "moneyLine": 1000
+            },
+            "link": {
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34169480",
+              "isExternal": true,
+              "isHidden": false,
+              "isPremium": false,
+              "language": "en-US",
+              "rel": [
+                "game",
+                "desktop",
+                "bets"
+              ],
+              "shortText": "Game",
+              "text": "Game"
+            },
+            "moneyline": {
+              "away": {
+                "close": {
+                  "link": {
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34169480%3Foutcomes%3D0ML84838569_3",
+                    "rel": [
+                      "away",
+                      "bets"
+                    ],
+                    "tracking": {
+                      "campaign": "betting-integrations",
+                      "tags": {
+                        "betSide": "away",
+                        "betType": "straight",
+                        "gameId": 760444,
+                        "league": "fifa.world",
+                        "sport": "soccer"
+                      }
+                    }
+                  },
+                  "odds": "+2200"
+                },
+                "open": {
+                  "odds": "+3000"
+                }
+              },
+              "displayName": "Moneyline",
+              "draw": {
+                "close": {
+                  "link": {
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34169480%3Foutcomes%3D0ML84838569_2",
+                    "rel": [
+                      "draw",
+                      "bets"
+                    ],
+                    "tracking": {
+                      "campaign": "betting-integrations",
+                      "tags": {
+                        "betSide": "draw",
+                        "betType": "straight",
+                        "gameId": 760444,
+                        "league": "fifa.world",
+                        "sport": "soccer"
+                      }
+                    }
+                  },
+                  "odds": "+1000"
+                },
+                "open": {
+                  "odds": "+1000"
+                }
+              },
+              "home": {
+                "close": {
+                  "link": {
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34169480%3Foutcomes%3D0ML84838569_1",
+                    "rel": [
+                      "home",
+                      "bets"
+                    ],
+                    "tracking": {
+                      "campaign": "betting-integrations",
+                      "tags": {
+                        "betSide": "home",
+                        "betType": "straight",
+                        "gameId": 760444,
+                        "league": "fifa.world",
+                        "sport": "soccer"
+                      }
+                    }
+                  },
+                  "odds": "-900"
+                },
+                "open": {
+                  "odds": "-1200"
+                }
+              },
+              "shortDisplayName": "ML"
+            },
+            "overUnder": 3.5,
+            "pointSpread": {
+              "away": {
+                "close": {
+                  "line": "+2.5",
+                  "link": {
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34169480%3Foutcomes%3D0HC84838763P250_3",
+                    "rel": [
+                      "awaySpread",
+                      "bets"
+                    ],
+                    "tracking": {
+                      "campaign": "betting-integrations",
+                      "tags": {
+                        "betDetails": "Spread:HAI+2.5",
+                        "betSide": "away",
+                        "betType": "straight",
+                        "gameId": 760444,
+                        "league": "fifa.world",
+                        "sport": "soccer"
+                      }
+                    }
+                  },
+                  "odds": "+100"
+                },
+                "open": {
+                  "line": "+3.5",
+                  "odds": "-155"
+                }
+              },
+              "displayName": "Spread",
+              "home": {
+                "close": {
+                  "line": "-2.5",
+                  "link": {
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34169480%3Foutcomes%3D0HC84838763N250_1",
+                    "rel": [
+                      "homeSpread",
+                      "bets"
+                    ],
+                    "tracking": {
+                      "campaign": "betting-integrations",
+                      "tags": {
+                        "betDetails": "Spread:BRA-2.5",
+                        "betSide": "home",
+                        "betType": "straight",
+                        "gameId": 760444,
+                        "league": "fifa.world",
+                        "sport": "soccer"
+                      }
+                    }
+                  },
+                  "odds": "-125"
+                },
+                "open": {
+                  "line": "-3.5",
+                  "odds": "+110"
+                }
+              },
+              "shortDisplayName": "Spread"
+            },
+            "provider": {
+              "id": "100",
+              "name": "DraftKings",
+              "priority": 1
+            },
+            "total": {
+              "displayName": "Total",
+              "over": {
+                "close": {
+                  "line": "o3.5",
+                  "link": {
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34169480%3Foutcomes%3D0OU84838758O350_1",
+                    "rel": [
+                      "over",
+                      "bets"
+                    ],
+                    "tracking": {
+                      "campaign": "betting-integrations",
+                      "tags": {
+                        "betDetails": "Over:3.5",
+                        "betSide": "over",
+                        "betType": "straight",
+                        "gameId": 760444,
+                        "league": "fifa.world",
+                        "sport": "soccer"
+                      }
+                    }
+                  },
+                  "odds": "-125"
+                },
+                "open": {
+                  "line": "o3.5",
+                  "odds": "-160"
+                }
+              },
+              "shortDisplayName": "Total",
+              "under": {
+                "close": {
+                  "line": "u3.5",
+                  "link": {
+                    "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34169480%3Foutcomes%3D0OU84838758U350_3",
+                    "rel": [
+                      "under",
+                      "bets"
+                    ],
+                    "tracking": {
+                      "campaign": "betting-integrations",
+                      "tags": {
+                        "betDetails": "Under:3.5",
+                        "betSide": "under",
+                        "betType": "straight",
+                        "gameId": 760444,
+                        "league": "fifa.world",
+                        "sport": "soccer"
+                      }
+                    }
+                  },
+                  "odds": "+100"
+                },
+                "open": {
+                  "line": "u3.5",
+                  "odds": "+125"
+                }
+              }
+            }
+          }
+        ],
+        "playByPlayAthletes": true,
+        "playByPlayAvailable": true,
+        "recent": false,
+        "startDate": "2026-06-20T00:30Z",
+        "status": {
+          "clock": 0.0,
+          "displayClock": "0'",
+          "type": {
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Fri, June 19th at 8:30 PM EDT",
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "shortDetail": "Scheduled",
+            "state": "pre"
+          }
+        },
+        "tickets": [
+          {
+            "links": [
+              {
+                "href": "https://www.vividseats.com/world-cup-soccer-tickets-lincoln-financial-field-6-19-2026--sports-soccer/production/5080479?wsUser=717"
+              },
+              {
+                "href": "https://www.vividseats.com/lincoln-financial-field-tickets/venue/2766?wsUser=717"
+              }
+            ],
+            "numberAvailable": 244,
+            "summary": "Tickets as low as $1,435"
+          }
+        ],
+        "timeValid": true,
+        "uid": "s:600~l:606~e:760444~c:760444",
+        "venue": {
+          "address": {
+            "city": "Philadelphia, Pennsylvania",
+            "country": "USA"
+          },
+          "fullName": "Lincoln Financial Field",
+          "id": "1421"
+        },
+        "wasSuspended": false
+      }
+    ],
+    "date": "2026-06-20T00:30Z",
+    "id": "760444",
+    "links": [
+      {
+        "href": "https://www.espn.com/soccer/match/_/gameId/760444/haiti-brazil",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Summary",
+        "text": "Summary"
+      },
+      {
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/760444",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Statistics",
+        "text": "Statistics"
+      },
+      {
+        "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "bracket",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Bracket",
+        "text": "Bracket"
+      }
+    ],
+    "name": "Haiti at Brazil",
+    "season": {
+      "slug": "group-stage",
+      "type": 13802,
+      "year": 2026
+    },
+    "shortName": "HAI @ BRA",
+    "status": {
+      "clock": 0.0,
+      "displayClock": "0'",
+      "type": {
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Fri, June 19th at 8:30 PM EDT",
+        "id": "1",
+        "name": "STATUS_SCHEDULED",
+        "shortDetail": "Scheduled",
+        "state": "pre"
+      }
+    },
+    "uid": "s:600~l:606~e:760444",
+    "venue": {
+      "displayName": "Lincoln Financial Field"
+    }
+  },
+  "expected": {
+    "away": {
+      "espn_abbr": "HAI",
+      "name": "Haiti",
+      "pm_code": "hai"
+    },
+    "espn_event_id": "760444",
+    "home": {
+      "espn_abbr": "BRA",
+      "name": "Brazil",
+      "pm_code": "bra"
+    },
+    "kind": "three_way",
+    "league": "fifa.world",
+    "outcomes": [
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-bra-hai-2026-06-19-bra",
+        "pm_outcome": "Yes",
+        "price": "0.885",
+        "selection": "home",
+        "team": "Brazil",
+        "token_id": "103041090730063233481678246468943921262520375914356653176409396265510672924686"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-bra-hai-2026-06-19-hai",
+        "pm_outcome": "Yes",
+        "price": "0.0355",
+        "selection": "away",
+        "team": "Haiti",
+        "token_id": "103635844992876723144379951385842243916752648056505794536281053774467895997557"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-bra-hai-2026-06-19-draw",
+        "pm_outcome": "Yes",
+        "price": "0.0795",
+        "selection": "draw",
+        "team": null,
+        "token_id": "44654769333046528346139965331873489889567163297280225286353492828529494504482"
+      }
+    ],
+    "pm_event_slug": "fifwc-bra-hai-2026-06-19",
+    "pm_market_slug": null,
+    "resolved": true
+  },
+  "league": "fifa.world",
+  "polymarket": {
+    "active": true,
+    "archived": false,
+    "automaticallyActive": true,
+    "closed": false,
+    "commentCount": 0,
+    "competitive": 0.8709094471902284,
+    "createdAt": "2026-04-06T22:20:05.103512Z",
+    "creationDate": "2026-04-06T22:34:39.52407Z",
+    "cyom": false,
+    "deploying": false,
+    "deployingTimestamp": "2026-04-06T22:20:22.501391Z",
+    "description": "This event is for the upcoming FIFA World Cup game, scheduled for Friday, June 19, 2026 between Brazil and Haiti.",
+    "enableNegRisk": true,
+    "enableOrderBook": true,
+    "endDate": "2026-06-20T00:30:00Z",
+    "eventDate": "2026-06-19",
+    "eventMetadata": {
+      "context_description": "Brazil enters the 2026 FIFA World Cup Group C clash against Haiti as overwhelming favorites, reflecting the vast gulf in squad depth, technical quality, and historical dominance—the Seleção have won all prior meetings by an aggregate of 17-1. Coming off a draw with Morocco that exposed attacking inconsistencies, Brazil under Carlo Ancelotti will likely deploy Vinícius Júnior, Raphinha, and Endrick to exploit Haiti’s defensive vulnerabilities after Les Grenadiers conceded in their opener versus Scotland. Haiti’s second-ever World Cup appearance and limited recent form underscore the matchup mismatch at Lincoln Financial Field. Realistic challenges remain limited to a disciplined Haitian defensive stand, set-piece fortune, or a rare Brazilian off-night, though the implied probability aligns with the talent and experience disparity.",
+      "context_requires_regen": true,
+      "context_updated_at": "2026-06-18T02:32:41.421Z",
+      "opticOddsFixtureId": "20260620FDFFAD26",
+      "opticOddsGameId": "22502-15326-2026-06-19",
+      "opticOddsNumericalId": 566643,
+      "sportradarGameId": "sr:sport_event:66456932"
+    },
+    "eventWeek": 1,
+    "featured": false,
+    "gameId": 90086935,
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "id": "351745",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "liquidity": 3507787.05014,
+    "liquidityClob": 3507787.05014,
+    "markets": [
+      {
+        "acceptingOrders": true,
+        "acceptingOrdersTimestamp": "2026-04-06T22:30:03Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "bestAsk": 0.89,
+        "bestBid": 0.88,
+        "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xc90381f6021b8dc8d07dd3d783d3927f34706f8ce1ed097b21cc92f31b5be076",
+            "endDate": "2500-12-31",
+            "id": "418225",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 228,
+            "startDate": "2026-06-19"
+          }
+        ],
+        "clobTokenIds": "[\"103041090730063233481678246468943921262520375914356653176409396265510672924686\", \"22743545232446807558100435971371787452946094386062548304401212118766791219432\"]",
+        "closed": false,
+        "comboStatus": "enabled",
+        "competitive": 0.8709094471902284,
+        "conditionId": "0xc90381f6021b8dc8d07dd3d783d3927f34706f8ce1ed097b21cc92f31b5be076",
+        "createdAt": "2026-04-06T22:20:05.28825Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:26:50.405892Z",
+        "description": "In the upcoming game, scheduled for June 19, 2026\nIf Brazil wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-20T00:30:00Z",
+        "endDateIso": "2026-06-20",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-20 00:30:00+00",
+        "groupItemThreshold": "0",
+        "groupItemTitle": "Brazil",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897124",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.89,
+        "liquidity": "1408496.0397",
+        "liquidityClob": 1408496.0397,
+        "liquidityNum": 1408496.0397,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "20260620FDFFAD26",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Brazil",
+          "opticOddsSelectionLine": "home",
+          "opticOddsTeamId": "DAE8582FFC3E961A"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0xf62db0adec73e81946642121758532a04a97ee36b0ff37f01073ba340f63c200",
+        "negRiskOther": false,
+        "negRiskRequestID": "0xe5448128611c10b5db3872ce56877c7f2ee563b47c87906ce301af9fb3b42f5f",
+        "new": false,
+        "oneMonthPriceChange": -0.04,
+        "oneWeekPriceChange": -0.02,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.01,
+        "outcomePrices": "[\"0.885\", \"0.115\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1036420965885481445072447421860839533719187783021301462511472730282813030400",
+          "1036420965885481445072447421860839533719187783021301462511472730282813030401"
+        ],
+        "question": "Will Brazil win on 2026-06-19?",
+        "questionID": "0xf62db0adec73e81946642121758532a04a97ee36b0ff37f01073ba340f63c200",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 1.5,
+        "rewardsMinSize": 1000,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-bra-hai-2026-06-19-bra",
+        "sportsMarketType": "moneyline",
+        "spread": 0.01,
+        "startDate": "2026-04-06T22:31:24.681461Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaResolutionStatuses": "[]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-19T08:33:00.668214Z",
+        "volume": "383699.36112199764",
+        "volume1mo": 381101.7050650025,
+        "volume1moClob": 381101.7050650025,
+        "volume1wk": 362315.6756400024,
+        "volume1wkClob": 362315.6756400024,
+        "volume1yr": 383699.36112200253,
+        "volume1yrClob": 383699.36112200253,
+        "volume24hr": 145791.05802400026,
+        "volume24hrClob": 145791.05802400026,
+        "volumeClob": 383699.3611219976,
+        "volumeNum": 383699.3611219976
+      },
+      {
+        "acceptingOrders": true,
+        "acceptingOrdersTimestamp": "2026-04-06T22:30:11Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "bestAsk": 0.08,
+        "bestBid": 0.079,
+        "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xd414a4bdb4c86f835fb31e432ab3ea15e374fe7f39b6b0a224c7a521378967ea",
+            "endDate": "2500-12-31",
+            "id": "543937",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 228,
+            "startDate": "2026-06-19"
+          }
+        ],
+        "clobTokenIds": "[\"44654769333046528346139965331873489889567163297280225286353492828529494504482\", \"105638327430349039332269043910857920842021533048823162843186163355170846964791\"]",
+        "closed": false,
+        "comboStatus": "enabled",
+        "competitive": 0.8497474444376701,
+        "conditionId": "0xd414a4bdb4c86f835fb31e432ab3ea15e374fe7f39b6b0a224c7a521378967ea",
+        "createdAt": "2026-04-06T22:20:05.576952Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:26:50.407008Z",
+        "description": "In the upcoming game, scheduled for June 19, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-20T00:30:00Z",
+        "endDateIso": "2026-06-20",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-20 00:30:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Draw (Brazil vs. Haiti)",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897125",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.08,
+        "liquidity": "944192.45059",
+        "liquidityClob": 944192.45059,
+        "liquidityNum": 944192.45059,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "20260620FDFFAD26",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Draw",
+          "opticOddsSelectionLine": "draw"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0xf62db0adec73e81946642121758532a04a97ee36b0ff37f01073ba340f63c200",
+        "negRiskOther": false,
+        "negRiskRequestID": "0xfef0a588f972b197fc750941f99a9260f34c77ae785cd056db6abbddfaa4fe6b",
+        "new": false,
+        "oneHourPriceChange": -0.002,
+        "oneMonthPriceChange": 0.0185,
+        "oneWeekPriceChange": 0.019,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0.0795\", \"0.9205\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1036420965885481445072447421860839533719187783021301462511472730282813030656",
+          "1036420965885481445072447421860839533719187783021301462511472730282813030657"
+        ],
+        "question": "Will Brazil vs. Haiti end in a draw?",
+        "questionID": "0xf62db0adec73e81946642121758532a04a97ee36b0ff37f01073ba340f63c201",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 1.5,
+        "rewardsMinSize": 1000,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-bra-hai-2026-06-19-draw",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:31:33.286626Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaResolutionStatuses": "[]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-19T08:33:02.863628Z",
+        "volume": "485400.27795899886",
+        "volume1mo": 483706.1953179983,
+        "volume1moClob": 483706.1953179983,
+        "volume1wk": 469946.6510189984,
+        "volume1wkClob": 469946.6510189984,
+        "volume1yr": 485400.2779589983,
+        "volume1yrClob": 485400.2779589983,
+        "volume24hr": 355303.85248100106,
+        "volume24hrClob": 355303.85248100106,
+        "volumeClob": 485400.27795899886,
+        "volumeNum": 485400.27795899886
+      },
+      {
+        "acceptingOrders": true,
+        "acceptingOrdersTimestamp": "2026-04-06T22:30:17Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "bestAsk": 0.036,
+        "bestBid": 0.035,
+        "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xc7a9f8cf846f6eba833fc69da7340af7c150e6cf72fc9501507a4431bbcde19e",
+            "endDate": "2500-12-31",
+            "id": "543938",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 228,
+            "startDate": "2026-06-19"
+          }
+        ],
+        "clobTokenIds": "[\"103635844992876723144379951385842243916752648056505794536281053774467895997557\", \"103462436508909164015235874386562856644415119850465364415741512666894166373430\"]",
+        "closed": false,
+        "comboStatus": "enabled",
+        "competitive": 0.822530593511344,
+        "conditionId": "0xc7a9f8cf846f6eba833fc69da7340af7c150e6cf72fc9501507a4431bbcde19e",
+        "createdAt": "2026-04-06T22:20:05.86493Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:26:50.408054Z",
+        "description": "In the upcoming game, scheduled for June 19, 2026\nIf Haiti wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-20T00:30:00Z",
+        "endDateIso": "2026-06-20",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-20 00:30:00+00",
+        "groupItemThreshold": "2",
+        "groupItemTitle": "Haiti",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897126",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.036,
+        "liquidity": "1026703.71441",
+        "liquidityClob": 1026703.71441,
+        "liquidityNum": 1026703.71441,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "20260620FDFFAD26",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Haiti",
+          "opticOddsSelectionLine": "away",
+          "opticOddsTeamId": "AF97715F852A382E"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0xf62db0adec73e81946642121758532a04a97ee36b0ff37f01073ba340f63c200",
+        "negRiskOther": false,
+        "negRiskRequestID": "0xb6164a96855ca2c40cab8d32c4f9f3858813b20bceb6347813dc41a81102360c",
+        "new": false,
+        "oneDayPriceChange": -0.002,
+        "oneHourPriceChange": 0.001,
+        "oneMonthPriceChange": 0.006,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0.0355\", \"0.9645\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1036420965885481445072447421860839533719187783021301462511472730282813030912",
+          "1036420965885481445072447421860839533719187783021301462511472730282813030913"
+        ],
+        "question": "Will Haiti win on 2026-06-19?",
+        "questionID": "0xf62db0adec73e81946642121758532a04a97ee36b0ff37f01073ba340f63c202",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 1.5,
+        "rewardsMinSize": 1000,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-bra-hai-2026-06-19-hai",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:31:39.348515Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaResolutionStatuses": "[]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-19T08:33:02.864506Z",
+        "volume": "574700.4057000006",
+        "volume1mo": 558145.8269199999,
+        "volume1moClob": 558145.8269199999,
+        "volume1wk": 503108.57977199974,
+        "volume1wkClob": 503108.57977199974,
+        "volume1yr": 574700.4057000001,
+        "volume1yrClob": 574700.4057000001,
+        "volume24hr": 338884.6689840001,
+        "volume24hrClob": 338884.6689840001,
+        "volumeClob": 574700.4057000006,
+        "volumeNum": 574700.4057000006
+      }
+    ],
+    "negRisk": true,
+    "negRiskAugmented": false,
+    "negRiskMarketID": "0xf62db0adec73e81946642121758532a04a97ee36b0ff37f01073ba340f63c200",
+    "new": false,
+    "openInterest": 883625.92821,
+    "pendingDeployment": false,
+    "requiresTranslation": false,
+    "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+    "restricted": true,
+    "series": [
+      {
+        "active": true,
+        "archived": false,
+        "closed": false,
+        "commentCount": 4788,
+        "createdAt": "2026-03-26T22:29:37.657465Z",
+        "featured": false,
+        "id": "11433",
+        "liquidity": 129439598.38155,
+        "recurrence": "daily",
+        "requiresTranslation": false,
+        "restricted": true,
+        "seriesType": "single",
+        "slug": "soccer-fifwc",
+        "ticker": "soccer-fifwc",
+        "title": "FIFA World Cup",
+        "updatedAt": "2026-06-19T08:33:46.130732Z",
+        "volume": 19767408.452362016,
+        "volume24hr": 162684822.33945516
+      }
+    ],
+    "seriesSlug": "soccer-fifwc",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "slug": "fifwc-bra-hai-2026-06-19",
+    "sport": {
+      "createdAt": "2026-04-06T19:15:16.986929Z",
+      "id": 174,
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "ordering": "home",
+      "resolution": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+      "series": "11433",
+      "sport": "fifwc",
+      "tags": "1, 100639, 100350, 102232"
+    },
+    "startDate": "2026-04-06T22:34:39.524095Z",
+    "startTime": "2026-06-20T00:30:00Z",
+    "tags": [
+      {
+        "createdAt": "2025-06-08T02:11:18.665669Z",
+        "id": "102232",
+        "label": "FIFA World Cup",
+        "requiresTranslation": false,
+        "slug": "fifa-world-cup",
+        "updatedAt": "2026-04-17T20:58:26.597292Z"
+      },
+      {
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "forceHide": true,
+        "forceShow": false,
+        "id": "1",
+        "label": "Sports",
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "requiresTranslation": false,
+        "slug": "sports",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "updatedBy": 15
+      },
+      {
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "forceShow": false,
+        "id": "100639",
+        "label": "Games",
+        "requiresTranslation": false,
+        "slug": "games",
+        "updatedAt": "2026-03-09T22:28:03.358133Z"
+      },
+      {
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "forceShow": false,
+        "id": "100350",
+        "label": "Soccer",
+        "requiresTranslation": false,
+        "slug": "soccer",
+        "updatedAt": "2026-04-17T20:33:09.955379Z"
+      }
+    ],
+    "teams": [
+      {
+        "abbreviation": "bra",
+        "color": "#128143",
+        "createdAt": "2026-04-06T19:41:36.618176Z",
+        "id": 3270233,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Brazil-113390b1cc.png",
+        "name": "Brazil",
+        "ordering": "home",
+        "providerId": 861,
+        "record": "0-1-0",
+        "updatedAt": "2026-06-03T15:57:43.04282Z"
+      },
+      {
+        "abbreviation": "hai",
+        "color": "#1d3fc9",
+        "createdAt": "2026-04-06T19:41:36.898864Z",
+        "id": 3270236,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Haiti-fde323ee55.png",
+        "name": "Haiti",
+        "ordering": "away",
+        "providerId": 866,
+        "record": "0-0-1",
+        "updatedAt": "2026-06-03T16:07:11.596746Z"
+      }
+    ],
+    "ticker": "fifwc-bra-hai-2026-06-19",
+    "title": "Brazil vs. Haiti",
+    "updatedAt": "2026-06-19T08:34:53.706654Z",
+    "volume": 1443733.786365997,
+    "volume1mo": 1422887.4688880008,
+    "volume1wk": 1335304.6480160004,
+    "volume1yr": 1443733.786366001,
+    "volume24hr": 839913.3210740014
+  }
+}

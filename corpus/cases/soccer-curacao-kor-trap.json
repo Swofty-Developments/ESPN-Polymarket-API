@@ -1,0 +1,1420 @@
+{
+  "description": "Polymarket codes Curaçao as 'kor' (NOT South Korea). Legs must resolve by name, never by assuming kor=Korea.",
+  "espn": {
+    "competitions": [
+      {
+        "altGameNote": "FIFA World Cup, Group E",
+        "attendance": 68021,
+        "broadcast": "",
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "FOX",
+              "Tele",
+              "Peacock"
+            ]
+          }
+        ],
+        "competitors": [
+          {
+            "advance": true,
+            "form": "WWWWW",
+            "homeAway": "home",
+            "id": "481",
+            "order": 0,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "1-0-0",
+                "type": "total"
+              }
+            ],
+            "score": "7",
+            "statistics": [
+              {
+                "abbreviation": "APP",
+                "displayValue": "0",
+                "name": "appearances"
+              },
+              {
+                "abbreviation": "FC",
+                "displayValue": "18",
+                "name": "foulsCommitted"
+              },
+              {
+                "abbreviation": "CW",
+                "displayValue": "8",
+                "name": "wonCorners"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "6",
+                "name": "goalAssists"
+              },
+              {
+                "abbreviation": "PP",
+                "displayValue": "64.6",
+                "name": "possessionPct"
+              },
+              {
+                "abbreviation": "SHAST",
+                "displayValue": "21",
+                "name": "shotAssists"
+              },
+              {
+                "abbreviation": "SOG",
+                "displayValue": "12",
+                "name": "shotsOnTarget"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "7",
+                "name": "totalGoals"
+              },
+              {
+                "abbreviation": "SHOT",
+                "displayValue": "26",
+                "name": "totalShots"
+              }
+            ],
+            "team": {
+              "abbreviation": "GER",
+              "alternateColor": "00CED1",
+              "color": "FFFFFF",
+              "displayName": "Germany",
+              "id": "481",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/team/_/id/481/germany",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/481/germany",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:481&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/481/germany",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:481&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/481/germany",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:481&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "Germany",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+              "name": "Germany",
+              "shortDisplayName": "Germany",
+              "uid": "s:600~t:481",
+              "venue": {
+                "id": "9656"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:481",
+            "winner": true
+          },
+          {
+            "advance": false,
+            "form": "LWLLL",
+            "homeAway": "away",
+            "id": "11678",
+            "order": 1,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "0-0-1",
+                "type": "total"
+              }
+            ],
+            "score": "1",
+            "statistics": [
+              {
+                "abbreviation": "APP",
+                "displayValue": "0",
+                "name": "appearances"
+              },
+              {
+                "abbreviation": "FC",
+                "displayValue": "11",
+                "name": "foulsCommitted"
+              },
+              {
+                "abbreviation": "CW",
+                "displayValue": "1",
+                "name": "wonCorners"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "0",
+                "name": "goalAssists"
+              },
+              {
+                "abbreviation": "PP",
+                "displayValue": "35.4",
+                "name": "possessionPct"
+              },
+              {
+                "abbreviation": "SHAST",
+                "displayValue": "6",
+                "name": "shotAssists"
+              },
+              {
+                "abbreviation": "SOG",
+                "displayValue": "2",
+                "name": "shotsOnTarget"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "1",
+                "name": "totalGoals"
+              },
+              {
+                "abbreviation": "SHOT",
+                "displayValue": "8",
+                "name": "totalShots"
+              }
+            ],
+            "team": {
+              "abbreviation": "CUW",
+              "alternateColor": "0537e4",
+              "color": "0537e4",
+              "displayName": "Curaçao",
+              "id": "11678",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/club/_/id/11678/curacao",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/11678/curacao",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11678&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/11678/curacao",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11678&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/11678/curacao",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11678&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "Curaçao",
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+              "name": "Curaçao",
+              "shortDisplayName": "Curaçao",
+              "uid": "s:600~t:11678",
+              "venue": {
+                "id": "6191"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:11678",
+            "winner": false
+          }
+        ],
+        "date": "2026-06-14T17:00Z",
+        "details": [
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Felix Nmecha",
+                "fullName": "Felix Nmecha",
+                "id": "281122",
+                "jersey": "23",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/281122/felix-nmecha",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "RM",
+                "shortName": "F. Nmecha",
+                "team": {
+                  "id": "481"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "6'",
+              "value": 317.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "481"
+            },
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Livano Comenencia",
+                "fullName": "Livano Comenencia",
+                "id": "317285",
+                "jersey": "8",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/317285/livano-comenencia",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "RM",
+                "shortName": "L. Comenencia",
+                "team": {
+                  "id": "11678"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "21'",
+              "value": 1244.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "11678"
+            },
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Nico Schlotterbeck",
+                "fullName": "Nico Schlotterbeck",
+                "id": "286828",
+                "jersey": "15",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/286828/nico-schlotterbeck",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "CD-L",
+                "shortName": "N. Schlotterbeck",
+                "team": {
+                  "id": "481"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "38'",
+              "value": 2250.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "481"
+            },
+            "type": {
+              "id": "137",
+              "text": "Goal - Header"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Kai Havertz",
+                "fullName": "Kai Havertz",
+                "id": "231182",
+                "jersey": "7",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/231182/kai-havertz",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "F",
+                "shortName": "K. Havertz",
+                "team": {
+                  "id": "481"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "45'+5'",
+              "value": 2700.0
+            },
+            "ownGoal": false,
+            "penaltyKick": true,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "481"
+            },
+            "type": {
+              "id": "98",
+              "text": "Penalty - Scored"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Jamal Musiala",
+                "fullName": "Jamal Musiala",
+                "id": "303821",
+                "jersey": "10",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/303821/jamal-musiala",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "AM",
+                "shortName": "J. Musiala",
+                "team": {
+                  "id": "481"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "47'",
+              "value": 2768.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "481"
+            },
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Nathaniel Brown",
+                "fullName": "Nathaniel Brown",
+                "id": "120829",
+                "jersey": "18",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/120829/nathaniel-brown",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "LB",
+                "shortName": "N. Brown",
+                "team": {
+                  "id": "481"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "68'",
+              "value": 4062.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "481"
+            },
+            "type": {
+              "id": "173",
+              "text": "Goal - Volley"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Deniz Undav",
+                "fullName": "Deniz Undav",
+                "id": "273300",
+                "jersey": "26",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/273300/deniz-undav",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "SUB",
+                "shortName": "D. Undav",
+                "team": {
+                  "id": "481"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "78'",
+              "value": 4626.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "481"
+            },
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Kai Havertz",
+                "fullName": "Kai Havertz",
+                "id": "231182",
+                "jersey": "7",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/231182/kai-havertz",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "F",
+                "shortName": "K. Havertz",
+                "team": {
+                  "id": "481"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "88'",
+              "value": 5263.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "481"
+            },
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "yellowCard": false
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "geoBroadcasts": [
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "FOX"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Tele"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Peacock"
+            },
+            "region": "us",
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "description": "Kai Havertz scored two goals as Germany pulled away from World Cup first-timer Curaçao late in the opening half and piled on after that in a 7-1 win Sunday in a group match.",
+            "shortLinkText": "Havertz double leads Germany in WC opening rout",
+            "type": "Recap"
+          }
+        ],
+        "id": "760422",
+        "notes": [],
+        "odds": [
+          null
+        ],
+        "playByPlayAthletes": true,
+        "playByPlayAvailable": true,
+        "recent": false,
+        "startDate": "2026-06-14T17:00Z",
+        "status": {
+          "clock": 5400.0,
+          "displayClock": "90'+6'",
+          "period": 2,
+          "type": {
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "shortDetail": "FT",
+            "state": "post"
+          }
+        },
+        "timeValid": true,
+        "uid": "s:600~l:606~e:760422~c:760422",
+        "venue": {
+          "address": {
+            "city": "Houston, Texas",
+            "country": "USA"
+          },
+          "fullName": "NRG Stadium",
+          "id": "6262"
+        },
+        "wasSuspended": false
+      }
+    ],
+    "date": "2026-06-14T17:00Z",
+    "id": "760422",
+    "links": [
+      {
+        "href": "https://www.espn.com/soccer/match/_/gameId/760422/curacao-germany",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Summary",
+        "text": "Summary"
+      },
+      {
+        "href": "https://www.espn.com/soccer/video/_/gameId/760422",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "highlights",
+          "desktop"
+        ],
+        "shortText": "Highlights",
+        "text": "Highlights"
+      },
+      {
+        "href": "https://www.espn.com/soccer/report/_/gameId/760422",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Report",
+        "text": "Report"
+      },
+      {
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/760422",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Statistics",
+        "text": "Statistics"
+      },
+      {
+        "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "bracket",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Bracket",
+        "text": "Bracket"
+      }
+    ],
+    "name": "Curaçao at Germany",
+    "season": {
+      "slug": "group-stage",
+      "type": 13802,
+      "year": 2026
+    },
+    "shortName": "CUW @ GER",
+    "status": {
+      "clock": 5400.0,
+      "displayClock": "90'+6'",
+      "period": 2,
+      "type": {
+        "completed": true,
+        "description": "Full Time",
+        "detail": "FT",
+        "id": "28",
+        "name": "STATUS_FULL_TIME",
+        "shortDetail": "FT",
+        "state": "post"
+      }
+    },
+    "uid": "s:600~l:606~e:760422",
+    "venue": {
+      "displayName": "NRG Stadium"
+    }
+  },
+  "expected": {
+    "away": {
+      "espn_abbr": "CUW",
+      "name": "Curaçao",
+      "pm_code": "kor"
+    },
+    "espn_event_id": "760422",
+    "home": {
+      "espn_abbr": "GER",
+      "name": "Germany",
+      "pm_code": "ger"
+    },
+    "kind": "three_way",
+    "league": "fifa.world",
+    "outcomes": [
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-ger-kor-2026-06-14-ger",
+        "pm_outcome": "Yes",
+        "price": "1",
+        "selection": "home",
+        "team": "Germany",
+        "token_id": "80258038883060787104700033663206548991173635281684057844048254140005841868705"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-ger-kor-2026-06-14-kor",
+        "pm_outcome": "Yes",
+        "price": "0",
+        "selection": "away",
+        "team": "Curaçao",
+        "token_id": "84520506461080918199836241264297202134105253634264892405638380867421157597093"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-ger-kor-2026-06-14-draw",
+        "pm_outcome": "Yes",
+        "price": "0",
+        "selection": "draw",
+        "team": null,
+        "token_id": "43065699114218738643061430368238869232700747238329067809024727726995177258597"
+      }
+    ],
+    "pm_event_slug": "fifwc-ger-kor-2026-06-14",
+    "pm_market_slug": null,
+    "resolved": true
+  },
+  "league": "fifa.world",
+  "polymarket": {
+    "active": true,
+    "archived": false,
+    "automaticallyActive": true,
+    "automaticallyResolved": true,
+    "closed": true,
+    "closedTime": "2026-06-14T21:29:57Z",
+    "commentCount": 0,
+    "createdAt": "2026-04-06T22:19:07.892537Z",
+    "creationDate": "2026-04-06T22:52:30.9083Z",
+    "cyom": false,
+    "deploying": false,
+    "deployingTimestamp": "2026-04-06T22:19:22.137775Z",
+    "description": "This event is for the upcoming FIFA World Cup game, scheduled for Sunday, June 14, 2026 between Germany and Curaçao.",
+    "elapsed": "",
+    "enableNegRisk": true,
+    "enableOrderBook": true,
+    "endDate": "2026-06-14T17:00:00Z",
+    "ended": true,
+    "eventDate": "2026-06-14",
+    "eventMetadata": {
+      "context_description": "Germany enters this 2026 FIFA World Cup Group E opener in Houston as overwhelming favorites against debutants Curaçao due to vast gaps in FIFA ranking, squad depth, and international pedigree. The four-time champions arrive with high-caliber attackers such as Kai Havertz and Jamal Musiala plus a nine-match winning streak, while Curaçao fields a smaller pool from a nation of roughly 150,000 and lacks prior World Cup experience. Recent training reports and official lineups confirm no major absences for Germany and highlight Curaçao’s reliance on domestic-based players. Trader consensus reflects this structural mismatch, though an improbable early defensive lapse or set-piece concession remains the primary route for any shift in implied probability before full-time resolution.",
+      "context_requires_regen": true,
+      "context_updated_at": "2026-06-14T21:30:45.184Z",
+      "opticOddsFixtureId": "2026061486DA7B10",
+      "opticOddsGameId": "31367-20039-2026-06-14",
+      "opticOddsNumericalId": 566626,
+      "sportradarGameId": "sr:sport_event:66457070"
+    },
+    "eventWeek": 1,
+    "featured": false,
+    "finishedTimestamp": "2026-06-14T18:59:23.253827Z",
+    "gameId": 90086916,
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "id": "351723",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "live": false,
+    "markets": [
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:45:57Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 1,
+        "bestBid": 0.999,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"80258038883060787104700033663206548991173635281684057844048254140005841868705\", \"29189296422134583759398297483659751799287593435275653082437251361732163196488\"]",
+        "closed": true,
+        "closedTime": "2026-06-14 21:29:57+00",
+        "comboStatus": "enabled",
+        "conditionId": "0x00cf3efc18a950cf442049aa0770903f0ab8606212499e0e4196bf74c102c456",
+        "createdAt": "2026-04-06T22:19:08.083734Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:20:49.621445Z",
+        "description": "In the upcoming game, scheduled for June 14, 2026\nIf Germany wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-14T17:00:00Z",
+        "endDateIso": "2026-06-14",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-14 17:00:00+00",
+        "groupItemThreshold": "0",
+        "groupItemTitle": "Germany",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897058",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.999,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "2026061486DA7B10",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Germany",
+          "opticOddsSelectionLine": "home",
+          "opticOddsTeamId": "D30287C684B3532A"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0xdecd43207c07daadbe8dc6038d205f1db4b3039ccd672fc49a08fd0bfee66000",
+        "negRiskOther": false,
+        "negRiskRequestID": "0x9755c8f4a240dd39033b9b26cad6dc8758f53d117fe2e088325b0a76c6084b42",
+        "new": false,
+        "oneDayPriceChange": 0.061,
+        "oneMonthPriceChange": 0.0845,
+        "oneWeekPriceChange": 0.0565,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"1\", \"0\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1223893678815772891762144898242536167937216068808817613074504984728898109440",
+          "1223893678815772891762144898242536167937216068808817613074504984728898109441"
+        ],
+        "question": "Will Germany win on 2026-06-14?",
+        "questionID": "0xdecd43207c07daadbe8dc6038d205f1db4b3039ccd672fc49a08fd0bfee66000",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 0,
+        "rewardsMinSize": 0,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-ger-kor-2026-06-14-ger",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:47:19.330266Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-14T21:29:57Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T21:46:03.634371Z",
+        "volume": "6860608.394732029",
+        "volumeClob": 6860608.394732029,
+        "volumeNum": 6860608.394732029
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:46:07Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"84520506461080918199836241264297202134105253634264892405638380867421157597093\", \"23629742762044805884663386782361296528843864508469070874981829600983199849833\"]",
+        "closed": true,
+        "closedTime": "2026-06-14 21:00:57+00",
+        "comboStatus": "enabled",
+        "conditionId": "0x0fe5bb2f2da60b0bcb4855dc0cc3101dd1028f6639479bdeefecacb0102869a8",
+        "createdAt": "2026-04-06T22:19:08.673002Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:20:49.624319Z",
+        "description": "In the upcoming game, scheduled for June 14, 2026\nIf Curaçao wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-14T17:00:00Z",
+        "endDateIso": "2026-06-14",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-14 17:00:00+00",
+        "groupItemThreshold": "2",
+        "groupItemTitle": "Curaçao",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897060",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.001,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "2026061486DA7B10",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Curaçao",
+          "opticOddsSelectionLine": "away",
+          "opticOddsTeamId": "2C69AA12BDC64DBB"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0xdecd43207c07daadbe8dc6038d205f1db4b3039ccd672fc49a08fd0bfee66000",
+        "negRiskOther": false,
+        "negRiskRequestID": "0xc8a0774e79b64440d9ce876d8a3e0e0c6870b67f0335615b2717753704549cb9",
+        "new": false,
+        "oneDayPriceChange": -0.023,
+        "oneMonthPriceChange": -0.0115,
+        "oneWeekPriceChange": -0.021,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1223893678815772891762144898242536167937216068808817613074504984728898109952",
+          "1223893678815772891762144898242536167937216068808817613074504984728898109953"
+        ],
+        "question": "Will Curaçao win on 2026-06-14?",
+        "questionID": "0xdecd43207c07daadbe8dc6038d205f1db4b3039ccd672fc49a08fd0bfee66002",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 0,
+        "rewardsMinSize": 0,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-ger-kor-2026-06-14-kor",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:47:29.602448Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-14T21:00:57Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T21:46:04.268958Z",
+        "volume": "13022834.40429326",
+        "volumeClob": 13022834.40429326,
+        "volumeNum": 13022834.40429326
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:46:05Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"43065699114218738643061430368238869232700747238329067809024727726995177258597\", \"70361345364071436882740201217779608050753190101468453278134436864619706671216\"]",
+        "closed": true,
+        "closedTime": "2026-06-14 21:00:57+00",
+        "comboStatus": "enabled",
+        "conditionId": "0x18f73aca12019d3fc2a03e7af28f6ebcec12634413819605d7cfa3db20073f26",
+        "createdAt": "2026-04-06T22:19:08.375517Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:20:49.623066Z",
+        "description": "In the upcoming game, scheduled for June 14, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-14T17:00:00Z",
+        "endDateIso": "2026-06-14",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-14 17:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Draw (Germany vs. Curaçao)",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897059",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.001,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "2026061486DA7B10",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Draw",
+          "opticOddsSelectionLine": "draw"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0xdecd43207c07daadbe8dc6038d205f1db4b3039ccd672fc49a08fd0bfee66000",
+        "negRiskOther": false,
+        "negRiskRequestID": "0x318f9f28b264b2f0d4d22d7e44f3823ea4a4344d30005a20ed67e2fdd262d750",
+        "new": false,
+        "oneDayPriceChange": -0.039,
+        "oneMonthPriceChange": -0.063,
+        "oneWeekPriceChange": -0.038,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1223893678815772891762144898242536167937216068808817613074504984728898109696",
+          "1223893678815772891762144898242536167937216068808817613074504984728898109697"
+        ],
+        "question": "Will Germany vs. Curaçao end in a draw?",
+        "questionID": "0xdecd43207c07daadbe8dc6038d205f1db4b3039ccd672fc49a08fd0bfee66001",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 0,
+        "rewardsMinSize": 0,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-ger-kor-2026-06-14-draw",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:47:27.348152Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-14T21:00:57Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T21:46:04.912671Z",
+        "volume": "5649949.747098044",
+        "volumeClob": 5649949.747098044,
+        "volumeNum": 5649949.747098044
+      }
+    ],
+    "negRisk": true,
+    "negRiskAugmented": false,
+    "negRiskMarketID": "0xdecd43207c07daadbe8dc6038d205f1db4b3039ccd672fc49a08fd0bfee66000",
+    "new": false,
+    "openInterest": 4129781.037793,
+    "pendingDeployment": false,
+    "period": "VFT",
+    "requiresTranslation": false,
+    "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+    "restricted": true,
+    "score": "7-1",
+    "series": [
+      {
+        "active": true,
+        "archived": false,
+        "closed": false,
+        "commentCount": 4788,
+        "createdAt": "2026-03-26T22:29:37.657465Z",
+        "featured": false,
+        "id": "11433",
+        "liquidity": 128926956.8607,
+        "recurrence": "daily",
+        "requiresTranslation": false,
+        "restricted": true,
+        "seriesType": "single",
+        "slug": "soccer-fifwc",
+        "ticker": "soccer-fifwc",
+        "title": "FIFA World Cup",
+        "updatedAt": "2026-06-19T08:32:04.522988Z",
+        "volume": 19750241.097635016,
+        "volume24hr": 162685480.43913415
+      }
+    ],
+    "seriesSlug": "soccer-fifwc",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "slug": "fifwc-ger-kor-2026-06-14",
+    "sport": {
+      "createdAt": "2026-04-06T19:15:16.986929Z",
+      "id": 174,
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "ordering": "home",
+      "resolution": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+      "series": "11433",
+      "sport": "fifwc",
+      "tags": "1, 100639, 100350, 102232"
+    },
+    "startDate": "2026-04-06T22:52:30.908306Z",
+    "startTime": "2026-06-14T17:00:00Z",
+    "tags": [
+      {
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "forceHide": true,
+        "forceShow": false,
+        "id": "1",
+        "label": "Sports",
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "requiresTranslation": false,
+        "slug": "sports",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "updatedBy": 15
+      },
+      {
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "forceShow": false,
+        "id": "100639",
+        "label": "Games",
+        "requiresTranslation": false,
+        "slug": "games",
+        "updatedAt": "2026-03-09T22:28:03.358133Z"
+      },
+      {
+        "createdAt": "2025-06-08T02:11:18.665669Z",
+        "id": "102232",
+        "label": "FIFA World Cup",
+        "requiresTranslation": false,
+        "slug": "fifa-world-cup",
+        "updatedAt": "2026-04-17T20:58:26.597292Z"
+      },
+      {
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "forceShow": false,
+        "id": "100350",
+        "label": "Soccer",
+        "requiresTranslation": false,
+        "slug": "soccer",
+        "updatedAt": "2026-04-17T20:33:09.955379Z"
+      }
+    ],
+    "teams": [
+      {
+        "abbreviation": "ger",
+        "color": "#c01b1b",
+        "createdAt": "2026-04-06T19:41:37.96266Z",
+        "id": 3270247,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Germany-ec77efdafe.png",
+        "name": "Germany",
+        "ordering": "home",
+        "providerId": 947,
+        "record": "1-0-0",
+        "updatedAt": "2026-06-03T16:01:10.208369Z"
+      },
+      {
+        "abbreviation": "kor",
+        "color": "#1847a5",
+        "createdAt": "2026-04-06T19:41:39.388338Z",
+        "id": 3270262,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Curaçao-3d8af0bd7f.png",
+        "name": "Curaçao",
+        "ordering": "away",
+        "providerId": 1072,
+        "record": "0-0-1",
+        "updatedAt": "2026-06-03T16:01:09.906622Z"
+      }
+    ],
+    "ticker": "fifwc-ger-kor-2026-06-14",
+    "title": "Germany vs. Curaçao",
+    "updatedAt": "2026-06-19T08:15:58.237954Z",
+    "volume": 25533392.546123333
+  }
+}

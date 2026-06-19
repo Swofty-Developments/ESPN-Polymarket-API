@@ -1,0 +1,3150 @@
+{
+  "description": "NHL Vegas code VGK→las; 00:00Z kickoff dates to prior ET day; outcomes [away, home].",
+  "espn": {
+    "competitions": [
+      {
+        "attendance": 18354,
+        "broadcast": "ABC",
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "ABC"
+            ]
+          }
+        ],
+        "competitors": [
+          {
+            "curatedRank": {
+              "current": 99
+            },
+            "homeAway": "home",
+            "id": "37",
+            "linescores": [
+              {
+                "displayValue": "0",
+                "period": 1,
+                "value": 0.0
+              },
+              {
+                "displayValue": "0",
+                "period": 2,
+                "value": 0.0
+              },
+              {
+                "displayValue": "0",
+                "period": 3,
+                "value": 0.0
+              }
+            ],
+            "order": 0,
+            "probables": [
+              {
+                "abbreviation": "SG",
+                "athlete": {
+                  "displayName": "Carter Hart",
+                  "fullName": "Carter Hart",
+                  "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/4064582.png",
+                  "id": "4064582",
+                  "jersey": "79",
+                  "links": [
+                    {
+                      "href": "https://www.espn.com/nhl/player/_/id/4064582",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ]
+                    }
+                  ],
+                  "position": "G",
+                  "shortName": "C. Hart",
+                  "team": {
+                    "id": "37"
+                  }
+                },
+                "displayName": "Probable Starting Goalie",
+                "name": "probableStartingGoalie",
+                "playerId": 4064582,
+                "record": "",
+                "shortDisplayName": "Starter",
+                "statistics": [],
+                "status": {
+                  "abbreviation": "Confirmed",
+                  "id": "102",
+                  "name": "Confirmed",
+                  "type": "confirmed"
+                }
+              }
+            ],
+            "record": "2-4",
+            "records": [
+              {
+                "abbreviation": "TOTAL",
+                "name": "overall",
+                "summary": "39-26-17",
+                "type": "total"
+              },
+              {
+                "abbreviation": "HOME",
+                "name": "Home",
+                "summary": "20-12-9",
+                "type": "home"
+              },
+              {
+                "abbreviation": "AWAY",
+                "name": "Road",
+                "summary": "19-14-8",
+                "type": "road"
+              }
+            ],
+            "score": "0",
+            "statistics": [
+              {
+                "abbreviation": "SV",
+                "displayValue": "20",
+                "name": "saves"
+              },
+              {
+                "abbreviation": "SV%",
+                "displayValue": ".909",
+                "name": "savePct"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "0",
+                "name": "goals"
+              },
+              {
+                "abbreviation": "YTDG",
+                "displayValue": "152",
+                "name": "ytdGoals"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "0",
+                "name": "assists"
+              },
+              {
+                "abbreviation": "PTS",
+                "displayValue": "0",
+                "name": "points"
+              }
+            ],
+            "team": {
+              "abbreviation": "VGK",
+              "color": "344043",
+              "displayName": "Vegas Golden Knights",
+              "id": "37",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/nhl/team/_/name/vgk/vegas-golden-knights",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://m.espn.com/nhl/clubhouse?teamId=37",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "mobile",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/nhl/team/roster/_/name/vgk/vegas-golden-knights",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "roster",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Roster"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:37&section=roster",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "roster",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Roster"
+                },
+                {
+                  "href": "https://www.espn.com/nhl/team/stats/_/name/vgk/vegas-golden-knights",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Statistics"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:37&section=stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Statistics"
+                },
+                {
+                  "href": "https://www.espn.com/nhl/team/schedule/_/name/vgk",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Schedule"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:37&section=scores",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Schedule"
+                }
+              ],
+              "location": "Vegas",
+              "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
+              "name": "Golden Knights",
+              "shortDisplayName": "Golden Knights",
+              "uid": "s:70~l:90~t:37",
+              "venue": {
+                "id": "5060"
+              }
+            },
+            "type": "team",
+            "uid": "s:70~l:90~t:37",
+            "winner": false
+          },
+          {
+            "curatedRank": {
+              "current": 99
+            },
+            "homeAway": "away",
+            "id": "7",
+            "leaders": [
+              {
+                "abbreviation": "G",
+                "displayName": "Goals",
+                "leaders": [
+                  {
+                    "athlete": {
+                      "active": true,
+                      "displayName": "Jackson Blake",
+                      "fullName": "Jackson Blake",
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/5103645.png",
+                      "id": "5103645",
+                      "jersey": "53",
+                      "links": [
+                        {
+                          "href": "https://www.espn.com/nhl/player/_/id/5103645",
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ]
+                        }
+                      ],
+                      "position": {
+                        "abbreviation": "RW"
+                      },
+                      "shortName": "J. Blake",
+                      "team": {
+                        "id": "7"
+                      }
+                    },
+                    "displayValue": "1",
+                    "team": {
+                      "id": "7"
+                    },
+                    "value": 1.0
+                  },
+                  {
+                    "athlete": {
+                      "active": true,
+                      "displayName": "Taylor Hall",
+                      "fullName": "Taylor Hall",
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/5428.png",
+                      "id": "5428",
+                      "jersey": "71",
+                      "links": [
+                        {
+                          "href": "https://www.espn.com/nhl/player/_/id/5428",
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ]
+                        }
+                      ],
+                      "position": {
+                        "abbreviation": "LW"
+                      },
+                      "shortName": "T. Hall",
+                      "team": {
+                        "id": "7"
+                      }
+                    },
+                    "displayValue": "1",
+                    "team": {
+                      "id": "7"
+                    },
+                    "value": 1.0
+                  },
+                  {
+                    "athlete": {
+                      "active": true,
+                      "displayName": "Nikolaj Ehlers",
+                      "fullName": "Nikolaj Ehlers",
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/3114741.png",
+                      "id": "3114741",
+                      "jersey": "27",
+                      "links": [
+                        {
+                          "href": "https://www.espn.com/nhl/player/_/id/3114741",
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ]
+                        }
+                      ],
+                      "position": {
+                        "abbreviation": "LW"
+                      },
+                      "shortName": "N. Ehlers",
+                      "team": {
+                        "id": "7"
+                      }
+                    },
+                    "displayValue": "1",
+                    "team": {
+                      "id": "7"
+                    },
+                    "value": 1.0
+                  }
+                ],
+                "name": "goals",
+                "shortDisplayName": "Goals"
+              },
+              {
+                "abbreviation": "A",
+                "displayName": "Assists",
+                "leaders": [
+                  {
+                    "athlete": {
+                      "active": true,
+                      "displayName": "Jackson Blake",
+                      "fullName": "Jackson Blake",
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/5103645.png",
+                      "id": "5103645",
+                      "jersey": "53",
+                      "links": [
+                        {
+                          "href": "https://www.espn.com/nhl/player/_/id/5103645",
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ]
+                        }
+                      ],
+                      "position": {
+                        "abbreviation": "RW"
+                      },
+                      "shortName": "J. Blake",
+                      "team": {
+                        "id": "7"
+                      }
+                    },
+                    "displayValue": "1",
+                    "team": {
+                      "id": "7"
+                    },
+                    "value": 1.0
+                  }
+                ],
+                "name": "assists",
+                "shortDisplayName": "Assists"
+              },
+              {
+                "abbreviation": "PTS",
+                "displayName": "Points",
+                "leaders": [
+                  {
+                    "athlete": {
+                      "active": true,
+                      "displayName": "Jackson Blake",
+                      "fullName": "Jackson Blake",
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/5103645.png",
+                      "id": "5103645",
+                      "jersey": "53",
+                      "links": [
+                        {
+                          "href": "https://www.espn.com/nhl/player/_/id/5103645",
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ]
+                        }
+                      ],
+                      "position": {
+                        "abbreviation": "RW"
+                      },
+                      "shortName": "J. Blake",
+                      "team": {
+                        "id": "7"
+                      }
+                    },
+                    "displayValue": "2",
+                    "team": {
+                      "id": "7"
+                    },
+                    "value": 2.0
+                  }
+                ],
+                "name": "points",
+                "shortDisplayName": "Points"
+              }
+            ],
+            "linescores": [
+              {
+                "displayValue": "1",
+                "period": 1,
+                "value": 1.0
+              },
+              {
+                "displayValue": "1",
+                "period": 2,
+                "value": 1.0
+              },
+              {
+                "displayValue": "1",
+                "period": 3,
+                "value": 1.0
+              }
+            ],
+            "order": 1,
+            "probables": [
+              {
+                "abbreviation": "SG",
+                "athlete": {
+                  "displayName": "Brandon Bussi",
+                  "fullName": "Brandon Bussi",
+                  "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/4996097.png",
+                  "id": "4996097",
+                  "jersey": "32",
+                  "links": [
+                    {
+                      "href": "https://www.espn.com/nhl/player/_/id/4996097",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ]
+                    }
+                  ],
+                  "position": "G",
+                  "shortName": "B. Bussi",
+                  "team": {
+                    "id": "7"
+                  }
+                },
+                "displayName": "Probable Starting Goalie",
+                "name": "probableStartingGoalie",
+                "playerId": 4996097,
+                "record": "",
+                "shortDisplayName": "Starter",
+                "statistics": [],
+                "status": {
+                  "abbreviation": "Confirmed",
+                  "id": "102",
+                  "name": "Confirmed",
+                  "type": "confirmed"
+                }
+              }
+            ],
+            "record": "4-2",
+            "records": [
+              {
+                "abbreviation": "TOTAL",
+                "name": "overall",
+                "summary": "53-22-7",
+                "type": "total"
+              },
+              {
+                "abbreviation": "HOME",
+                "name": "Home",
+                "summary": "29-10-2",
+                "type": "home"
+              },
+              {
+                "abbreviation": "AWAY",
+                "name": "Road",
+                "summary": "24-12-5",
+                "type": "road"
+              }
+            ],
+            "score": "3",
+            "statistics": [
+              {
+                "abbreviation": "SV",
+                "displayValue": "22",
+                "name": "saves"
+              },
+              {
+                "abbreviation": "SV%",
+                "displayValue": "1.000",
+                "name": "savePct"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "3",
+                "name": "goals"
+              },
+              {
+                "abbreviation": "YTDG",
+                "displayValue": "126",
+                "name": "ytdGoals"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "3",
+                "name": "assists"
+              },
+              {
+                "abbreviation": "PTS",
+                "displayValue": "6",
+                "name": "points"
+              }
+            ],
+            "team": {
+              "abbreviation": "CAR",
+              "color": "e30426",
+              "displayName": "Carolina Hurricanes",
+              "id": "7",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/nhl/team/_/name/car/carolina-hurricanes",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://m.espn.com/nhl/clubhouse?teamId=7",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "mobile",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/nhl/team/roster/_/name/car/carolina-hurricanes",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "roster",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Roster"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:7&section=roster",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "roster",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Roster"
+                },
+                {
+                  "href": "https://www.espn.com/nhl/team/stats/_/name/car/carolina-hurricanes",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Statistics"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:7&section=stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Statistics"
+                },
+                {
+                  "href": "https://www.espn.com/nhl/team/schedule/_/name/car",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Schedule"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:7&section=scores",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Schedule"
+                }
+              ],
+              "location": "Carolina",
+              "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
+              "name": "Hurricanes",
+              "shortDisplayName": "Hurricanes",
+              "uid": "s:70~l:90~t:7",
+              "venue": {
+                "id": "999"
+              }
+            },
+            "type": "team",
+            "uid": "s:70~l:90~t:7",
+            "winner": true
+          }
+        ],
+        "date": "2026-06-15T00:00Z",
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "geoBroadcasts": [
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "darkLogo": "https://a.espncdn.com/guid/2acff74d-269f-36ac-96eb-9c66f8ba52ff/logos/default-dark.png",
+              "logo": "https://a.espncdn.com/guid/2acff74d-269f-36ac-96eb-9c66f8ba52ff/logos/default.png",
+              "shortName": "ABC"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "description": "— Carolina spent the first part of the Stanley Cup Final surviving, finding ways to overcome deficits and play a high-scoring game that didn't fit the Hurricanes' typical style.",
+            "shortLinkText": "Hurricanes use stifling defense to blank Golden Knights 3-0 in Game 6 and win the Stanley Cup",
+            "type": "Recap",
+            "video": [
+              {
+                "deviceRestrictions": {
+                  "devices": [
+                    "settop",
+                    "tablet",
+                    "handset",
+                    "ipad",
+                    "desktop"
+                  ],
+                  "type": "whitelist"
+                },
+                "duration": 107,
+                "geoRestrictions": {
+                  "countries": [
+                    "PR",
+                    "PW",
+                    "PY",
+                    "HU",
+                    "AG",
+                    "ZA",
+                    "AI",
+                    "IT",
+                    "AO",
+                    "AR",
+                    "AS",
+                    "RE",
+                    "ZM",
+                    "AU",
+                    "AW",
+                    "ZW",
+                    "RO",
+                    "BB",
+                    "BE",
+                    "JM",
+                    "BF",
+                    "RW",
+                    "BI",
+                    "BJ",
+                    "BM",
+                    "BO",
+                    "BQ",
+                    "SC",
+                    "BR",
+                    "SD",
+                    "BS",
+                    "BW",
+                    "SL",
+                    "SM",
+                    "KE",
+                    "SN",
+                    "SO",
+                    "SR",
+                    "SS",
+                    "ST",
+                    "CD",
+                    "KM",
+                    "CF",
+                    "KN",
+                    "CG",
+                    "SX",
+                    "CI",
+                    "SZ",
+                    "CL",
+                    "CM",
+                    "CO",
+                    "KY",
+                    "TC",
+                    "TD",
+                    "CU",
+                    "TG",
+                    "CV",
+                    "CY",
+                    "LC",
+                    "TR",
+                    "TT",
+                    "TZ",
+                    "DJ",
+                    "LR",
+                    "LS",
+                    "UG",
+                    "UM",
+                    "MG",
+                    "MH",
+                    "US",
+                    "EC",
+                    "ML",
+                    "MP",
+                    "UY",
+                    "MQ",
+                    "MR",
+                    "MS",
+                    "MT",
+                    "MU",
+                    "MW",
+                    "VA",
+                    "MZ",
+                    "ER",
+                    "VC",
+                    "ES",
+                    "VE",
+                    "ET",
+                    "VG",
+                    "VI",
+                    "NA",
+                    "NE",
+                    "NG",
+                    "NL",
+                    "FJ",
+                    "FM",
+                    "NZ",
+                    "GA",
+                    "GD",
+                    "GF",
+                    "GH",
+                    "GM",
+                    "GN",
+                    "GP",
+                    "GQ",
+                    "GR",
+                    "GU",
+                    "GW",
+                    "GY",
+                    "PE"
+                  ],
+                  "type": "whitelist"
+                },
+                "headline": "The Stanley Cup returns to Carolina! Canes dominate Game 6 for second title",
+                "id": 49067618,
+                "links": {
+                  "api": {
+                    "artwork": {
+                      "href": "https://artwork.api.espn.com/artwork/collections/media/7da5daf3-81c6-44a3-8be5-e2e73774575c"
+                    },
+                    "self": {
+                      "href": "https://content.core.api.espn.com/v1/video/clips/49067618"
+                    }
+                  },
+                  "mobile": {
+                    "alert": {
+                      "href": "https://m.espn.com/general/video/videoAlert?vid=49067618"
+                    },
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da5daf3-81c6-44a3-8be5-e2e73774575c/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title",
+                    "progressiveDownload": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da5daf3-81c6-44a3-8be5-e2e73774575c/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title"
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841.mp4"
+                    },
+                    "streaming": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da5daf3-81c6-44a3-8be5-e2e73774575c/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title"
+                    }
+                  },
+                  "source": {
+                    "HD": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841_720p30_2896k.mp4"
+                    },
+                    "HLS": {
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8"
+                      },
+                      "HD": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8"
+                      },
+                      "cmaf": {
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8"
+                        },
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8"
+                      },
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8",
+                      "shield": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/media/7da5daf3-81c6-44a3-8be5-e2e73774575c/asset"
+                      }
+                    },
+                    "flash": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841.smil"
+                    },
+                    "full": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841_360p30_1464k.mp4"
+                    },
+                    "hds": {
+                      "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841_rel.smil/manifest.f4m"
+                    },
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841_360p30_1464k.mp4",
+                    "mezzanine": {
+                      "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841.mp4"
+                    }
+                  },
+                  "sportscenter": {
+                    "href": "sportscenter://x-callback-url/showVideo?videoID=49067618&videoDSI=ad27cbdad63b0"
+                  },
+                  "web": {
+                    "href": "https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title",
+                    "self": {
+                      "dsi": {
+                        "href": "https://www.espn.com/video/clip?id=ad27cbdad63b0"
+                      },
+                      "href": "https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title"
+                    }
+                  }
+                },
+                "source": "espn",
+                "thumbnail": "https://a.espncdn.com/media/motion/2026/0614/792ba970818d4ef490516559935cc8411432/792ba970818d4ef490516559935cc8411432.jpg",
+                "tracking": {
+                  "coverageType": "Final Game Highlight",
+                  "leagueName": "NHL",
+                  "program": "ABC",
+                  "sportName": "hockey",
+                  "trackingId": "dm_20260615_NHL_the_stanley_cup_returns_to_carolina_canes_dominate_game_6_for_second_title",
+                  "trackingName": "NHL_One-Play (The Stanley Cup returns to Carolina! Canes dominate Game 6 for second title) 2026/06/15 ESHEET"
+                }
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          {
+            "ad": {
+              "bundle": "sportscenter",
+              "sport": "nhl"
+            },
+            "cerebroId": "6a2f6c951bf54a00fd65a242",
+            "description": "The Stanley Cup returns to Carolina! Canes dominate Game 6 for second title",
+            "deviceRestrictions": {
+              "devices": [
+                "settop",
+                "tablet",
+                "handset",
+                "ipad",
+                "desktop"
+              ],
+              "type": "whitelist"
+            },
+            "duration": 107,
+            "geoRestrictions": {
+              "countries": [
+                "PR",
+                "PW",
+                "PY",
+                "HU",
+                "AG",
+                "ZA",
+                "AI",
+                "IT",
+                "AO",
+                "AR",
+                "AS",
+                "RE",
+                "ZM",
+                "AU",
+                "AW",
+                "ZW",
+                "RO",
+                "BB",
+                "BE",
+                "JM",
+                "BF",
+                "RW",
+                "BI",
+                "BJ",
+                "BM",
+                "BO",
+                "BQ",
+                "SC",
+                "BR",
+                "SD",
+                "BS",
+                "BW",
+                "SL",
+                "SM",
+                "KE",
+                "SN",
+                "SO",
+                "SR",
+                "SS",
+                "ST",
+                "CD",
+                "KM",
+                "CF",
+                "KN",
+                "CG",
+                "SX",
+                "CI",
+                "SZ",
+                "CL",
+                "CM",
+                "CO",
+                "KY",
+                "TC",
+                "TD",
+                "CU",
+                "TG",
+                "CV",
+                "CY",
+                "LC",
+                "TR",
+                "TT",
+                "TZ",
+                "DJ",
+                "LR",
+                "LS",
+                "UG",
+                "UM",
+                "MG",
+                "MH",
+                "US",
+                "EC",
+                "ML",
+                "MP",
+                "UY",
+                "MQ",
+                "MR",
+                "MS",
+                "MT",
+                "MU",
+                "MW",
+                "VA",
+                "MZ",
+                "ER",
+                "VC",
+                "ES",
+                "VE",
+                "ET",
+                "VG",
+                "VI",
+                "NA",
+                "NE",
+                "NG",
+                "NL",
+                "FJ",
+                "FM",
+                "NZ",
+                "GA",
+                "GD",
+                "GF",
+                "GH",
+                "GM",
+                "GN",
+                "GP",
+                "GQ",
+                "GR",
+                "GU",
+                "GW",
+                "GY",
+                "PE"
+              ],
+              "type": "whitelist"
+            },
+            "headline": "The Stanley Cup returns to Carolina! Canes dominate Game 6 for second title",
+            "id": 49067618,
+            "lastModified": "2026-06-15T03:52:57Z",
+            "links": {
+              "api": {
+                "artwork": {
+                  "href": "https://artwork.api.espn.com/artwork/collections/media/7da5daf3-81c6-44a3-8be5-e2e73774575c"
+                },
+                "self": {
+                  "href": "https://content.core.api.espn.com/v1/video/clips/49067618"
+                }
+              },
+              "mobile": {
+                "alert": {
+                  "href": "https://m.espn.com/general/video/videoAlert?vid=49067618"
+                },
+                "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da5daf3-81c6-44a3-8be5-e2e73774575c/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title",
+                "progressiveDownload": {
+                  "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da5daf3-81c6-44a3-8be5-e2e73774575c/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title"
+                },
+                "source": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841.mp4"
+                },
+                "streaming": {
+                  "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da5daf3-81c6-44a3-8be5-e2e73774575c/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title"
+                }
+              },
+              "source": {
+                "HD": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841_720p30_2896k.mp4"
+                },
+                "HLS": {
+                  "9x16": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8"
+                  },
+                  "HD": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8"
+                  },
+                  "cmaf": {
+                    "9x16": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8"
+                    },
+                    "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8"
+                  },
+                  "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841/playlist.m3u8",
+                  "shield": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/media/7da5daf3-81c6-44a3-8be5-e2e73774575c/asset"
+                  }
+                },
+                "flash": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841.smil"
+                },
+                "full": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841_360p30_1464k.mp4"
+                },
+                "hds": {
+                  "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841_rel.smil/manifest.f4m"
+                },
+                "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841_360p30_1464k.mp4",
+                "mezzanine": {
+                  "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0615/792ba970-818d-4ef4-9051-6559935cc841/792ba970-818d-4ef4-9051-6559935cc841.mp4"
+                }
+              },
+              "sportscenter": {
+                "href": "sportscenter://x-callback-url/showVideo?videoID=49067618&videoDSI=ad27cbdad63b0"
+              },
+              "web": {
+                "href": "https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title",
+                "self": {
+                  "dsi": {
+                    "href": "https://www.espn.com/video/clip?id=ad27cbdad63b0"
+                  },
+                  "href": "https://www.espn.com/video/clip/_/id/49067618/the-stanley-cup-returns-carolina-canes-dominate-game-6-second-title"
+                }
+              }
+            },
+            "originalPublishDate": "2026-06-15T03:08:05Z",
+            "source": "espn",
+            "thumbnail": "https://a.espncdn.com/media/motion/2026/0614/792ba970818d4ef490516559935cc8411432/792ba970818d4ef490516559935cc8411432.jpg",
+            "timeRestrictions": {
+              "embargoDate": "2026-06-15T03:07:57Z",
+              "expirationDate": "2026-07-31T04:00:00Z"
+            },
+            "tracking": {
+              "coverageType": "Final Game Highlight",
+              "leagueName": "NHL",
+              "program": "ABC",
+              "sportName": "hockey",
+              "trackingId": "dm_20260615_NHL_the_stanley_cup_returns_to_carolina_canes_dominate_game_6_for_second_title",
+              "trackingName": "NHL_One-Play (The Stanley Cup returns to Carolina! Canes dominate Game 6 for second title) 2026/06/15 ESHEET"
+            }
+          }
+        ],
+        "id": "401874176",
+        "neutralSite": false,
+        "notes": [
+          {
+            "headline": "Stanley Cup Final - Game 6",
+            "type": "event"
+          }
+        ],
+        "playByPlayAvailable": true,
+        "recent": false,
+        "series": {
+          "competitors": [
+            {
+              "href": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2026/teams/37?lang=en&region=us",
+              "id": "37",
+              "ties": 0,
+              "uid": "s:70~l:90~t:37",
+              "wins": 2
+            },
+            {
+              "href": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2026/teams/7?lang=en&region=us",
+              "id": "7",
+              "ties": 0,
+              "uid": "s:70~l:90~t:7",
+              "wins": 4
+            }
+          ],
+          "completed": true,
+          "summary": "CAR wins series 4-2",
+          "title": "Playoff Series",
+          "totalCompetitions": 7,
+          "type": "playoff"
+        },
+        "startDate": "2026-06-15T00:00Z",
+        "status": {
+          "clock": 0.0,
+          "displayClock": "0:00",
+          "featuredAthletes": [
+            {
+              "abbreviation": "W",
+              "athlete": {
+                "displayName": "Brandon Bussi",
+                "fullName": "Brandon Bussi",
+                "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/4996097.png",
+                "id": "4996097",
+                "jersey": "32",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nhl/player/_/id/4996097",
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "G",
+                "shortName": "B. Bussi",
+                "team": {
+                  "id": "7"
+                }
+              },
+              "displayName": "Winning Goalie",
+              "name": "winningGoalie",
+              "playerId": 4996097,
+              "projections": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/events/401874176/competitions/401874176/competitors/7/roster/4996097/projections?lang=en&region=us"
+              },
+              "shortDisplayName": "Winning Goalie",
+              "statistics": [
+                {
+                  "abbreviation": "SV",
+                  "displayValue": "22",
+                  "name": "saves"
+                },
+                {
+                  "abbreviation": "SV%",
+                  "displayValue": "1.000",
+                  "name": "savePct"
+                },
+                {
+                  "abbreviation": "+/-",
+                  "displayValue": "0",
+                  "name": "plusMinus"
+                },
+                {
+                  "abbreviation": "G",
+                  "displayValue": "0",
+                  "name": "goals"
+                },
+                {
+                  "abbreviation": "YTDG",
+                  "displayValue": "0",
+                  "name": "ytdGoals"
+                },
+                {
+                  "abbreviation": "A",
+                  "displayValue": "0",
+                  "name": "assists"
+                },
+                {
+                  "abbreviation": "PTS",
+                  "displayValue": "0",
+                  "name": "points"
+                }
+              ],
+              "team": {
+                "id": "7"
+              }
+            },
+            {
+              "abbreviation": "L",
+              "athlete": {
+                "displayName": "Carter Hart",
+                "fullName": "Carter Hart",
+                "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/4064582.png",
+                "id": "4064582",
+                "jersey": "79",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nhl/player/_/id/4064582",
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "G",
+                "shortName": "C. Hart",
+                "team": {
+                  "id": "37"
+                }
+              },
+              "displayName": "Losing Goalie",
+              "name": "losingGoalie",
+              "playerId": 4064582,
+              "projections": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/events/401874176/competitions/401874176/competitors/37/roster/4064582/projections?lang=en&region=us"
+              },
+              "shortDisplayName": "Losing Goalie",
+              "statistics": [
+                {
+                  "abbreviation": "SV",
+                  "displayValue": "20",
+                  "name": "saves"
+                },
+                {
+                  "abbreviation": "SV%",
+                  "displayValue": ".909",
+                  "name": "savePct"
+                },
+                {
+                  "abbreviation": "+/-",
+                  "displayValue": "0",
+                  "name": "plusMinus"
+                },
+                {
+                  "abbreviation": "G",
+                  "displayValue": "0",
+                  "name": "goals"
+                },
+                {
+                  "abbreviation": "YTDG",
+                  "displayValue": "0",
+                  "name": "ytdGoals"
+                },
+                {
+                  "abbreviation": "A",
+                  "displayValue": "0",
+                  "name": "assists"
+                },
+                {
+                  "abbreviation": "PTS",
+                  "displayValue": "0",
+                  "name": "points"
+                }
+              ],
+              "team": {
+                "id": "37"
+              }
+            },
+            {
+              "abbreviation": "FS",
+              "athlete": {
+                "displayName": "Brandon Bussi",
+                "fullName": "Brandon Bussi",
+                "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/4996097.png",
+                "id": "4996097",
+                "jersey": "32",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nhl/player/_/id/4996097",
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "G",
+                "shortName": "B. Bussi",
+                "team": {
+                  "id": "7"
+                }
+              },
+              "displayName": "First Star",
+              "name": "firstStar",
+              "playerId": 4996097,
+              "projections": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/events/401874176/competitions/401874176/competitors/7/roster/4996097/projections?lang=en&region=us"
+              },
+              "shortDisplayName": "First Star",
+              "statistics": [
+                {
+                  "abbreviation": "SV",
+                  "displayValue": "22",
+                  "name": "saves"
+                },
+                {
+                  "abbreviation": "SV%",
+                  "displayValue": "1.000",
+                  "name": "savePct"
+                },
+                {
+                  "abbreviation": "+/-",
+                  "displayValue": "0",
+                  "name": "plusMinus"
+                },
+                {
+                  "abbreviation": "G",
+                  "displayValue": "0",
+                  "name": "goals"
+                },
+                {
+                  "abbreviation": "YTDG",
+                  "displayValue": "0",
+                  "name": "ytdGoals"
+                },
+                {
+                  "abbreviation": "A",
+                  "displayValue": "0",
+                  "name": "assists"
+                },
+                {
+                  "abbreviation": "PTS",
+                  "displayValue": "0",
+                  "name": "points"
+                }
+              ],
+              "team": {
+                "id": "7"
+              }
+            },
+            {
+              "abbreviation": "SS",
+              "athlete": {
+                "displayName": "Taylor Hall",
+                "fullName": "Taylor Hall",
+                "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/5428.png",
+                "id": "5428",
+                "jersey": "71",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nhl/player/_/id/5428",
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "LW",
+                "shortName": "T. Hall",
+                "team": {
+                  "id": "7"
+                }
+              },
+              "displayName": "Second Star",
+              "name": "secondStar",
+              "playerId": 5428,
+              "projections": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/events/401874176/competitions/401874176/competitors/7/roster/5428/projections?lang=en&region=us"
+              },
+              "shortDisplayName": "Second Star",
+              "statistics": [
+                {
+                  "abbreviation": "SV",
+                  "displayValue": "0",
+                  "name": "saves"
+                },
+                {
+                  "abbreviation": "SV%",
+                  "displayValue": ".000",
+                  "name": "savePct"
+                },
+                {
+                  "abbreviation": "+/-",
+                  "displayValue": "2",
+                  "name": "plusMinus"
+                },
+                {
+                  "abbreviation": "G",
+                  "displayValue": "1",
+                  "name": "goals"
+                },
+                {
+                  "abbreviation": "YTDG",
+                  "displayValue": "7",
+                  "name": "ytdGoals"
+                },
+                {
+                  "abbreviation": "A",
+                  "displayValue": "0",
+                  "name": "assists"
+                },
+                {
+                  "abbreviation": "PTS",
+                  "displayValue": "1",
+                  "name": "points"
+                }
+              ],
+              "team": {
+                "id": "7"
+              }
+            },
+            {
+              "abbreviation": "TS",
+              "athlete": {
+                "displayName": "Jackson Blake",
+                "fullName": "Jackson Blake",
+                "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/5103645.png",
+                "id": "5103645",
+                "jersey": "53",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nhl/player/_/id/5103645",
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "RW",
+                "shortName": "J. Blake",
+                "team": {
+                  "id": "7"
+                }
+              },
+              "displayName": "Third Star",
+              "name": "thirdStar",
+              "playerId": 5103645,
+              "projections": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/events/401874176/competitions/401874176/competitors/7/roster/5103645/projections?lang=en&region=us"
+              },
+              "shortDisplayName": "Third Star",
+              "statistics": [
+                {
+                  "abbreviation": "SV",
+                  "displayValue": "0",
+                  "name": "saves"
+                },
+                {
+                  "abbreviation": "SV%",
+                  "displayValue": ".000",
+                  "name": "savePct"
+                },
+                {
+                  "abbreviation": "+/-",
+                  "displayValue": "2",
+                  "name": "plusMinus"
+                },
+                {
+                  "abbreviation": "G",
+                  "displayValue": "1",
+                  "name": "goals"
+                },
+                {
+                  "abbreviation": "YTDG",
+                  "displayValue": "7",
+                  "name": "ytdGoals"
+                },
+                {
+                  "abbreviation": "A",
+                  "displayValue": "1",
+                  "name": "assists"
+                },
+                {
+                  "abbreviation": "PTS",
+                  "displayValue": "2",
+                  "name": "points"
+                }
+              ],
+              "team": {
+                "id": "7"
+              }
+            }
+          ],
+          "period": 3,
+          "type": {
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "shortDetail": "Final",
+            "state": "post"
+          }
+        },
+        "timeValid": true,
+        "type": {
+          "abbreviation": "FINAL",
+          "id": "17"
+        },
+        "uid": "s:70~l:90~e:401874176~c:401874176",
+        "venue": {
+          "address": {
+            "city": "Las Vegas",
+            "country": "USA",
+            "state": "NV"
+          },
+          "fullName": "T-Mobile Arena",
+          "id": "5060",
+          "indoor": true
+        }
+      }
+    ],
+    "date": "2026-06-15T00:00Z",
+    "id": "401874176",
+    "links": [
+      {
+        "href": "https://www.espn.com/nhl/game/_/gameId/401874176/hurricanes-golden-knights",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Gamecast",
+        "text": "Gamecast"
+      },
+      {
+        "href": "https://www.espn.com/nhl/boxscore/_/gameId/401874176",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "boxscore",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Box Score",
+        "text": "Box Score"
+      },
+      {
+        "href": "https://www.espn.com/nhl/video?gameId=401874176",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "highlights",
+          "desktop"
+        ],
+        "shortText": "Highlights",
+        "text": "Highlights"
+      },
+      {
+        "href": "https://www.espn.com/nhl/playbyplay/_/gameId/401874176",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "pbp",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Play-by-Play",
+        "text": "Play-by-Play"
+      },
+      {
+        "href": "https://www.espn.com/nhl/recap?gameId=401874176",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Recap",
+        "text": "Recap"
+      }
+    ],
+    "name": "Carolina Hurricanes at Vegas Golden Knights",
+    "season": {
+      "slug": "post-season",
+      "type": 3,
+      "year": 2026
+    },
+    "shortName": "CAR @ VGK",
+    "status": {
+      "clock": 0.0,
+      "displayClock": "0:00",
+      "period": 3,
+      "type": {
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "id": "3",
+        "name": "STATUS_FINAL",
+        "shortDetail": "Final",
+        "state": "post"
+      }
+    },
+    "uid": "s:70~l:90~e:401874176"
+  },
+  "expected": {
+    "away": {
+      "espn_abbr": "CAR",
+      "name": "Carolina Hurricanes",
+      "pm_code": "car"
+    },
+    "espn_event_id": "401874176",
+    "home": {
+      "espn_abbr": "VGK",
+      "name": "Vegas Golden Knights",
+      "pm_code": "las"
+    },
+    "kind": "two_way",
+    "league": "nhl",
+    "outcomes": [
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "nhl-car-las-2026-06-14",
+        "pm_outcome": "Hurricanes",
+        "price": "1",
+        "selection": "away",
+        "team": "Carolina Hurricanes",
+        "token_id": "28726569681416419872392084480615027971718010624864516538829960060127533086462"
+      },
+      {
+        "outcome_index": 1,
+        "pm_market_slug": "nhl-car-las-2026-06-14",
+        "pm_outcome": "Golden Knights",
+        "price": "0",
+        "selection": "home",
+        "team": "Vegas Golden Knights",
+        "token_id": "39911584623082098852471624821189702799711482389118975395107007565764685779479"
+      }
+    ],
+    "pm_event_slug": "nhl-car-las-2026-06-14",
+    "pm_market_slug": "nhl-car-las-2026-06-14",
+    "resolved": true
+  },
+  "league": "nhl",
+  "polymarket": {
+    "active": true,
+    "archived": false,
+    "automaticallyActive": true,
+    "automaticallyResolved": true,
+    "closed": true,
+    "closedTime": "2026-06-15T03:15:43Z",
+    "commentCount": 0,
+    "createdAt": "2026-06-10T15:30:07.37971Z",
+    "creationDate": "2026-06-15T00:00:00Z",
+    "cyom": false,
+    "deploying": false,
+    "description": "In the upcoming NHL game, scheduled for June 14 at 8:00PM ET:\nIf the Hurricanes win, the market will resolve to \"Hurricanes\".\nIf the Golden Knights win, the market will resolve to \"Golden Knights\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+    "elapsed": "",
+    "enableNegRisk": false,
+    "enableOrderBook": true,
+    "endDate": "2026-06-15T00:00:00Z",
+    "ended": true,
+    "eventDate": "2026-06-14",
+    "eventMetadata": {
+      "context_description": "Carolina Hurricanes lead the Vegas Golden Knights 3-2 in the 2026 Stanley Cup Final after a 4-2 home win in Game 5 on June 11. The best-of-seven series heads to Game 6 on June 14 in Las Vegas, where the Golden Knights must win to force a decisive Game 7. Vegas holds home-ice advantage and has shown resilience with overtime victories earlier in the series, while Carolina has converted power-play opportunities effectively in recent contests. Trader consensus on Polymarket reflects the closely contested nature of the matchup, with implied probabilities near even on the moneyline amid roster health, goaltending matchups, and the high-stakes elimination pressure on the visiting side.",
+      "context_requires_regen": true,
+      "context_updated_at": "2026-06-15T03:16:32.090Z"
+    },
+    "eventWeek": 37,
+    "featured": false,
+    "finishedTimestamp": "2026-06-15T03:00:37.041355Z",
+    "gameId": 30025391,
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "id": "580271",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "live": false,
+    "markets": [
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-12T03:21:10Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 1,
+        "bestBid": 0.99,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"21662620127322004961162998437523943856261304984611989943338171362831429749859\", \"57348957699030236997387096356565852935606913735200993168785205139268232145167\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x69c05ef6b35cdc8a77097fe72e26b3cde670679adc75beaf1c0f1d7af67cf12c",
+        "createdAt": "2026-06-12T03:20:02.161392Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-12T03:20:10.335134Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Hurricanes\" if the Hurricanes win the game by 2 or more goals.\n\nOtherwise, this market will resolve to \"Golden Knights\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Spread -1.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2513456",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.999,
+        "line": -1.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": 0.69,
+        "oneHourPriceChange": 0.31,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"1\", \"0\"]",
+        "outcomes": "[\"Hurricanes\", \"Golden Knights\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Spread: Hurricanes (-1.5)",
+        "questionID": "0xacc5c8c2d84461e68f3455bc875ae8af9191553f4f0c34df6c1a64f938b145ff",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-spread-away-1pt5",
+        "sportsMarketType": "spreads",
+        "spread": 0.01,
+        "startDate": "2026-06-12T03:21:58.75709Z",
+        "startDateIso": "2026-06-12",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:22:40.449574Z",
+        "volume": "267618.83174899995",
+        "volumeClob": 267618.83174899995,
+        "volumeNum": 267618.83174899995
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-12T03:21:09Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"87639392062919346168283449548045902025140797140176573455379701971024506954313\", \"101676422553922679117854150283091337647376941605793517657794068191913075049230\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x88ebe91588e2edeadf462ef53252eb164ea39f42f06b6b6ff6a784b803fb8ca6",
+        "createdAt": "2026-06-12T03:20:02.479461Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-12T03:20:10.336885Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Golden Knights\" if the Golden Knights win the game by 2 or more goals.\n\nOtherwise, this market will resolve to \"Hurricanes\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Spread -1.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2513457",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.027,
+        "line": -1.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.2645,
+        "oneHourPriceChange": -0.0295,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Golden Knights\", \"Hurricanes\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Spread: Golden Knights (-1.5)",
+        "questionID": "0xa220327f5feb586994eb95c2c89d7b64c3757e9d887550aa1b8eca17db447f1d",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-spread-home-1pt5",
+        "sportsMarketType": "spreads",
+        "spread": 0.001,
+        "startDate": "2026-06-12T03:21:56.909926Z",
+        "startDateIso": "2026-06-12",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:08:49.796299Z",
+        "volume": "9306.422246",
+        "volumeClob": 9306.422246,
+        "volumeNum": 9306.422246
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-10T15:31:10Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 1,
+        "bestBid": 0.999,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"28726569681416419872392084480615027971718010624864516538829960060127533086462\", \"39911584623082098852471624821189702799711482389118975395107007565764685779479\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x53637ef9dacf9aff2b6ce87e1a4d7de81c44cda7d6ae8cc582ba8579e9a81e35",
+        "createdAt": "2026-06-10T15:30:07.494769Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-10T15:30:11.611353Z",
+        "description": "In the upcoming NHL game, scheduled for June 14 at 8:00PM ET:\nIf the Hurricanes win, the market will resolve to \"Hurricanes\".\nIf the Golden Knights win, the market will resolve to \"Golden Knights\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "0",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2491337",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.999,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": 0.4745,
+        "oneHourPriceChange": 0.1145,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"1\", \"0\"]",
+        "outcomes": "[\"Hurricanes\", \"Golden Knights\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Hurricanes vs. Golden Knights",
+        "questionID": "0x089f1c283a679bef799af7d187114b5186d21d99e6c54b50fe868a48b50a52bb",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-06-10T15:31:58.918306Z",
+        "startDateIso": "2026-06-10",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:36:39.888178Z",
+        "volume": "1183320.4576420013",
+        "volumeClob": 1183320.457642001,
+        "volumeNum": 1183320.457642001
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-10T15:31:16Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.01,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"102264231581225551422964549188915765739246105226596472387239554069833954720584\", \"49637090308369727780886160324095896465353982704981937740497891178554888958115\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0xc4aecc882c1c85a166b0d527264b60bcffad5f1eb153edae8424a6ce6013272b",
+        "createdAt": "2026-06-10T15:30:07.691786Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-10T15:30:11.628705Z",
+        "description": "In the upcoming NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Over\" if the Hurricanes and Golden Knights combine to score 5 or more goals in this game.\n\nIf the combined total is less than 5, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "2",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2491338",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.08,
+        "line": 4.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.77,
+        "oneHourPriceChange": -0.46,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Over\", \"Under\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Hurricanes vs. Golden Knights: O/U 4.5",
+        "questionID": "0x137f0cdddc1053b9491a11c428b670e916c6cb1872f8d97ae3e916a900d221b9",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-total-4pt5",
+        "sportsMarketType": "totals",
+        "spread": 0.01,
+        "startDate": "2026-06-10T15:32:04.550265Z",
+        "startDateIso": "2026-06-10",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:36:38.93007Z",
+        "volume": "43826.490905",
+        "volumeClob": 43826.490905,
+        "volumeNum": 43826.490905
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-10T15:31:18Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"81737568646145519608725685179233451893776410254849933914415413653730582501450\", \"43627292664859117107889150099987286326056503984898966290886247761701448079833\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x4c246b62dea969ce5717e2748139c3c5f4f44e22a6ef850f7072e0aa40efc482",
+        "createdAt": "2026-06-10T15:30:07.88753Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-10T15:30:11.63301Z",
+        "description": "In the upcoming NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Over\" if the Hurricanes and Golden Knights combine to score 6 or more goals in this game.\n\nIf the combined total is less than 6, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "2",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2491339",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.01,
+        "line": 5.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.5445,
+        "oneHourPriceChange": -0.1495,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Over\", \"Under\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Hurricanes vs. Golden Knights: O/U 5.5",
+        "questionID": "0xff4fce87b335167b1c7b1280cf60c51fd83d82073326edd80c1bd9b33547a117",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-total-5pt5",
+        "sportsMarketType": "totals",
+        "spread": 0.001,
+        "startDate": "2026-06-10T15:32:06.617087Z",
+        "startDateIso": "2026-06-10",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:22:40.39121Z",
+        "volume": "222047.13265100002",
+        "volumeClob": 222047.132651,
+        "volumeNum": 222047.132651
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-10T15:31:13Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"73367543336896063840671166628195692810625768819566343874902879943316577004740\", \"6147094447061991299457787119228823932447470753677856223587902356817588857467\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0xb662193e0cfa9fa92ce7a5db442acfef5c064b6f2b9419c7b3f2e157463927c1",
+        "createdAt": "2026-06-10T15:30:08.090884Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-10T15:30:11.63553Z",
+        "description": "In the upcoming NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Over\" if the Hurricanes and Golden Knights combine to score 7 or more goals in this game.\n\nIf the combined total is less than 7, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "2",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2491340",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.05,
+        "line": 6.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.4245,
+        "oneHourPriceChange": -0.0795,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Over\", \"Under\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Hurricanes vs. Golden Knights: O/U 6.5",
+        "questionID": "0xf4f3f2e2709861a164d39c43e6e344354b8f8f27ff7dc0041a244efa1b6a3ed7",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-total-6pt5",
+        "sportsMarketType": "totals",
+        "spread": 0.001,
+        "startDate": "2026-06-10T15:32:01.995373Z",
+        "startDateIso": "2026-06-10",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:22:35.937444Z",
+        "volume": "56607.98799800002",
+        "volumeClob": 56607.98799800002,
+        "volumeNum": 56607.98799800002
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-10T15:31:15Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"48856721110147280397384972466267461961244936999221409323220643877449230813920\", \"66447570710212429455258904369796314561251927317168874592203883935240782868278\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x0c5db8e6aafc9c9000ac4cbe9457ba585d3a46d39c27d610ea7ed725ab3cd123",
+        "createdAt": "2026-06-10T15:30:08.266831Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-10T15:30:11.635471Z",
+        "description": "In the upcoming NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Over\" if the Hurricanes and Golden Knights combine to score 8 or more goals in this game.\n\nIf the combined total is less than 8, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "2",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2491341",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.02,
+        "line": 7.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.2345,
+        "oneHourPriceChange": -0.0295,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Over\", \"Under\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Hurricanes vs. Golden Knights: O/U 7.5",
+        "questionID": "0x75e03f6ca48f9349c59b9093dbead2a6a4127af512dcb602cbeaafb3942043e3",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-total-7pt5",
+        "sportsMarketType": "totals",
+        "spread": 0.001,
+        "startDate": "2026-06-10T15:32:03.517116Z",
+        "startDateIso": "2026-06-10",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:23:07.583223Z",
+        "volume": "8181.605686",
+        "volumeClob": 8181.605686,
+        "volumeNum": 8181.605686
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-14T00:21:16Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"100275917621092741221898473393205397130867021139602056919939256186400757211599\", \"97263271060708406198823348174029223697838670567479460561909360472420212045143\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0xa86d7f44619f6d5ffb7b7dd73e939a65f5bfc8b2574b5ae8dbb93321b1765bd0",
+        "createdAt": "2026-06-14T00:20:02.111689Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-14T00:20:05.917516Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Golden Knights\" if the Golden Knights win the game by 3 or more goals.\n\nOtherwise, this market will resolve to \"Hurricanes\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Spread -2.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2537583",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.07,
+        "line": -2.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.1745,
+        "oneHourPriceChange": -0.0045,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Golden Knights\", \"Hurricanes\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Spread: Golden Knights (-2.5)",
+        "questionID": "0x45c6c7725202ae89b5aec7a45c46f77e8fed74d632262041419b520add39b9a0",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-spread-home-2pt5",
+        "sportsMarketType": "spreads",
+        "spread": 0.001,
+        "startDate": "2026-06-14T00:22:04.292937Z",
+        "startDateIso": "2026-06-14",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T02:55:09.900735Z",
+        "volume": "1481.9870119999998",
+        "volumeClob": 1481.9870119999998,
+        "volumeNum": 1481.9870119999998
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-14T00:21:06Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.01,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"51283499931261709547075571419610028201758645477827749386921108941295345068946\", \"75486550352329224783612452816109363525177403446958499043898431846409915776110\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x6adcf4881c179117b3aaea992fc8760bb08e591d3688170f1ab99662b9d34d91",
+        "createdAt": "2026-06-14T00:20:02.270441Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-14T00:20:05.911649Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Hurricanes\" if the Hurricanes win the game by 4 or more goals.\n\nOtherwise, this market will resolve to \"Golden Knights\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Spread -3.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2537584",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.16,
+        "line": -3.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.265,
+        "oneHourPriceChange": -0.2,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Hurricanes\", \"Golden Knights\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Spread: Hurricanes (-3.5)",
+        "questionID": "0x988e0c99dc365ee4e32a5eff48840a77107b96c3d1c38aa06c306788624823c8",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-spread-away-3pt5",
+        "sportsMarketType": "spreads",
+        "spread": 0.01,
+        "startDate": "2026-06-14T00:21:55.012036Z",
+        "startDateIso": "2026-06-14",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:08:39.497393Z",
+        "volume": "15604.516386000001",
+        "volumeClob": 15604.516386,
+        "volumeNum": 15604.516386
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-14T00:21:09Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"82996672937757320236809362826015368058129403166189418725527814678853923098396\", \"41168729767991132922681263822916970703390006492091708382235477363375377613928\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0xe0d51f76b169f20a5ce046f6b12b67f6f9ce81e8fb08d244e837c83f587de4ea",
+        "createdAt": "2026-06-14T00:20:02.425826Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-14T00:20:05.918956Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Hurricanes\" if the Hurricanes win the game by 5 or more goals.\n\nOtherwise, this market will resolve to \"Golden Knights\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Spread -4.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2537585",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.055,
+        "line": -4.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.2595,
+        "oneHourPriceChange": -0.4935,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Hurricanes\", \"Golden Knights\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Spread: Hurricanes (-4.5)",
+        "questionID": "0xb18478a68210dccfc2ace6132898b363ca0ea7c1ac7e2d27df921871ab943e7b",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-spread-away-4pt5",
+        "sportsMarketType": "spreads",
+        "spread": 0.001,
+        "startDate": "2026-06-14T00:21:57.592821Z",
+        "startDateIso": "2026-06-14",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:08:38.838264Z",
+        "volume": "439.41999999999996",
+        "volumeClob": 439.42,
+        "volumeNum": 439.42
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-14T00:21:07Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 1,
+        "bestBid": 0.99,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"541745750581312241605945367139735333488743653427107726974850471628718406468\", \"100666366710485727078310598240568115188666169325964594411155933162876125581805\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x8948244dfc29ecbfb74b1da558593d58fcd84d4ac6d4fa192611217acce9c929",
+        "createdAt": "2026-06-14T00:20:02.592286Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-14T00:20:05.92685Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Hurricanes\" if the Hurricanes win the game by 3 or more goals.\n\nOtherwise, this market will resolve to \"Golden Knights\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Spread -2.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2537586",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.99,
+        "line": -2.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": 0.805,
+        "oneHourPriceChange": 0.51,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"1\", \"0\"]",
+        "outcomes": "[\"Hurricanes\", \"Golden Knights\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Spread: Hurricanes (-2.5)",
+        "questionID": "0xb347a2e23d95ca6ae70bfa57ab73dcd7d17bbe645d30b97d6c10db006e696607",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-spread-away-2pt5",
+        "sportsMarketType": "spreads",
+        "spread": 0.01,
+        "startDate": "2026-06-14T00:21:55.79226Z",
+        "startDateIso": "2026-06-14",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:22:56.428813Z",
+        "volume": "34172.314087999985",
+        "volumeClob": 34172.314087999985,
+        "volumeNum": 34172.314087999985
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-14T00:21:12Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"85878010615775059972772323020579300592141548362678456383069990484325435071427\", \"41689679255901484541936659560778106721611150325395692475817623830439837396659\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x2933830ab0c786b72889d15685e78015628ab1ada8fd02263a4b5c1e0f1714bf",
+        "createdAt": "2026-06-14T00:20:02.754635Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-14T00:20:05.929131Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Golden Knights\" if the Golden Knights win the game by 4 or more goals.\n\nOtherwise, this market will resolve to \"Hurricanes\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Spread -3.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2537587",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.01,
+        "line": -3.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.4745,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Golden Knights\", \"Hurricanes\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Spread: Golden Knights (-3.5)",
+        "questionID": "0x38b4ab6038a09ea49709b8fd5b2c90f519a07d2c31abbf2d1d9d9c2de0799b4a",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-spread-home-3pt5",
+        "sportsMarketType": "spreads",
+        "spread": 0.001,
+        "startDate": "2026-06-14T00:22:00.662407Z",
+        "startDateIso": "2026-06-14",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T02:41:52.443684Z",
+        "volume": "556.11",
+        "volumeClob": 556.11,
+        "volumeNum": 556.11
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-14T00:21:06Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 1,
+        "bestBid": 0.999,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"93962571807113943567666859434027483313088832420348632987879926939043944004633\", \"96276802082445605364871355313665610641317889368051774843876239833493026420502\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:13:27+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x08c2c8d73b81c8d1e27633338df027e0c9d97c74e8596cdc8bbb0e26527ecfdb",
+        "createdAt": "2026-06-14T00:20:02.91302Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-14T00:20:05.892891Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Over\" if the Hurricanes and Golden Knights combine to score 3 or more goals in this game.\n\nIf the combined total is less than 3, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "2",
+        "groupItemTitle": "O/U 2.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2537588",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.999,
+        "line": 2.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": 0.0395,
+        "oneHourPriceChange": 0.0695,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"1\", \"0\"]",
+        "outcomes": "[\"Over\", \"Under\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Hurricanes vs. Golden Knights: O/U 2.5",
+        "questionID": "0x73984264e23e7e0250ddea63518e594807277e58ea4a14474722f9918ad95423",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-total-2pt5",
+        "sportsMarketType": "totals",
+        "spread": 0.001,
+        "startDate": "2026-06-14T00:21:54.730083Z",
+        "startDateIso": "2026-06-14",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:13:27Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:36:47.001041Z",
+        "volume": "9147.174228999997",
+        "volumeClob": 9147.174228999997,
+        "volumeNum": 9147.174228999997
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-14T00:21:12Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.01,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"96204502699246288025441430834020640665977152686667424090073354860001403361629\", \"74156564573272363070960448317407890455864376634371154263126296494043999577151\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x82fb38b1d0f0cc211f41410b50bd4798f7bb2cc4d430c6ac13964e6f3b4575b5",
+        "createdAt": "2026-06-14T00:20:03.092556Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-14T00:20:05.896073Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Over\" if the Hurricanes and Golden Knights combine to score 4 or more goals in this game.\n\nIf the combined total is less than 4, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "2",
+        "groupItemTitle": "O/U 3.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2537589",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.08,
+        "line": 3.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.49,
+        "oneHourPriceChange": -0.695,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Over\", \"Under\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Hurricanes vs. Golden Knights: O/U 3.5",
+        "questionID": "0x1c1b66e4a595b5d276600d9b681bdd0668007f3e02c9bf639fd111224a945a56",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-total-3pt5",
+        "sportsMarketType": "totals",
+        "spread": 0.01,
+        "startDate": "2026-06-14T00:22:00.395919Z",
+        "startDateIso": "2026-06-14",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:36:33.932108Z",
+        "volume": "22292.49804400001",
+        "volumeClob": 22292.49804400001,
+        "volumeNum": 22292.49804400001
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-06-14T00:21:13Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"90348419431565347169611947699158713302183370014439101187893101475592076967336\", \"70219475204952910280277106519157368496009452598446653412200917768001141177021\"]",
+        "closed": true,
+        "closedTime": "2026-06-15 03:15:43+00",
+        "comboStatus": "disabled",
+        "conditionId": "0x65c94ed6a395e4283c3d6895d3ee35df54418d82a034ec022998cd397698cdde",
+        "createdAt": "2026-06-14T00:20:03.257097Z",
+        "customLiveness": 900,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-06-14T00:20:05.912024Z",
+        "description": "In the NHL game, scheduled for June 14 at 8:00 PM ET:\n\nThis market will resolve to \"Over\" if the Hurricanes and Golden Knights combine to score 9 or more goals in this game.\n\nIf the combined total is less than 9, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods and shootouts. In the event of a shootout, one goal will be added to the winning team's score for the purpose of resolution.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-15T00:00:00Z",
+        "endDateIso": "2026-06-15",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-15 00:00:00+00",
+        "groupItemThreshold": "2",
+        "groupItemTitle": "O/U 8.5",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "2537590",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "lastTradePrice": 0.001,
+        "line": 8.5,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "negRisk": false,
+        "negRiskOther": false,
+        "negRiskRequestID": "",
+        "new": false,
+        "oneDayPriceChange": -0.1545,
+        "oneHourPriceChange": -0.0145,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Over\", \"Under\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "question": "Hurricanes vs. Golden Knights: O/U 8.5",
+        "questionID": "0x7dd1002b3ba64025e2b088a4d81d69fbb4e5c601c09df3d534533d8fd95b5274",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.nhl.com/scores",
+        "resolvedBy": "0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7",
+        "restricted": true,
+        "rewardsMaxSpread": 4.5,
+        "rewardsMinSize": 50,
+        "rfqEnabled": false,
+        "secondsDelay": 1,
+        "slug": "nhl-car-las-2026-06-14-total-8pt5",
+        "sportsMarketType": "totals",
+        "spread": 0.001,
+        "startDate": "2026-06-14T00:22:01.435807Z",
+        "startDateIso": "2026-06-14",
+        "submitted_by": "0xF43d55F3A8B7484Ed4B6931f93CB6F9eF5Dd369D",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-15T03:15:43Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-16T03:09:01.315021Z",
+        "volume": "3507.0166809999996",
+        "volumeClob": 3507.0166809999996,
+        "volumeNum": 3507.0166809999996
+      }
+    ],
+    "negRisk": false,
+    "negRiskAugmented": false,
+    "new": false,
+    "openInterest": 1403036.1045310004,
+    "pendingDeployment": false,
+    "period": "VFT",
+    "requiresTranslation": false,
+    "resolutionSource": "https://www.nhl.com/scores",
+    "restricted": true,
+    "score": "3-0",
+    "series": [
+      {
+        "active": true,
+        "archived": false,
+        "closed": false,
+        "commentCount": 224546,
+        "createdAt": "2025-10-02T17:24:41.601549Z",
+        "featured": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "id": "10346",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+        "recurrence": "daily",
+        "requiresTranslation": false,
+        "restricted": true,
+        "seriesType": "single",
+        "slug": "nhl-2026",
+        "ticker": "nhl-2026",
+        "title": "NHL 2026",
+        "updatedAt": "2026-06-19T08:35:40.393594Z"
+      }
+    ],
+    "seriesSlug": "nhl-2026",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "slug": "nhl-car-las-2026-06-14",
+    "sport": {
+      "createdAt": "2025-11-05T19:27:45.399303Z",
+      "id": 35,
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "ordering": "away",
+      "resolution": "https://www.nhl.com/",
+      "series": "10346",
+      "sport": "nhl",
+      "tags": "1,899,100639"
+    },
+    "startDate": "2026-06-10T15:48:15.082864Z",
+    "startTime": "2026-06-15T00:00:00Z",
+    "tags": [
+      {
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "forceHide": true,
+        "forceShow": false,
+        "id": "1",
+        "label": "Sports",
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "requiresTranslation": false,
+        "slug": "sports",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "updatedBy": 15
+      },
+      {
+        "createdAt": "2024-01-22T17:16:28.449Z",
+        "forceShow": false,
+        "id": "899",
+        "label": "NHL",
+        "publishedAt": "2024-01-22 17:16:28.432+00",
+        "requiresTranslation": false,
+        "slug": "nhl",
+        "updatedAt": "2026-04-17T20:14:51.326797Z"
+      },
+      {
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "forceShow": false,
+        "id": "100639",
+        "label": "Games",
+        "requiresTranslation": false,
+        "slug": "games",
+        "updatedAt": "2026-03-09T22:28:03.358133Z"
+      },
+      {
+        "id": "100088",
+        "label": "Hockey",
+        "requiresTranslation": false,
+        "slug": "hockey",
+        "updatedAt": "2026-03-09T22:33:38.499663Z"
+      }
+    ],
+    "teams": [
+      {
+        "abbreviation": "car",
+        "alias": "Hurricanes",
+        "color": "#C02020",
+        "createdAt": "2024-12-02T22:33:30.251818Z",
+        "id": 100618,
+        "league": "nhl",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/NHL+Team+Logos/CAR.png",
+        "name": "Hurricanes",
+        "ordering": "away",
+        "providerId": 9,
+        "record": "53-22-7",
+        "updatedAt": "2025-11-05T00:19:40.949816Z"
+      },
+      {
+        "abbreviation": "las",
+        "alias": "Golden Knights",
+        "color": "#A0A060",
+        "createdAt": "2024-12-02T22:33:30.251818Z",
+        "id": 100642,
+        "league": "nhl",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/NHL+Team+Logos/VGK.png",
+        "name": "Golden Knights",
+        "ordering": "home",
+        "providerId": 35,
+        "record": "39-26-17",
+        "updatedAt": "2025-11-05T00:20:18.746111Z"
+      }
+    ],
+    "ticker": "nhl-car-las-2026-06-14",
+    "title": "Hurricanes vs. Golden Knights",
+    "updatedAt": "2026-06-19T07:23:33.264171Z",
+    "volume": 1878109.965317001
+  }
+}

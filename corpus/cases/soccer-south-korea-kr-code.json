@@ -1,0 +1,1231 @@
+{
+  "description": "ESPN South Korea (KOR) ↔ Polymarket 'Korea Republic' (code kr); 01:00Z kickoff dates to prior US-Eastern day.",
+  "espn": {
+    "competitions": [
+      {
+        "altGameNote": "FIFA World Cup, Group A",
+        "attendance": 45522,
+        "broadcast": "",
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "FOX",
+              "Tele",
+              "FOX One"
+            ]
+          }
+        ],
+        "competitors": [
+          {
+            "advance": true,
+            "form": "WWWWW",
+            "homeAway": "home",
+            "id": "203",
+            "order": 0,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "2-0-0",
+                "type": "total"
+              }
+            ],
+            "score": "1",
+            "statistics": [
+              {
+                "abbreviation": "APP",
+                "displayValue": "0",
+                "name": "appearances"
+              },
+              {
+                "abbreviation": "FC",
+                "displayValue": "9",
+                "name": "foulsCommitted"
+              },
+              {
+                "abbreviation": "CW",
+                "displayValue": "1",
+                "name": "wonCorners"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "0",
+                "name": "goalAssists"
+              },
+              {
+                "abbreviation": "PP",
+                "displayValue": "42.4",
+                "name": "possessionPct"
+              },
+              {
+                "abbreviation": "SHAST",
+                "displayValue": "6",
+                "name": "shotAssists"
+              },
+              {
+                "abbreviation": "SOG",
+                "displayValue": "4",
+                "name": "shotsOnTarget"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "1",
+                "name": "totalGoals"
+              },
+              {
+                "abbreviation": "SHOT",
+                "displayValue": "8",
+                "name": "totalShots"
+              }
+            ],
+            "team": {
+              "abbreviation": "MEX",
+              "alternateColor": "000000",
+              "color": "006847",
+              "displayName": "Mexico",
+              "id": "203",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/team/_/id/203/mexico",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/203/mexico",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:203&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/203/mexico",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:203&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/203/mexico",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:203&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "Mexico",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+              "name": "Mexico",
+              "shortDisplayName": "Mexico",
+              "uid": "s:600~t:203",
+              "venue": {
+                "id": "4685"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:203",
+            "winner": true
+          },
+          {
+            "advance": false,
+            "form": "LWWWL",
+            "homeAway": "away",
+            "id": "451",
+            "order": 1,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "1-0-1",
+                "type": "total"
+              }
+            ],
+            "score": "0",
+            "statistics": [
+              {
+                "abbreviation": "APP",
+                "displayValue": "0",
+                "name": "appearances"
+              },
+              {
+                "abbreviation": "FC",
+                "displayValue": "7",
+                "name": "foulsCommitted"
+              },
+              {
+                "abbreviation": "CW",
+                "displayValue": "2",
+                "name": "wonCorners"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "0",
+                "name": "goalAssists"
+              },
+              {
+                "abbreviation": "PP",
+                "displayValue": "57.6",
+                "name": "possessionPct"
+              },
+              {
+                "abbreviation": "SHAST",
+                "displayValue": "6",
+                "name": "shotAssists"
+              },
+              {
+                "abbreviation": "SOG",
+                "displayValue": "2",
+                "name": "shotsOnTarget"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "0",
+                "name": "totalGoals"
+              },
+              {
+                "abbreviation": "SHOT",
+                "displayValue": "9",
+                "name": "totalShots"
+              }
+            ],
+            "team": {
+              "abbreviation": "KOR",
+              "alternateColor": "9E82C8",
+              "color": "ce2028",
+              "displayName": "South Korea",
+              "id": "451",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/team/_/id/451/south-korea",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/451/south-korea",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:451&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/451/south-korea",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:451&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/451/south-korea",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:451&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "South Korea",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+              "name": "South Korea",
+              "shortDisplayName": "South Korea",
+              "uid": "s:600~t:451",
+              "venue": {
+                "id": "3082"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:451",
+            "winner": false
+          }
+        ],
+        "date": "2026-06-19T01:00Z",
+        "details": [
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Lee Kang-In",
+                "fullName": "Lee Kang-In",
+                "id": "274197",
+                "jersey": "19",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/274197/lee-kang-in",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "CF-R",
+                "shortName": "L. Kang-In",
+                "team": {
+                  "id": "451"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "4'",
+              "value": 213.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "shootout": false,
+            "team": {
+              "id": "451"
+            },
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "yellowCard": true
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Luis Romo",
+                "fullName": "Luis Romo",
+                "id": "242614",
+                "jersey": "7",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/242614/luis-romo",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "LM",
+                "shortName": "L. Romo",
+                "team": {
+                  "id": "203"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "50'",
+              "value": 2981.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "203"
+            },
+            "type": {
+              "id": "173",
+              "text": "Goal - Volley"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Paik Seung-Ho",
+                "fullName": "Paik Seung-Ho",
+                "id": "256598",
+                "jersey": "8",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/256598/paik-seung-ho",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "CM-L",
+                "shortName": "P. Seung-Ho",
+                "team": {
+                  "id": "451"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "58'",
+              "value": 3459.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "shootout": false,
+            "team": {
+              "id": "451"
+            },
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "yellowCard": true
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "geoBroadcasts": [
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "FOX"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Tele"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "FOX One"
+            },
+            "region": "us",
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "description": "A Luis Romo goal saw Mexico beat South Korea 1-0",
+            "shortLinkText": "Mexico edge South Korea, confirm progress to knockouts",
+            "type": "Recap"
+          }
+        ],
+        "id": "760441",
+        "notes": [],
+        "odds": [
+          null
+        ],
+        "playByPlayAthletes": true,
+        "playByPlayAvailable": true,
+        "recent": true,
+        "startDate": "2026-06-19T01:00Z",
+        "status": {
+          "clock": 5400.0,
+          "displayClock": "90'+6'",
+          "period": 2,
+          "type": {
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "shortDetail": "FT",
+            "state": "post"
+          }
+        },
+        "timeValid": true,
+        "uid": "s:600~l:606~e:760441~c:760441",
+        "venue": {
+          "address": {
+            "city": "Guadalajara",
+            "country": "Mexico"
+          },
+          "fullName": "Estadio Akron",
+          "id": "5009"
+        },
+        "wasSuspended": false
+      }
+    ],
+    "date": "2026-06-19T01:00Z",
+    "id": "760441",
+    "links": [
+      {
+        "href": "https://www.espn.com/soccer/match/_/gameId/760441/south-korea-mexico",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Summary",
+        "text": "Summary"
+      },
+      {
+        "href": "https://www.espn.com/soccer/video/_/gameId/760441",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "highlights",
+          "desktop"
+        ],
+        "shortText": "Highlights",
+        "text": "Highlights"
+      },
+      {
+        "href": "https://www.espn.com/soccer/report/_/gameId/760441",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Report",
+        "text": "Report"
+      },
+      {
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/760441",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Statistics",
+        "text": "Statistics"
+      },
+      {
+        "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "bracket",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Bracket",
+        "text": "Bracket"
+      }
+    ],
+    "name": "South Korea at Mexico",
+    "season": {
+      "slug": "group-stage",
+      "type": 13802,
+      "year": 2026
+    },
+    "shortName": "KOR @ MEX",
+    "status": {
+      "clock": 5400.0,
+      "displayClock": "90'+6'",
+      "period": 2,
+      "type": {
+        "completed": true,
+        "description": "Full Time",
+        "detail": "FT",
+        "id": "28",
+        "name": "STATUS_FULL_TIME",
+        "shortDetail": "FT",
+        "state": "post"
+      }
+    },
+    "uid": "s:600~l:606~e:760441",
+    "venue": {
+      "displayName": "Estadio Akron"
+    }
+  },
+  "expected": {
+    "away": {
+      "espn_abbr": "KOR",
+      "name": "South Korea",
+      "pm_code": "kr"
+    },
+    "espn_event_id": "760441",
+    "home": {
+      "espn_abbr": "MEX",
+      "name": "Mexico",
+      "pm_code": "mex"
+    },
+    "kind": "three_way",
+    "league": "fifa.world",
+    "outcomes": [
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-mex-kr-2026-06-18-mex",
+        "pm_outcome": "Yes",
+        "price": "1",
+        "selection": "home",
+        "team": "Mexico",
+        "token_id": "84622337225923971667543390025202237459542894380445135038857655043890030217262"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-mex-kr-2026-06-18-kr",
+        "pm_outcome": "Yes",
+        "price": "0",
+        "selection": "away",
+        "team": "South Korea",
+        "token_id": "40559900670015709472472801511880289852513956415696043408438494025364180866146"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-mex-kr-2026-06-18-draw",
+        "pm_outcome": "Yes",
+        "price": "0",
+        "selection": "draw",
+        "team": null,
+        "token_id": "51958120300750633024043231741875227303543295888125840580124643399830654381246"
+      }
+    ],
+    "pm_event_slug": "fifwc-mex-kr-2026-06-18",
+    "pm_market_slug": null,
+    "resolved": true
+  },
+  "league": "fifa.world",
+  "polymarket": {
+    "active": true,
+    "archived": false,
+    "automaticallyActive": true,
+    "automaticallyResolved": true,
+    "closed": true,
+    "closedTime": "2026-06-19T03:16:17Z",
+    "commentCount": 0,
+    "createdAt": "2026-04-06T22:19:57.03283Z",
+    "creationDate": "2026-04-06T22:26:59.067652Z",
+    "cyom": false,
+    "deploying": false,
+    "deployingTimestamp": "2026-04-06T22:20:01.56445Z",
+    "description": "This event is for the upcoming FIFA World Cup game, scheduled for Thursday, June 18, 2026 between Mexico and Korea Republic.",
+    "elapsed": "",
+    "enableNegRisk": true,
+    "enableOrderBook": true,
+    "endDate": "2026-06-19T01:00:00Z",
+    "ended": true,
+    "eventDate": "2026-06-18",
+    "eventMetadata": {
+      "context_description": "Mexico enters this 2026 FIFA World Cup Group A clash in Guadalajara as slight favorites, buoyed by co-host status, home-crowd support at Estadio Akron, and a strong opening win. Both sides sit on three points after matchday one, making the result pivotal for advancement. Mexico must manage the absence of defender Cesar Montes following his red card, while South Korea arrives with momentum from a dramatic comeback victory and a history of competitive showings against the Mexicans. Trader pricing reflects the closely contested nature of the matchup, with the draw priced as a viable outcome given tactical discipline from both teams and limited recent head-to-head separation.",
+      "context_requires_regen": true,
+      "context_updated_at": "2026-06-18T02:32:18.442Z",
+      "opticOddsFixtureId": "20260619185E5A32",
+      "opticOddsGameId": "29056-41123-2026-06-18",
+      "opticOddsNumericalId": 566640,
+      "sportradarGameId": "sr:sport_event:66456908"
+    },
+    "eventWeek": 1,
+    "featured": false,
+    "finishedTimestamp": "2026-06-19T02:56:39.959953Z",
+    "gameId": 90086932,
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "id": "351742",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "live": false,
+    "markets": [
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:23:11Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"51958120300750633024043231741875227303543295888125840580124643399830654381246\", \"113916161974517087375531703144301863196719799992347466230963155791909486342579\"]",
+        "closed": true,
+        "closedTime": "2026-06-19 03:10:16+00",
+        "comboStatus": "enabled",
+        "conditionId": "0x95e8c492f878a1c6b04e47caceee107037a26e4a8b040041b28a3be8eb0f6942",
+        "createdAt": "2026-04-06T22:19:57.510367Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:21:29.515615Z",
+        "description": "In the upcoming game, scheduled for June 18, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-19T01:00:00Z",
+        "endDateIso": "2026-06-19",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-19 01:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Draw (Mexico vs. Korea Republic)",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897116",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.001,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "20260619185E5A32",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Draw",
+          "opticOddsSelectionLine": "draw"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0x797918e6f40b4e1a4f8a7c9231f41879c6d38e15b60d773febf9f8559ad8f600",
+        "negRiskOther": false,
+        "negRiskRequestID": "0x45bfdd81d3c96602887d5354c4b217b345900d5fefc72080e428e770b3c3c4b0",
+        "new": false,
+        "oneDayPriceChange": -0.2845,
+        "oneHourPriceChange": -0.4545,
+        "oneMonthPriceChange": -0.2695,
+        "oneWeekPriceChange": -0.2645,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1255921515070702639488996033544254797740834105412550430247204829498737426688",
+          "1255921515070702639488996033544254797740834105412550430247204829498737426689"
+        ],
+        "question": "Will Mexico vs. Korea Republic end in a draw?",
+        "questionID": "0x797918e6f40b4e1a4f8a7c9231f41879c6d38e15b60d773febf9f8559ad8f601",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 1.5,
+        "rewardsMinSize": 1000,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-mex-kr-2026-06-18-draw",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:24:32.698457Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-19T03:10:16Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-19T08:33:33.156017Z",
+        "volume": "3443068.2539399844",
+        "volume1mo": 3442845.4056329736,
+        "volume1moClob": 3442845.4056329736,
+        "volume1wk": 3407172.2180919736,
+        "volume1wkClob": 3407172.2180919736,
+        "volume1yr": 3443068.253939974,
+        "volume1yrClob": 3443068.253939974,
+        "volume24hr": 3248898.828909987,
+        "volume24hrClob": 3248898.828909987,
+        "volumeClob": 3443068.2539399844,
+        "volumeNum": 3443068.2539399844
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:23:17Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"40559900670015709472472801511880289852513956415696043408438494025364180866146\", \"82329952143881965276981455380089620795478748889597010389152839311119926936316\"]",
+        "closed": true,
+        "closedTime": "2026-06-19 03:08:19+00",
+        "comboStatus": "enabled",
+        "conditionId": "0xa6ae199ce172475dd0e29d7584810a15a1d4608398d2f42d7ca39bfac45ed52b",
+        "createdAt": "2026-04-06T22:19:57.801041Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:21:29.51685Z",
+        "description": "In the upcoming game, scheduled for June 18, 2026\nIf Korea Republic wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-19T01:00:00Z",
+        "endDateIso": "2026-06-19",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-19 01:00:00+00",
+        "groupItemThreshold": "2",
+        "groupItemTitle": "Korea Republic",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897117",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.001,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "20260619185E5A32",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Korea Republic",
+          "opticOddsSelectionLine": "away",
+          "opticOddsTeamId": "490297CECC43CE5D"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0x797918e6f40b4e1a4f8a7c9231f41879c6d38e15b60d773febf9f8559ad8f600",
+        "negRiskOther": false,
+        "negRiskRequestID": "0xad4997bd7ffa14b15a77a21cb1a0e5ced7f55da799c272f66941d5b9e16576f1",
+        "new": false,
+        "oneDayPriceChange": -0.2345,
+        "oneHourPriceChange": -0.1945,
+        "oneMonthPriceChange": -0.2045,
+        "oneWeekPriceChange": -0.2145,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1255921515070702639488996033544254797740834105412550430247204829498737426944",
+          "1255921515070702639488996033544254797740834105412550430247204829498737426945"
+        ],
+        "question": "Will Korea Republic win on 2026-06-18?",
+        "questionID": "0x797918e6f40b4e1a4f8a7c9231f41879c6d38e15b60d773febf9f8559ad8f602",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 0,
+        "rewardsMinSize": 0,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-mex-kr-2026-06-18-kr",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:24:38.694424Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-19T03:08:19Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-19T08:33:33.425653Z",
+        "volume": "11984525.580031335",
+        "volume1mo": 11982870.018888036,
+        "volume1moClob": 11982870.018888036,
+        "volume1wk": 11943514.011842038,
+        "volume1wkClob": 11943514.011842038,
+        "volume1yr": 11984525.580031035,
+        "volume1yrClob": 11984525.580031035,
+        "volume24hr": 11332549.257420978,
+        "volume24hrClob": 11332549.257420978,
+        "volumeClob": 11984525.580031335,
+        "volumeNum": 11984525.580031335
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:23:07Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 1,
+        "bestBid": 0.999,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"84622337225923971667543390025202237459542894380445135038857655043890030217262\", \"6475664574853487589307000579070420920333411302268516614731603567311278340454\"]",
+        "closed": true,
+        "closedTime": "2026-06-19 03:16:17+00",
+        "comboStatus": "enabled",
+        "conditionId": "0x6f05c7bc5ad978f8f9916f05d30a7f752e02b81508c56d82ed7c9245bca163b0",
+        "createdAt": "2026-04-06T22:19:57.223906Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:21:29.51236Z",
+        "description": "In the upcoming game, scheduled for June 18, 2026\nIf Mexico wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-19T01:00:00Z",
+        "endDateIso": "2026-06-19",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-19 01:00:00+00",
+        "groupItemThreshold": "0",
+        "groupItemTitle": "Mexico",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897115",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.999,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "20260619185E5A32",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Mexico",
+          "opticOddsSelectionLine": "home",
+          "opticOddsTeamId": "247C386089E5ABBE"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0x797918e6f40b4e1a4f8a7c9231f41879c6d38e15b60d773febf9f8559ad8f600",
+        "negRiskOther": false,
+        "negRiskRequestID": "0xcca0e7acb699a150488be03408d77a5f7e4a21255e94c373bec1750a40825687",
+        "new": false,
+        "oneDayPriceChange": 0.5245,
+        "oneHourPriceChange": 0.2745,
+        "oneMonthPriceChange": 0.4745,
+        "oneWeekPriceChange": 0.4745,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"1\", \"0\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1255921515070702639488996033544254797740834105412550430247204829498737426432",
+          "1255921515070702639488996033544254797740834105412550430247204829498737426433"
+        ],
+        "question": "Will Mexico win on 2026-06-18?",
+        "questionID": "0x797918e6f40b4e1a4f8a7c9231f41879c6d38e15b60d773febf9f8559ad8f600",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 1.5,
+        "rewardsMinSize": 1000,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-mex-kr-2026-06-18-mex",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:24:28.601021Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-19T03:16:17Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-19T08:33:32.481671Z",
+        "volume": "12384636.801802278",
+        "volume1mo": 12384363.582581203,
+        "volume1moClob": 12384363.582581203,
+        "volume1wk": 12339623.849075217,
+        "volume1wkClob": 12339623.849075217,
+        "volume1yr": 12384636.801802205,
+        "volume1yrClob": 12384636.801802205,
+        "volume24hr": 11898800.459486203,
+        "volume24hrClob": 11898800.459486203,
+        "volumeClob": 12384636.801802278,
+        "volumeNum": 12384636.801802278
+      }
+    ],
+    "negRisk": true,
+    "negRiskAugmented": false,
+    "negRiskMarketID": "0x797918e6f40b4e1a4f8a7c9231f41879c6d38e15b60d773febf9f8559ad8f600",
+    "new": false,
+    "openInterest": 10247839.012641,
+    "pendingDeployment": false,
+    "period": "VFT",
+    "requiresTranslation": false,
+    "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+    "restricted": true,
+    "score": "1-0",
+    "series": [
+      {
+        "active": true,
+        "archived": false,
+        "closed": false,
+        "commentCount": 4788,
+        "createdAt": "2026-03-26T22:29:37.657465Z",
+        "featured": false,
+        "id": "11433",
+        "liquidity": 129439598.38155,
+        "recurrence": "daily",
+        "requiresTranslation": false,
+        "restricted": true,
+        "seriesType": "single",
+        "slug": "soccer-fifwc",
+        "ticker": "soccer-fifwc",
+        "title": "FIFA World Cup",
+        "updatedAt": "2026-06-19T08:33:46.130732Z",
+        "volume": 19767408.452362016,
+        "volume24hr": 162684822.33945516
+      }
+    ],
+    "seriesSlug": "soccer-fifwc",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "slug": "fifwc-mex-kr-2026-06-18",
+    "sport": {
+      "createdAt": "2026-04-06T19:15:16.986929Z",
+      "id": 174,
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "ordering": "home",
+      "resolution": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+      "series": "11433",
+      "sport": "fifwc",
+      "tags": "1, 100639, 100350, 102232"
+    },
+    "startDate": "2026-04-06T22:26:59.067661Z",
+    "startTime": "2026-06-19T01:00:00Z",
+    "tags": [
+      {
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "forceShow": false,
+        "id": "100639",
+        "label": "Games",
+        "requiresTranslation": false,
+        "slug": "games",
+        "updatedAt": "2026-03-09T22:28:03.358133Z"
+      },
+      {
+        "createdAt": "2025-06-08T02:11:18.665669Z",
+        "id": "102232",
+        "label": "FIFA World Cup",
+        "requiresTranslation": false,
+        "slug": "fifa-world-cup",
+        "updatedAt": "2026-04-17T20:58:26.597292Z"
+      },
+      {
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "forceHide": true,
+        "forceShow": false,
+        "id": "1",
+        "label": "Sports",
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "requiresTranslation": false,
+        "slug": "sports",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "updatedBy": 15
+      },
+      {
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "forceShow": false,
+        "id": "100350",
+        "label": "Soccer",
+        "requiresTranslation": false,
+        "slug": "soccer",
+        "updatedAt": "2026-04-17T20:33:09.955379Z"
+      }
+    ],
+    "teams": [
+      {
+        "abbreviation": "mex",
+        "color": "#107051",
+        "createdAt": "2026-04-06T19:41:36.993438Z",
+        "id": 3270237,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Mexico-588139357c.png",
+        "name": "Mexico",
+        "ordering": "home",
+        "providerId": 868,
+        "record": "2-0-0",
+        "updatedAt": "2026-06-03T16:07:10.717982Z"
+      },
+      {
+        "abbreviation": "kr",
+        "color": "#cc2e3b",
+        "createdAt": "2026-04-06T19:41:40.243128Z",
+        "id": 3270271,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Korea Republic-b5f547fe00.png",
+        "name": "Korea Republic",
+        "ordering": "away",
+        "providerId": 1209,
+        "record": "1-0-1",
+        "updatedAt": "2026-06-03T16:07:11.589877Z"
+      }
+    ],
+    "ticker": "fifwc-mex-kr-2026-06-18",
+    "title": "Mexico vs. Korea Republic",
+    "updatedAt": "2026-06-19T08:33:47.08349Z",
+    "volume": 27812230.6357736,
+    "volume1mo": 27810079.007102218,
+    "volume1wk": 27692503.022341225,
+    "volume1yr": 27812230.635773215,
+    "volume24hr": 26480621.85102317
+  }
+}

@@ -1,0 +1,1355 @@
+{
+  "description": "README flagship: ESPN 'Congo DR' ↔ Polymarket 'DR Congo' (COD→cdr), word-order swap handled by token-set match.",
+  "espn": {
+    "competitions": [
+      {
+        "altGameNote": "FIFA World Cup, Group K",
+        "attendance": 68777,
+        "broadcast": "",
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "FOX",
+              "Tele",
+              "Peacock"
+            ]
+          }
+        ],
+        "competitors": [
+          {
+            "form": "DWWWD",
+            "homeAway": "home",
+            "id": "482",
+            "order": 0,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "0-1-0",
+                "type": "total"
+              }
+            ],
+            "score": "1",
+            "statistics": [
+              {
+                "abbreviation": "APP",
+                "displayValue": "0",
+                "name": "appearances"
+              },
+              {
+                "abbreviation": "FC",
+                "displayValue": "9",
+                "name": "foulsCommitted"
+              },
+              {
+                "abbreviation": "CW",
+                "displayValue": "5",
+                "name": "wonCorners"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "1",
+                "name": "goalAssists"
+              },
+              {
+                "abbreviation": "PP",
+                "displayValue": "75.4",
+                "name": "possessionPct"
+              },
+              {
+                "abbreviation": "SHAST",
+                "displayValue": "7",
+                "name": "shotAssists"
+              },
+              {
+                "abbreviation": "SOG",
+                "displayValue": "1",
+                "name": "shotsOnTarget"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "1",
+                "name": "totalGoals"
+              },
+              {
+                "abbreviation": "SHOT",
+                "displayValue": "7",
+                "name": "totalShots"
+              }
+            ],
+            "team": {
+              "abbreviation": "POR",
+              "alternateColor": "0D6938",
+              "color": "da291c",
+              "displayName": "Portugal",
+              "id": "482",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/team/_/id/482/portugal",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/482/portugal",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:482&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/482/portugal",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:482&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/482/portugal",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:482&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "Portugal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+              "name": "Portugal",
+              "shortDisplayName": "Portugal",
+              "uid": "s:600~t:482",
+              "venue": {
+                "id": "4812"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:482",
+            "winner": false
+          },
+          {
+            "form": "DLDWW",
+            "homeAway": "away",
+            "id": "2850",
+            "order": 1,
+            "records": [
+              {
+                "abbreviation": "Total",
+                "name": "All Splits",
+                "summary": "0-1-0",
+                "type": "total"
+              }
+            ],
+            "score": "1",
+            "statistics": [
+              {
+                "abbreviation": "APP",
+                "displayValue": "0",
+                "name": "appearances"
+              },
+              {
+                "abbreviation": "FC",
+                "displayValue": "10",
+                "name": "foulsCommitted"
+              },
+              {
+                "abbreviation": "CW",
+                "displayValue": "4",
+                "name": "wonCorners"
+              },
+              {
+                "abbreviation": "A",
+                "displayValue": "1",
+                "name": "goalAssists"
+              },
+              {
+                "abbreviation": "PP",
+                "displayValue": "24.6",
+                "name": "possessionPct"
+              },
+              {
+                "abbreviation": "SHAST",
+                "displayValue": "7",
+                "name": "shotAssists"
+              },
+              {
+                "abbreviation": "SOG",
+                "displayValue": "2",
+                "name": "shotsOnTarget"
+              },
+              {
+                "abbreviation": "G",
+                "displayValue": "1",
+                "name": "totalGoals"
+              },
+              {
+                "abbreviation": "SHOT",
+                "displayValue": "8",
+                "name": "totalShots"
+              }
+            ],
+            "team": {
+              "abbreviation": "COD",
+              "alternateColor": "C60000",
+              "color": "418fde",
+              "displayName": "Congo DR",
+              "id": "2850",
+              "isActive": true,
+              "links": [
+                {
+                  "href": "https://www.espn.com/soccer/team/_/id/2850/congo-dr",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Clubhouse"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/2850/congo-dr",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2850&section=stats",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Stats"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/2850/congo-dr",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2850&section=scores",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Fixtures"
+                },
+                {
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/2850/congo-dr",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "text": "Squad"
+                },
+                {
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2850&section=squad",
+                  "isExternal": false,
+                  "isHidden": false,
+                  "isPremium": false,
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "text": "Squad"
+                }
+              ],
+              "location": "Congo DR",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+              "name": "Congo DR",
+              "shortDisplayName": "Congo DR",
+              "uid": "s:600~t:2850",
+              "venue": {
+                "id": "2838"
+              }
+            },
+            "type": "team",
+            "uid": "s:600~t:2850",
+            "winner": false
+          }
+        ],
+        "date": "2026-06-17T17:00Z",
+        "details": [
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "João Neves",
+                "fullName": "João Neves",
+                "id": "355061",
+                "jersey": "15",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/355061/joao-neves",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "RM",
+                "shortName": "J. Neves",
+                "team": {
+                  "id": "482"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "6'",
+              "value": 333.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "482"
+            },
+            "type": {
+              "id": "137",
+              "text": "Goal - Header"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Bernardo Silva",
+                "fullName": "Bernardo Silva",
+                "id": "199833",
+                "jersey": "10",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/199833/bernardo-silva",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "AM-R",
+                "shortName": "B. Silva",
+                "team": {
+                  "id": "482"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "13'",
+              "value": 729.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "shootout": false,
+            "team": {
+              "id": "482"
+            },
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "yellowCard": true
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Chancel Mbemba",
+                "fullName": "Chancel Mbemba",
+                "id": "174322",
+                "jersey": "22",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/174322/chancel-mbemba",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "CD-R",
+                "shortName": "C. Mbemba",
+                "team": {
+                  "id": "2850"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "32'",
+              "value": 1899.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "shootout": false,
+            "team": {
+              "id": "2850"
+            },
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "yellowCard": true
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Yoane Wissa",
+                "fullName": "Yoane Wissa",
+                "id": "224077",
+                "jersey": "20",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/224077/yoane-wissa",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "CF-R",
+                "shortName": "Y. Wissa",
+                "team": {
+                  "id": "2850"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "45'+5'",
+              "value": 2700.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "shootout": false,
+            "team": {
+              "id": "2850"
+            },
+            "type": {
+              "id": "137",
+              "text": "Goal - Header"
+            },
+            "yellowCard": false
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Nélson Semedo",
+                "fullName": "Nélson Semedo",
+                "id": "222670",
+                "jersey": "2",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/222670/nelson-semedo",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "SUB",
+                "shortName": "N. Semedo",
+                "team": {
+                  "id": "482"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "88'",
+              "value": 5262.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "shootout": false,
+            "team": {
+              "id": "482"
+            },
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "yellowCard": true
+          },
+          {
+            "athletesInvolved": [
+              {
+                "displayName": "Tomás Araújo",
+                "fullName": "Tomás Araújo",
+                "id": "329691",
+                "jersey": "4",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/soccer/player/_/id/329691/tomas-araujo",
+                    "isHidden": false,
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ]
+                  }
+                ],
+                "position": "CD-R",
+                "shortName": "T. Araújo",
+                "team": {
+                  "id": "482"
+                }
+              }
+            ],
+            "clock": {
+              "displayValue": "90'+2'",
+              "value": 5400.0
+            },
+            "ownGoal": false,
+            "penaltyKick": false,
+            "redCard": false,
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "shootout": false,
+            "team": {
+              "id": "482"
+            },
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "yellowCard": true
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "geoBroadcasts": [
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "FOX"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Tele"
+            },
+            "region": "us",
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            }
+          },
+          {
+            "lang": "en",
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Peacock"
+            },
+            "region": "us",
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "description": "Cristiano Ronaldo and his Portugal teammates could only manage a 1-1 draw with Congo DR on Wednesday in their opening World Cup match.",
+            "shortLinkText": "Cristiano Ronaldo's Portugal held by Congo DR in World Cup opener",
+            "type": "Recap"
+          }
+        ],
+        "id": "760435",
+        "notes": [],
+        "odds": [
+          null
+        ],
+        "playByPlayAthletes": true,
+        "playByPlayAvailable": true,
+        "recent": false,
+        "startDate": "2026-06-17T17:00Z",
+        "status": {
+          "clock": 5400.0,
+          "displayClock": "90'+5'",
+          "period": 2,
+          "type": {
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "shortDetail": "FT",
+            "state": "post"
+          }
+        },
+        "timeValid": true,
+        "uid": "s:600~l:606~e:760435~c:760435",
+        "venue": {
+          "address": {
+            "city": "Houston, Texas",
+            "country": "USA"
+          },
+          "fullName": "NRG Stadium",
+          "id": "6262"
+        },
+        "wasSuspended": false
+      }
+    ],
+    "date": "2026-06-17T17:00Z",
+    "id": "760435",
+    "links": [
+      {
+        "href": "https://www.espn.com/soccer/match/_/gameId/760435/congo-dr-portugal",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Summary",
+        "text": "Summary"
+      },
+      {
+        "href": "https://www.espn.com/soccer/video/_/gameId/760435",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "highlights",
+          "desktop"
+        ],
+        "shortText": "Highlights",
+        "text": "Highlights"
+      },
+      {
+        "href": "https://www.espn.com/soccer/report/_/gameId/760435",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Report",
+        "text": "Report"
+      },
+      {
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/760435",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Statistics",
+        "text": "Statistics"
+      },
+      {
+        "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+        "isExternal": false,
+        "isHidden": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "bracket",
+          "desktop",
+          "event"
+        ],
+        "shortText": "Bracket",
+        "text": "Bracket"
+      }
+    ],
+    "name": "Congo DR at Portugal",
+    "season": {
+      "slug": "group-stage",
+      "type": 13802,
+      "year": 2026
+    },
+    "shortName": "COD @ POR",
+    "status": {
+      "clock": 5400.0,
+      "displayClock": "90'+5'",
+      "period": 2,
+      "type": {
+        "completed": true,
+        "description": "Full Time",
+        "detail": "FT",
+        "id": "28",
+        "name": "STATUS_FULL_TIME",
+        "shortDetail": "FT",
+        "state": "post"
+      }
+    },
+    "uid": "s:600~l:606~e:760435",
+    "venue": {
+      "displayName": "NRG Stadium"
+    }
+  },
+  "expected": {
+    "away": {
+      "espn_abbr": "COD",
+      "name": "Congo DR",
+      "pm_code": "cdr"
+    },
+    "espn_event_id": "760435",
+    "home": {
+      "espn_abbr": "POR",
+      "name": "Portugal",
+      "pm_code": "prt"
+    },
+    "kind": "three_way",
+    "league": "fifa.world",
+    "outcomes": [
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-prt-cdr-2026-06-17-prt",
+        "pm_outcome": "Yes",
+        "price": "0",
+        "selection": "home",
+        "team": "Portugal",
+        "token_id": "76071109489406808599878692125264766321676001700733380917373465772841855210643"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-prt-cdr-2026-06-17-cdr",
+        "pm_outcome": "Yes",
+        "price": "0",
+        "selection": "away",
+        "team": "Congo DR",
+        "token_id": "59454896622130760276442490722222126894150925046963444585060045915889624278803"
+      },
+      {
+        "outcome_index": 0,
+        "pm_market_slug": "fifwc-prt-cdr-2026-06-17-draw",
+        "pm_outcome": "Yes",
+        "price": "1",
+        "selection": "draw",
+        "team": null,
+        "token_id": "2328333301741750345417630454121106244367883081134709887163965516147303610120"
+      }
+    ],
+    "pm_event_slug": "fifwc-prt-cdr-2026-06-17",
+    "pm_market_slug": null,
+    "resolved": true
+  },
+  "league": "fifa.world",
+  "polymarket": {
+    "active": true,
+    "archived": false,
+    "automaticallyActive": true,
+    "automaticallyResolved": true,
+    "closed": true,
+    "closedTime": "2026-06-17T19:30:17Z",
+    "commentCount": 0,
+    "createdAt": "2026-04-06T22:19:38.356709Z",
+    "creationDate": "2026-04-06T22:32:24.18193Z",
+    "cyom": false,
+    "deploying": false,
+    "deployingTimestamp": "2026-04-06T22:19:41.021561Z",
+    "description": "This event is for the upcoming FIFA World Cup game, scheduled for Wednesday, June 17, 2026 between Portugal and DR Congo.",
+    "elapsed": "",
+    "enableNegRisk": true,
+    "enableOrderBook": true,
+    "endDate": "2026-06-17T17:00:00Z",
+    "ended": true,
+    "eventDate": "2026-06-17",
+    "eventMetadata": {
+      "context_description": "Portugal and DR Congo met in their FIFA World Cup 2026 Group K opener at NRG Stadium in Houston, where the European side's superior squad depth, attacking talent led by Cristiano Ronaldo, and recent form established them as heavy pre-match favorites. DR Congo countered effectively with organized defending and quick transitions, equalizing through Yoane Wissa after João Neves opened the scoring, resulting in a 1-1 draw confirmed at full time. This outcome locked in the market's 100% consensus on the draw, reflecting the final score rather than any pre-game probability. Late developments such as Portugal's inability to convert dominance into additional goals or defensive lapses in stoppage time sealed the result, though scenarios like a VAR reversal on either goal or an unplayed extension due to unforeseen circumstances could theoretically have altered resolution if the match status remained unresolved.",
+      "context_requires_regen": true,
+      "context_updated_at": "2026-06-17T19:30:44.273Z",
+      "opticOddsFixtureId": "202606178B6154D9",
+      "opticOddsGameId": "88177-14915-2026-06-17",
+      "opticOddsNumericalId": 773029,
+      "sportradarGameId": "sr:sport_event:66457030"
+    },
+    "eventWeek": 1,
+    "featured": false,
+    "finishedTimestamp": "2026-06-17T18:59:28.132478Z",
+    "gameId": 90086927,
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "id": "351735",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+    "live": false,
+    "markets": [
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:28:15Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobTokenIds": "[\"59454896622130760276442490722222126894150925046963444585060045915889624278803\", \"4956804300342509260742465597034180499952217002876541956814985530683852755534\"]",
+        "closed": true,
+        "closedTime": "2026-06-17 19:17:47+00",
+        "comboStatus": "enabled",
+        "conditionId": "0x26af99aaa2182c11f3f02ea8e9ee5527dd2d0f9680c73ffbd7bd0237cc64d5f2",
+        "createdAt": "2026-04-06T22:19:39.103164Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:21:08.903836Z",
+        "description": "In the upcoming game, scheduled for June 17, 2026\nIf DR Congo wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-17T17:00:00Z",
+        "endDateIso": "2026-06-17",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-17 17:00:00+00",
+        "groupItemThreshold": "2",
+        "groupItemTitle": "DR Congo",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897096",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.001,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "202606178B6154D9",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "DR Congo",
+          "opticOddsSelectionLine": "away",
+          "opticOddsTeamId": "AF75F15CD0ED5465"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0xbbccb6b6a4d7b0fd0f398034e06ebddb459bde2ae201cdc75840c3c33d5e5700",
+        "negRiskOther": false,
+        "negRiskRequestID": "0x075aa57c80550617a59f9ec52fb441eb11fef286e3cb71a53e458293c35e4dd0",
+        "new": false,
+        "oneDayPriceChange": -0.0745,
+        "oneHourPriceChange": -0.084,
+        "oneMonthPriceChange": -0.0845,
+        "oneWeekPriceChange": -0.0745,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1027613904944244096516851406063802551527111558736728629317558450903809262080",
+          "1027613904944244096516851406063802551527111558736728629317558450903809262081"
+        ],
+        "question": "Will DR Congo win on 2026-06-17?",
+        "questionID": "0xbbccb6b6a4d7b0fd0f398034e06ebddb459bde2ae201cdc75840c3c33d5e5702",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 0,
+        "rewardsMinSize": 0,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-prt-cdr-2026-06-17-cdr",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:29:37.240877Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-17T19:17:47Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-18T19:19:56.411262Z",
+        "volume": "4297509.750632005",
+        "volumeClob": 4297509.750632005,
+        "volumeNum": 4297509.750632005
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:27:51Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 0.001,
+        "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xcaaa1338d38b5c614196c9a926dd84babc3984442f2ec9b937a16284a199ec3a",
+            "endDate": "2500-12-31",
+            "id": "493572",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 8923,
+            "startDate": "2026-06-17"
+          }
+        ],
+        "clobTokenIds": "[\"76071109489406808599878692125264766321676001700733380917373465772841855210643\", \"81602004406758538382491290996526735522614396336164168992595136497342425298752\"]",
+        "closed": true,
+        "closedTime": "2026-06-17 19:17:47+00",
+        "comboStatus": "enabled",
+        "conditionId": "0xcaaa1338d38b5c614196c9a926dd84babc3984442f2ec9b937a16284a199ec3a",
+        "createdAt": "2026-04-06T22:19:38.541447Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:21:08.90151Z",
+        "description": "In the upcoming game, scheduled for June 17, 2026\nIf Portugal wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-17T17:00:00Z",
+        "endDateIso": "2026-06-17",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-17 17:00:00+00",
+        "groupItemThreshold": "0",
+        "groupItemTitle": "Portugal",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897094",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.001,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "202606178B6154D9",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Portugal",
+          "opticOddsSelectionLine": "home",
+          "opticOddsTeamId": "B7F6378E4D1A6F4E"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0xbbccb6b6a4d7b0fd0f398034e06ebddb459bde2ae201cdc75840c3c33d5e5700",
+        "negRiskOther": false,
+        "negRiskRequestID": "0x542150e7f7432f10072116ceec1a8ff27a6cd47f461fc8312125c6edd7003609",
+        "new": false,
+        "oneDayPriceChange": -0.7645,
+        "oneHourPriceChange": -0.6345,
+        "oneMonthPriceChange": -0.7645,
+        "oneWeekPriceChange": -0.7645,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"0\", \"1\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1027613904944244096516851406063802551527111558736728629317558450903809261568",
+          "1027613904944244096516851406063802551527111558736728629317558450903809261569"
+        ],
+        "question": "Will Portugal win on 2026-06-17?",
+        "questionID": "0xbbccb6b6a4d7b0fd0f398034e06ebddb459bde2ae201cdc75840c3c33d5e5700",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 1.5,
+        "rewardsMinSize": 1000,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-prt-cdr-2026-06-17-prt",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:29:13.22935Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-17T19:17:47Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-18T19:19:54.266997Z",
+        "volume": "14396185.470534254",
+        "volumeClob": 14396185.470534254,
+        "volumeNum": 14396185.470534254
+      },
+      {
+        "acceptingOrders": false,
+        "acceptingOrdersTimestamp": "2026-04-06T22:27:59Z",
+        "active": true,
+        "approved": true,
+        "archived": false,
+        "automaticallyActive": true,
+        "automaticallyResolved": true,
+        "bestAsk": 1,
+        "bestBid": 0.999,
+        "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xff1afdef47475128b85467bd1a3a4a3182da0c27409d81c2dc6c7d55b5467dad",
+            "endDate": "2500-12-31",
+            "id": "493574",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 8923,
+            "startDate": "2026-06-17"
+          }
+        ],
+        "clobTokenIds": "[\"2328333301741750345417630454121106244367883081134709887163965516147303610120\", \"78248766724983621763573737038389694447239642193620905090046937500047661583273\"]",
+        "closed": true,
+        "closedTime": "2026-06-17 19:30:17+00",
+        "comboStatus": "enabled",
+        "conditionId": "0xff1afdef47475128b85467bd1a3a4a3182da0c27409d81c2dc6c7d55b5467dad",
+        "createdAt": "2026-04-06T22:19:38.824106Z",
+        "customLiveness": 0,
+        "cyom": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-06T22:21:08.902785Z",
+        "description": "In the upcoming game, scheduled for June 17, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "enableOrderBook": true,
+        "endDate": "2026-06-17T17:00:00Z",
+        "endDateIso": "2026-06-17",
+        "featured": false,
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "rebateRate": 0.25,
+          "takerOnly": true
+        },
+        "feeType": "sports_fees_v2",
+        "feesEnabled": true,
+        "funded": false,
+        "gameStartTime": "2026-06-17 17:00:00+00",
+        "groupItemThreshold": "1",
+        "groupItemTitle": "Draw (Portugal vs. DR Congo)",
+        "hasReviewedDates": true,
+        "holdingRewardsEnabled": false,
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "id": "1897095",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+        "lastTradePrice": 0.999,
+        "makerBaseFee": 1000,
+        "manualActivation": false,
+        "marketMakerAddress": "",
+        "marketMetadata": {
+          "opticOddsFixtureId": "202606178B6154D9",
+          "opticOddsMarketId": "moneyline_3-way",
+          "opticOddsMarketName": "Moneyline 3-Way",
+          "opticOddsSelection": "Draw",
+          "opticOddsSelectionLine": "draw"
+        },
+        "negRisk": true,
+        "negRiskMarketID": "0xbbccb6b6a4d7b0fd0f398034e06ebddb459bde2ae201cdc75840c3c33d5e5700",
+        "negRiskOther": false,
+        "negRiskRequestID": "0xe2b33734b9a30096ffc79f6ffa4119b69a38fe8b7dc64582794902ed32af53a9",
+        "new": false,
+        "oneDayPriceChange": 0.8345,
+        "oneHourPriceChange": 0.6045,
+        "oneMonthPriceChange": 0.8445,
+        "oneWeekPriceChange": 0.8345,
+        "orderMinSize": 5,
+        "orderPriceMinTickSize": 0.001,
+        "outcomePrices": "[\"1\", \"0\"]",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "pagerDutyNotificationEnabled": false,
+        "pendingDeployment": false,
+        "positionIds": [
+          "1027613904944244096516851406063802551527111558736728629317558450903809261824",
+          "1027613904944244096516851406063802551527111558736728629317558450903809261825"
+        ],
+        "question": "Will Portugal vs. DR Congo end in a draw?",
+        "questionID": "0xbbccb6b6a4d7b0fd0f398034e06ebddb459bde2ae201cdc75840c3c33d5e5701",
+        "ready": false,
+        "requiresTranslation": false,
+        "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "rewardsMaxSpread": 1.5,
+        "rewardsMinSize": 1000,
+        "rfqEnabled": false,
+        "secondsDelay": 0,
+        "slug": "fifwc-prt-cdr-2026-06-17-draw",
+        "sportsMarketType": "moneyline",
+        "spread": 0.001,
+        "startDate": "2026-04-06T22:29:20.324536Z",
+        "startDateIso": "2026-04-06",
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "takerBaseFee": 1000,
+        "umaBond": "500",
+        "umaEndDate": "2026-06-17T19:30:17Z",
+        "umaResolutionStatus": "resolved",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "umaReward": "2",
+        "updatedAt": "2026-06-18T19:31:53.700876Z",
+        "volume": "4963490.814626961",
+        "volumeClob": 4963490.814626961,
+        "volumeNum": 4963490.814626961
+      }
+    ],
+    "negRisk": true,
+    "negRiskAugmented": false,
+    "negRiskMarketID": "0xbbccb6b6a4d7b0fd0f398034e06ebddb459bde2ae201cdc75840c3c33d5e5700",
+    "new": false,
+    "openInterest": 2864024.983964,
+    "pendingDeployment": false,
+    "period": "VFT",
+    "requiresTranslation": false,
+    "resolutionSource": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+    "restricted": true,
+    "score": "1-1",
+    "series": [
+      {
+        "active": true,
+        "archived": false,
+        "closed": false,
+        "commentCount": 4788,
+        "createdAt": "2026-03-26T22:29:37.657465Z",
+        "featured": false,
+        "id": "11433",
+        "liquidity": 130084111.81113,
+        "recurrence": "daily",
+        "requiresTranslation": false,
+        "restricted": true,
+        "seriesType": "single",
+        "slug": "soccer-fifwc",
+        "ticker": "soccer-fifwc",
+        "title": "FIFA World Cup",
+        "updatedAt": "2026-06-19T08:35:40.393594Z",
+        "volume": 19778620.862304017,
+        "volume24hr": 162683937.84828117
+      }
+    ],
+    "seriesSlug": "soccer-fifwc",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "slug": "fifwc-prt-cdr-2026-06-17",
+    "sport": {
+      "createdAt": "2026-04-06T19:15:16.986929Z",
+      "id": 174,
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "ordering": "home",
+      "resolution": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup",
+      "series": "11433",
+      "sport": "fifwc",
+      "tags": "1, 100639, 100350, 102232"
+    },
+    "startDate": "2026-04-06T22:32:24.181937Z",
+    "startTime": "2026-06-17T17:00:00Z",
+    "tags": [
+      {
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "forceHide": true,
+        "forceShow": false,
+        "id": "1",
+        "label": "Sports",
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "requiresTranslation": false,
+        "slug": "sports",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "updatedBy": 15
+      },
+      {
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "forceShow": false,
+        "id": "100639",
+        "label": "Games",
+        "requiresTranslation": false,
+        "slug": "games",
+        "updatedAt": "2026-03-09T22:28:03.358133Z"
+      },
+      {
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "forceShow": false,
+        "id": "100350",
+        "label": "Soccer",
+        "requiresTranslation": false,
+        "slug": "soccer",
+        "updatedAt": "2026-04-17T20:33:09.955379Z"
+      },
+      {
+        "createdAt": "2025-06-08T02:11:18.665669Z",
+        "id": "102232",
+        "label": "FIFA World Cup",
+        "requiresTranslation": false,
+        "slug": "fifa-world-cup",
+        "updatedAt": "2026-04-17T20:58:26.597292Z"
+      }
+    ],
+    "teams": [
+      {
+        "abbreviation": "prt",
+        "color": "#df2020",
+        "createdAt": "2026-04-06T19:41:38.056419Z",
+        "id": 3270248,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Portugal-4eaa06018e.png",
+        "name": "Portugal",
+        "ordering": "home",
+        "providerId": 953,
+        "record": "0-1-0",
+        "updatedAt": "2026-06-03T16:07:11.681794Z"
+      },
+      {
+        "abbreviation": "cdr",
+        "color": "#2080df",
+        "createdAt": "2026-04-06T19:41:38.731432Z",
+        "id": 3270255,
+        "league": "fifwc",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/congo-d36722c83a.png",
+        "name": "DR Congo",
+        "ordering": "away",
+        "providerId": 1057,
+        "record": "0-1-0",
+        "updatedAt": "2026-06-15T02:18:11.117435Z"
+      }
+    ],
+    "ticker": "fifwc-prt-cdr-2026-06-17",
+    "title": "Portugal vs. DR Congo",
+    "updatedAt": "2026-06-19T08:37:21.304263Z",
+    "volume": 23657186.03579322
+  }
+}
