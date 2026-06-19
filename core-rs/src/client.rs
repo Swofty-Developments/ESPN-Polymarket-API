@@ -117,6 +117,20 @@ impl PolymarketClient {
     }
 }
 
+/// True if `slug` is a real game slug `{prefix}-{code}-{code}-YYYY-MM-DD`.
+fn is_game_slug(slug: &str, prefix: &str) -> bool {
+    let Some(rest) = slug.strip_prefix(&format!("{prefix}-")) else {
+        return false;
+    };
+    let parts: Vec<&str> = rest.split('-').collect();
+    let [c1, c2, y, m, d] = parts[..] else {
+        return false;
+    };
+    let alnum = |s: &str| !s.is_empty() && s.chars().all(|c| c.is_ascii_alphanumeric());
+    let digits = |s: &str, n: usize| s.len() == n && s.chars().all(|c| c.is_ascii_digit());
+    alnum(c1) && alnum(c2) && digits(y, 4) && digits(m, 2) && digits(d, 2)
+}
+
 fn urlencode(s: &str) -> String {
     let mut out = String::new();
     for b in s.bytes() {
@@ -153,7 +167,8 @@ pub fn map_game(game: &EspnGame) -> Result<MapResult, ClientError> {
     let query = format!("{} {}", game.away.display_name, game.home.display_name);
     if let Ok(events) = PolymarketClient::search(&query) {
         for ev in events {
-            if !ev.slug.starts_with(&format!("{}-", cfg.pm_prefix)) {
+            // Only a real game slug ({prefix}-{code}-{code}-{date}), never futures/props.
+            if !is_game_slug(&ev.slug, &cfg.pm_prefix) {
                 continue;
             }
             let r = resolve(&game.league, game, &ev);

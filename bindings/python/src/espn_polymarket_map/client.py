@@ -8,6 +8,7 @@ They are *not* part of the conformance corpus; only :func:`resolve` is.
 from __future__ import annotations
 
 import json
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -138,9 +139,10 @@ def map_game(game: EspnGame) -> MapResult:
         events = PolymarketClient.search(query)
     except ClientError:
         events = []
-    prefix = f"{cfg.pm_prefix}-"
+    # Only a real game slug ({prefix}-{code}-{code}-{date}), never futures/props sharing the prefix.
+    game_slug = re.compile(rf"^{cfg.pm_prefix}-[a-z0-9]+-[a-z0-9]+-\d{{4}}-\d{{2}}-\d{{2}}$")
     for ev in events:
-        if not ev.slug.startswith(prefix):
+        if not game_slug.match(ev.slug):
             continue
         r = resolve(game.league, game, ev)
         if r.resolved:

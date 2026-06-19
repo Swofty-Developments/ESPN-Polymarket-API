@@ -54,7 +54,10 @@ const CROSSWALKS: &[(&str, &str)] = &[
     ("epl", include_str!("../../data/crosswalk/epl.json")),
     ("ucl", include_str!("../../data/crosswalk/ucl.json")),
     ("laliga", include_str!("../../data/crosswalk/laliga.json")),
-    ("bundesliga", include_str!("../../data/crosswalk/bundesliga.json")),
+    (
+        "bundesliga",
+        include_str!("../../data/crosswalk/bundesliga.json"),
+    ),
     ("seriea", include_str!("../../data/crosswalk/seriea.json")),
     ("ligue1", include_str!("../../data/crosswalk/ligue1.json")),
     ("mls", include_str!("../../data/crosswalk/mls.json")),

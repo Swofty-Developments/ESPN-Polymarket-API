@@ -164,10 +164,12 @@ export async function mapGame(game: EspnGame): Promise<MapResult> {
   }
 
   const query = `${game.away.displayName} ${game.home.displayName}`;
+  // Only a real game slug ({prefix}-{code}-{code}-{date}), never futures/props sharing the prefix.
+  const gameSlug = new RegExp(`^${cfg.pm_prefix}-[a-z0-9]+-[a-z0-9]+-\\d{4}-\\d{2}-\\d{2}$`);
   try {
     const events = await PolymarketClient.search(query);
     for (const ev of events) {
-      if (!ev.slug.startsWith(`${cfg.pm_prefix}-`)) continue;
+      if (!gameSlug.test(ev.slug)) continue;
       const r = resolve(game.league, game, ev);
       if (r.resolved) return r;
       if (last === null) last = r;
