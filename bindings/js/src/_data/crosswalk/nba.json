@@ -1,0 +1,276 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "nba",
+  "teams": {
+    "atl": {
+      "espn": "ATL",
+      "pm": "atl",
+      "name": "Atlanta Hawks",
+      "aliases": [
+        "atlanta",
+        "hawks"
+      ]
+    },
+    "bkn": {
+      "espn": "BKN",
+      "pm": "bkn",
+      "name": "Brooklyn Nets",
+      "aliases": [
+        "brooklyn",
+        "nets"
+      ]
+    },
+    "bos": {
+      "espn": "BOS",
+      "pm": "bos",
+      "name": "Boston Celtics",
+      "aliases": [
+        "boston",
+        "celtics"
+      ]
+    },
+    "cha": {
+      "espn": "CHA",
+      "pm": "cha",
+      "name": "Charlotte Hornets",
+      "aliases": [
+        "charlotte",
+        "hornets"
+      ]
+    },
+    "chi": {
+      "espn": "CHI",
+      "pm": "chi",
+      "name": "Chicago Bulls",
+      "aliases": [
+        "bulls",
+        "chicago"
+      ]
+    },
+    "cle": {
+      "espn": "CLE",
+      "pm": "cle",
+      "name": "Cleveland Cavaliers",
+      "aliases": [
+        "cavaliers",
+        "cleveland"
+      ]
+    },
+    "dal": {
+      "espn": "DAL",
+      "pm": "dal",
+      "name": "Dallas Mavericks",
+      "aliases": [
+        "dallas",
+        "mavericks"
+      ]
+    },
+    "den": {
+      "espn": "DEN",
+      "pm": "den",
+      "name": "Denver Nuggets",
+      "aliases": [
+        "denver",
+        "nuggets"
+      ]
+    },
+    "det": {
+      "espn": "DET",
+      "pm": "det",
+      "name": "Detroit Pistons",
+      "aliases": [
+        "detroit",
+        "pistons"
+      ]
+    },
+    "gs": {
+      "espn": "GS",
+      "pm": "gsw",
+      "name": "Golden State Warriors",
+      "aliases": [
+        "golden state",
+        "warriors"
+      ]
+    },
+    "hou": {
+      "espn": "HOU",
+      "pm": "hou",
+      "name": "Houston Rockets",
+      "aliases": [
+        "houston",
+        "rockets"
+      ]
+    },
+    "ind": {
+      "espn": "IND",
+      "pm": "ind",
+      "name": "Indiana Pacers",
+      "aliases": [
+        "indiana",
+        "pacers"
+      ]
+    },
+    "lac": {
+      "espn": "LAC",
+      "pm": "lac",
+      "name": "LA Clippers",
+      "aliases": [
+        "clippers",
+        "la"
+      ]
+    },
+    "lal": {
+      "espn": "LAL",
+      "pm": "lal",
+      "name": "Los Angeles Lakers",
+      "aliases": [
+        "lakers",
+        "los angeles"
+      ]
+    },
+    "mem": {
+      "espn": "MEM",
+      "pm": "mem",
+      "name": "Memphis Grizzlies",
+      "aliases": [
+        "grizzlies",
+        "memphis"
+      ]
+    },
+    "mia": {
+      "espn": "MIA",
+      "pm": "mia",
+      "name": "Miami Heat",
+      "aliases": [
+        "heat",
+        "miami"
+      ]
+    },
+    "mil": {
+      "espn": "MIL",
+      "pm": "mil",
+      "name": "Milwaukee Bucks",
+      "aliases": [
+        "bucks",
+        "milwaukee"
+      ]
+    },
+    "min": {
+      "espn": "MIN",
+      "pm": "min",
+      "name": "Minnesota Timberwolves",
+      "aliases": [
+        "minnesota",
+        "timberwolves"
+      ]
+    },
+    "no": {
+      "espn": "NO",
+      "pm": "nop",
+      "name": "New Orleans Pelicans",
+      "aliases": [
+        "new orleans",
+        "pelicans"
+      ]
+    },
+    "ny": {
+      "espn": "NY",
+      "pm": "nyk",
+      "name": "New York Knicks",
+      "aliases": [
+        "knicks",
+        "new york"
+      ]
+    },
+    "okc": {
+      "espn": "OKC",
+      "pm": "okc",
+      "name": "Oklahoma City Thunder",
+      "aliases": [
+        "oklahoma city",
+        "thunder"
+      ]
+    },
+    "orl": {
+      "espn": "ORL",
+      "pm": "orl",
+      "name": "Orlando Magic",
+      "aliases": [
+        "magic",
+        "orlando"
+      ]
+    },
+    "phi": {
+      "espn": "PHI",
+      "pm": "phi",
+      "name": "Philadelphia 76ers",
+      "aliases": [
+        "76ers",
+        "philadelphia"
+      ]
+    },
+    "phx": {
+      "espn": "PHX",
+      "pm": "phx",
+      "name": "Phoenix Suns",
+      "aliases": [
+        "phoenix",
+        "suns"
+      ]
+    },
+    "por": {
+      "espn": "POR",
+      "pm": "por",
+      "name": "Portland Trail Blazers",
+      "aliases": [
+        "portland",
+        "trail blazers"
+      ]
+    },
+    "sa": {
+      "espn": "SA",
+      "pm": "sas",
+      "name": "San Antonio Spurs",
+      "aliases": [
+        "san antonio",
+        "spurs"
+      ]
+    },
+    "sac": {
+      "espn": "SAC",
+      "pm": "sac",
+      "name": "Sacramento Kings",
+      "aliases": [
+        "kings",
+        "sacramento"
+      ]
+    },
+    "tor": {
+      "espn": "TOR",
+      "pm": "tor",
+      "name": "Toronto Raptors",
+      "aliases": [
+        "raptors",
+        "toronto"
+      ]
+    },
+    "utah": {
+      "espn": "UTAH",
+      "pm": "uta",
+      "name": "Utah Jazz",
+      "aliases": [
+        "jazz",
+        "utah"
+      ]
+    },
+    "wsh": {
+      "espn": "WSH",
+      "pm": "was",
+      "name": "Washington Wizards",
+      "aliases": [
+        "washington",
+        "wizards"
+      ]
+    }
+  }
+}

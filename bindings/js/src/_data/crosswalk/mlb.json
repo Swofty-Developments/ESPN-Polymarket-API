@@ -1,0 +1,276 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "mlb",
+  "teams": {
+    "ari": {
+      "espn": "ARI",
+      "pm": "ari",
+      "name": "Arizona Diamondbacks",
+      "aliases": [
+        "arizona",
+        "diamondbacks"
+      ]
+    },
+    "ath": {
+      "espn": "ATH",
+      "pm": "oak",
+      "name": "Athletics",
+      "aliases": [
+        "oakland",
+        "oakland athletics"
+      ]
+    },
+    "atl": {
+      "espn": "ATL",
+      "pm": "atl",
+      "name": "Atlanta Braves",
+      "aliases": [
+        "atlanta",
+        "braves"
+      ]
+    },
+    "bal": {
+      "espn": "BAL",
+      "pm": "bal",
+      "name": "Baltimore Orioles",
+      "aliases": [
+        "baltimore",
+        "orioles"
+      ]
+    },
+    "bos": {
+      "espn": "BOS",
+      "pm": "bos",
+      "name": "Boston Red Sox",
+      "aliases": [
+        "boston",
+        "red sox"
+      ]
+    },
+    "chc": {
+      "espn": "CHC",
+      "pm": "chc",
+      "name": "Chicago Cubs",
+      "aliases": [
+        "chicago",
+        "cubs"
+      ]
+    },
+    "chw": {
+      "espn": "CHW",
+      "pm": "cws",
+      "name": "Chicago White Sox",
+      "aliases": [
+        "chicago",
+        "white sox"
+      ]
+    },
+    "cin": {
+      "espn": "CIN",
+      "pm": "cin",
+      "name": "Cincinnati Reds",
+      "aliases": [
+        "cincinnati",
+        "reds"
+      ]
+    },
+    "cle": {
+      "espn": "CLE",
+      "pm": "cle",
+      "name": "Cleveland Guardians",
+      "aliases": [
+        "cleveland",
+        "guardians"
+      ]
+    },
+    "col": {
+      "espn": "COL",
+      "pm": "col",
+      "name": "Colorado Rockies",
+      "aliases": [
+        "colorado",
+        "rockies"
+      ]
+    },
+    "det": {
+      "espn": "DET",
+      "pm": "det",
+      "name": "Detroit Tigers",
+      "aliases": [
+        "detroit",
+        "tigers"
+      ]
+    },
+    "hou": {
+      "espn": "HOU",
+      "pm": "hou",
+      "name": "Houston Astros",
+      "aliases": [
+        "astros",
+        "houston"
+      ]
+    },
+    "kc": {
+      "espn": "KC",
+      "pm": "kc",
+      "name": "Kansas City Royals",
+      "aliases": [
+        "kansas city",
+        "royals"
+      ]
+    },
+    "laa": {
+      "espn": "LAA",
+      "pm": "laa",
+      "name": "Los Angeles Angels",
+      "aliases": [
+        "angels",
+        "los angeles"
+      ]
+    },
+    "lad": {
+      "espn": "LAD",
+      "pm": "lad",
+      "name": "Los Angeles Dodgers",
+      "aliases": [
+        "dodgers",
+        "los angeles"
+      ]
+    },
+    "mia": {
+      "espn": "MIA",
+      "pm": "mia",
+      "name": "Miami Marlins",
+      "aliases": [
+        "marlins",
+        "miami"
+      ]
+    },
+    "mil": {
+      "espn": "MIL",
+      "pm": "mil",
+      "name": "Milwaukee Brewers",
+      "aliases": [
+        "brewers",
+        "milwaukee"
+      ]
+    },
+    "min": {
+      "espn": "MIN",
+      "pm": "min",
+      "name": "Minnesota Twins",
+      "aliases": [
+        "minnesota",
+        "twins"
+      ]
+    },
+    "nym": {
+      "espn": "NYM",
+      "pm": "nym",
+      "name": "New York Mets",
+      "aliases": [
+        "mets",
+        "new york"
+      ]
+    },
+    "nyy": {
+      "espn": "NYY",
+      "pm": "nyy",
+      "name": "New York Yankees",
+      "aliases": [
+        "new york",
+        "yankees"
+      ]
+    },
+    "phi": {
+      "espn": "PHI",
+      "pm": "phi",
+      "name": "Philadelphia Phillies",
+      "aliases": [
+        "philadelphia",
+        "phillies"
+      ]
+    },
+    "pit": {
+      "espn": "PIT",
+      "pm": "pit",
+      "name": "Pittsburgh Pirates",
+      "aliases": [
+        "pirates",
+        "pittsburgh"
+      ]
+    },
+    "sd": {
+      "espn": "SD",
+      "pm": "sd",
+      "name": "San Diego Padres",
+      "aliases": [
+        "padres",
+        "san diego"
+      ]
+    },
+    "sea": {
+      "espn": "SEA",
+      "pm": "sea",
+      "name": "Seattle Mariners",
+      "aliases": [
+        "mariners",
+        "seattle"
+      ]
+    },
+    "sf": {
+      "espn": "SF",
+      "pm": "sf",
+      "name": "San Francisco Giants",
+      "aliases": [
+        "giants",
+        "san francisco"
+      ]
+    },
+    "stl": {
+      "espn": "STL",
+      "pm": "stl",
+      "name": "St. Louis Cardinals",
+      "aliases": [
+        "cardinals",
+        "st louis"
+      ]
+    },
+    "tb": {
+      "espn": "TB",
+      "pm": "tb",
+      "name": "Tampa Bay Rays",
+      "aliases": [
+        "rays",
+        "tampa bay"
+      ]
+    },
+    "tex": {
+      "espn": "TEX",
+      "pm": "tex",
+      "name": "Texas Rangers",
+      "aliases": [
+        "rangers",
+        "texas"
+      ]
+    },
+    "tor": {
+      "espn": "TOR",
+      "pm": "tor",
+      "name": "Toronto Blue Jays",
+      "aliases": [
+        "blue jays",
+        "toronto"
+      ]
+    },
+    "wsh": {
+      "espn": "WSH",
+      "pm": "wsh",
+      "name": "Washington Nationals",
+      "aliases": [
+        "nationals",
+        "washington"
+      ]
+    }
+  }
+}
