@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Map ESPN scoreboard games to Polymarket prediction markets (cross-language port; byte-identical to the Rust reference).",
   "type": "module",
-  "license": "MIT",
+  "license": "MIT OR Apache-2.0",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -25,7 +25,7 @@
     "build": "npm run clean && tsc -p tsconfig.json && npm run copy-data",
     "build:test": "npm run clean:test && tsc -p tsconfig.test.json",
     "pretest": "npm run build && npm run build:test",
-    "test": "node --test \"dist-test/**/*.test.js\""
+    "test": "node --test dist-test/*.test.js"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
