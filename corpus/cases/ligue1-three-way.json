@@ -1,0 +1,1372 @@
+{
+  "description": "Ligue 1 3-way (Marseille/Lyon); prefix fl1; lyo->Lyon via code-prefix match.",
+  "league": "fra.1",
+  "espn": {
+    "id": "746623",
+    "uid": "s:600~l:710~e:746623",
+    "date": "2026-03-01T19:45Z",
+    "name": "Lyon at Marseille",
+    "shortName": "LYON @ OLM",
+    "season": {
+      "year": 2025,
+      "type": 13546,
+      "slug": "2025-26-ligue-1"
+    },
+    "competitions": [
+      {
+        "id": "746623",
+        "uid": "s:600~l:710~e:746623~c:746623",
+        "date": "2026-03-01T19:45Z",
+        "startDate": "2026-03-01T19:45Z",
+        "attendance": 66225,
+        "timeValid": true,
+        "recent": false,
+        "status": {
+          "clock": 5400,
+          "displayClock": "90'+10'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "id": "3113",
+          "fullName": "Stade Vélodrome",
+          "address": {
+            "city": "Marseille",
+            "country": "France"
+          }
+        },
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "altGameNote": "Ligue 1",
+        "notes": [],
+        "geoBroadcasts": [],
+        "broadcasts": [],
+        "broadcast": "",
+        "competitors": [
+          {
+            "id": "176",
+            "uid": "s:600~t:176",
+            "type": "team",
+            "order": 0,
+            "homeAway": "home",
+            "winner": true,
+            "form": "WWLDL",
+            "score": "3",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "13-4-7",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "176",
+              "uid": "s:600~t:176",
+              "abbreviation": "OLM",
+              "displayName": "Marseille",
+              "shortDisplayName": "Marseille",
+              "name": "Marseille",
+              "location": "Marseille",
+              "color": "ffffff",
+              "alternateColor": "011F68",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/176/marseille",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/176/marseille",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:176&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/176/marseille",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:176&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/176/marseille",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:176&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "3113"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "16"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "8"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "3"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "51.9"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "15"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "7"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "3"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "18"
+              }
+            ]
+          },
+          {
+            "id": "167",
+            "uid": "s:600~t:167",
+            "type": "team",
+            "order": 1,
+            "homeAway": "away",
+            "winner": false,
+            "form": "LLWWW",
+            "score": "2",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "14-3-7",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "167",
+              "uid": "s:600~t:167",
+              "abbreviation": "LYON",
+              "displayName": "Lyon",
+              "shortDisplayName": "Lyon",
+              "name": "Lyon",
+              "location": "Lyon",
+              "color": "ffffff",
+              "alternateColor": "1a1a1a",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/167/lyon",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/167/lyon",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:167&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/167/lyon",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:167&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/167/lyon",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:167&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "6499"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "8"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "1"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "2"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "48.1"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "11"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "6"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "2"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "12"
+              }
+            ]
+          }
+        ],
+        "details": [
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 121,
+              "displayValue": "3'"
+            },
+            "team": {
+              "id": "167"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "192060",
+                "displayName": "Corentin Tolisso",
+                "shortName": "C. Tolisso",
+                "fullName": "Corentin Tolisso",
+                "jersey": "8",
+                "team": {
+                  "id": "167"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/192060/corentin-tolisso",
+                    "isHidden": false
+                  }
+                ],
+                "position": "LM"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 1776,
+              "displayValue": "30'"
+            },
+            "team": {
+              "id": "167"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "214649",
+                "displayName": "Clinton Mata",
+                "shortName": "C. Mata",
+                "fullName": "Clinton Mata",
+                "jersey": "22",
+                "team": {
+                  "id": "167"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/214649/clinton-mata",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CD-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 2700,
+              "displayValue": "45'+1'"
+            },
+            "team": {
+              "id": "167"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "298522",
+                "displayName": "Tyler Morton",
+                "shortName": "T. Morton",
+                "fullName": "Tyler Morton",
+                "jersey": "23",
+                "team": {
+                  "id": "167"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/298522/tyler-morton",
+                    "isHidden": false
+                  }
+                ],
+                "position": "DM"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 3114,
+              "displayValue": "52'"
+            },
+            "team": {
+              "id": "176"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "289114",
+                "displayName": "Igor Paixão ",
+                "shortName": "Igor Paixão ",
+                "fullName": "Igor Paixão ",
+                "jersey": "14",
+                "team": {
+                  "id": "176"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/289114.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/289114/igor-paixao",
+                    "isHidden": false
+                  }
+                ],
+                "position": "SUB"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4400,
+              "displayValue": "74'"
+            },
+            "team": {
+              "id": "176"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "152270",
+                "displayName": "Geoffrey Kondogbia",
+                "shortName": "G. Kondogbia",
+                "fullName": "Geoffrey Kondogbia",
+                "jersey": "19",
+                "team": {
+                  "id": "176"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/152270/geoffrey-kondogbia",
+                    "isHidden": false
+                  }
+                ],
+                "position": "RM"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 4535,
+              "displayValue": "76'"
+            },
+            "team": {
+              "id": "167"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "403842",
+                "displayName": "Rémi Himbert",
+                "shortName": "R. Himbert",
+                "fullName": "Rémi Himbert",
+                "jersey": "45",
+                "team": {
+                  "id": "167"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/403842/remi-himbert",
+                    "isHidden": false
+                  }
+                ],
+                "position": "SUB"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "173",
+              "text": "Goal - Volley"
+            },
+            "clock": {
+              "value": 4832,
+              "displayValue": "81'"
+            },
+            "team": {
+              "id": "176"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "122260",
+                "displayName": "Pierre-Emerick Aubameyang",
+                "shortName": "P. Aubameyang",
+                "fullName": "Pierre-Emerick Aubameyang",
+                "jersey": "17",
+                "team": {
+                  "id": "176"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/122260/pierre-emerick-aubameyang",
+                    "isHidden": false
+                  }
+                ],
+                "position": "F"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4980,
+              "displayValue": "83'"
+            },
+            "team": {
+              "id": "176"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "245243",
+                "displayName": "Nayef Aguerd",
+                "shortName": "N. Aguerd",
+                "fullName": "Nayef Aguerd",
+                "jersey": "21",
+                "team": {
+                  "id": "176"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/245243/nayef-aguerd",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CD-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 5400,
+              "displayValue": "90'+1'"
+            },
+            "team": {
+              "id": "176"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "122260",
+                "displayName": "Pierre-Emerick Aubameyang",
+                "shortName": "P. Aubameyang",
+                "fullName": "Pierre-Emerick Aubameyang",
+                "jersey": "17",
+                "team": {
+                  "id": "176"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/122260/pierre-emerick-aubameyang",
+                    "isHidden": false
+                  }
+                ],
+                "position": "F"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 5400,
+              "displayValue": "90'+8'"
+            },
+            "team": {
+              "id": "176"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "277525",
+                "displayName": "Himad Abdelli",
+                "shortName": "H. Abdelli",
+                "fullName": "Himad Abdelli",
+                "jersey": "8",
+                "team": {
+                  "id": "176"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/277525/himad-abdelli",
+                    "isHidden": false
+                  }
+                ],
+                "position": "SUB"
+              }
+            ]
+          }
+        ],
+        "headlines": [
+          {
+            "description": "Pierre-Emerick Aubameyang struck twice in the final nine minutes as Marseille came from behind to snatch a dramatic 3-2 win over Lyon in Ligue 1.",
+            "type": "Recap",
+            "shortLinkText": "Late Aubameyang goals lead Marseille past Lyon"
+          }
+        ],
+        "odds": [
+          null
+        ],
+        "wasSuspended": false,
+        "playByPlayAvailable": true,
+        "playByPlayAthletes": true
+      }
+    ],
+    "status": {
+      "clock": 5400,
+      "displayClock": "90'+10'",
+      "period": 2,
+      "type": {
+        "id": "28",
+        "name": "STATUS_FULL_TIME",
+        "state": "post",
+        "completed": true,
+        "description": "Full Time",
+        "detail": "FT",
+        "shortDetail": "FT"
+      }
+    },
+    "venue": {
+      "displayName": "Stade Vélodrome"
+    },
+    "links": [
+      {
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/746623/lyon-marseille",
+        "text": "Summary",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/report/_/gameId/746623",
+        "text": "Report",
+        "shortText": "Report",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/746623",
+        "text": "Statistics",
+        "shortText": "Statistics",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      }
+    ]
+  },
+  "polymarket": {
+    "id": "211265",
+    "ticker": "fl1-olm-lyo-2026-03-01",
+    "slug": "fl1-olm-lyo-2026-03-01",
+    "title": "Olympique de Marseille vs. Olympique Lyonnais",
+    "description": "This event is for the upcoming Ligue 1 game, scheduled for Sunday, March 1, 2026 between Olympique de Marseille and Olympique Lyonnais.",
+    "resolutionSource": "https://www.ligue1.com/",
+    "startDate": "2026-02-16T05:09:37.70929Z",
+    "creationDate": "2026-02-16T05:09:37.709285Z",
+    "endDate": "2026-03-01T19:45:00Z",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "new": false,
+    "featured": false,
+    "restricted": true,
+    "volume": 739367.478569,
+    "openInterest": 0,
+    "createdAt": "2026-02-16T05:00:12.183298Z",
+    "updatedAt": "2026-03-03T08:27:31.003084Z",
+    "volume1wk": 737443.8779250004,
+    "volume1mo": 739367.4785690004,
+    "volume1yr": 739367.4785690004,
+    "enableOrderBook": true,
+    "negRisk": true,
+    "negRiskMarketID": "0x07e766311cf9bd3c63f3731439302313f5a0e3b7ee374b2fa14396e381e7fe00",
+    "commentCount": 0,
+    "markets": [
+      {
+        "id": "1384042",
+        "question": "Will Olympique de Marseille win on 2026-03-01?",
+        "conditionId": "0x0217ba6471e618f15f0c5dcf1da15e12f8dfa233815fdf26daf7c3e952a1e004",
+        "slug": "fl1-olm-lyo-2026-03-01-olm",
+        "resolutionSource": "https://www.ligue1.com/",
+        "endDate": "2026-03-01T19:45:00Z",
+        "startDate": "2026-02-16T05:08:32.97555Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+        "description": "In the upcoming game, scheduled for March 1, 2026\nIf Olympique de Marseille wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"1\", \"0\"]",
+        "volume": "501831.639985",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-02-16T05:00:12.280786Z",
+        "updatedAt": "2026-03-03T08:27:19.19517Z",
+        "closedTime": "2026-03-02 02:49:23+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+        "restricted": true,
+        "groupItemTitle": "Olympique de Marseille",
+        "groupItemThreshold": "0",
+        "questionID": "0x07e766311cf9bd3c63f3731439302313f5a0e3b7ee374b2fa14396e381e7fe00",
+        "umaEndDate": "2026-03-02T02:49:23Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 501831.639985,
+        "endDateIso": "2026-03-01",
+        "startDateIso": "2026-02-16",
+        "hasReviewedDates": true,
+        "volume1wk": 501789.8759110004,
+        "volume1mo": 501831.6399850004,
+        "volume1yr": 501831.6399850004,
+        "gameStartTime": "2026-03-01 19:45:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"84154652491559881951275946348805985319137391329306531971793853549531869873153\", \"48752998138628509752535097932131474870584449928603893168408889354782033168544\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "volume1wkClob": 501789.8759110004,
+        "volume1moClob": 501831.6399850004,
+        "volume1yrClob": 501831.6399850004,
+        "volumeClob": 501831.639985,
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x07e766311cf9bd3c63f3731439302313f5a0e3b7ee374b2fa14396e381e7fe00",
+        "negRiskRequestID": "0xa4fa673de8331200c637db48e6450eb2a5d86970741f9a4c5648bd868505fc96",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-02-16T05:07:11Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 50,
+        "rewardsMaxSpread": 4.5,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneWeekPriceChange": -0.015,
+        "lastTradePrice": 0.999,
+        "bestBid": 0.999,
+        "bestAsk": 1,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\", \"resolved\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-02-16T05:02:02.496204Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": false,
+        "requiresTranslation": false,
+        "feeType": null
+      },
+      {
+        "id": "1384044",
+        "question": "Will Olympique de Marseille vs. Olympique Lyonnais end in a draw?",
+        "conditionId": "0x0e3d7da5a2f5f7fad7d7c8d4c604f3f6e0e17054139b0ec66545393cf09db6ba",
+        "slug": "fl1-olm-lyo-2026-03-01-draw",
+        "resolutionSource": "https://www.ligue1.com/",
+        "endDate": "2026-03-01T19:45:00Z",
+        "startDate": "2026-02-16T05:08:39.354776Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+        "description": "In the upcoming game, scheduled for March 1, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "volume": "77303.505264",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-02-16T05:00:12.38649Z",
+        "updatedAt": "2026-03-03T08:27:20.235892Z",
+        "closedTime": "2026-03-02 02:48:27+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+        "restricted": true,
+        "groupItemTitle": "Draw (Olympique de Marseille vs. Olympique Lyonnais)",
+        "groupItemThreshold": "1",
+        "questionID": "0x07e766311cf9bd3c63f3731439302313f5a0e3b7ee374b2fa14396e381e7fe01",
+        "umaEndDate": "2026-03-02T02:48:27Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 77303.505264,
+        "endDateIso": "2026-03-01",
+        "startDateIso": "2026-02-16",
+        "hasReviewedDates": true,
+        "volume1wk": 76929.90171699997,
+        "volume1mo": 77303.50526399998,
+        "volume1yr": 77303.50526399998,
+        "gameStartTime": "2026-03-01 19:45:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"15782931778804572338251504191430108917452357748092923455416865567971822633439\", \"20604031185270002909269222469167594991962009219754091371202413930721345707912\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "volume1wkClob": 76929.90171699997,
+        "volume1moClob": 77303.50526399998,
+        "volume1yrClob": 77303.50526399998,
+        "volumeClob": 77303.505264,
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x07e766311cf9bd3c63f3731439302313f5a0e3b7ee374b2fa14396e381e7fe00",
+        "negRiskRequestID": "0x938278eae0134f1baeb5141c0895c8ff0c6a2da607d0f8cde2110263df9324e9",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-02-16T05:07:17Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 50,
+        "rewardsMaxSpread": 4.5,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "lastTradePrice": 0.02,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\", \"resolved\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-02-16T05:02:02.49952Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": false,
+        "requiresTranslation": false,
+        "feeType": null
+      },
+      {
+        "id": "1384046",
+        "question": "Will Olympique Lyonnais win on 2026-03-01?",
+        "conditionId": "0x4a12874f8e92849e6a7d063eeece6f18cccde232dcb24db3cf5a3cf529e19edc",
+        "slug": "fl1-olm-lyo-2026-03-01-lyo",
+        "resolutionSource": "https://www.ligue1.com/",
+        "endDate": "2026-03-01T19:45:00Z",
+        "startDate": "2026-02-16T05:08:49.412044Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+        "description": "In the upcoming game, scheduled for March 1, 2026\nIf Olympique Lyonnais wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "volume": "160232.33332",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-02-16T05:00:12.492524Z",
+        "updatedAt": "2026-03-03T08:27:18.624597Z",
+        "closedTime": "2026-03-02 02:45:25+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+        "restricted": true,
+        "groupItemTitle": "Olympique Lyonnais",
+        "groupItemThreshold": "2",
+        "questionID": "0x07e766311cf9bd3c63f3731439302313f5a0e3b7ee374b2fa14396e381e7fe02",
+        "umaEndDate": "2026-03-02T02:45:25Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 160232.33332,
+        "endDateIso": "2026-03-01",
+        "startDateIso": "2026-02-16",
+        "hasReviewedDates": true,
+        "volume1wk": 158724.10029699997,
+        "volume1mo": 160232.33332,
+        "volume1yr": 160232.33332,
+        "gameStartTime": "2026-03-01 19:45:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"72497728879131723206343498272265678884801070262664441524951692683928925209171\", \"33213374110913272065901265186364979651850899443044816256739384827177878569381\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "volume1wkClob": 158724.10029699997,
+        "volume1moClob": 160232.33332,
+        "volume1yrClob": 160232.33332,
+        "volumeClob": 160232.33332,
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x07e766311cf9bd3c63f3731439302313f5a0e3b7ee374b2fa14396e381e7fe00",
+        "negRiskRequestID": "0xfb95b3cdf991e1025797c7f7e9920c93c2d8b20d31987c8a36030bf5820e9fc6",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-02-16T05:07:27Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 50,
+        "rewardsMaxSpread": 4.5,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneWeekPriceChange": 0.025,
+        "lastTradePrice": 0.001,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\", \"resolved\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-02-16T05:02:02.502213Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": false,
+        "requiresTranslation": false,
+        "feeType": null
+      }
+    ],
+    "series": [
+      {
+        "id": "10195",
+        "ticker": "ligue-1-2025",
+        "slug": "ligue-1-2025",
+        "title": "Ligue 1 2025",
+        "seriesType": "single",
+        "recurrence": "daily",
+        "active": true,
+        "closed": false,
+        "archived": false,
+        "new": false,
+        "featured": false,
+        "restricted": true,
+        "createdAt": "2025-08-14T18:48:15.06735Z",
+        "updatedAt": "2026-06-19T10:13:56.599214Z",
+        "commentCount": 437,
+        "requiresTranslation": false
+      }
+    ],
+    "tags": [
+      {
+        "id": "1",
+        "label": "Sports",
+        "slug": "sports",
+        "forceShow": false,
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "updatedBy": 15,
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "forceHide": true,
+        "requiresTranslation": false
+      },
+      {
+        "id": "100639",
+        "label": "Games",
+        "slug": "games",
+        "forceShow": false,
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "updatedAt": "2026-03-09T22:28:03.358133Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "102070",
+        "label": "Ligue 1",
+        "slug": "ligue-1",
+        "createdAt": "2025-04-22T13:02:09.998552Z",
+        "updatedAt": "2026-04-17T17:19:59.274521Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "100350",
+        "label": "Soccer",
+        "slug": "soccer",
+        "forceShow": false,
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "updatedAt": "2026-04-17T20:33:09.955379Z",
+        "requiresTranslation": false
+      }
+    ],
+    "cyom": false,
+    "closedTime": "2026-03-02T02:49:23Z",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "automaticallyResolved": true,
+    "enableNegRisk": true,
+    "automaticallyActive": true,
+    "eventDate": "2026-03-01",
+    "startTime": "2026-03-01T19:45:00Z",
+    "eventWeek": 14,
+    "seriesSlug": "ligue-1-2025",
+    "score": "3-2",
+    "elapsed": "",
+    "period": "VFT",
+    "live": false,
+    "ended": true,
+    "finishedTimestamp": "2026-03-01T21:52:39.178914Z",
+    "negRiskAugmented": false,
+    "pendingDeployment": false,
+    "deploying": false,
+    "deployingTimestamp": "2026-02-16T05:00:16.243883Z",
+    "gameId": 90094011,
+    "requiresTranslation": false,
+    "teams": [
+      {
+        "id": 114310,
+        "name": "Olympique de Marseille",
+        "league": "fl1",
+        "record": "0-0-0",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Olympique de Marseille-ac5e7e2f9e.png",
+        "abbreviation": "olm",
+        "alias": "Marseille",
+        "createdAt": "2025-08-13T18:45:05.683054Z",
+        "updatedAt": "2026-05-14T03:33:34.981109Z",
+        "providerId": 822,
+        "color": "#1879aa",
+        "ordering": "home"
+      },
+      {
+        "id": 114309,
+        "name": "Olympique Lyonnais",
+        "league": "fl1",
+        "record": "0-0-0",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Olympique Lyonnais-e213170dc9.png",
+        "abbreviation": "lyo",
+        "alias": "Lyon",
+        "createdAt": "2025-08-13T18:45:05.683054Z",
+        "updatedAt": "2026-05-14T03:33:34.774368Z",
+        "providerId": 597,
+        "color": "#1d3fc9",
+        "ordering": "away"
+      }
+    ],
+    "sport": {
+      "id": 11,
+      "sport": "fl1",
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+      "resolution": "https://ligue1.com/en",
+      "ordering": "home",
+      "tags": "1,100639,102070,100350",
+      "series": "10195",
+      "createdAt": "2025-11-05T19:27:45.399303Z"
+    }
+  },
+  "expected": {
+    "resolved": true,
+    "league": "fra.1",
+    "kind": "three_way",
+    "espn_event_id": "746623",
+    "pm_event_slug": "fl1-olm-lyo-2026-03-01",
+    "pm_market_slug": null,
+    "home": {
+      "espn_abbr": "OLM",
+      "name": "Marseille",
+      "pm_code": "olm"
+    },
+    "away": {
+      "espn_abbr": "LYON",
+      "name": "Lyon",
+      "pm_code": "lyo"
+    },
+    "outcomes": [
+      {
+        "selection": "home",
+        "team": "Marseille",
+        "pm_market_slug": "fl1-olm-lyo-2026-03-01-olm",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "84154652491559881951275946348805985319137391329306531971793853549531869873153",
+        "price": "1"
+      },
+      {
+        "selection": "away",
+        "team": "Lyon",
+        "pm_market_slug": "fl1-olm-lyo-2026-03-01-lyo",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "72497728879131723206343498272265678884801070262664441524951692683928925209171",
+        "price": "0"
+      },
+      {
+        "selection": "draw",
+        "team": null,
+        "pm_market_slug": "fl1-olm-lyo-2026-03-01-draw",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "15782931778804572338251504191430108917452357748092923455416865567971822633439",
+        "price": "0"
+      }
+    ]
+  }
+}

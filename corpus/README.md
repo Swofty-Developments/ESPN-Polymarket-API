@@ -45,14 +45,20 @@ so comparison is exact and language-independent.
 
 ## Current cases
 
+Twenty cases spanning all 15 leagues. The World Cup / NBA / MLB / NHL cases pin the trickiest
+failure modes:
+
 | File | Pins |
 |------|------|
 | `soccer-three-way-date-rollover` | 00:30Z kickoff → prior US-Eastern slug date; home-away order; 3 legs |
-| `soccer-three-way-away-favorite` | leg→team by `groupItemTitle`; away favorite |
 | `soccer-curacao-kor-trap` | Polymarket codes Curaçao as `kor` (not Korea) |
 | `soccer-cape-verde-cabo-alias` | ESPN "Cape Verde" ↔ PM "Cabo Verde" via alias (CPV→cvi) |
 | `soccer-congo-dr-word-order` | ESPN "Congo DR" ↔ PM "DR Congo" (COD→cdr) |
 | `soccer-south-korea-kr-code` | ESPN South Korea ↔ PM "Korea Republic" (KOR→kr); date rollover |
 | `nba-two-way-nickname-index` | nickname outcomes; SA→sas, NY→nyk; index resolution |
-| `mlb-two-way-fullname-moneyline` | full-name outcomes; moneyline picked from 26 markets |
 | `nhl-two-way-vgk-las-code` | VGK→las; date rollover; `[away, home]` outcomes |
+
+The remaining cases lock one game per added league: `nfl-*`, `wnba-*` (moneyline in a `-moneyline`
+suffixed market), `cfb-*`, `cbb-*`, and the soccer leagues `epl-*` (legs with `sportsMarketType:null`),
+`ucl-*`, `laliga-*` (Real Madrid `rea` vs the shared-Madrid mis-join), `bundesliga-*` (Bayern `MUN→bay`),
+`seriea-*`, `ligue1-*`, `mls-*`, plus `mlb-two-way-fullname-moneyline`.

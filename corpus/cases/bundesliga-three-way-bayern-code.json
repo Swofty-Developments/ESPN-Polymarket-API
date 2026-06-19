@@ -1,0 +1,1754 @@
+{
+  "description": "Bundesliga; Bayern Munich ESPN MUN -> PM bay; Leverkusen B04 -> b04.",
+  "league": "ger.1",
+  "espn": {
+    "id": "746950",
+    "uid": "s:600~l:720~e:746950",
+    "date": "2026-03-14T14:30Z",
+    "name": "Bayern Munich at Bayer Leverkusen",
+    "shortName": "MUN @ B04",
+    "season": {
+      "year": 2025,
+      "type": 13547,
+      "slug": "2025-26-german-bundesliga"
+    },
+    "competitions": [
+      {
+        "id": "746950",
+        "uid": "s:600~l:720~e:746950~c:746950",
+        "date": "2026-03-14T14:30Z",
+        "startDate": "2026-03-14T14:30Z",
+        "attendance": 30210,
+        "timeValid": true,
+        "recent": false,
+        "status": {
+          "clock": 5400,
+          "displayClock": "90'+10'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "id": "112",
+          "fullName": "BayArena",
+          "address": {
+            "city": "Leverkusen",
+            "country": "Germany"
+          }
+        },
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "altGameNote": "Bundesliga",
+        "notes": [],
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "ESPN+",
+              "logo": "https://a.espncdn.com/guid/322a7e47-3cdb-3b5c-ab1b-678e1f2c27e5/logos/default.png",
+              "darkLogo": "https://a.espncdn.com/guid/322a7e47-3cdb-3b5c-ab1b-678e1f2c27e5/logos/default-dark.png"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "ESPN+"
+            ]
+          }
+        ],
+        "broadcast": "",
+        "competitors": [
+          {
+            "id": "131",
+            "uid": "s:600~t:131",
+            "type": "team",
+            "order": 0,
+            "homeAway": "home",
+            "winner": false,
+            "form": "DLWWL",
+            "score": "1",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "13-6-7",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "131",
+              "uid": "s:600~t:131",
+              "abbreviation": "B04",
+              "displayName": "Bayer Leverkusen",
+              "shortDisplayName": "Leverkusen",
+              "name": "Bayer Leverkusen",
+              "location": "Bayer Leverkusen",
+              "color": "DA0308",
+              "alternateColor": "f9fbfc",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/131/bayer-leverkusen",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/131/bayer-leverkusen",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:131&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/131/bayer-leverkusen",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:131&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/131/bayer-leverkusen",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:131&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "112"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "12"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "4"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "1"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "44.5"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "16"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "7"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "1"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "21"
+              }
+            ]
+          },
+          {
+            "id": "132",
+            "uid": "s:600~t:132",
+            "type": "team",
+            "order": 1,
+            "homeAway": "away",
+            "winner": false,
+            "form": "WWWDD",
+            "score": "1",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "21-4-1",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "132",
+              "uid": "s:600~t:132",
+              "abbreviation": "MUN",
+              "displayName": "Bayern Munich",
+              "shortDisplayName": "Bayern",
+              "name": "Bayern Munich",
+              "location": "Bayern Munich",
+              "color": "dc052d",
+              "alternateColor": "1a1a1a",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/132/bayern-munich",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/132/bayern-munich",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:132&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/132/bayern-munich",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:132&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/132/bayern-munich",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:132&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "1935"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "13"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "1"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "1"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "55.5"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "11"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "5"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "1"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "11"
+              }
+            ]
+          }
+        ],
+        "details": [
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 308,
+              "displayValue": "6'"
+            },
+            "team": {
+              "id": "131"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "219294",
+                "displayName": "Aleix García",
+                "shortName": "A. García",
+                "fullName": "Aleix García",
+                "jersey": "24",
+                "team": {
+                  "id": "131"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/219294/aleix-garcia",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CM-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 1896,
+              "displayValue": "32'"
+            },
+            "team": {
+              "id": "132"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "188052",
+                "displayName": "Jonathan Tah",
+                "shortName": "J. Tah",
+                "fullName": "Jonathan Tah",
+                "jersey": "4",
+                "team": {
+                  "id": "132"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/188052/jonathan-tah",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CD-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "93",
+              "text": "Red Card"
+            },
+            "clock": {
+              "value": 2500,
+              "displayValue": "42'"
+            },
+            "team": {
+              "id": "132"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": true,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "308524",
+                "displayName": "Nicolas Jackson",
+                "shortName": "N. Jackson",
+                "fullName": "Nicolas Jackson",
+                "jersey": "11",
+                "team": {
+                  "id": "132"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/308524/nicolas-jackson",
+                    "isHidden": false
+                  }
+                ],
+                "position": "F"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 3321,
+              "displayValue": "56'"
+            },
+            "team": {
+              "id": "131"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "364080",
+                "displayName": "Ezequiel Fernández",
+                "shortName": "E. Fernández",
+                "fullName": "Ezequiel Fernández",
+                "jersey": "6",
+                "team": {
+                  "id": "131"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/364080/ezequiel-fernandez",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CM-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 4133,
+              "displayValue": "69'"
+            },
+            "team": {
+              "id": "132"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "257390",
+                "displayName": "Luis Díaz",
+                "shortName": "L. Díaz",
+                "fullName": "Luis Díaz",
+                "jersey": "14",
+                "team": {
+                  "id": "132"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/257390/luis-diaz",
+                    "isHidden": false
+                  }
+                ],
+                "position": "AM-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4195,
+              "displayValue": "70'"
+            },
+            "team": {
+              "id": "132"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4432,
+              "displayValue": "74'"
+            },
+            "team": {
+              "id": "131"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "180998",
+                "displayName": "Robert Andrich",
+                "shortName": "R. Andrich",
+                "fullName": "Robert Andrich",
+                "jersey": "8",
+                "team": {
+                  "id": "131"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/180998/robert-andrich",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CD"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4434,
+              "displayValue": "74'"
+            },
+            "team": {
+              "id": "132"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "257390",
+                "displayName": "Luis Díaz",
+                "shortName": "L. Díaz",
+                "fullName": "Luis Díaz",
+                "jersey": "14",
+                "team": {
+                  "id": "132"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/257390/luis-diaz",
+                    "isHidden": false
+                  }
+                ],
+                "position": "AM-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "93",
+              "text": "Red Card"
+            },
+            "clock": {
+              "value": 4988,
+              "displayValue": "84'"
+            },
+            "team": {
+              "id": "132"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": true,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "257390",
+                "displayName": "Luis Díaz",
+                "shortName": "L. Díaz",
+                "fullName": "Luis Díaz",
+                "jersey": "14",
+                "team": {
+                  "id": "132"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/257390/luis-diaz",
+                    "isHidden": false
+                  }
+                ],
+                "position": "AM-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 5400,
+              "displayValue": "90'+5'"
+            },
+            "team": {
+              "id": "131"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "257287",
+                "displayName": "Edmond Tapsoba",
+                "shortName": "E. Tapsoba",
+                "fullName": "Edmond Tapsoba",
+                "jersey": "12",
+                "team": {
+                  "id": "131"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/257287/edmond-tapsoba",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CD-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 5400,
+              "displayValue": "90'+7'"
+            },
+            "team": {
+              "id": "132"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "113733",
+                "displayName": "Sven Ulreich",
+                "shortName": "S. Ulreich",
+                "fullName": "Sven Ulreich",
+                "jersey": "26",
+                "team": {
+                  "id": "132"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/113733/sven-ulreich",
+                    "isHidden": false
+                  }
+                ],
+                "position": "G"
+              }
+            ]
+          }
+        ],
+        "headlines": [
+          {
+            "description": "Nicolas Jackson and Luis Díaz were sent off as Bayern Munich drew with Bayer Leverkusen on Saturday.",
+            "type": "Recap",
+            "shortLinkText": "Díaz and Jackson see red as Bayern drop points",
+            "video": [
+              {
+                "source": "espn",
+                "id": 48204904,
+                "headline": "Bayer Leverkusen vs. Bayern Munich - Game Highlights",
+                "premium": false,
+                "tracking": {
+                  "sportName": "soccer",
+                  "leagueName": "German Bundesliga",
+                  "coverageType": "Final Game Highlight",
+                  "trackingName": "SOC_One-Play (Bayer Leverkusen vs. Bayern Munich - Game Highlights) 2026/03/14 ESHEET",
+                  "trackingId": "dm_20260314_GERMAN_BUNDESLIGA_bayer_leverkusen_vs_bayern_munich_game_highlights"
+                },
+                "deviceRestrictions": {
+                  "type": "whitelist",
+                  "devices": [
+                    "settop",
+                    "tablet",
+                    "handset",
+                    "ipad",
+                    "desktop"
+                  ]
+                },
+                "duration": 81,
+                "categories": [
+                  {
+                    "id": 241411,
+                    "description": "Jonathan Tah",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:188052",
+                    "athlete": {
+                      "id": 188052,
+                      "description": "Jonathan Tah",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/188052/jonathan-tah"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/188052/jonathan-tah"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 250037,
+                    "description": "Harry Kane",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:142200",
+                    "athlete": {
+                      "id": 142200,
+                      "description": "Harry Kane",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/142200/harry-kane"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/142200/harry-kane"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 273603,
+                    "description": "Aleix García",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:219294",
+                    "athlete": {
+                      "id": 219294,
+                      "description": "Aleix García",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/219294/aleix-garcia"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/219294/aleix-garcia"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 711821,
+                    "description": "SC4U - Full Highlight",
+                    "type": "editorialindicator"
+                  },
+                  {
+                    "id": 81497,
+                    "description": "Soccer",
+                    "type": "league",
+                    "sportId": 600,
+                    "leagueId": 600,
+                    "uid": "s:600",
+                    "league": {
+                      "id": 600,
+                      "description": "Soccer",
+                      "links": {
+                        "mobile": {},
+                        "web": {}
+                      }
+                    }
+                  },
+                  {
+                    "id": 142490,
+                    "description": "Bayern Munich",
+                    "type": "team",
+                    "sportId": 600,
+                    "uid": "s:600~t:132",
+                    "team": {
+                      "id": 132,
+                      "description": "Bayern Munich",
+                      "links": {
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/132/bayern-munich"
+                          }
+                        },
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/132/bayern-munich"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 711827,
+                    "description": "3 Star Rating",
+                    "type": "editorialindicator"
+                  },
+                  {
+                    "id": 711824,
+                    "description": "SC4U  - Eligible",
+                    "type": "editorialindicator"
+                  },
+                  {
+                    "id": 137790,
+                    "description": "German Bundesliga",
+                    "type": "league",
+                    "sportId": 600,
+                    "leagueId": 10,
+                    "uid": "s:600~l:720",
+                    "league": {
+                      "id": 720,
+                      "description": "German Bundesliga",
+                      "links": {
+                        "mobile": {},
+                        "web": {}
+                      }
+                    }
+                  },
+                  {
+                    "id": 142494,
+                    "description": "Bayer Leverkusen",
+                    "type": "team",
+                    "sportId": 600,
+                    "uid": "s:600~t:131",
+                    "team": {
+                      "id": 131,
+                      "description": "Bayer Leverkusen",
+                      "links": {
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/131/bayer-leverkusen"
+                          }
+                        },
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/131/bayer-leverkusen"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 450539,
+                    "description": "Nicolas Jackson",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:308524",
+                    "athlete": {
+                      "id": 308524,
+                      "description": "Nicolas Jackson",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/308524/nicolas-jackson"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/308524/nicolas-jackson"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 265018,
+                    "description": "Luis Díaz",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:257390",
+                    "athlete": {
+                      "id": 257390,
+                      "description": "Luis Díaz",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/257390/luis-diaz"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/257390/luis-diaz"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "description": "Bayern Munich @ Bayer Leverkusen",
+                    "type": "event",
+                    "uid": "s:600~l:720~e:746950"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  }
+                ],
+                "gameId": 746950,
+                "images": [
+                  {
+                    "url": "https://media.video-cdn.espn.com/images/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa.jpg",
+                    "width": 576,
+                    "height": 324
+                  }
+                ],
+                "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa.jpg",
+                "links": {
+                  "api": {
+                    "artwork": {
+                      "href": "https://artwork.api.espn.com/artwork/collections/media/51b77a85-c106-428f-810e-50e0abbd947f"
+                    },
+                    "self": {
+                      "href": "https://content.core.api.espn.com/v1/video/clips/48204904"
+                    }
+                  },
+                  "mobile": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/51b77a85-c106-428f-810e-50e0abbd947f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48204904",
+                    "alert": {
+                      "href": "https://m.espn.com/general/video/videoAlert?vid=48204904"
+                    },
+                    "progressiveDownload": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/51b77a85-c106-428f-810e-50e0abbd947f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48204904"
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa.mp4"
+                    },
+                    "streaming": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/51b77a85-c106-428f-810e-50e0abbd947f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48204904"
+                    }
+                  },
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa_360p30_1464k.mp4",
+                    "flash": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa.smil"
+                    },
+                    "full": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa_360p30_1464k.mp4"
+                    },
+                    "hds": {
+                      "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa_rel.smil/manifest.f4m"
+                    },
+                    "mezzanine": {
+                      "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa.mp4"
+                    },
+                    "HD": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa_720p30_2896k.mp4"
+                    },
+                    "HLS": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/playlist.m3u8",
+                      "HD": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0314/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/6048b25c-1ba5-4ddc-ac02-4a6393ae5caa/playlist.m3u8"
+                      }
+                    }
+                  },
+                  "web": {
+                    "href": "https://www.espn.com/video/clip?id=48204904",
+                    "self": {
+                      "href": "https://www.espn.com/video/clip?id=48204904"
+                    }
+                  }
+                },
+                "geoRestrictions": {
+                  "type": "whitelist",
+                  "countries": [
+                    "AS",
+                    "PR",
+                    "MP",
+                    "VI",
+                    "UM",
+                    "US",
+                    "GU"
+                  ]
+                },
+                "dataSourceIdentifier": "95fc3270d2c9f"
+              }
+            ]
+          }
+        ],
+        "odds": [
+          null
+        ],
+        "wasSuspended": false,
+        "playByPlayAvailable": true,
+        "playByPlayAthletes": true
+      }
+    ],
+    "status": {
+      "clock": 5400,
+      "displayClock": "90'+10'",
+      "period": 2,
+      "type": {
+        "id": "28",
+        "name": "STATUS_FULL_TIME",
+        "state": "post",
+        "completed": true,
+        "description": "Full Time",
+        "detail": "FT",
+        "shortDetail": "FT"
+      }
+    },
+    "venue": {
+      "displayName": "BayArena"
+    },
+    "links": [
+      {
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/746950/bayern-munich-bayer-leverkusen",
+        "text": "Summary",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "highlights",
+          "desktop"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/746950",
+        "text": "Highlights",
+        "shortText": "Highlights",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/report/_/gameId/746950",
+        "text": "Report",
+        "shortText": "Report",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/746950",
+        "text": "Statistics",
+        "shortText": "Statistics",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      }
+    ]
+  },
+  "polymarket": {
+    "id": "238412",
+    "ticker": "bun-b04-bay-2026-03-14",
+    "slug": "bun-b04-bay-2026-03-14",
+    "title": "Bayer 04 Leverkusen vs. FC Bayern München",
+    "description": "This event is for the upcoming Bundesliga game, scheduled for Saturday, March 14, 2026 between Bayer 04 Leverkusen and FC Bayern München.",
+    "resolutionSource": "https://www.bundesliga.com/en/bundesliga",
+    "startDate": "2026-03-01T05:07:34.375174Z",
+    "creationDate": "2026-03-01T05:07:34.375169Z",
+    "endDate": "2026-03-14T14:30:00Z",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "new": false,
+    "featured": false,
+    "restricted": true,
+    "openInterest": 0,
+    "createdAt": "2026-03-01T05:00:12.868617Z",
+    "updatedAt": "2026-03-15T19:27:57.569913Z",
+    "enableOrderBook": true,
+    "negRisk": true,
+    "negRiskMarketID": "0x0f74e7db0cdf57422c93a23315d2083a548806a3d5c93e3f1540010d3fb91500",
+    "commentCount": 0,
+    "markets": [
+      {
+        "id": "1472855",
+        "question": "Will Bayer 04 Leverkusen win on 2026-03-14?",
+        "conditionId": "0xd4e641da29f1837241b1d8370db7acbdae3e4fb0952f75e8f71688915e0746ac",
+        "slug": "bun-b04-bay-2026-03-14-b04",
+        "resolutionSource": "https://www.bundesliga.com/en/bundesliga",
+        "endDate": "2026-03-14T14:30:00Z",
+        "startDate": "2026-03-01T05:05:51.30495Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+        "description": "In the upcoming game, scheduled for March 14, 2026\nIf Bayer 04 Leverkusen wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-03-01T05:00:13.059957Z",
+        "updatedAt": "2026-03-15T19:25:35.839703Z",
+        "closedTime": "2026-03-14 19:28:53+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "groupItemTitle": "Bayer 04 Leverkusen",
+        "groupItemThreshold": "0",
+        "questionID": "0x0f74e7db0cdf57422c93a23315d2083a548806a3d5c93e3f1540010d3fb91500",
+        "umaEndDate": "2026-03-14T19:28:53Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "endDateIso": "2026-03-14",
+        "startDateIso": "2026-03-01",
+        "hasReviewedDates": true,
+        "gameStartTime": "2026-03-14 14:30:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"69948407520239892289978812629853665513663898115894600899411391041760712133020\", \"49230079622171831502477160801332860771912606646660088030569875951994573948720\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x0f74e7db0cdf57422c93a23315d2083a548806a3d5c93e3f1540010d3fb91500",
+        "negRiskRequestID": "0x7ccff5d95b012b2ccffac89fdba9303431aec54218502bab9f247443a34b8373",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-03-01T05:04:29Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 50,
+        "rewardsMaxSpread": 4.5,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "lastTradePrice": 0.001,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-03-01T05:02:03.147676Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": false,
+        "requiresTranslation": false,
+        "feeType": null
+      },
+      {
+        "id": "1472859",
+        "question": "Will Bayer 04 Leverkusen vs. FC Bayern München end in a draw?",
+        "conditionId": "0x5e79f4b283661fe8aca0fe14f8992cd438d757f091f4e72d64693271ba9ed812",
+        "slug": "bun-b04-bay-2026-03-14-draw",
+        "resolutionSource": "https://www.bundesliga.com/en/bundesliga",
+        "endDate": "2026-03-14T14:30:00Z",
+        "startDate": "2026-03-01T05:05:53.535541Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+        "description": "In the upcoming game, scheduled for March 14, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"1\", \"0\"]",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-03-01T05:00:13.170644Z",
+        "updatedAt": "2026-03-15T19:27:44.739531Z",
+        "closedTime": "2026-03-14 19:28:53+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "groupItemTitle": "Draw (Bayer 04 Leverkusen vs. FC Bayern München)",
+        "groupItemThreshold": "1",
+        "questionID": "0x0f74e7db0cdf57422c93a23315d2083a548806a3d5c93e3f1540010d3fb91501",
+        "umaEndDate": "2026-03-14T19:28:53Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "endDateIso": "2026-03-14",
+        "startDateIso": "2026-03-01",
+        "hasReviewedDates": true,
+        "gameStartTime": "2026-03-14 14:30:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"23975589579763742453937853221534603775004170366837121532585878884965249637480\", \"22781638228982882434498516344606793639042654507171443033147580774479105863966\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x0f74e7db0cdf57422c93a23315d2083a548806a3d5c93e3f1540010d3fb91500",
+        "negRiskRequestID": "0xbaddf43be68aed74a0ac7c0f4ee3e7e59172309bd30360215f416421cfa05f2c",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-03-01T05:04:31Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 50,
+        "rewardsMaxSpread": 4.5,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "lastTradePrice": 0.999,
+        "bestBid": 0.999,
+        "bestAsk": 1,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-03-01T05:02:03.149373Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": false,
+        "requiresTranslation": false,
+        "feeType": null
+      },
+      {
+        "id": "1472862",
+        "question": "Will FC Bayern München win on 2026-03-14?",
+        "conditionId": "0xd331855f9eff6aa26c50b539294f83b89b5075b4b207dd419aab09ff02a18960",
+        "slug": "bun-b04-bay-2026-03-14-bay",
+        "resolutionSource": "https://www.bundesliga.com/en/bundesliga",
+        "endDate": "2026-03-14T14:30:00Z",
+        "startDate": "2026-03-01T05:06:34.583686Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+        "description": "In the upcoming game, scheduled for March 14, 2026\nIf FC Bayern München wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-03-01T05:00:13.285602Z",
+        "updatedAt": "2026-03-15T18:59:38.154203Z",
+        "closedTime": "2026-03-14 19:28:55+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "groupItemTitle": "FC Bayern München",
+        "groupItemThreshold": "2",
+        "questionID": "0x0f74e7db0cdf57422c93a23315d2083a548806a3d5c93e3f1540010d3fb91502",
+        "umaEndDate": "2026-03-14T19:28:55Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "endDateIso": "2026-03-14",
+        "startDateIso": "2026-03-01",
+        "hasReviewedDates": true,
+        "gameStartTime": "2026-03-14 14:30:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"6516410705529278182488384895104864671850154085216666173455628559571391231624\", \"115404038607124117966719684399663122382780839692877385667055869032800014247067\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x0f74e7db0cdf57422c93a23315d2083a548806a3d5c93e3f1540010d3fb91500",
+        "negRiskRequestID": "0xe015d515d505a025c2644d1fa28bc656dc32f199b3e87a8b62864039b129e7f2",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-03-01T05:05:13Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 50,
+        "rewardsMaxSpread": 4.5,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "lastTradePrice": 0.001,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-03-01T05:02:03.150773Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": false,
+        "requiresTranslation": false,
+        "feeType": null
+      }
+    ],
+    "series": [
+      {
+        "id": "10194",
+        "ticker": "bundesliga-2025",
+        "slug": "bundesliga-2025",
+        "title": "Bundesliga 2025",
+        "seriesType": "single",
+        "recurrence": "daily",
+        "active": true,
+        "closed": false,
+        "archived": false,
+        "new": false,
+        "featured": false,
+        "restricted": true,
+        "createdAt": "2025-08-14T18:48:15.06735Z",
+        "updatedAt": "2026-06-19T10:13:56.599214Z",
+        "volume24hr": 3074,
+        "commentCount": 637,
+        "requiresTranslation": false
+      }
+    ],
+    "tags": [
+      {
+        "id": "1",
+        "label": "Sports",
+        "slug": "sports",
+        "forceShow": false,
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "updatedBy": 15,
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "forceHide": true,
+        "requiresTranslation": false
+      },
+      {
+        "id": "100639",
+        "label": "Games",
+        "slug": "games",
+        "forceShow": false,
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "updatedAt": "2026-03-09T22:28:03.358133Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "100350",
+        "label": "Soccer",
+        "slug": "soccer",
+        "forceShow": false,
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "updatedAt": "2026-04-17T20:33:09.955379Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "1494",
+        "label": "bundesliga",
+        "slug": "bundesliga",
+        "publishedAt": "2024-02-27 19:58:31.554+00",
+        "createdAt": "2024-02-27T19:58:31.578Z",
+        "updatedAt": "2026-04-17T17:21:50.966103Z",
+        "requiresTranslation": false
+      }
+    ],
+    "cyom": false,
+    "closedTime": "2026-03-14T19:28:55Z",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "automaticallyResolved": true,
+    "enableNegRisk": true,
+    "automaticallyActive": true,
+    "eventDate": "2026-03-14",
+    "startTime": "2026-03-14T14:30:00Z",
+    "eventWeek": 12,
+    "seriesSlug": "bundesliga-2025",
+    "score": "1-1",
+    "elapsed": "",
+    "period": "VFT",
+    "live": false,
+    "ended": true,
+    "finishedTimestamp": "2026-03-14T16:31:06.789562Z",
+    "negRiskAugmented": false,
+    "pendingDeployment": false,
+    "deploying": false,
+    "deployingTimestamp": "2026-03-01T05:00:16.454102Z",
+    "gameId": 90093727,
+    "requiresTranslation": false,
+    "teams": [
+      {
+        "id": 101255,
+        "name": "Bayer 04 Leverkusen",
+        "league": "bun",
+        "record": "0-0-0",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Bayer 04 Leverkusen-4a3afac106.png",
+        "abbreviation": "b04",
+        "alias": "Leverkusen",
+        "createdAt": "2025-01-22T21:54:20.094624Z",
+        "updatedAt": "2026-05-14T03:21:16.175Z",
+        "providerId": 530,
+        "color": "#e02424",
+        "ordering": "home"
+      },
+      {
+        "id": 101129,
+        "name": "FC Bayern München",
+        "league": "bun",
+        "record": "0-0-0",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/FC Bayern München-cd4683f47a.png",
+        "abbreviation": "bay",
+        "alias": "Bayern",
+        "createdAt": "2025-01-21T21:33:24.798517Z",
+        "updatedAt": "2026-05-14T03:21:16.042075Z",
+        "providerId": 535,
+        "color": "#aa1830",
+        "ordering": "away"
+      }
+    ],
+    "sport": {
+      "id": 7,
+      "sport": "bun",
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+      "resolution": "https://www.bundesliga.com/en/bundesliga",
+      "ordering": "home",
+      "tags": "1,1494,100639,100350",
+      "series": "10194",
+      "createdAt": "2025-11-05T19:27:45.399303Z"
+    }
+  },
+  "expected": {
+    "resolved": true,
+    "league": "ger.1",
+    "kind": "three_way",
+    "espn_event_id": "746950",
+    "pm_event_slug": "bun-b04-bay-2026-03-14",
+    "pm_market_slug": null,
+    "home": {
+      "espn_abbr": "B04",
+      "name": "Bayer Leverkusen",
+      "pm_code": "b04"
+    },
+    "away": {
+      "espn_abbr": "MUN",
+      "name": "Bayern Munich",
+      "pm_code": "bay"
+    },
+    "outcomes": [
+      {
+        "selection": "home",
+        "team": "Bayer Leverkusen",
+        "pm_market_slug": "bun-b04-bay-2026-03-14-b04",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "69948407520239892289978812629853665513663898115894600899411391041760712133020",
+        "price": "0"
+      },
+      {
+        "selection": "away",
+        "team": "Bayern Munich",
+        "pm_market_slug": "bun-b04-bay-2026-03-14-bay",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "6516410705529278182488384895104864671850154085216666173455628559571391231624",
+        "price": "0"
+      },
+      {
+        "selection": "draw",
+        "team": null,
+        "pm_market_slug": "bun-b04-bay-2026-03-14-draw",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "23975589579763742453937853221534603775004170366837121532585878884965249637480",
+        "price": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1701 @@
+{
+  "description": "La Liga Clasico; RMA->rea (not the shared-Madrid mis-join), BAR->bar; prefix lal.",
+  "league": "esp.1",
+  "espn": {
+    "id": "748484",
+    "uid": "s:600~l:740~e:748484",
+    "date": "2026-05-10T19:00Z",
+    "name": "Real Madrid at Barcelona",
+    "shortName": "RMA @ BAR",
+    "season": {
+      "year": 2025,
+      "type": 13561,
+      "slug": "2025-26-laliga"
+    },
+    "competitions": [
+      {
+        "id": "748484",
+        "uid": "s:600~l:740~e:748484~c:748484",
+        "date": "2026-05-10T19:00Z",
+        "startDate": "2026-05-10T19:00Z",
+        "attendance": 62213,
+        "timeValid": true,
+        "recent": false,
+        "status": {
+          "clock": 5400,
+          "displayClock": "90'+1'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "id": "1625",
+          "fullName": "Spotify Camp Nou",
+          "address": {
+            "city": "Barcelona",
+            "country": "Spain"
+          }
+        },
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "altGameNote": "LALIGA",
+        "notes": [],
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "ESPN",
+              "logo": "https://a.espncdn.com/guid/335fd2d2-97b9-336b-81ee-573eb6bdcffc/logos/default.png"
+            },
+            "lang": "en",
+            "region": "us"
+          },
+          {
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "ESPN Deportes",
+              "logo": "https://a.espncdn.com/guid/58f5b8d0-704b-35dc-b6a6-b32e0e123050/logos/default.png",
+              "darkLogo": "https://a.espncdn.com/guid/58f5b8d0-704b-35dc-b6a6-b32e0e123050/logos/default-dark.png"
+            },
+            "lang": "en",
+            "region": "us"
+          },
+          {
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "ESPN+",
+              "logo": "https://a.espncdn.com/guid/322a7e47-3cdb-3b5c-ab1b-678e1f2c27e5/logos/default.png",
+              "darkLogo": "https://a.espncdn.com/guid/322a7e47-3cdb-3b5c-ab1b-678e1f2c27e5/logos/default-dark.png"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "ESPN",
+              "ESPN Deportes",
+              "ESPN+"
+            ]
+          }
+        ],
+        "broadcast": "",
+        "competitors": [
+          {
+            "id": "83",
+            "uid": "s:600~t:83",
+            "type": "team",
+            "order": 0,
+            "homeAway": "home",
+            "winner": true,
+            "form": "LWLWW",
+            "score": "2",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "30-1-4",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "83",
+              "uid": "s:600~t:83",
+              "abbreviation": "BAR",
+              "displayName": "Barcelona",
+              "shortDisplayName": "Barcelona",
+              "name": "Barcelona",
+              "location": "Barcelona",
+              "color": "990000",
+              "alternateColor": "FCE38A",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/83/barcelona",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/83/barcelona",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/83/barcelona",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/83/barcelona",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "1625"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "18"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "4"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "1"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "56.7"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "8"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "7"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "2"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "10"
+              }
+            ]
+          },
+          {
+            "id": "86",
+            "uid": "s:600~t:86",
+            "type": "team",
+            "order": 1,
+            "homeAway": "away",
+            "winner": false,
+            "form": "WWWLW",
+            "score": "0",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "24-5-6",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "86",
+              "uid": "s:600~t:86",
+              "abbreviation": "RMA",
+              "displayName": "Real Madrid",
+              "shortDisplayName": "Real Madrid",
+              "name": "Real Madrid",
+              "location": "Real Madrid",
+              "color": "ffffff",
+              "alternateColor": "00529F",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/86/real-madrid",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/86/real-madrid",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:86&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/86/real-madrid",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:86&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/86/real-madrid",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:86&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "10630"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "9"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "8"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "0"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "43.3"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "8"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "1"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "0"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "8"
+              }
+            ]
+          }
+        ],
+        "details": [
+          {
+            "type": {
+              "id": "138",
+              "text": "Goal - Free-kick"
+            },
+            "clock": {
+              "value": 495,
+              "displayValue": "9'"
+            },
+            "team": {
+              "id": "83"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "230945",
+                "displayName": "Marcus Rashford",
+                "shortName": "M. Rashford",
+                "fullName": "Marcus Rashford",
+                "jersey": "14",
+                "team": {
+                  "id": "83"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/230945/marcus-rashford",
+                    "isHidden": false
+                  }
+                ],
+                "position": "AM-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 1065,
+              "displayValue": "18'"
+            },
+            "team": {
+              "id": "83"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "265869",
+                "displayName": "Ferran Torres",
+                "shortName": "F. Torres",
+                "fullName": "Ferran Torres",
+                "jersey": "7",
+                "team": {
+                  "id": "83"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/265869/ferran-torres",
+                    "isHidden": false
+                  }
+                ],
+                "position": "F"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 2371,
+              "displayValue": "40'"
+            },
+            "team": {
+              "id": "86"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "285150",
+                "displayName": "Eduardo Camavinga",
+                "shortName": "E. Camavinga",
+                "fullName": "Eduardo Camavinga",
+                "jersey": "6",
+                "team": {
+                  "id": "86"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/285150/eduardo-camavinga",
+                    "isHidden": false
+                  }
+                ],
+                "position": "RM"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 3077,
+              "displayValue": "52'"
+            },
+            "team": {
+              "id": "83"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "227765",
+                "displayName": "Dani Olmo",
+                "shortName": "D. Olmo",
+                "fullName": "Dani Olmo",
+                "jersey": "20",
+                "team": {
+                  "id": "83"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/227765/dani-olmo",
+                    "isHidden": false
+                  }
+                ],
+                "position": "AM"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 3077,
+              "displayValue": "52'"
+            },
+            "team": {
+              "id": "86"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "388338",
+                "displayName": "Raúl Asencio",
+                "shortName": "R. Asencio",
+                "fullName": "Raúl Asencio",
+                "jersey": "17",
+                "team": {
+                  "id": "86"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/388338/raul-asencio",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CD-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 3290,
+              "displayValue": "55'"
+            },
+            "team": {
+              "id": "86"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "291281",
+                "displayName": "Jude Bellingham",
+                "shortName": "J. Bellingham",
+                "fullName": "Jude Bellingham",
+                "jersey": "5",
+                "team": {
+                  "id": "86"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/291281/jude-bellingham",
+                    "isHidden": false
+                  }
+                ],
+                "position": "AM"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4828,
+              "displayValue": "81'"
+            },
+            "team": {
+              "id": "86"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "223532",
+                "displayName": "Trent Alexander-Arnold",
+                "shortName": "T. Alexander-Arnold",
+                "fullName": "Trent Alexander-Arnold",
+                "jersey": "12",
+                "team": {
+                  "id": "86"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/223532/trent-alexander-arnold",
+                    "isHidden": false
+                  }
+                ],
+                "position": "RB"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4843,
+              "displayValue": "81'"
+            },
+            "team": {
+              "id": "83"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "231050",
+                "displayName": "Raphinha ",
+                "shortName": "Raphinha ",
+                "fullName": "Raphinha ",
+                "jersey": "11",
+                "team": {
+                  "id": "83"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/231050/raphinha",
+                    "isHidden": false
+                  }
+                ],
+                "position": "SUB"
+              }
+            ]
+          }
+        ],
+        "headlines": [
+          {
+            "description": "Barcelona clinched the LaLiga title with a 2-0 win over arch-rivals Real Madrid at the Nou Camp on Sunday night.",
+            "type": "Recap",
+            "shortLinkText": "Barcelona beat Madrid to lift LaLiga trophy again",
+            "video": [
+              {
+                "source": "espn",
+                "id": 48734986,
+                "headline": "Barcelona clinches LaLiga title with win over Real Madrid",
+                "premium": false,
+                "tracking": {
+                  "sportName": "soccer",
+                  "leagueName": "Spanish LALIGA",
+                  "coverageType": "Final Game Highlight",
+                  "trackingName": "COM_SOC Highlight (Barcelona clinches LaLiga title with win over Real Madrid) 2026/05/10 ESHEET",
+                  "trackingId": "dm_20260510_SPANISH_LALIGA_barcelona_clinches_laliga_title_with_win_over_real_madrid"
+                },
+                "deviceRestrictions": {
+                  "type": "whitelist",
+                  "devices": [
+                    "settop",
+                    "tablet",
+                    "handset",
+                    "ipad",
+                    "desktop"
+                  ]
+                },
+                "duration": 83,
+                "categories": [
+                  {
+                    "id": 142464,
+                    "description": "Real Madrid",
+                    "type": "team",
+                    "sportId": 600,
+                    "uid": "s:600~t:86",
+                    "team": {
+                      "id": 86,
+                      "description": "Real Madrid",
+                      "links": {
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/86/real-madrid"
+                          }
+                        },
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/86/real-madrid"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 711821,
+                    "description": "SC4U - Full Highlight",
+                    "type": "editorialindicator"
+                  },
+                  {
+                    "id": 81497,
+                    "description": "Soccer",
+                    "type": "league",
+                    "sportId": 600,
+                    "leagueId": 600,
+                    "uid": "s:600",
+                    "league": {
+                      "id": 600,
+                      "description": "Soccer",
+                      "links": {
+                        "mobile": {},
+                        "web": {}
+                      }
+                    }
+                  },
+                  {
+                    "id": 137787,
+                    "description": "Spanish LALIGA",
+                    "type": "league",
+                    "sportId": 600,
+                    "leagueId": 15,
+                    "uid": "s:600~l:740",
+                    "league": {
+                      "id": 740,
+                      "description": "Spanish LALIGA",
+                      "links": {
+                        "mobile": {},
+                        "web": {}
+                      }
+                    }
+                  },
+                  {
+                    "id": 275645,
+                    "description": "Marcus Rashford",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:230945",
+                    "athlete": {
+                      "id": 230945,
+                      "description": "Marcus Rashford",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/230945/marcus-rashford"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/230945/marcus-rashford"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 394847,
+                    "description": "Jude Bellingham",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:291281",
+                    "athlete": {
+                      "id": 291281,
+                      "description": "Jude Bellingham",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/291281/jude-bellingham"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/291281/jude-bellingham"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 711824,
+                    "description": "SC4U  - Eligible",
+                    "type": "editorialindicator"
+                  },
+                  {
+                    "id": 142473,
+                    "description": "Barcelona",
+                    "type": "team",
+                    "sportId": 600,
+                    "uid": "s:600~t:83",
+                    "team": {
+                      "id": 83,
+                      "description": "Barcelona",
+                      "links": {
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/83/barcelona"
+                          }
+                        },
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/83/barcelona"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 231679,
+                    "description": "Ferran Torres",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:265869",
+                    "athlete": {
+                      "id": 265869,
+                      "description": "Ferran Torres",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/265869/ferran-torres"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/265869/ferran-torres"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 266617,
+                    "description": "Robert Lewandowski",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:125824",
+                    "athlete": {
+                      "id": 125824,
+                      "description": "Robert Lewandowski",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/125824/robert-lewandowski"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/125824/robert-lewandowski"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 711828,
+                    "description": "4 Star Rating",
+                    "type": "editorialindicator"
+                  },
+                  {
+                    "description": "Real Madrid @ Barcelona",
+                    "type": "event",
+                    "uid": "s:600~l:740~e:748484"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  }
+                ],
+                "gameId": 748484,
+                "images": [
+                  {
+                    "url": "https://media.video-cdn.espn.com/images/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4.jpg",
+                    "width": 576,
+                    "height": 324
+                  }
+                ],
+                "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4.jpg",
+                "links": {
+                  "api": {
+                    "artwork": {
+                      "href": "https://artwork.api.espn.com/artwork/collections/media/9e3714ef-bbc5-416e-b080-e828ba897d0e"
+                    },
+                    "self": {
+                      "href": "https://content.core.api.espn.com/v1/video/clips/48734986"
+                    }
+                  },
+                  "mobile": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9e3714ef-bbc5-416e-b080-e828ba897d0e/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/48734986/barcelona-clinches-laliga-title-win-real-madrid",
+                    "alert": {
+                      "href": "https://m.espn.com/general/video/videoAlert?vid=48734986"
+                    },
+                    "progressiveDownload": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9e3714ef-bbc5-416e-b080-e828ba897d0e/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/48734986/barcelona-clinches-laliga-title-win-real-madrid"
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4.mp4"
+                    },
+                    "streaming": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9e3714ef-bbc5-416e-b080-e828ba897d0e/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/48734986/barcelona-clinches-laliga-title-win-real-madrid"
+                    }
+                  },
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4_360p30_1464k.mp4",
+                    "flash": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4.smil"
+                    },
+                    "full": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4_360p30_1464k.mp4"
+                    },
+                    "hds": {
+                      "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4_rel.smil/manifest.f4m"
+                    },
+                    "mezzanine": {
+                      "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4.mp4"
+                    },
+                    "HD": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4_720p30_2896k.mp4"
+                    },
+                    "HLS": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4/playlist.m3u8",
+                      "HD": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0510/d1bee93a-c93b-41da-b896-165246ff40e4/d1bee93a-c93b-41da-b896-165246ff40e4/playlist.m3u8"
+                      }
+                    }
+                  },
+                  "web": {
+                    "href": "https://www.espn.com/video/clip/_/id/48734986/barcelona-clinches-laliga-title-win-real-madrid",
+                    "self": {
+                      "href": "https://www.espn.com/video/clip/_/id/48734986/barcelona-clinches-laliga-title-win-real-madrid"
+                    }
+                  }
+                },
+                "geoRestrictions": {
+                  "type": "whitelist",
+                  "countries": [
+                    "AS",
+                    "PR",
+                    "MP",
+                    "VI",
+                    "UM",
+                    "US",
+                    "GU",
+                    "CA"
+                  ]
+                },
+                "dataSourceIdentifier": "873611670640f"
+              }
+            ]
+          }
+        ],
+        "odds": [
+          null
+        ],
+        "wasSuspended": false,
+        "playByPlayAvailable": true,
+        "playByPlayAthletes": true
+      }
+    ],
+    "status": {
+      "clock": 5400,
+      "displayClock": "90'+1'",
+      "period": 2,
+      "type": {
+        "id": "28",
+        "name": "STATUS_FULL_TIME",
+        "state": "post",
+        "completed": true,
+        "description": "Full Time",
+        "detail": "FT",
+        "shortDetail": "FT"
+      }
+    },
+    "venue": {
+      "displayName": "Spotify Camp Nou"
+    },
+    "links": [
+      {
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/748484/real-madrid-barcelona",
+        "text": "Summary",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "highlights",
+          "desktop"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/748484",
+        "text": "Highlights",
+        "shortText": "Highlights",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/report/_/gameId/748484",
+        "text": "Report",
+        "shortText": "Report",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/748484",
+        "text": "Statistics",
+        "shortText": "Statistics",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      }
+    ]
+  },
+  "polymarket": {
+    "id": "422796",
+    "ticker": "lal-bar-rea-2026-05-10",
+    "slug": "lal-bar-rea-2026-05-10",
+    "title": "FC Barcelona vs. Real Madrid CF",
+    "description": "This event is for the upcoming La Liga game, scheduled for Sunday, May 10, 2026 between FC Barcelona and Real Madrid CF.",
+    "resolutionSource": "https://www.laliga.com/",
+    "startDate": "2026-04-27T06:12:39.580044Z",
+    "creationDate": "2026-04-27T06:12:39.580035Z",
+    "endDate": "2026-05-10T19:00:00Z",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "new": false,
+    "featured": false,
+    "restricted": true,
+    "volume": 13204421.860379161,
+    "openInterest": 9802319.847364001,
+    "createdAt": "2026-04-27T06:00:05.845007Z",
+    "updatedAt": "2026-06-19T06:23:01.382383Z",
+    "enableOrderBook": true,
+    "negRisk": true,
+    "negRiskMarketID": "0x1a4dd9829b119ee50725406febb177b450373d878fdf961b1c597c60d45b1400",
+    "commentCount": 0,
+    "markets": [
+      {
+        "id": "2092843",
+        "question": "Will FC Barcelona win on 2026-05-10?",
+        "conditionId": "0x4ad8fd3e8ec4efcc378cc15ab8da7eb71cece5cb30ad4495b515ce9bcc2b325f",
+        "slug": "lal-bar-rea-2026-05-10-bar",
+        "resolutionSource": "https://www.laliga.com/",
+        "endDate": "2026-05-10T19:00:00Z",
+        "startDate": "2026-04-27T06:05:23.486684Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+        "description": "In the upcoming game, scheduled for May 10, 2026\nIf FC Barcelona wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"1\", \"0\"]",
+        "volume": "10618784.457511151",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-04-27T06:00:05.968093Z",
+        "updatedAt": "2026-05-12T01:38:32.643345Z",
+        "closedTime": "2026-05-11 01:35:45+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "groupItemTitle": "FC Barcelona",
+        "groupItemThreshold": "0",
+        "questionID": "0x1a4dd9829b119ee50725406febb177b450373d878fdf961b1c597c60d45b1400",
+        "umaEndDate": "2026-05-11T01:35:45Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 10618784.457511151,
+        "endDateIso": "2026-05-10",
+        "startDateIso": "2026-04-27",
+        "hasReviewedDates": true,
+        "gameStartTime": "2026-05-10 19:00:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"17308554830612181239994496683403599194797416212972952180907211596081025105494\", \"1660729141001422284199825467278055223526868776296114641651590573077277916650\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "volumeClob": 10618784.457511151,
+        "makerBaseFee": 1000,
+        "takerBaseFee": 1000,
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x1a4dd9829b119ee50725406febb177b450373d878fdf961b1c597c60d45b1400",
+        "negRiskRequestID": "0xf42221c309a89662ac3293fd882c0054169bd806a08258a1b284ed43513ed03f",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-04-27T06:04:04Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 0,
+        "rewardsMaxSpread": 0,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneDayPriceChange": 0.4045,
+        "oneWeekPriceChange": 0.4645,
+        "lastTradePrice": 0.999,
+        "bestBid": 0.999,
+        "bestAsk": 1,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-27T06:01:47.427318Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": true,
+        "requiresTranslation": false,
+        "feeType": "sports_fees_v2",
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "takerOnly": true,
+          "rebateRate": 0.25
+        }
+      },
+      {
+        "id": "2092845",
+        "question": "Will FC Barcelona vs. Real Madrid CF end in a draw?",
+        "conditionId": "0x333d5289bd68bff5a4227cd5d505adb22b88d0ffb9d1dfe6bfd4716eb3085208",
+        "slug": "lal-bar-rea-2026-05-10-draw",
+        "resolutionSource": "https://www.laliga.com/",
+        "endDate": "2026-05-10T19:00:00Z",
+        "startDate": "2026-04-27T06:05:22.487816Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+        "description": "In the upcoming game, scheduled for May 10, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "volume": "590529.2998520004",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-04-27T06:00:06.094087Z",
+        "updatedAt": "2026-05-12T01:22:42.592931Z",
+        "closedTime": "2026-05-11 01:37:56+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "groupItemTitle": "Draw (FC Barcelona vs. Real Madrid CF)",
+        "groupItemThreshold": "1",
+        "questionID": "0x1a4dd9829b119ee50725406febb177b450373d878fdf961b1c597c60d45b1401",
+        "umaEndDate": "2026-05-11T01:37:56Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 590529.2998520004,
+        "endDateIso": "2026-05-10",
+        "startDateIso": "2026-04-27",
+        "hasReviewedDates": true,
+        "gameStartTime": "2026-05-10 19:00:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"108765479076284166389273677484845401439434840570024943232089118446971796957146\", \"21215031978776441918736715057001275708139930429330469469762985549886704483332\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "volumeClob": 590529.2998520004,
+        "makerBaseFee": 1000,
+        "takerBaseFee": 1000,
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x1a4dd9829b119ee50725406febb177b450373d878fdf961b1c597c60d45b1400",
+        "negRiskRequestID": "0xced2ecac7f24b7389b426e7ce7ca93466b5a3db59d073c02aac41b1cc2f4e4bb",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-04-27T06:04:02Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 0,
+        "rewardsMaxSpread": 0,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneDayPriceChange": -0.1945,
+        "oneWeekPriceChange": -0.2245,
+        "lastTradePrice": 0.005,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-27T06:01:47.460923Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": true,
+        "requiresTranslation": false,
+        "feeType": "sports_fees_v2",
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "takerOnly": true,
+          "rebateRate": 0.25
+        }
+      },
+      {
+        "id": "2092847",
+        "question": "Will Real Madrid CF win on 2026-05-10?",
+        "conditionId": "0xec43c8145e2862765f68b12ea92e6fafcd2d6831a9c2abff150ac327973bc3f1",
+        "slug": "lal-bar-rea-2026-05-10-rea",
+        "resolutionSource": "https://www.laliga.com/",
+        "endDate": "2026-05-10T19:00:00Z",
+        "startDate": "2026-04-27T06:05:29.686001Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+        "description": "In the upcoming game, scheduled for May 10, 2026\nIf Real Madrid CF wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "volume": "1995108.1030160098",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-04-27T06:00:06.200811Z",
+        "updatedAt": "2026-05-11T23:36:47.031937Z",
+        "closedTime": "2026-05-10 23:46:37+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "groupItemTitle": "Real Madrid CF",
+        "groupItemThreshold": "2",
+        "questionID": "0x1a4dd9829b119ee50725406febb177b450373d878fdf961b1c597c60d45b1402",
+        "umaEndDate": "2026-05-10T23:46:37Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 1995108.1030160098,
+        "endDateIso": "2026-05-10",
+        "startDateIso": "2026-04-27",
+        "hasReviewedDates": true,
+        "gameStartTime": "2026-05-10 19:00:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"47547208931197356472925213693435946625038933287777456464795371058592632259920\", \"69651973703087550954303176531808797760085543527012251242476933234876478416096\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "volumeClob": 1995108.1030160098,
+        "makerBaseFee": 1000,
+        "takerBaseFee": 1000,
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x1a4dd9829b119ee50725406febb177b450373d878fdf961b1c597c60d45b1400",
+        "negRiskRequestID": "0x6da649ae5bb48fcec2b362fe1bfc563c083850a98b0f9cb9fccdcf01f5f64451",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-04-27T06:04:10Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 0,
+        "rewardsMaxSpread": 0,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneDayPriceChange": -0.2245,
+        "oneWeekPriceChange": -0.2495,
+        "lastTradePrice": 0.001,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-27T06:01:47.492704Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": true,
+        "requiresTranslation": false,
+        "feeType": "sports_fees_v2",
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "takerOnly": true,
+          "rebateRate": 0.25
+        }
+      }
+    ],
+    "series": [
+      {
+        "id": "10193",
+        "ticker": "la-liga-2025",
+        "slug": "la-liga-2025",
+        "title": "La Liga 2025",
+        "seriesType": "single",
+        "recurrence": "daily",
+        "active": true,
+        "closed": false,
+        "archived": false,
+        "new": false,
+        "featured": false,
+        "restricted": true,
+        "createdAt": "2025-08-14T18:48:15.06735Z",
+        "updatedAt": "2026-06-19T10:13:56.599214Z",
+        "commentCount": 1766,
+        "requiresTranslation": false
+      }
+    ],
+    "tags": [
+      {
+        "id": "1",
+        "label": "Sports",
+        "slug": "sports",
+        "forceShow": false,
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "updatedBy": 15,
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "forceHide": true,
+        "requiresTranslation": false
+      },
+      {
+        "id": "100639",
+        "label": "Games",
+        "slug": "games",
+        "forceShow": false,
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "updatedAt": "2026-03-09T22:28:03.358133Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "100350",
+        "label": "Soccer",
+        "slug": "soccer",
+        "forceShow": false,
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "updatedAt": "2026-04-17T20:33:09.955379Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "780",
+        "label": "La Liga",
+        "slug": "la-liga",
+        "forceShow": false,
+        "publishedAt": "2023-12-21 19:28:09.258+00",
+        "createdAt": "2023-12-21T19:28:09.265Z",
+        "updatedAt": "2026-04-17T20:33:09.959974Z",
+        "requiresTranslation": false
+      }
+    ],
+    "cyom": false,
+    "closedTime": "2026-05-11T01:35:45Z",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "automaticallyResolved": true,
+    "enableNegRisk": true,
+    "automaticallyActive": true,
+    "eventDate": "2026-05-10",
+    "startTime": "2026-05-10T19:00:00Z",
+    "eventWeek": 16,
+    "seriesSlug": "la-liga-2025",
+    "score": "2-0",
+    "elapsed": "",
+    "period": "VFT",
+    "live": false,
+    "ended": true,
+    "finishedTimestamp": "2026-05-10T20:56:13.903739Z",
+    "negRiskAugmented": false,
+    "pendingDeployment": false,
+    "deploying": false,
+    "deployingTimestamp": "2026-04-27T06:00:22.461874Z",
+    "gameId": 90094754,
+    "requiresTranslation": false,
+    "eventMetadata": {
+      "context_description": "FC Barcelona's commanding 2-0 victory over Real Madrid in Sunday's El Clásico at Spotify Camp Nou has driven trader consensus to a near-certain 100% implied probability on a Barcelona win, officially clinching the club's 29th La Liga title. Early goals from Marcus Rashford in the 9th minute and Ferran Torres in the 18th set the tone, with Barcelona's defense repelling Real Madrid's late pressure despite corners and possession pushes. This home dominance in the decisive fixture reflects Barcelona's superior recent form and table position, rendering the draw outcome negligible at 0.1%. Only an unprecedented official protest or result reversal—extremely rare in La Liga—could challenge this resolution.",
+      "context_requires_regen": true,
+      "context_updated_at": "2026-05-11T01:31:13.804Z"
+    },
+    "teams": [
+      {
+        "id": 101042,
+        "name": "FC Barcelona",
+        "league": "lal",
+        "record": "0-0-0",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/FC Barcelona-14a786f332.png",
+        "abbreviation": "bar",
+        "alias": "Barcelona",
+        "createdAt": "2025-01-21T21:13:50.833859Z",
+        "updatedAt": "2026-05-14T09:00:02.252544Z",
+        "providerId": 559,
+        "color": "#144E8C",
+        "ordering": "home"
+      },
+      {
+        "id": 101034,
+        "name": "Real Madrid CF",
+        "league": "lal",
+        "record": "0-0-0",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Real Madrid CF-766f4e0266.png",
+        "abbreviation": "rea",
+        "alias": "Real Madrid",
+        "createdAt": "2025-01-21T21:13:49.860376Z",
+        "updatedAt": "2026-05-14T03:34:23.935753Z",
+        "providerId": 605,
+        "color": "#c4951c",
+        "ordering": "away"
+      }
+    ],
+    "sport": {
+      "id": 3,
+      "sport": "lal",
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "resolution": "https://www.laliga.com/en-GB",
+      "ordering": "home",
+      "tags": "1,780,100639,100350",
+      "series": "10193",
+      "createdAt": "2025-11-05T19:27:45.399303Z"
+    }
+  },
+  "expected": {
+    "resolved": true,
+    "league": "esp.1",
+    "kind": "three_way",
+    "espn_event_id": "748484",
+    "pm_event_slug": "lal-bar-rea-2026-05-10",
+    "pm_market_slug": null,
+    "home": {
+      "espn_abbr": "BAR",
+      "name": "Barcelona",
+      "pm_code": "bar"
+    },
+    "away": {
+      "espn_abbr": "RMA",
+      "name": "Real Madrid",
+      "pm_code": "rea"
+    },
+    "outcomes": [
+      {
+        "selection": "home",
+        "team": "Barcelona",
+        "pm_market_slug": "lal-bar-rea-2026-05-10-bar",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "17308554830612181239994496683403599194797416212972952180907211596081025105494",
+        "price": "1"
+      },
+      {
+        "selection": "away",
+        "team": "Real Madrid",
+        "pm_market_slug": "lal-bar-rea-2026-05-10-rea",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "47547208931197356472925213693435946625038933287777456464795371058592632259920",
+        "price": "0"
+      },
+      {
+        "selection": "draw",
+        "team": null,
+        "pm_market_slug": "lal-bar-rea-2026-05-10-draw",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "108765479076284166389273677484845401439434840570024943232089118446971796957146",
+        "price": "0"
+      }
+    ]
+  }
+}

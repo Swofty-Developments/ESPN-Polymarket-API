@@ -1,0 +1,1220 @@
+{
+  "description": "EPL 3-way legs carry sportsMarketType=null; matched by groupItemTitle. MNC->mac code divergence.",
+  "league": "eng.1",
+  "espn": {
+    "id": "740643",
+    "uid": "s:600~l:700~e:740643",
+    "date": "2025-09-21T15:30Z",
+    "name": "Manchester City at Arsenal",
+    "shortName": "MNC @ ARS",
+    "season": {
+      "year": 2025,
+      "type": 13481,
+      "slug": "2025-26-english-premier-league"
+    },
+    "competitions": [
+      {
+        "id": "740643",
+        "uid": "s:600~l:700~e:740643~c:740643",
+        "date": "2025-09-21T15:30Z",
+        "startDate": "2025-09-21T15:30Z",
+        "attendance": 60161,
+        "timeValid": true,
+        "recent": false,
+        "status": {
+          "clock": 5400,
+          "displayClock": "90'+10'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "id": "2267",
+          "fullName": "Emirates Stadium",
+          "address": {
+            "city": "London",
+            "country": "England"
+          }
+        },
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "altGameNote": "English Premier League",
+        "notes": [],
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Peacock"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Peacock"
+            ]
+          }
+        ],
+        "broadcast": "",
+        "competitors": [
+          {
+            "id": "359",
+            "uid": "s:600~t:359",
+            "type": "team",
+            "order": 0,
+            "homeAway": "home",
+            "winner": false,
+            "form": "LWWWW",
+            "score": "1",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "3-1-1",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "359",
+              "uid": "s:600~t:359",
+              "abbreviation": "ARS",
+              "displayName": "Arsenal",
+              "shortDisplayName": "Arsenal",
+              "name": "Arsenal",
+              "location": "Arsenal",
+              "color": "e20520",
+              "alternateColor": "003399",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/359/arsenal",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/359/arsenal",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:359&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/359/arsenal",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:359&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/359/arsenal",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:359&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "2267"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "11"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "11"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "1"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "66.8"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "8"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "3"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "1"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "12"
+              }
+            ]
+          },
+          {
+            "id": "382",
+            "uid": "s:600~t:382",
+            "type": "team",
+            "order": 1,
+            "homeAway": "away",
+            "winner": false,
+            "form": "LDWWW",
+            "score": "1",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "2-1-2",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "382",
+              "uid": "s:600~t:382",
+              "abbreviation": "MNC",
+              "displayName": "Manchester City",
+              "shortDisplayName": "Man City",
+              "name": "Manchester City",
+              "location": "Manchester City",
+              "color": "99c5ea",
+              "alternateColor": "000000",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/382/manchester-city",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/382/manchester-city",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:382&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/382/manchester-city",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:382&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/382/manchester-city",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:382&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "10297"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "10"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "2"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "1"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "33.2"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "5"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "3"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "1"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "5"
+              }
+            ]
+          }
+        ],
+        "details": [
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 511,
+              "displayValue": "9'"
+            },
+            "team": {
+              "id": "382"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "253989",
+                "displayName": "Erling Haaland",
+                "shortName": "E. Haaland",
+                "fullName": "Erling Haaland",
+                "jersey": "9",
+                "team": {
+                  "id": "382"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/253989/erling-haaland",
+                    "isHidden": false
+                  }
+                ],
+                "position": "F"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 2113,
+              "displayValue": "36'"
+            },
+            "team": {
+              "id": "382"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "199833",
+                "displayName": "Bernardo Silva",
+                "shortName": "B. Silva",
+                "fullName": "Bernardo Silva",
+                "jersey": "20",
+                "team": {
+                  "id": "382"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/199833/bernardo-silva",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CM-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 2729,
+              "displayValue": "46'"
+            },
+            "team": {
+              "id": "359"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "282716",
+                "displayName": "Jurriën Timber",
+                "shortName": "J. Timber",
+                "fullName": "Jurriën Timber",
+                "jersey": "12",
+                "team": {
+                  "id": "359"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/282716.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/282716/jurrien-timber",
+                    "isHidden": false
+                  }
+                ],
+                "position": "RB"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4015,
+              "displayValue": "67'"
+            },
+            "team": {
+              "id": "382"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4565,
+              "displayValue": "77'"
+            },
+            "team": {
+              "id": "382"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "217092",
+                "displayName": "Gianluigi Donnarumma",
+                "shortName": "G. Donnarumma",
+                "fullName": "Gianluigi Donnarumma",
+                "jersey": "25",
+                "team": {
+                  "id": "382"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/217092/gianluigi-donnarumma",
+                    "isHidden": false
+                  }
+                ],
+                "position": "G"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 5400,
+              "displayValue": "90'+3'"
+            },
+            "team": {
+              "id": "359"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "269844",
+                "displayName": "Gabriel Martinelli",
+                "shortName": "G. Martinelli",
+                "fullName": "Gabriel Martinelli",
+                "jersey": "11",
+                "team": {
+                  "id": "359"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/269844/gabriel-martinelli",
+                    "isHidden": false
+                  }
+                ],
+                "position": "SUB"
+              }
+            ]
+          }
+        ],
+        "headlines": [
+          {
+            "description": "Gabriel Martinelli netted a stoppage-time equaliser to rescue a point for Arsenal against Manchester City in a fiery Premier League game at the Emirates Stadium on Saturday.",
+            "type": "Recap",
+            "shortLinkText": "Super-sub Martinelli rescues Arsenal draw vs. City"
+          }
+        ],
+        "odds": [
+          null
+        ],
+        "wasSuspended": false,
+        "playByPlayAvailable": true,
+        "playByPlayAthletes": true
+      }
+    ],
+    "status": {
+      "clock": 5400,
+      "displayClock": "90'+10'",
+      "period": 2,
+      "type": {
+        "id": "28",
+        "name": "STATUS_FULL_TIME",
+        "state": "post",
+        "completed": true,
+        "description": "Full Time",
+        "detail": "FT",
+        "shortDetail": "FT"
+      }
+    },
+    "venue": {
+      "displayName": "Emirates Stadium"
+    },
+    "links": [
+      {
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/740643/manchester-city-arsenal",
+        "text": "Summary",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "highlights",
+          "desktop"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/740643",
+        "text": "Highlights",
+        "shortText": "Highlights",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/report/_/gameId/740643",
+        "text": "Report",
+        "shortText": "Report",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/740643",
+        "text": "Statistics",
+        "shortText": "Statistics",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      }
+    ]
+  },
+  "polymarket": {
+    "id": "42532",
+    "ticker": "epl-ars-mac-2025-09-21",
+    "slug": "epl-ars-mac-2025-09-21",
+    "title": "Arsenal vs. Manchester City",
+    "description": "This event is for the upcoming EPL game, scheduled for September 21 at 11:30AM ET between Arsenal and Manchester City.",
+    "startDate": "2025-09-08T04:07:14.051308Z",
+    "creationDate": "2025-09-21T15:30:00Z",
+    "endDate": "2025-09-21T15:30:00Z",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "new": false,
+    "featured": false,
+    "restricted": true,
+    "volume": 2592854.267386,
+    "openInterest": 0,
+    "createdAt": "2025-09-08T04:02:08.696978Z",
+    "updatedAt": "2025-09-23T00:43:48.759907Z",
+    "volume1wk": 2588241.1037179995,
+    "volume1mo": 2592854.267385999,
+    "volume1yr": 2592854.267385999,
+    "enableOrderBook": true,
+    "negRisk": true,
+    "negRiskMarketID": "0xc42970a0676cf89cf09370241cb7faf4a5670a22771f641c1a93bd10f0a13f00",
+    "negRiskFeeBips": 0,
+    "commentCount": 672,
+    "markets": [
+      {
+        "id": "590329",
+        "question": "Will Arsenal win on 2025-09-21?",
+        "conditionId": "0x145ff557ed79e625c505ba4119dbf10642e0990004ea51f690b35a18ebb8edb0",
+        "slug": "epl-ars-mac-2025-09-21-ars",
+        "resolutionSource": "https://www.premierleague.com/",
+        "endDate": "2025-09-21T15:30:00Z",
+        "startDate": "2025-09-08T04:02:58.570707Z",
+        "fee": "20000000000000000",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/epl_arsenal.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/epl_arsenal.png",
+        "description": "In the upcoming EPL game, scheduled for September 21 at 11:30AM ET,\nIf Arsenal wins, this market will resolve to “Yes”.\nIf Arsenal loses, this market will resolve to “No”.\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve “No”.\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "volume": "1688207.472982",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2025-09-08T04:02:09.053257Z",
+        "updatedAt": "2025-09-23T00:43:38.04909Z",
+        "closedTime": "2025-09-21 20:45:32+00",
+        "wideFormat": true,
+        "new": true,
+        "sentDiscord": true,
+        "archived": false,
+        "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+        "restricted": true,
+        "groupItemTitle": "Arsenal",
+        "groupItemThreshold": "0",
+        "questionID": "0xc42970a0676cf89cf09370241cb7faf4a5670a22771f641c1a93bd10f0a13f00",
+        "umaEndDate": "2025-09-21T20:45:32Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 1688207.472982,
+        "endDateIso": "2025-09-21",
+        "startDateIso": "2025-09-08",
+        "hasReviewedDates": true,
+        "readyForCron": false,
+        "volume1wk": 1686562.8395119996,
+        "volume1mo": 1688207.4729819996,
+        "volume1yr": 1688207.4729819996,
+        "gameStartTime": "2025-09-21 15:30:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"84745913222580840329789688551436263594455310005018852382625688024739590340884\", \"107121622634454294656417598264669249871668622470240711163685834478726510743945\"]",
+        "comboStatus": "disabled",
+        "fpmmLive": true,
+        "volume1wkClob": 1686562.8395119996,
+        "volume1moClob": 1688207.4729819996,
+        "volume1yrClob": 1688207.4729819996,
+        "volumeClob": 1688207.472982,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0xc42970a0676cf89cf09370241cb7faf4a5670a22771f641c1a93bd10f0a13f00",
+        "negRiskRequestID": "0x5db34673be4ebf6ded90fe2c2b101e2d92618ce861fa4b3c01587e4de2d21cff",
+        "notificationsEnabled": false,
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2025-09-08T04:02:38Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 0,
+        "rewardsMaxSpread": 0,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneDayPriceChange": -0.5145,
+        "oneWeekPriceChange": -0.5095,
+        "lastTradePrice": 1,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "umaResolutionStatuses": "[\"proposed\", \"resolved\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": false,
+        "requiresTranslation": false,
+        "feeType": null
+      },
+      {
+        "id": "590330",
+        "question": "Will Arsenal vs. Manchester City end in a draw?",
+        "conditionId": "0x20876dee943c60ab754a3bfcfef939e06c2d4ee40ae6530c48298bce98b074a9",
+        "slug": "epl-ars-mac-2025-09-21-draw",
+        "resolutionSource": "https://www.premierleague.com/",
+        "endDate": "2025-09-21T15:30:00Z",
+        "startDate": "2025-09-08T04:03:18.612305Z",
+        "fee": "20000000000000000",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+        "description": "In the upcoming EPL game, scheduled for September 21 at 11:30AM ET,\nIf the game ends in a draw, this market will resolve to “Yes”. If not, this market will resolve to “No”.\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to “Yes”.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"1\", \"0\"]",
+        "volume": "108294.596015",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2025-09-08T04:02:26.899101Z",
+        "updatedAt": "2025-09-23T00:43:35.335533Z",
+        "closedTime": "2025-09-21 20:45:32+00",
+        "wideFormat": true,
+        "new": true,
+        "sentDiscord": true,
+        "archived": false,
+        "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+        "restricted": true,
+        "groupItemTitle": "Draw (Arsenal vs. Manchester City)",
+        "groupItemThreshold": "1",
+        "questionID": "0xc42970a0676cf89cf09370241cb7faf4a5670a22771f641c1a93bd10f0a13f01",
+        "umaEndDate": "2025-09-21T20:45:32Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 108294.596015,
+        "endDateIso": "2025-09-21",
+        "startDateIso": "2025-09-08",
+        "hasReviewedDates": true,
+        "readyForCron": false,
+        "volume1wk": 107274.28548500003,
+        "volume1mo": 108294.59601500002,
+        "volume1yr": 108294.59601500002,
+        "gameStartTime": "2025-09-21 15:30:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"3588257462919295761290441176840268285598098578644581457128058913043890751533\", \"91624358378591460301379972624208773643122042521216995580245363190480018820150\"]",
+        "comboStatus": "disabled",
+        "fpmmLive": true,
+        "volume1wkClob": 107274.28548500003,
+        "volume1moClob": 108294.59601500002,
+        "volume1yrClob": 108294.59601500002,
+        "volumeClob": 108294.596015,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0xc42970a0676cf89cf09370241cb7faf4a5670a22771f641c1a93bd10f0a13f00",
+        "negRiskRequestID": "0x915051effeb48b6fb5933f3ddb5997c4a6563a3a114d14cf8772b109002c880e",
+        "notificationsEnabled": false,
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2025-09-08T04:02:56Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 0,
+        "rewardsMaxSpread": 0,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneDayPriceChange": 0.7545,
+        "oneWeekPriceChange": 0.7445,
+        "lastTradePrice": 1,
+        "bestBid": 0.999,
+        "bestAsk": 1,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "umaResolutionStatuses": "[\"proposed\", \"resolved\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": false,
+        "requiresTranslation": false,
+        "feeType": null
+      },
+      {
+        "id": "590331",
+        "question": "Will Manchester City win on 2025-09-21?",
+        "conditionId": "0xd84038d257ee2be579e71661823d8f4978e4f54cb566fe31fd4ee5a353052787",
+        "slug": "epl-ars-mac-2025-09-21-mac",
+        "resolutionSource": "https://www.premierleague.com/",
+        "endDate": "2025-09-21T15:30:00Z",
+        "startDate": "2025-09-08T04:03:36.975994Z",
+        "fee": "20000000000000000",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/epl_manchester_city.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/epl_manchester_city.png",
+        "description": "In the upcoming EPL game, scheduled for September 21 at 11:30AM ET,\nIf Manchester City wins, this market will resolve to “Yes”.\nIf Manchester City loses, this market will resolve to “No”.\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve “No”.\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "volume": "796352.198389",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2025-09-08T04:02:46.827089Z",
+        "updatedAt": "2025-09-23T00:43:41.849911Z",
+        "closedTime": "2025-09-21 20:46:30+00",
+        "wideFormat": true,
+        "new": true,
+        "sentDiscord": true,
+        "archived": false,
+        "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+        "restricted": true,
+        "groupItemTitle": "Manchester City",
+        "groupItemThreshold": "2",
+        "questionID": "0xc42970a0676cf89cf09370241cb7faf4a5670a22771f641c1a93bd10f0a13f02",
+        "umaEndDate": "2025-09-21T20:46:30Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 796352.198389,
+        "endDateIso": "2025-09-21",
+        "startDateIso": "2025-09-08",
+        "hasReviewedDates": true,
+        "readyForCron": false,
+        "volume1wk": 794403.9787209996,
+        "volume1mo": 796352.1983889996,
+        "volume1yr": 796352.1983889996,
+        "gameStartTime": "2025-09-21 15:30:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"37830080751654159826237686662649614412176300107284312329570976973214436685254\", \"25244574652261484061642091156444811923100570173677051621108362127832894089979\"]",
+        "comboStatus": "disabled",
+        "fpmmLive": true,
+        "volume1wkClob": 794403.9787209996,
+        "volume1moClob": 796352.1983889996,
+        "volume1yrClob": 796352.1983889996,
+        "volumeClob": 796352.198389,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0xc42970a0676cf89cf09370241cb7faf4a5670a22771f641c1a93bd10f0a13f00",
+        "negRiskRequestID": "0x303d29cc9caad0bed5b02f060ab5a43bce905c6dd63843329a010d24118e6292",
+        "notificationsEnabled": false,
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2025-09-08T04:03:16Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 0,
+        "rewardsMaxSpread": 0,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneDayPriceChange": -0.2395,
+        "oneWeekPriceChange": -0.2445,
+        "lastTradePrice": 1,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "umaResolutionStatuses": "[\"proposed\", \"resolved\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": false,
+        "requiresTranslation": false,
+        "feeType": null
+      }
+    ],
+    "series": [
+      {
+        "id": "10188",
+        "ticker": "premier-league-2025",
+        "slug": "premier-league-2025",
+        "title": "Premier League 2025",
+        "seriesType": "single",
+        "recurrence": "daily",
+        "image": "",
+        "icon": "",
+        "active": true,
+        "closed": false,
+        "archived": false,
+        "featured": false,
+        "restricted": true,
+        "createdAt": "2025-08-08T14:56:37.247227Z",
+        "updatedAt": "2026-06-19T10:13:56.599214Z",
+        "volume24hr": 1028.062108,
+        "commentCount": 3098,
+        "requiresTranslation": false
+      }
+    ],
+    "tags": [
+      {
+        "id": "1",
+        "label": "Sports",
+        "slug": "sports",
+        "forceShow": false,
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "updatedBy": 15,
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "forceHide": true,
+        "requiresTranslation": false
+      },
+      {
+        "id": "82",
+        "label": "Premier League",
+        "slug": "premier-league",
+        "forceShow": false,
+        "publishedAt": "2023-11-02 21:17:21.654+00",
+        "createdAt": "2023-11-02T21:17:21.66Z",
+        "updatedAt": "2026-04-17T21:08:02.988086Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "306",
+        "label": "EPL",
+        "slug": "EPL",
+        "forceShow": false,
+        "publishedAt": "2023-11-02 21:53:01.244+00",
+        "createdAt": "2023-11-02T21:53:01.251Z",
+        "updatedAt": "2026-04-17T20:31:50.149157Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "100639",
+        "label": "Games",
+        "slug": "games",
+        "forceShow": false,
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "updatedAt": "2026-03-09T22:28:03.358133Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "100350",
+        "label": "Soccer",
+        "slug": "soccer",
+        "forceShow": false,
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "updatedAt": "2026-04-17T20:33:09.955379Z",
+        "requiresTranslation": false
+      }
+    ],
+    "cyom": false,
+    "closedTime": "2025-09-21T20:46:30Z",
+    "showAllOutcomes": false,
+    "showMarketImages": true,
+    "automaticallyResolved": true,
+    "enableNegRisk": true,
+    "automaticallyActive": true,
+    "eventDate": "2025-09-21",
+    "startTime": "2025-09-21T15:30:00Z",
+    "eventWeek": 5,
+    "seriesSlug": "premier-league-2025",
+    "score": "1-1",
+    "elapsed": "",
+    "period": "",
+    "live": false,
+    "ended": true,
+    "finishedTimestamp": "2025-09-21T17:37:49.01467Z",
+    "negRiskAugmented": false,
+    "pendingDeployment": false,
+    "deploying": false,
+    "requiresTranslation": false,
+    "teams": [
+      {
+        "id": 100005,
+        "name": "Arsenal FC",
+        "league": "epl",
+        "record": "0-0-0",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Arsenal FC-c2e42b7ef6.png",
+        "abbreviation": "ars",
+        "alias": "Arsenal",
+        "createdAt": "2024-09-11T21:12:09.487208Z",
+        "updatedAt": "2026-05-14T03:01:23.517339Z",
+        "providerId": 509,
+        "color": "#c02140",
+        "ordering": "home"
+      },
+      {
+        "id": 100004,
+        "name": "Manchester City FC",
+        "league": "epl",
+        "record": "0-0-0",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Manchester City FC-e6af751504.png",
+        "abbreviation": "mac",
+        "alias": "Man City",
+        "createdAt": "2024-09-11T21:12:09.484818Z",
+        "updatedAt": "2026-05-15T09:00:01.267232Z",
+        "providerId": 516,
+        "color": "#65ABDF",
+        "ordering": "away"
+      }
+    ],
+    "sport": {
+      "id": 2,
+      "sport": "epl",
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "resolution": "https://www.premierleague.com/",
+      "ordering": "home",
+      "tags": "1,82,306,100639,100350",
+      "series": "10188",
+      "createdAt": "2025-11-05T19:27:45.399303Z"
+    }
+  },
+  "expected": {
+    "resolved": true,
+    "league": "eng.1",
+    "kind": "three_way",
+    "espn_event_id": "740643",
+    "pm_event_slug": "epl-ars-mac-2025-09-21",
+    "pm_market_slug": null,
+    "home": {
+      "espn_abbr": "ARS",
+      "name": "Arsenal",
+      "pm_code": "ars"
+    },
+    "away": {
+      "espn_abbr": "MNC",
+      "name": "Manchester City",
+      "pm_code": "mac"
+    },
+    "outcomes": [
+      {
+        "selection": "home",
+        "team": "Arsenal",
+        "pm_market_slug": "epl-ars-mac-2025-09-21-ars",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "84745913222580840329789688551436263594455310005018852382625688024739590340884",
+        "price": "0"
+      },
+      {
+        "selection": "away",
+        "team": "Manchester City",
+        "pm_market_slug": "epl-ars-mac-2025-09-21-mac",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "37830080751654159826237686662649614412176300107284312329570976973214436685254",
+        "price": "0"
+      },
+      {
+        "selection": "draw",
+        "team": null,
+        "pm_market_slug": "epl-ars-mac-2025-09-21-draw",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "3588257462919295761290441176840268285598098578644581457128058913043890751533",
+        "price": "1"
+      }
+    ]
+  }
+}

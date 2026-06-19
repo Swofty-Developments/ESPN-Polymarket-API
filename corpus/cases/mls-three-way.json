@@ -1,0 +1,1961 @@
+{
+  "description": "MLS 3-way (Inter Miami/Orlando); prefix mls.",
+  "league": "usa.1",
+  "espn": {
+    "id": "761587",
+    "uid": "s:600~l:770~e:761587",
+    "date": "2026-05-02T23:15Z",
+    "name": "Orlando City SC at Inter Miami CF",
+    "shortName": "ORL @ MIA",
+    "season": {
+      "year": 2026,
+      "type": 13846,
+      "slug": "regular-season"
+    },
+    "competitions": [
+      {
+        "id": "761587",
+        "uid": "s:600~l:770~e:761587~c:761587",
+        "date": "2026-05-02T23:15Z",
+        "startDate": "2026-05-02T23:15Z",
+        "attendance": 26684,
+        "timeValid": true,
+        "recent": false,
+        "status": {
+          "clock": 5400,
+          "displayClock": "90'+10'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "id": "10661",
+          "fullName": "Nu Stadium",
+          "address": {
+            "city": "Miami, Florida",
+            "country": "USA"
+          }
+        },
+        "format": {
+          "regulation": {
+            "periods": 2
+          }
+        },
+        "altGameNote": "MLS",
+        "notes": [],
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "FS1"
+            },
+            "lang": "en",
+            "region": "us"
+          },
+          {
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Apple TV"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "FS1",
+              "Apple TV"
+            ]
+          }
+        ],
+        "broadcast": "",
+        "competitors": [
+          {
+            "id": "20232",
+            "uid": "s:600~t:20232",
+            "type": "team",
+            "order": 0,
+            "homeAway": "home",
+            "winner": false,
+            "form": "WWWWL",
+            "score": "3",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "5-4-2",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "20232",
+              "uid": "s:600~t:20232",
+              "abbreviation": "MIA",
+              "displayName": "Inter Miami CF",
+              "shortDisplayName": "Miami",
+              "name": "Inter Miami CF",
+              "location": "Inter Miami CF",
+              "color": "231f20",
+              "alternateColor": "f7b5cd",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/20232/inter-miami-cf",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/20232/inter-miami-cf",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:20232&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/20232/inter-miami-cf",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:20232&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/20232/inter-miami-cf",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:20232&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "10661"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "18"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "10"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "3"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "64"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "19"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "10"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "3"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "26"
+              }
+            ]
+          },
+          {
+            "id": "12011",
+            "uid": "s:600~t:12011",
+            "type": "team",
+            "order": 1,
+            "homeAway": "away",
+            "winner": true,
+            "form": "LWDWL",
+            "score": "4",
+            "records": [
+              {
+                "name": "All Splits",
+                "type": "total",
+                "summary": "3-1-7",
+                "abbreviation": "Total"
+              }
+            ],
+            "team": {
+              "id": "12011",
+              "uid": "s:600~t:12011",
+              "abbreviation": "ORL",
+              "displayName": "Orlando City SC",
+              "shortDisplayName": "Orlando",
+              "name": "Orlando City SC",
+              "location": "Orlando City SC",
+              "color": "60269e",
+              "alternateColor": "f0d283",
+              "isActive": true,
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/12011/orlando-city-sc",
+                  "text": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/stats/_/id/12011/orlando-city-sc",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:12011&section=stats",
+                  "text": "Stats",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/fixtures/_/id/12011/orlando-city-sc",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:12011&section=scores",
+                  "text": "Fixtures",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/team/squad/_/id/12011/orlando-city-sc",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                {
+                  "rel": [
+                    "squad",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:12011&section=squad",
+                  "text": "Squad",
+                  "isExternal": false,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              ],
+              "venue": {
+                "id": "6971"
+              }
+            },
+            "statistics": [
+              {
+                "name": "appearances",
+                "abbreviation": "APP",
+                "displayValue": "0"
+              },
+              {
+                "name": "foulsCommitted",
+                "abbreviation": "FC",
+                "displayValue": "5"
+              },
+              {
+                "name": "wonCorners",
+                "abbreviation": "CW",
+                "displayValue": "2"
+              },
+              {
+                "name": "goalAssists",
+                "abbreviation": "A",
+                "displayValue": "3"
+              },
+              {
+                "name": "possessionPct",
+                "abbreviation": "PP",
+                "displayValue": "36"
+              },
+              {
+                "name": "shotAssists",
+                "abbreviation": "SHAST",
+                "displayValue": "11"
+              },
+              {
+                "name": "shotsOnTarget",
+                "abbreviation": "SOG",
+                "displayValue": "9"
+              },
+              {
+                "name": "totalGoals",
+                "abbreviation": "G",
+                "displayValue": "4"
+              },
+              {
+                "name": "totalShots",
+                "abbreviation": "SHOT",
+                "displayValue": "13"
+              }
+            ]
+          }
+        ],
+        "details": [
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 195,
+              "displayValue": "4'"
+            },
+            "team": {
+              "id": "20232"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "316269",
+                "displayName": "Ian Fray",
+                "shortName": "I. Fray",
+                "fullName": "Ian Fray",
+                "jersey": "17",
+                "team": {
+                  "id": "20232"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/316269.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/316269/ian-fray",
+                    "isHidden": false
+                  }
+                ],
+                "position": "RB"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 1043,
+              "displayValue": "18'"
+            },
+            "team": {
+              "id": "12011"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "147256",
+                "displayName": "Robin Jansson",
+                "shortName": "R. Jansson",
+                "fullName": "Robin Jansson",
+                "jersey": "6",
+                "team": {
+                  "id": "12011"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/147256.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/147256/robin-jansson",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CD"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 1462,
+              "displayValue": "25'"
+            },
+            "team": {
+              "id": "20232"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "315594",
+                "displayName": "Telasco Segovia",
+                "shortName": "T. Segovia",
+                "fullName": "Telasco Segovia",
+                "jersey": "8",
+                "team": {
+                  "id": "20232"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/315594/telasco-segovia",
+                    "isHidden": false
+                  }
+                ],
+                "position": "AM-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 1974,
+              "displayValue": "33'"
+            },
+            "team": {
+              "id": "20232"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "45843",
+                "displayName": "Lionel Messi",
+                "shortName": "L. Messi",
+                "fullName": "Lionel Messi",
+                "jersey": "10",
+                "team": {
+                  "id": "20232"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/45843.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/45843/lionel-messi",
+                    "isHidden": false
+                  }
+                ],
+                "position": "AM-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 2105,
+              "displayValue": "36'"
+            },
+            "team": {
+              "id": "12011"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "210228",
+                "displayName": "Adrián Marín",
+                "shortName": "A. Marín",
+                "fullName": "Adrián Marín",
+                "jersey": "3",
+                "team": {
+                  "id": "12011"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/210228/adrian-marin",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CD-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 2312,
+              "displayValue": "39'"
+            },
+            "team": {
+              "id": "12011"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "233401",
+                "displayName": "Martín Ojeda",
+                "shortName": "M. Ojeda",
+                "fullName": "Martín Ojeda",
+                "jersey": "10",
+                "team": {
+                  "id": "12011"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/233401.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/233401/martin-ojeda",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CF-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 2700,
+              "displayValue": "45'+5'"
+            },
+            "team": {
+              "id": "20232"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "231059",
+                "displayName": "Dayne St. Clair",
+                "shortName": "D. St. Clair",
+                "fullName": "Dayne St. Clair",
+                "jersey": "97",
+                "team": {
+                  "id": "20232"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/231059.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/231059/dayne-st-clair",
+                    "isHidden": false
+                  }
+                ],
+                "position": "G"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 3100,
+              "displayValue": "52'"
+            },
+            "team": {
+              "id": "20232"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "329025",
+                "displayName": "Yannick Bright",
+                "shortName": "Y. Bright",
+                "fullName": "Yannick Bright",
+                "jersey": "42",
+                "team": {
+                  "id": "20232"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/329025/yannick-bright",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CM-L"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 3275,
+              "displayValue": "55'"
+            },
+            "team": {
+              "id": "20232"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 3500,
+              "displayValue": "59'"
+            },
+            "team": {
+              "id": "20232"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "174466",
+                "displayName": "Rodrigo De Paul",
+                "shortName": "R. De Paul",
+                "fullName": "Rodrigo De Paul",
+                "jersey": "7",
+                "team": {
+                  "id": "20232"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/174466/rodrigo-de-paul",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CM-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 4071,
+              "displayValue": "68'"
+            },
+            "team": {
+              "id": "12011"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "233401",
+                "displayName": "Martín Ojeda",
+                "shortName": "M. Ojeda",
+                "fullName": "Martín Ojeda",
+                "jersey": "10",
+                "team": {
+                  "id": "12011"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/233401.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/233401/martin-ojeda",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CF-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 4634,
+              "displayValue": "78'"
+            },
+            "team": {
+              "id": "20232"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "45843",
+                "displayName": "Lionel Messi",
+                "shortName": "L. Messi",
+                "fullName": "Lionel Messi",
+                "jersey": "10",
+                "team": {
+                  "id": "20232"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/45843.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/45843/lionel-messi",
+                    "isHidden": false
+                  }
+                ],
+                "position": "AM-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "98",
+              "text": "Penalty - Scored"
+            },
+            "clock": {
+              "value": 4679,
+              "displayValue": "78'"
+            },
+            "team": {
+              "id": "12011"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": true,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "233401",
+                "displayName": "Martín Ojeda",
+                "shortName": "M. Ojeda",
+                "fullName": "Martín Ojeda",
+                "jersey": "10",
+                "team": {
+                  "id": "12011"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/233401.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/233401/martin-ojeda",
+                    "isHidden": false
+                  }
+                ],
+                "position": "CF-R"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "70",
+              "text": "Goal"
+            },
+            "clock": {
+              "value": 5400,
+              "displayValue": "90'+3'"
+            },
+            "team": {
+              "id": "12011"
+            },
+            "scoreValue": 1,
+            "scoringPlay": true,
+            "redCard": false,
+            "yellowCard": false,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "329273",
+                "displayName": "Tyrese Spicer",
+                "shortName": "T. Spicer",
+                "fullName": "Tyrese Spicer",
+                "jersey": "14",
+                "team": {
+                  "id": "12011"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/329273/tyrese-spicer",
+                    "isHidden": false
+                  }
+                ],
+                "position": "SUB"
+              }
+            ]
+          },
+          {
+            "type": {
+              "id": "94",
+              "text": "Yellow Card"
+            },
+            "clock": {
+              "value": 5400,
+              "displayValue": "90'+6'"
+            },
+            "team": {
+              "id": "12011"
+            },
+            "scoreValue": 0,
+            "scoringPlay": false,
+            "redCard": false,
+            "yellowCard": true,
+            "penaltyKick": false,
+            "ownGoal": false,
+            "shootout": false,
+            "athletesInvolved": [
+              {
+                "id": "159382",
+                "displayName": "Maxime Crépeau",
+                "shortName": "M. Crépeau",
+                "fullName": "Maxime Crépeau",
+                "jersey": "71",
+                "team": {
+                  "id": "12011"
+                },
+                "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/159382.png",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/soccer/player/_/id/159382/maxime-crepeau",
+                    "isHidden": false
+                  }
+                ],
+                "position": "G"
+              }
+            ]
+          }
+        ],
+        "headlines": [
+          {
+            "description": "Martín Ojeda scored a hat trick, Tyrese Spicer had the go-ahead goal in the third minute of stoppage time and Orlando City stunned Inter Miami 4-3 on Saturday.",
+            "type": "Recap",
+            "shortLinkText": "Ojeda gets hat trick as Orlando stuns Miami",
+            "video": [
+              {
+                "source": "espn",
+                "id": 48661682,
+                "headline": "Inter Miami CF vs. Orlando City SC - Game Highlights",
+                "premium": false,
+                "tracking": {
+                  "sportName": "soccer",
+                  "leagueName": "MLS",
+                  "coverageType": "Final Game Highlight",
+                  "trackingName": "SOC_One-Play (Inter Miami CF vs. Orlando City SC - Game Highlights) 2026/05/02 ESHEET",
+                  "trackingId": "dm_20260502_MLS_inter_miami_cf_vs_orlando_city_sc_game_highlights"
+                },
+                "deviceRestrictions": {
+                  "type": "whitelist",
+                  "devices": [
+                    "settop",
+                    "tablet",
+                    "handset",
+                    "ipad",
+                    "desktop"
+                  ]
+                },
+                "duration": 76,
+                "categories": [
+                  {
+                    "id": 145507,
+                    "description": "MLS",
+                    "type": "league",
+                    "sportId": 600,
+                    "leagueId": 19,
+                    "uid": "s:600~l:770",
+                    "league": {
+                      "id": 770,
+                      "description": "MLS",
+                      "links": {
+                        "mobile": {},
+                        "web": {}
+                      }
+                    }
+                  },
+                  {
+                    "id": 142566,
+                    "description": "Orlando City SC",
+                    "type": "team",
+                    "sportId": 600,
+                    "uid": "s:600~t:12011",
+                    "team": {
+                      "id": 12011,
+                      "description": "Orlando City SC",
+                      "links": {
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/12011/orlando-city-sc"
+                          }
+                        },
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/12011/orlando-city-sc"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 420195,
+                    "description": "Inter Miami CF",
+                    "type": "team",
+                    "sportId": 600,
+                    "uid": "s:600~t:20232",
+                    "team": {
+                      "id": 20232,
+                      "description": "Inter Miami CF",
+                      "links": {
+                        "mobile": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/20232/inter-miami-cf"
+                          }
+                        },
+                        "web": {
+                          "teams": {
+                            "href": "https://www.espn.com/soccer/club/_/id/20232/inter-miami-cf"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 465890,
+                    "description": "Telasco Segovia",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:315594",
+                    "athlete": {
+                      "id": 315594,
+                      "description": "Telasco Segovia",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/315594/telasco-segovia"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/315594/telasco-segovia"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 648479,
+                    "description": "Tyrese Spicer",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:329273",
+                    "athlete": {
+                      "id": 329273,
+                      "description": "Tyrese Spicer",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/329273/tyrese-spicer"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/329273/tyrese-spicer"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 711821,
+                    "description": "SC4U - Full Highlight",
+                    "type": "editorialindicator"
+                  },
+                  {
+                    "id": 81497,
+                    "description": "Soccer",
+                    "type": "league",
+                    "sportId": 600,
+                    "leagueId": 600,
+                    "uid": "s:600",
+                    "league": {
+                      "id": 600,
+                      "description": "Soccer",
+                      "links": {
+                        "mobile": {},
+                        "web": {}
+                      }
+                    }
+                  },
+                  {
+                    "id": 239563,
+                    "description": "Martín Ojeda",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:233401",
+                    "athlete": {
+                      "id": 233401,
+                      "description": "Martín Ojeda",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/233401/martin-ojeda"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/233401/martin-ojeda"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 238474,
+                    "description": "Lionel Messi",
+                    "type": "athlete",
+                    "sportId": 600,
+                    "uid": "s:600~a:45843",
+                    "athlete": {
+                      "id": 45843,
+                      "description": "Lionel Messi",
+                      "links": {
+                        "mobile": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/45843/lionel-messi"
+                          }
+                        },
+                        "web": {
+                          "athletes": {
+                            "href": "https://www.espn.com/soccer/player/_/id/45843/lionel-messi"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 711827,
+                    "description": "3 Star Rating",
+                    "type": "editorialindicator"
+                  },
+                  {
+                    "id": 711824,
+                    "description": "SC4U  - Eligible",
+                    "type": "editorialindicator"
+                  },
+                  {
+                    "description": "Orlando City SC @ Inter Miami CF",
+                    "type": "event",
+                    "uid": "s:600~l:770~e:761587"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  },
+                  {
+                    "type": "guid"
+                  }
+                ],
+                "gameId": 761587,
+                "images": [
+                  {
+                    "url": "https://media.video-cdn.espn.com/images/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795.jpg",
+                    "width": 576,
+                    "height": 324
+                  }
+                ],
+                "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795.jpg",
+                "links": {
+                  "api": {
+                    "artwork": {
+                      "href": "https://artwork.api.espn.com/artwork/collections/media/05803b8e-3ef4-42ca-9db6-af8aa16dc514"
+                    },
+                    "self": {
+                      "href": "https://content.core.api.espn.com/v1/video/clips/48661682"
+                    }
+                  },
+                  "mobile": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/05803b8e-3ef4-42ca-9db6-af8aa16dc514/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48661682",
+                    "alert": {
+                      "href": "https://m.espn.com/general/video/videoAlert?vid=48661682"
+                    },
+                    "progressiveDownload": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/05803b8e-3ef4-42ca-9db6-af8aa16dc514/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48661682"
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795.mp4"
+                    },
+                    "streaming": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/05803b8e-3ef4-42ca-9db6-af8aa16dc514/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48661682"
+                    }
+                  },
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795_360p30_1464k.mp4",
+                    "flash": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795.smil"
+                    },
+                    "full": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795_360p30_1464k.mp4"
+                    },
+                    "hds": {
+                      "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795_rel.smil/manifest.f4m"
+                    },
+                    "mezzanine": {
+                      "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795.mp4"
+                    },
+                    "HD": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795_720p30_2896k.mp4"
+                    },
+                    "HLS": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795/playlist.m3u8",
+                      "HD": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0503/6b067a32-aa8b-4448-a21b-99fb9d53a795/6b067a32-aa8b-4448-a21b-99fb9d53a795/playlist.m3u8"
+                      }
+                    }
+                  },
+                  "web": {
+                    "href": "https://www.espn.com/video/clip?id=48661682",
+                    "self": {
+                      "href": "https://www.espn.com/video/clip?id=48661682"
+                    }
+                  }
+                },
+                "dataSourceIdentifier": "5bd41f9cab91d"
+              }
+            ]
+          }
+        ],
+        "odds": [
+          null
+        ],
+        "wasSuspended": false,
+        "playByPlayAvailable": true,
+        "playByPlayAthletes": true
+      }
+    ],
+    "status": {
+      "clock": 5400,
+      "displayClock": "90'+10'",
+      "period": 2,
+      "type": {
+        "id": "28",
+        "name": "STATUS_FULL_TIME",
+        "state": "post",
+        "completed": true,
+        "description": "Full Time",
+        "detail": "FT",
+        "shortDetail": "FT"
+      }
+    },
+    "venue": {
+      "displayName": "Nu Stadium"
+    },
+    "links": [
+      {
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/761587/orlando-city-sc-inter-miami-cf",
+        "text": "Summary",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "highlights",
+          "desktop"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/761587",
+        "text": "Highlights",
+        "shortText": "Highlights",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/report/_/gameId/761587",
+        "text": "Report",
+        "shortText": "Report",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      },
+      {
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/matchstats/_/gameId/761587",
+        "text": "Statistics",
+        "shortText": "Statistics",
+        "isExternal": false,
+        "isPremium": false,
+        "isHidden": false
+      }
+    ]
+  },
+  "polymarket": {
+    "id": "347218",
+    "ticker": "mls-mia-orl-2026-05-02",
+    "slug": "mls-mia-orl-2026-05-02",
+    "title": "Inter Miami CF vs. Orlando City SC",
+    "description": "This event is for the upcoming MLS game, scheduled for Saturday, May 2, 2026 between Inter Miami CF and Orlando City SC.",
+    "resolutionSource": "https://www.mlssoccer.com/schedule/scores",
+    "startDate": "2026-04-05T16:08:24.384058Z",
+    "creationDate": "2026-04-05T16:08:24.384049Z",
+    "endDate": "2026-05-02T23:00:00Z",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "new": false,
+    "featured": false,
+    "restricted": true,
+    "volume": 217583.40077700026,
+    "openInterest": 140569.19566,
+    "createdAt": "2026-04-05T16:00:09.38722Z",
+    "updatedAt": "2026-06-17T16:21:48.440716Z",
+    "enableOrderBook": true,
+    "negRisk": true,
+    "negRiskMarketID": "0x9fdf3828218aed152535135899e393ad07a591525503d848922e8db42b599400",
+    "commentCount": 0,
+    "markets": [
+      {
+        "id": "1879390",
+        "question": "Will Orlando City SC win on 2026-05-02?",
+        "conditionId": "0x65dc7fec799b3e27948bdf256d986ad383c3a4e5815d3fd6abbfe1a089c455f7",
+        "slug": "mls-mia-orl-2026-05-02-orl",
+        "resolutionSource": "https://www.mlssoccer.com/schedule/scores",
+        "endDate": "2026-05-02T23:00:00Z",
+        "startDate": "2026-04-05T16:05:37.2712Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+        "description": "In the upcoming game, scheduled for May 2, 2026\nIf Orlando City SC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"1\", \"0\"]",
+        "volume": "100373.86591500015",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-04-05T16:00:09.727955Z",
+        "updatedAt": "2026-05-04T03:54:07.124544Z",
+        "closedTime": "2026-05-03 04:03:24+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "groupItemTitle": "Orlando City SC",
+        "groupItemThreshold": "2",
+        "questionID": "0x9fdf3828218aed152535135899e393ad07a591525503d848922e8db42b599402",
+        "umaEndDate": "2026-05-03T04:03:24Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 100373.86591500015,
+        "endDateIso": "2026-05-02",
+        "startDateIso": "2026-04-05",
+        "hasReviewedDates": true,
+        "gameStartTime": "2026-05-02 23:15:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"63040800299555062262126116637064968069451777576185602875068619506645408392042\", \"99784839104470615524335046665359215228028119156953070991388426855288413777569\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "volumeClob": 100373.86591500015,
+        "makerBaseFee": 1000,
+        "takerBaseFee": 1000,
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x9fdf3828218aed152535135899e393ad07a591525503d848922e8db42b599400",
+        "negRiskRequestID": "0xc1760c5c3545899f2953ffd1f00174e184162743bcbbf10965447b3e7cd57aa6",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-04-05T16:04:15Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 50,
+        "rewardsMaxSpread": 4.5,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneDayPriceChange": 0.8945,
+        "oneWeekPriceChange": 0.8895,
+        "lastTradePrice": 0.999,
+        "bestBid": 0.999,
+        "bestAsk": 1,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-05T16:01:39.55642Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": true,
+        "requiresTranslation": false,
+        "feeType": "sports_fees_v2",
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "takerOnly": true,
+          "rebateRate": 0.25
+        }
+      },
+      {
+        "id": "1879386",
+        "question": "Will Inter Miami CF win on 2026-05-02?",
+        "conditionId": "0x9e23a50c1fa648ec78faef78231d009af8b4855db295b9b6603fdcb4ae420bd5",
+        "slug": "mls-mia-orl-2026-05-02-mia",
+        "resolutionSource": "https://www.mlssoccer.com/schedule/scores",
+        "endDate": "2026-05-02T23:00:00Z",
+        "startDate": "2026-04-05T16:05:21.067717Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+        "description": "In the upcoming game, scheduled for May 2, 2026\nIf Inter Miami CF wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "volume": "82828.93713300007",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-04-05T16:00:09.487554Z",
+        "updatedAt": "2026-05-04T03:58:36.292131Z",
+        "closedTime": "2026-05-03 04:04:10+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "groupItemTitle": "Inter Miami CF",
+        "groupItemThreshold": "0",
+        "questionID": "0x9fdf3828218aed152535135899e393ad07a591525503d848922e8db42b599400",
+        "umaEndDate": "2026-05-03T04:04:10Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 82828.93713300007,
+        "endDateIso": "2026-05-02",
+        "startDateIso": "2026-04-05",
+        "hasReviewedDates": true,
+        "gameStartTime": "2026-05-02 23:15:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"103017819403770509547554297033621659279635559170935767151658769824841084953844\", \"100254040024673760811214369704794993397731733466601326313941945054916949484105\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "volumeClob": 82828.93713300007,
+        "makerBaseFee": 1000,
+        "takerBaseFee": 1000,
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x9fdf3828218aed152535135899e393ad07a591525503d848922e8db42b599400",
+        "negRiskRequestID": "0x7050df3546832404330158e9ea8c001c73d0b55b760d9125e02ad54f7f332178",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-04-05T16:03:59Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 50,
+        "rewardsMaxSpread": 4.5,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneDayPriceChange": -0.7545,
+        "oneWeekPriceChange": -0.7245,
+        "lastTradePrice": 0.006,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-05T16:01:39.553779Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": true,
+        "requiresTranslation": false,
+        "feeType": "sports_fees_v2",
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "takerOnly": true,
+          "rebateRate": 0.25
+        }
+      },
+      {
+        "id": "1879387",
+        "question": "Will Inter Miami CF vs. Orlando City SC end in a draw?",
+        "conditionId": "0x3dd8308802cb2b335d3df6cba97acccd54d0cf19bc0dc9e3dfc8b6539e894604",
+        "slug": "mls-mia-orl-2026-05-02-draw",
+        "resolutionSource": "https://www.mlssoccer.com/schedule/scores",
+        "endDate": "2026-05-02T23:00:00Z",
+        "startDate": "2026-04-05T16:05:23.020473Z",
+        "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+        "description": "In the upcoming game, scheduled for May 2, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0\", \"1\"]",
+        "volume": "34380.59772900004",
+        "active": true,
+        "closed": true,
+        "marketMakerAddress": "",
+        "createdAt": "2026-04-05T16:00:09.597274Z",
+        "updatedAt": "2026-05-04T03:51:53.221838Z",
+        "closedTime": "2026-05-03 04:03:22+00",
+        "new": false,
+        "featured": false,
+        "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+        "archived": false,
+        "resolvedBy": "0x69c47De9D4D3Dad79590d61b9e05918E03775f24",
+        "restricted": true,
+        "groupItemTitle": "Draw (Inter Miami CF vs. Orlando City SC)",
+        "groupItemThreshold": "1",
+        "questionID": "0x9fdf3828218aed152535135899e393ad07a591525503d848922e8db42b599401",
+        "umaEndDate": "2026-05-03T04:03:22Z",
+        "enableOrderBook": true,
+        "orderPriceMinTickSize": 0.001,
+        "orderMinSize": 5,
+        "umaResolutionStatus": "resolved",
+        "volumeNum": 34380.59772900004,
+        "endDateIso": "2026-05-02",
+        "startDateIso": "2026-04-05",
+        "hasReviewedDates": true,
+        "gameStartTime": "2026-05-02 23:15:00+00",
+        "secondsDelay": 3,
+        "clobTokenIds": "[\"12827089027803603038882200296400290290617914933976352492923530722410833226508\", \"98886078635061679307016262027141703568094010875563614686130127207023630552289\"]",
+        "comboStatus": "disabled",
+        "umaBond": "500",
+        "umaReward": "2",
+        "volumeClob": 34380.59772900004,
+        "makerBaseFee": 1000,
+        "takerBaseFee": 1000,
+        "customLiveness": 0,
+        "acceptingOrders": false,
+        "negRisk": true,
+        "negRiskMarketID": "0x9fdf3828218aed152535135899e393ad07a591525503d848922e8db42b599400",
+        "negRiskRequestID": "0x2956cf8ea474338a2980ff8f331ebb1a7c396bd55a9d019d061c1b234b76b2cd",
+        "ready": false,
+        "funded": false,
+        "acceptingOrdersTimestamp": "2026-04-05T16:04:01Z",
+        "cyom": false,
+        "pagerDutyNotificationEnabled": false,
+        "approved": true,
+        "rewardsMinSize": 50,
+        "rewardsMaxSpread": 4.5,
+        "spread": 0.001,
+        "automaticallyResolved": true,
+        "oneDayPriceChange": -0.1445,
+        "oneWeekPriceChange": -0.1395,
+        "lastTradePrice": 0.001,
+        "bestAsk": 0.001,
+        "automaticallyActive": true,
+        "clearBookOnStart": true,
+        "manualActivation": false,
+        "negRiskOther": false,
+        "sportsMarketType": "moneyline",
+        "umaResolutionStatuses": "[\"proposed\"]",
+        "pendingDeployment": false,
+        "deploying": false,
+        "deployingTimestamp": "2026-04-05T16:01:39.555113Z",
+        "rfqEnabled": false,
+        "holdingRewardsEnabled": false,
+        "feesEnabled": true,
+        "requiresTranslation": false,
+        "feeType": "sports_fees_v2",
+        "feeSchedule": {
+          "exponent": 1,
+          "rate": 0.03,
+          "takerOnly": true,
+          "rebateRate": 0.25
+        }
+      }
+    ],
+    "series": [
+      {
+        "id": "10189",
+        "ticker": "mls-2025",
+        "slug": "mls-2025",
+        "title": "MLS 2025",
+        "seriesType": "single",
+        "recurrence": "daily",
+        "image": "",
+        "icon": "",
+        "active": true,
+        "closed": false,
+        "archived": false,
+        "featured": false,
+        "restricted": true,
+        "createdAt": "2025-08-08T14:56:42.97589Z",
+        "updatedAt": "2026-06-19T10:13:56.599214Z",
+        "volume24hr": 4,
+        "volume": 126981.02592500001,
+        "liquidity": 11519.51041,
+        "commentCount": 83,
+        "requiresTranslation": false
+      }
+    ],
+    "tags": [
+      {
+        "id": "1",
+        "label": "Sports",
+        "slug": "sports",
+        "forceShow": false,
+        "publishedAt": "2023-10-24 22:37:50.296+00",
+        "updatedBy": 15,
+        "createdAt": "2023-10-24T22:37:50.31Z",
+        "updatedAt": "2026-04-17T20:47:16.461062Z",
+        "forceHide": true,
+        "requiresTranslation": false
+      },
+      {
+        "id": "100639",
+        "label": "Games",
+        "slug": "games",
+        "forceShow": false,
+        "createdAt": "2024-09-23T22:41:37.670714Z",
+        "updatedAt": "2026-03-09T22:28:03.358133Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "100350",
+        "label": "Soccer",
+        "slug": "soccer",
+        "forceShow": false,
+        "createdAt": "2024-08-21T16:31:18.953213Z",
+        "updatedAt": "2026-04-17T20:33:09.955379Z",
+        "requiresTranslation": false
+      },
+      {
+        "id": "100100",
+        "label": "MLS",
+        "slug": "mls",
+        "updatedAt": "2026-04-15T21:03:59.564806Z",
+        "requiresTranslation": false
+      }
+    ],
+    "cyom": false,
+    "closedTime": "2026-05-03T04:01:44Z",
+    "showAllOutcomes": true,
+    "showMarketImages": false,
+    "automaticallyResolved": true,
+    "enableNegRisk": true,
+    "automaticallyActive": true,
+    "eventDate": "2026-05-02",
+    "startTime": "2026-05-02T23:15:00Z",
+    "eventWeek": 18,
+    "seriesSlug": "mls-2025",
+    "score": "3-4",
+    "elapsed": "",
+    "period": "VFT",
+    "live": false,
+    "ended": true,
+    "finishedTimestamp": "2026-05-03T01:28:34.585076Z",
+    "negRiskAugmented": false,
+    "pendingDeployment": false,
+    "deploying": false,
+    "deployingTimestamp": "2026-04-05T16:00:11.135352Z",
+    "gameId": 90104233,
+    "requiresTranslation": false,
+    "eventMetadata": {
+      "context_description": "Orlando City SC's stunning 4-3 comeback victory over Eastern Conference rivals Inter Miami CF on May 2 at Nu Stadium has driven trader consensus to near-certainty on the away win, reflecting the official MLS result. Inter Miami surged to a 3-0 halftime lead via Ian Fray (4'), Telasco Segovia (25'), and Lionel Messi (33'), but Orlando mounted a historic rally—only the third from 3-0 down in league history—with Martín Ojeda's hat-trick (39', 68', 78' penalty) and Tyrese Spicer's 90'+3 winner, despite Miami's 65% possession and 26 shots. Orlando, 14th with a -17 goal difference, capitalized on Miami's third-place vulnerabilities. Reversal scenarios, like a rare MLS protest upholding a different scoreline, remain highly improbable.",
+      "context_requires_regen": true,
+      "context_updated_at": "2026-05-03T03:07:09.874Z"
+    },
+    "teams": [
+      {
+        "id": 115079,
+        "name": "Inter Miami CF",
+        "league": "mls",
+        "record": "9-4-2",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Inter Miami CF-7bff4be81d.png",
+        "abbreviation": "mia",
+        "alias": "Inter Miami",
+        "createdAt": "2025-09-02T20:13:55.693811Z",
+        "updatedAt": "2026-05-15T09:00:01.289247Z",
+        "providerId": 2363,
+        "color": "#C38099",
+        "ordering": "home"
+      },
+      {
+        "id": 115066,
+        "name": "Orlando City SC",
+        "league": "mls",
+        "record": "4-2-9",
+        "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Orlando City SC-e65b556102.png",
+        "abbreviation": "orl",
+        "alias": "Orlando",
+        "createdAt": "2025-09-02T20:13:55.68739Z",
+        "updatedAt": "2026-05-14T03:08:56.950526Z",
+        "providerId": 705,
+        "color": "#712697",
+        "ordering": "away"
+      }
+    ],
+    "sport": {
+      "id": 33,
+      "sport": "mls",
+      "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer-ball-d7941ac797.jpg",
+      "resolution": "https://www.mls.com/",
+      "ordering": "home",
+      "tags": "1,100639,100350,100100",
+      "series": "10189",
+      "createdAt": "2025-11-05T19:27:45.399303Z"
+    }
+  },
+  "expected": {
+    "resolved": true,
+    "league": "usa.1",
+    "kind": "three_way",
+    "espn_event_id": "761587",
+    "pm_event_slug": "mls-mia-orl-2026-05-02",
+    "pm_market_slug": null,
+    "home": {
+      "espn_abbr": "MIA",
+      "name": "Inter Miami CF",
+      "pm_code": "mia"
+    },
+    "away": {
+      "espn_abbr": "ORL",
+      "name": "Orlando City SC",
+      "pm_code": "orl"
+    },
+    "outcomes": [
+      {
+        "selection": "home",
+        "team": "Inter Miami CF",
+        "pm_market_slug": "mls-mia-orl-2026-05-02-mia",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "103017819403770509547554297033621659279635559170935767151658769824841084953844",
+        "price": "0"
+      },
+      {
+        "selection": "away",
+        "team": "Orlando City SC",
+        "pm_market_slug": "mls-mia-orl-2026-05-02-orl",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "63040800299555062262126116637064968069451777576185602875068619506645408392042",
+        "price": "1"
+      },
+      {
+        "selection": "draw",
+        "team": null,
+        "pm_market_slug": "mls-mia-orl-2026-05-02-draw",
+        "pm_outcome": "Yes",
+        "outcome_index": 0,
+        "token_id": "12827089027803603038882200296400290290617914933976352492923530722410833226508",
+        "price": "0"
+      }
+    ]
+  }
+}
