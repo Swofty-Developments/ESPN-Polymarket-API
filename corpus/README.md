@@ -45,8 +45,9 @@ so comparison is exact and language-independent.
 
 ## Current cases
 
-Twenty cases spanning all 15 leagues. The World Cup / NBA / MLB / NHL cases pin the trickiest
-failure modes:
+Twenty-two cases spanning all 18 leagues (including `ufc-two-way-fighters` and
+`tennis-two-way-lastname`, where the "team" is an athlete and there is no crosswalk — sides are
+matched by name). The World Cup / NBA / MLB / NHL cases pin the trickiest failure modes:
 
 | File | Pins |
 |------|------|
