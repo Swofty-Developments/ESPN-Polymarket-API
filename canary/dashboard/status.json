@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-06-19T09:04:15.030Z",
+  "data_version": "0.1.0",
+  "status": "ok",
+  "leagues": {
+    "nba": {
+      "label": "NBA",
+      "status": "ok",
+      "active": 1,
+      "resolved": 1,
+      "legs_with_token": 2,
+      "unlisted": 0
+    },
+    "mlb": {
+      "label": "MLB",
+      "status": "ok",
+      "active": 9,
+      "resolved": 9,
+      "legs_with_token": 18,
+      "unlisted": 0
+    },
+    "nhl": {
+      "label": "NHL",
+      "status": "ok",
+      "active": 1,
+      "resolved": 1,
+      "legs_with_token": 2,
+      "unlisted": 0
+    },
+    "fifa.world": {
+      "label": "FIFA World Cup",
+      "status": "ok",
+      "active": 4,
+      "resolved": 4,
+      "legs_with_token": 12,
+      "unlisted": 0
+    }
+  },
+  "issues": []
+}
