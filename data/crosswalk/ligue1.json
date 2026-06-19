@@ -1,0 +1,141 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "fra.1",
+  "teams": {
+    "ang": {
+      "espn": "ANG",
+      "pm": "ang",
+      "name": "Angers",
+      "aliases": [
+        "angers sco"
+      ]
+    },
+    "aux": {
+      "espn": "AUX",
+      "pm": "aja",
+      "name": "AJ Auxerre",
+      "aliases": [
+        "auxerre"
+      ]
+    },
+    "bre": {
+      "espn": "BRE",
+      "pm": "bre",
+      "name": "Brest",
+      "aliases": []
+    },
+    "hac": {
+      "espn": "HAC",
+      "pm": "hac",
+      "name": "Le Havre AC",
+      "aliases": []
+    },
+    "lill": {
+      "espn": "LILL",
+      "pm": "lil",
+      "name": "Lille",
+      "aliases": [
+        "lille osc"
+      ]
+    },
+    "lor": {
+      "espn": "LOR",
+      "pm": "lor",
+      "name": "Lorient",
+      "aliases": [
+        "fc lorient"
+      ]
+    },
+    "lyon": {
+      "espn": "LYON",
+      "pm": "lyo",
+      "name": "Lyon",
+      "aliases": [
+        "olympique lyonnais"
+      ]
+    },
+    "mns": {
+      "espn": "MNS",
+      "pm": "mns",
+      "name": "Le Mans",
+      "aliases": []
+    },
+    "mon": {
+      "espn": "MON",
+      "pm": "asm",
+      "name": "AS Monaco",
+      "aliases": [
+        "as monaco fc",
+        "monaco"
+      ]
+    },
+    "nice": {
+      "espn": "NICE",
+      "pm": "nic",
+      "name": "Nice",
+      "aliases": []
+    },
+    "olm": {
+      "espn": "OLM",
+      "pm": "olm",
+      "name": "Marseille",
+      "aliases": [
+        "olympique de marseille"
+      ]
+    },
+    "par": {
+      "espn": "PAR",
+      "pm": "pfc",
+      "name": "Paris FC",
+      "aliases": []
+    },
+    "psg": {
+      "espn": "PSG",
+      "pm": "psg",
+      "name": "Paris Saint-Germain",
+      "aliases": [
+        "paris saint germain fc",
+        "psg"
+      ]
+    },
+    "rcl": {
+      "espn": "RCL",
+      "pm": "rcl",
+      "name": "Lens",
+      "aliases": [
+        "racing club de lens"
+      ]
+    },
+    "ren": {
+      "espn": "REN",
+      "pm": "ren",
+      "name": "Stade Rennais",
+      "aliases": [
+        "rennes",
+        "stade rennais fc 1901"
+      ]
+    },
+    "str": {
+      "espn": "STR",
+      "pm": "str",
+      "name": "Strasbourg",
+      "aliases": [
+        "rc strasbourg alsace"
+      ]
+    },
+    "tou": {
+      "espn": "TOU",
+      "pm": "tou",
+      "name": "Toulouse",
+      "aliases": [
+        "toulouse fc"
+      ]
+    },
+    "try": {
+      "espn": "TRY",
+      "pm": "try",
+      "name": "Troyes",
+      "aliases": []
+    }
+  }
+}

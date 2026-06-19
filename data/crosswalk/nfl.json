@@ -1,0 +1,294 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "nfl",
+  "teams": {
+    "ari": {
+      "espn": "ARI",
+      "pm": "ari",
+      "name": "Arizona Cardinals",
+      "aliases": [
+        "arizona",
+        "cardinals"
+      ]
+    },
+    "atl": {
+      "espn": "ATL",
+      "pm": "atl",
+      "name": "Atlanta Falcons",
+      "aliases": [
+        "atlanta",
+        "falcons"
+      ]
+    },
+    "bal": {
+      "espn": "BAL",
+      "pm": "bal",
+      "name": "Baltimore Ravens",
+      "aliases": [
+        "baltimore",
+        "ravens"
+      ]
+    },
+    "buf": {
+      "espn": "BUF",
+      "pm": "buf",
+      "name": "Buffalo Bills",
+      "aliases": [
+        "bills",
+        "buffalo"
+      ]
+    },
+    "car": {
+      "espn": "CAR",
+      "pm": "car",
+      "name": "Carolina Panthers",
+      "aliases": [
+        "carolina",
+        "panthers"
+      ]
+    },
+    "chi": {
+      "espn": "CHI",
+      "pm": "chi",
+      "name": "Chicago Bears",
+      "aliases": [
+        "bears",
+        "chicago"
+      ]
+    },
+    "cin": {
+      "espn": "CIN",
+      "pm": "cin",
+      "name": "Cincinnati Bengals",
+      "aliases": [
+        "bengals",
+        "cincinnati"
+      ]
+    },
+    "cle": {
+      "espn": "CLE",
+      "pm": "cle",
+      "name": "Cleveland Browns",
+      "aliases": [
+        "browns",
+        "cleveland"
+      ]
+    },
+    "dal": {
+      "espn": "DAL",
+      "pm": "dal",
+      "name": "Dallas Cowboys",
+      "aliases": [
+        "cowboys",
+        "dallas"
+      ]
+    },
+    "den": {
+      "espn": "DEN",
+      "pm": "den",
+      "name": "Denver Broncos",
+      "aliases": [
+        "broncos",
+        "denver"
+      ]
+    },
+    "det": {
+      "espn": "DET",
+      "pm": "det",
+      "name": "Detroit Lions",
+      "aliases": [
+        "detroit",
+        "lions"
+      ]
+    },
+    "gb": {
+      "espn": "GB",
+      "pm": "gb",
+      "name": "Green Bay Packers",
+      "aliases": [
+        "green bay",
+        "packers"
+      ]
+    },
+    "hou": {
+      "espn": "HOU",
+      "pm": "hou",
+      "name": "Houston Texans",
+      "aliases": [
+        "houston",
+        "texans"
+      ]
+    },
+    "ind": {
+      "espn": "IND",
+      "pm": "ind",
+      "name": "Indianapolis Colts",
+      "aliases": [
+        "colts",
+        "indianapolis"
+      ]
+    },
+    "jax": {
+      "espn": "JAX",
+      "pm": "jax",
+      "name": "Jacksonville Jaguars",
+      "aliases": [
+        "jacksonville",
+        "jaguars"
+      ]
+    },
+    "kc": {
+      "espn": "KC",
+      "pm": "kc",
+      "name": "Kansas City Chiefs",
+      "aliases": [
+        "chiefs",
+        "kansas city"
+      ]
+    },
+    "lac": {
+      "espn": "LAC",
+      "pm": "lac",
+      "name": "Los Angeles Chargers",
+      "aliases": [
+        "chargers",
+        "los angeles"
+      ]
+    },
+    "lar": {
+      "espn": "LAR",
+      "pm": "lar",
+      "name": "Los Angeles Rams",
+      "aliases": [
+        "los angeles",
+        "rams"
+      ]
+    },
+    "lv": {
+      "espn": "LV",
+      "pm": "lv",
+      "name": "Las Vegas Raiders",
+      "aliases": [
+        "las vegas",
+        "raiders"
+      ]
+    },
+    "mia": {
+      "espn": "MIA",
+      "pm": "mia",
+      "name": "Miami Dolphins",
+      "aliases": [
+        "dolphins",
+        "miami"
+      ]
+    },
+    "min": {
+      "espn": "MIN",
+      "pm": "min",
+      "name": "Minnesota Vikings",
+      "aliases": [
+        "minnesota",
+        "vikings"
+      ]
+    },
+    "ne": {
+      "espn": "NE",
+      "pm": "ne",
+      "name": "New England Patriots",
+      "aliases": [
+        "new england",
+        "patriots"
+      ]
+    },
+    "no": {
+      "espn": "NO",
+      "pm": "no",
+      "name": "New Orleans Saints",
+      "aliases": [
+        "new orleans",
+        "saints"
+      ]
+    },
+    "nyg": {
+      "espn": "NYG",
+      "pm": "nyg",
+      "name": "New York Giants",
+      "aliases": [
+        "giants",
+        "new york"
+      ]
+    },
+    "nyj": {
+      "espn": "NYJ",
+      "pm": "nyj",
+      "name": "New York Jets",
+      "aliases": [
+        "jets",
+        "new york"
+      ]
+    },
+    "phi": {
+      "espn": "PHI",
+      "pm": "phi",
+      "name": "Philadelphia Eagles",
+      "aliases": [
+        "eagles",
+        "philadelphia"
+      ]
+    },
+    "pit": {
+      "espn": "PIT",
+      "pm": "pit",
+      "name": "Pittsburgh Steelers",
+      "aliases": [
+        "pittsburgh",
+        "steelers"
+      ]
+    },
+    "sea": {
+      "espn": "SEA",
+      "pm": "sea",
+      "name": "Seattle Seahawks",
+      "aliases": [
+        "seahawks",
+        "seattle"
+      ]
+    },
+    "sf": {
+      "espn": "SF",
+      "pm": "sf",
+      "name": "San Francisco 49ers",
+      "aliases": [
+        "49ers",
+        "san francisco"
+      ]
+    },
+    "tb": {
+      "espn": "TB",
+      "pm": "tb",
+      "name": "Tampa Bay Buccaneers",
+      "aliases": [
+        "buccaneers",
+        "tampa bay"
+      ]
+    },
+    "ten": {
+      "espn": "TEN",
+      "pm": "ten",
+      "name": "Tennessee Titans",
+      "aliases": [
+        "tennessee",
+        "titans"
+      ]
+    },
+    "wsh": {
+      "espn": "WSH",
+      "pm": "wsh",
+      "name": "Washington Commanders",
+      "aliases": [
+        "commanders",
+        "washington"
+      ]
+    }
+  }
+}

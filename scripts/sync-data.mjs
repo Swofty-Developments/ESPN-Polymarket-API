@@ -11,7 +11,11 @@ import { dirname, join } from "node:path";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CHECK = process.argv.includes("--check");
 
-const FILES = ["VERSION", "slug-templates.json", "crosswalk/nba.json", "crosswalk/mlb.json", "crosswalk/nhl.json", "crosswalk/soccer.json"];
+const FILES = [
+  "VERSION",
+  "slug-templates.json",
+  ...readdirSync(join(ROOT, "data/crosswalk")).filter((f) => f.endsWith(".json")).sort().map((f) => `crosswalk/${f}`),
+];
 
 const TARGETS = [
   join(ROOT, "bindings/python/src/espn_polymarket_map/_data"),

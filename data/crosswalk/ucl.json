@@ -1,0 +1,268 @@
+{
+  "$schema": "../schema/crosswalk.schema.json",
+  "league": "uefa.champions",
+  "teams": {
+    "aja": {
+      "espn": "AJA",
+      "pm": "aja",
+      "name": "Ajax Amsterdam",
+      "aliases": [
+        "ajax"
+      ]
+    },
+    "ars": {
+      "espn": "ARS",
+      "pm": "ars",
+      "name": "Arsenal",
+      "aliases": []
+    },
+    "ata": {
+      "espn": "ATA",
+      "pm": "ata",
+      "name": "Atalanta",
+      "aliases": []
+    },
+    "ath": {
+      "espn": "ATH",
+      "pm": "ath",
+      "name": "Athletic Club",
+      "aliases": [
+        "athletic",
+        "athletic bilbao"
+      ]
+    },
+    "atm": {
+      "espn": "ATM",
+      "pm": "mad",
+      "name": "Atlético Madrid",
+      "aliases": [
+        "atletico"
+      ]
+    },
+    "b04": {
+      "espn": "B04",
+      "pm": "b04",
+      "name": "Bayer Leverkusen",
+      "aliases": [
+        "leverkusen"
+      ]
+    },
+    "bar": {
+      "espn": "BAR",
+      "pm": "bar",
+      "name": "Barcelona",
+      "aliases": []
+    },
+    "bodo": {
+      "espn": "BODO",
+      "pm": "bod",
+      "name": "Bodo/Glimt",
+      "aliases": []
+    },
+    "bru": {
+      "espn": "BRU",
+      "pm": "bru",
+      "name": "Club Brugge",
+      "aliases": []
+    },
+    "che": {
+      "espn": "CHE",
+      "pm": "cfc",
+      "name": "Chelsea",
+      "aliases": []
+    },
+    "dor": {
+      "espn": "DOR",
+      "pm": "dor",
+      "name": "Borussia Dortmund",
+      "aliases": [
+        "dortmund"
+      ]
+    },
+    "gal": {
+      "espn": "GAL",
+      "pm": "gal",
+      "name": "Galatasaray",
+      "aliases": []
+    },
+    "int": {
+      "espn": "INT",
+      "pm": "int",
+      "name": "Internazionale",
+      "aliases": [
+        "inter milan"
+      ]
+    },
+    "juv": {
+      "espn": "JUV",
+      "pm": "juv",
+      "name": "Juventus",
+      "aliases": []
+    },
+    "kai": {
+      "espn": "KAI",
+      "pm": "kay",
+      "name": "Kairat Almaty",
+      "aliases": [
+        "fc kairat almaty"
+      ]
+    },
+    "kbh": {
+      "espn": "KBH",
+      "pm": "kob",
+      "name": "F.C. København",
+      "aliases": [
+        "fc kopenhagen",
+        "k benhavn"
+      ]
+    },
+    "liv": {
+      "espn": "LIV",
+      "pm": "liv",
+      "name": "Liverpool",
+      "aliases": []
+    },
+    "mnc": {
+      "espn": "MNC",
+      "pm": "mac",
+      "name": "Manchester City",
+      "aliases": [
+        "man city"
+      ]
+    },
+    "mon": {
+      "espn": "MON",
+      "pm": "mon",
+      "name": "AS Monaco",
+      "aliases": [
+        "monaco"
+      ]
+    },
+    "mun": {
+      "espn": "MUN",
+      "pm": "bay",
+      "name": "Bayern Munich",
+      "aliases": [
+        "bayern"
+      ]
+    },
+    "nap": {
+      "espn": "NAP",
+      "pm": "nap",
+      "name": "Napoli",
+      "aliases": []
+    },
+    "new": {
+      "espn": "NEW",
+      "pm": "new",
+      "name": "Newcastle United",
+      "aliases": [
+        "newcastle"
+      ]
+    },
+    "olm": {
+      "espn": "OLM",
+      "pm": "olm",
+      "name": "Marseille",
+      "aliases": [
+        "olympique marseille"
+      ]
+    },
+    "oly": {
+      "espn": "OLY",
+      "pm": "oly",
+      "name": "Olympiacos",
+      "aliases": [
+        "olympiakos piraeus"
+      ]
+    },
+    "paf": {
+      "espn": "PAF",
+      "pm": "paf",
+      "name": "Pafos",
+      "aliases": [
+        "pafos fc"
+      ]
+    },
+    "psg": {
+      "espn": "PSG",
+      "pm": "psg",
+      "name": "Paris Saint-Germain",
+      "aliases": [
+        "psg"
+      ]
+    },
+    "psv": {
+      "espn": "PSV",
+      "pm": "psv",
+      "name": "PSV Eindhoven",
+      "aliases": [
+        "psv"
+      ]
+    },
+    "qar": {
+      "espn": "QAR",
+      "pm": "kar",
+      "name": "FK Qarabag",
+      "aliases": []
+    },
+    "rma": {
+      "espn": "RMA",
+      "pm": "rma",
+      "name": "Real Madrid",
+      "aliases": []
+    },
+    "scp": {
+      "espn": "SCP",
+      "pm": "spo",
+      "name": "Sporting CP",
+      "aliases": [
+        "sporting"
+      ]
+    },
+    "sge": {
+      "espn": "SGE",
+      "pm": "fra",
+      "name": "Eintracht Frankfurt",
+      "aliases": [
+        "frankfurt"
+      ]
+    },
+    "slb": {
+      "espn": "SLB",
+      "pm": "ben",
+      "name": "Benfica",
+      "aliases": []
+    },
+    "slp": {
+      "espn": "SLP",
+      "pm": "sla",
+      "name": "Slavia Prague",
+      "aliases": [
+        "slavia praha"
+      ]
+    },
+    "tot": {
+      "espn": "TOT",
+      "pm": "tot",
+      "name": "Tottenham Hotspur",
+      "aliases": [
+        "spurs"
+      ]
+    },
+    "usg": {
+      "espn": "USG",
+      "pm": "gil",
+      "name": "Union St.-Gilloise",
+      "aliases": [
+        "union sg"
+      ]
+    },
+    "vil": {
+      "espn": "VIL",
+      "pm": "vil",
+      "name": "Villarreal",
+      "aliases": []
+    }
+  }
+}

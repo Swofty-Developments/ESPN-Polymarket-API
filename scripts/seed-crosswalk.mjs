@@ -12,7 +12,24 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
-const LEAGUES = ["nba", "mlb", "nhl", "fifa.world"];
+// league key (also the overrides key) -> { teams: espn-snapshot stem, out: crosswalk stem }
+const LEAGUES = {
+  nba: { teams: "nba", out: "nba" },
+  mlb: { teams: "mlb", out: "mlb" },
+  nhl: { teams: "nhl", out: "nhl" },
+  "fifa.world": { teams: "fifa.world", out: "soccer" },
+  nfl: { teams: "nfl", out: "nfl" },
+  wnba: { teams: "wnba", out: "wnba" },
+  "eng.1": { teams: "epl", out: "epl" },
+  "uefa.champions": { teams: "ucl", out: "ucl" },
+  "esp.1": { teams: "laliga", out: "laliga" },
+  "ger.1": { teams: "bundesliga", out: "bundesliga" },
+  "ita.1": { teams: "seriea", out: "seriea" },
+  "fra.1": { teams: "ligue1", out: "ligue1" },
+  "usa.1": { teams: "mls", out: "mls" },
+  "college-football": { teams: "cfb", out: "cfb" },
+  "mens-college-basketball": { teams: "cbb", out: "cbb" },
+};
 
 // MUST stay identical to normalize() in every binding (see docs/architecture.md).
 function normalize(s) {
@@ -27,8 +44,8 @@ function normalize(s) {
 
 const overrides = JSON.parse(readFileSync(join(ROOT, "scripts/crosswalk-overrides.json"), "utf8"));
 
-for (const league of LEAGUES) {
-  const snap = JSON.parse(readFileSync(join(ROOT, "scripts/espn-teams", `${league}.json`), "utf8"));
+for (const [league, cfg] of Object.entries(LEAGUES)) {
+  const snap = JSON.parse(readFileSync(join(ROOT, "scripts/espn-teams", `${cfg.teams}.json`), "utf8"));
   const espnTeams = snap.sports[0].leagues[0].teams.map((t) => t.team);
   const ov = overrides[league] || { pm_code: {}, aliases: {} };
 
@@ -36,7 +53,8 @@ for (const league of LEAGUES) {
   for (const t of espnTeams) {
     const abbr = t.abbreviation;
     const key = normalize(abbr).replace(/ /g, "");
-    const pm = ov.pm_code[abbr] || abbr.toLowerCase();
+    if (!key) continue;
+    const pm = ov.pm_code[abbr] || key;
 
     const aliasSet = new Set();
     for (const cand of [t.displayName, t.shortDisplayName, t.location, t.name]) {
@@ -67,7 +85,7 @@ for (const league of LEAGUES) {
     league,
     teams: ordered,
   };
-  const file = join(ROOT, "data/crosswalk", `${league === "fifa.world" ? "soccer" : league}.json`);
+  const file = join(ROOT, "data/crosswalk", `${cfg.out}.json`);
   writeFileSync(file, JSON.stringify(out, null, 2) + "\n");
-  console.log(`wrote ${file} (${Object.keys(ordered).length} teams)`);
+  console.log(`wrote ${cfg.out}.json (${Object.keys(ordered).length} teams)`);
 }

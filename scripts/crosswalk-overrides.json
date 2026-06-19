@@ -1,33 +1,893 @@
 {
   "_comment": "Hand-curated divergences between ESPN abbreviations and Polymarket slug/outcome codes, plus extra outcome-matching aliases. Everything not listed here defaults to pm_code = lowercase(espn_abbr). Discovered empirically from real Polymarket game slugs (see scripts/seed-crosswalk.mjs and docs/architecture.md).",
   "nba": {
-    "pm_code": { "GS": "gsw", "NO": "nop", "NY": "nyk", "SA": "sas", "UTAH": "uta", "WSH": "was" },
+    "pm_code": {
+      "GS": "gsw",
+      "NO": "nop",
+      "NY": "nyk",
+      "SA": "sas",
+      "UTAH": "uta",
+      "WSH": "was"
+    },
     "aliases": {}
   },
   "mlb": {
-    "pm_code": { "CHW": "cws", "ATH": "oak" },
-    "aliases": { "ATH": ["oakland athletics", "athletics", "oakland"] }
+    "pm_code": {
+      "CHW": "cws",
+      "ATH": "oak"
+    },
+    "aliases": {
+      "ATH": [
+        "oakland athletics",
+        "athletics",
+        "oakland"
+      ]
+    }
   },
   "nhl": {
-    "pm_code": { "CGY": "cal", "LA": "lak", "MTL": "mon", "VGK": "las" },
-    "aliases": { "VGK": ["vegas golden knights", "golden knights", "vegas", "las vegas"] }
+    "pm_code": {
+      "CGY": "cal",
+      "LA": "lak",
+      "MTL": "mon",
+      "VGK": "las"
+    },
+    "aliases": {
+      "VGK": [
+        "vegas golden knights",
+        "golden knights",
+        "vegas",
+        "las vegas"
+      ]
+    }
   },
   "fifa.world": {
     "pm_code": {
-      "COD": "cdr", "CPV": "cvi", "CRO": "hrv", "CUW": "kor", "KOR": "kr",
-      "NED": "nld", "POR": "prt", "SUI": "che", "URU": "ury"
+      "COD": "cdr",
+      "CPV": "cvi",
+      "CRO": "hrv",
+      "CUW": "kor",
+      "KOR": "kr",
+      "NED": "nld",
+      "POR": "prt",
+      "SUI": "che",
+      "URU": "ury"
     },
     "aliases": {
-      "COD": ["dr congo", "congo dr", "democratic republic of the congo", "democratic republic of congo"],
-      "CPV": ["cabo verde", "cape verde"],
-      "CUW": ["curacao"],
-      "KOR": ["korea republic", "south korea", "republic of korea", "korea"],
-      "TUR": ["turkiye", "turkey"],
-      "CIV": ["cote d ivoire", "cote divoire", "ivory coast"],
-      "BIH": ["bosnia and herzegovina", "bosnia herzegovina", "bosnia"],
-      "IRN": ["ir iran", "iran"],
-      "CZE": ["czech republic", "czechia"],
-      "NED": ["the netherlands", "netherlands", "holland"]
+      "COD": [
+        "dr congo",
+        "congo dr",
+        "democratic republic of the congo",
+        "democratic republic of congo"
+      ],
+      "CPV": [
+        "cabo verde",
+        "cape verde"
+      ],
+      "CUW": [
+        "curacao"
+      ],
+      "KOR": [
+        "korea republic",
+        "south korea",
+        "republic of korea",
+        "korea"
+      ],
+      "TUR": [
+        "turkiye",
+        "turkey"
+      ],
+      "CIV": [
+        "cote d ivoire",
+        "cote divoire",
+        "ivory coast"
+      ],
+      "BIH": [
+        "bosnia and herzegovina",
+        "bosnia herzegovina",
+        "bosnia"
+      ],
+      "IRN": [
+        "ir iran",
+        "iran"
+      ],
+      "CZE": [
+        "czech republic",
+        "czechia"
+      ],
+      "NED": [
+        "the netherlands",
+        "netherlands",
+        "holland"
+      ]
+    }
+  },
+  "nfl": {
+    "pm_code": {},
+    "aliases": {}
+  },
+  "wnba": {
+    "pm_code": {
+      "CON": "conn",
+      "GS": "gsv",
+      "LV": "las",
+      "NY": "nyl"
+    },
+    "aliases": {
+      "POR": [
+        "portlandfire"
+      ]
+    }
+  },
+  "eng.1": {
+    "pm_code": {
+      "AVL": "ast",
+      "BHA": "bri",
+      "MNC": "mac",
+      "MAN": "mun",
+      "NFO": "not"
+    },
+    "aliases": {
+      "LEE": [
+        "leeds united fc"
+      ],
+      "SUN": [
+        "sunderland afc"
+      ]
+    }
+  },
+  "uefa.champions": {
+    "pm_code": {
+      "ATM": "mad",
+      "MUN": "bay",
+      "SLB": "ben",
+      "BODO": "bod",
+      "CHE": "cfc",
+      "SGE": "fra",
+      "KBH": "kob",
+      "QAR": "kar",
+      "KAI": "kay",
+      "MNC": "mac",
+      "SLP": "sla",
+      "SCP": "spo",
+      "USG": "gil"
+    },
+    "aliases": {
+      "ATH": [
+        "athletic bilbao"
+      ],
+      "KBH": [
+        "fc kopenhagen"
+      ],
+      "KAI": [
+        "fc kairat almaty"
+      ],
+      "OLM": [
+        "olympique marseille"
+      ],
+      "OLY": [
+        "olympiakos piraeus"
+      ],
+      "PAF": [
+        "pafos fc"
+      ],
+      "SLP": [
+        "slavia praha"
+      ]
+    }
+  },
+  "esp.1": {
+    "pm_code": {
+      "ATH": "bil",
+      "ATM": "mad",
+      "MLL": "mal",
+      "RMA": "rea"
+    },
+    "aliases": {
+      "ALA": [
+        "deportivo alaves"
+      ],
+      "ATM": [
+        "club atletico de madrid"
+      ],
+      "BAR": [
+        "fc barcelona"
+      ],
+      "CEL": [
+        "rc celta de vigo"
+      ],
+      "ELC": [
+        "elche cf"
+      ],
+      "ESP": [
+        "rcd espanyol de barcelona"
+      ],
+      "GET": [
+        "getafe cf"
+      ],
+      "GIR": [
+        "girona fc"
+      ],
+      "LEV": [
+        "levante ud"
+      ],
+      "MLL": [
+        "rcd mallorca"
+      ],
+      "OSA": [
+        "ca osasuna"
+      ],
+      "RAY": [
+        "rayo vallecano de madrid"
+      ],
+      "BET": [
+        "real betis balompie"
+      ],
+      "RMA": [
+        "real madrid cf"
+      ],
+      "RSO": [
+        "real sociedad de futbol"
+      ],
+      "SEV": [
+        "sevilla fc"
+      ],
+      "VAL": [
+        "valencia cf"
+      ],
+      "VIL": [
+        "villarreal cf"
+      ]
+    }
+  },
+  "ger.1": {
+    "pm_code": {
+      "HDH": "hei",
+      "FCU": "uni",
+      "MUN": "bay",
+      "BMG": "moe",
+      "SGE": "ein",
+      "FCA": "aug",
+      "M05": "mai",
+      "RBL": "lei",
+      "SCF": "fre",
+      "STP": "pau",
+      "TSG": "hof",
+      "VFB": "stu",
+      "WOB": "wol",
+      "SVW": "wer"
+    },
+    "aliases": {
+      "B04": [
+        "bayer 04 leverkusen"
+      ],
+      "MUN": [
+        "fc bayern munchen"
+      ],
+      "DOR": [
+        "bv borussia 09 dortmund"
+      ],
+      "KOE": [
+        "1 fc koln"
+      ],
+      "HSV": [
+        "hamburger sv"
+      ],
+      "M05": [
+        "1 fsv mainz 05"
+      ],
+      "STP": [
+        "fc st pauli 1910"
+      ],
+      "TSG": [
+        "tsg 1899 hoffenheim"
+      ],
+      "SVW": [
+        "sv werder bremen"
+      ]
+    }
+  },
+  "ita.1": {
+    "pm_code": {
+      "ROMA": "rom",
+      "COMO": "com"
+    },
+    "aliases": {
+      "ATA": [
+        "atalanta bc"
+      ],
+      "BOL": [
+        "bologna fc 1909"
+      ],
+      "CAG": [
+        "cagliari calcio"
+      ],
+      "COMO": [
+        "como 1907"
+      ],
+      "FIO": [
+        "acf fiorentina"
+      ],
+      "GEN": [
+        "genoa cfc"
+      ],
+      "INT": [
+        "fc internazionale milano"
+      ],
+      "JUV": [
+        "juventus fc"
+      ],
+      "LAZ": [
+        "ss lazio"
+      ],
+      "LEC": [
+        "us lecce"
+      ],
+      "NAP": [
+        "ssc napoli"
+      ],
+      "PAR": [
+        "parma calcio 1913"
+      ],
+      "SAS": [
+        "us sassuolo calcio"
+      ],
+      "TOR": [
+        "torino fc"
+      ],
+      "UDI": [
+        "udinese calcio"
+      ]
+    }
+  },
+  "fra.1": {
+    "pm_code": {
+      "AUX": "aja",
+      "MON": "asm",
+      "LILL": "lil",
+      "LYON": "lyo",
+      "NICE": "nic",
+      "PAR": "pfc"
+    },
+    "aliases": {
+      "MON": [
+        "as monaco fc"
+      ],
+      "ANG": [
+        "angers sco"
+      ],
+      "RCL": [
+        "racing club de lens"
+      ],
+      "LILL": [
+        "lille osc"
+      ],
+      "LOR": [
+        "fc lorient"
+      ],
+      "LYON": [
+        "olympique lyonnais"
+      ],
+      "OLM": [
+        "olympique de marseille"
+      ],
+      "PSG": [
+        "paris saint germain fc"
+      ],
+      "REN": [
+        "stade rennais fc 1901"
+      ],
+      "STR": [
+        "rc strasbourg alsace"
+      ],
+      "TOU": [
+        "toulouse fc"
+      ]
+    }
+  },
+  "usa.1": {
+    "pm_code": {
+      "ATX": "aus",
+      "MTL": "mim",
+      "DC": "dcu",
+      "CIN": "fcc",
+      "LA": "lag",
+      "LAFC": "laf",
+      "NSH": "nas",
+      "NE": "ner",
+      "RBNY": "nyr",
+      "SD": "sdg",
+      "SJ": "sje",
+      "VAN": "vwh"
+    },
+    "aliases": {
+      "COL": [
+        "colorado rapids sc"
+      ],
+      "DC": [
+        "d c united sc"
+      ],
+      "LA": [
+        "los angeles galaxy"
+      ],
+      "LAFC": [
+        "los angeles fc"
+      ],
+      "RBNY": [
+        "new york red bulls"
+      ],
+      "VAN": [
+        "vancouver whitecaps fc"
+      ]
+    }
+  },
+  "college-football": {
+    "pm_code": {
+      "ADSU": "applst",
+      "AKR": "akron",
+      "AAMU": "txamc",
+      "ALST": "kenest",
+      "ABSU": "kentst",
+      "ALCN": "sjst",
+      "AIC": "flint",
+      "AGSU": "colst",
+      "ASU": "arzst",
+      "ARTE": "loutch",
+      "UAPB": "arkst",
+      "BST": "flst",
+      "BETHTN": "tenn",
+      "BHSU": "ballst",
+      "BOIS": "boise",
+      "BOWE": "kanst",
+      "BRIS": "oregst",
+      "BSU": "azst",
+      "CP": "smu",
+      "CAM": "camp",
+      "CARK": "cmich",
+      "CCSU": "clmsn",
+      "UCM": "missr",
+      "UCO": "okl",
+      "CNSU": "frsno",
+      "CWAU": "cah",
+      "CHAD": "jvst",
+      "UCWV": "char",
+      "CHSO": "chsou",
+      "CLT": "charlt",
+      "CMS": "miaoh",
+      "CCU": "coast",
+      "COLO": "col",
+      "CONCONE": "nebr",
+      "CULVE": "boscol",
+      "DAKOT": "ohst",
+      "DSU": "utst",
+      "ESU": "ecar",
+      "ETSU": "mtnst",
+      "ETBU": "txtech",
+      "EIU": "eill",
+      "EKU": "emich",
+      "ENMU": "nmx",
+      "EORE": "oreg",
+      "EWU": "ewash",
+      "FAMU": "sfl",
+      "FLA": "fl",
+      "FVSU": "webst",
+      "FMC": "marsh",
+      "FRES": "frest",
+      "FUR": "furman",
+      "GTOWNCOLL": "wkent",
+      "HCU": "smho",
+      "IUP": "pennst",
+      "ILLC": "will",
+      "ILST": "illst",
+      "IU": "ind",
+      "JXST": "jaxst",
+      "JCSU": "cita",
+      "KANSA": "kan",
+      "KNGS": "syra",
+      "ULV": "lamon",
+      "LAF": "lafay",
+      "LCHR": "loulaf",
+      "UL": "ull",
+      "MHB": "bayl",
+      "MASS": "umass",
+      "MTU": "wmich",
+      "UMD": "minnst",
+      "MVSU": "mspst",
+      "MSSU": "msrst",
+      "MIZ": "mizz",
+      "MOWE": "wmu",
+      "MORG": "morgst",
+      "UMU": "pur",
+      "NCSU": "ncst",
+      "NEBK": "nevada",
+      "NMHU": "nmst",
+      "NMSU": "nmxst",
+      "NICH": "nichls",
+      "UNA": "nal",
+      "NCAT": "ncar",
+      "NCCU": "nc",
+      "UNC": "sc",
+      "NCW": "ccar",
+      "NDSU": "ntx",
+      "NAU": "nill",
+      "UNCO": "ndame",
+      "UNI": "iowast",
+      "MWMO": "semst",
+      "UNW": "nwest",
+      "NWST": "nw",
+      "OHNU": "ohiost",
+      "OKBU": "okla",
+      "PV": "arz",
+      "URI": "ri",
+      "USD": "sdst",
+      "USA": "sala",
+      "SDAK": "sbama",
+      "SDMT": "scar",
+      "SEOK": "selou",
+      "SIU": "soumis",
+      "SNU": "gas",
+      "SUU": "usm",
+      "TA&M": "txam",
+      "UCD": "uconn",
+      "USU": "utahst",
+      "VAN": "vand",
+      "VUL": "vir",
+      "VSU": "vtech",
+      "WUMO": "washst",
+      "WSMI": "miami",
+      "WVWC": "wvir",
+      "UWO": "wisc"
+    },
+    "aliases": {
+      "ADSU": [
+        "appalachian state"
+      ],
+      "AAMU": [
+        "texas a m commerce lions"
+      ],
+      "ALST": [
+        "kennesaw state"
+      ],
+      "ABSU": [
+        "kent state golden flashes"
+      ],
+      "ALCN": [
+        "san jose state"
+      ],
+      "AIC": [
+        "florida international"
+      ],
+      "AGSU": [
+        "colorado state"
+      ],
+      "APP": [
+        "appalachian state"
+      ],
+      "ARTE": [
+        "louisiana tech"
+      ],
+      "UAPB": [
+        "arkansas state"
+      ],
+      "BST": [
+        "florida state"
+      ],
+      "BHSU": [
+        "ball state"
+      ],
+      "BOWE": [
+        "kansas state"
+      ],
+      "BRIS": [
+        "oregon state"
+      ],
+      "BSU": [
+        "arizona state"
+      ],
+      "CP": [
+        "smu mustangs"
+      ],
+      "CARK": [
+        "central michigan"
+      ],
+      "CCSU": [
+        "clemson"
+      ],
+      "CNSU": [
+        "fresno state"
+      ],
+      "CWAU": [
+        "california"
+      ],
+      "CHAD": [
+        "jacksonville state"
+      ],
+      "UCWV": [
+        "charlotte"
+      ],
+      "CMS": [
+        "miami oh"
+      ],
+      "CONCONE": [
+        "nebraska cornhuskers"
+      ],
+      "CULVE": [
+        "boston college"
+      ],
+      "DAKOT": [
+        "ohio state"
+      ],
+      "DSU": [
+        "utah state"
+      ],
+      "ESU": [
+        "east carolina"
+      ],
+      "ETSU": [
+        "middle tennessee"
+      ],
+      "ETBU": [
+        "texas tech red raiders"
+      ],
+      "EKU": [
+        "eastern michigan"
+      ],
+      "UF": [
+        "florida"
+      ],
+      "FAMU": [
+        "south florida"
+      ],
+      "FVSU": [
+        "weber state wildcats"
+      ],
+      "GTOWNCOLL": [
+        "western kentucky"
+      ],
+      "HCU": [
+        "sam houston bearkats"
+      ],
+      "IUP": [
+        "penn state"
+      ],
+      "ILLC": [
+        "western illinois leathernecks"
+      ],
+      "JCSU": [
+        "the citadel"
+      ],
+      "KNGS": [
+        "syracuse"
+      ],
+      "ULV": [
+        "ul monroe"
+      ],
+      "MERC": [
+        "mercer"
+      ],
+      "MTU": [
+        "western michigan"
+      ],
+      "MS&T": [
+        "michigan state"
+      ],
+      "MOWE": [
+        "western michigan"
+      ],
+      "UMU": [
+        "purdue boilermakers"
+      ],
+      "NEBK": [
+        "nevada wolf pack"
+      ],
+      "NMHU": [
+        "new mexico state"
+      ],
+      "NICH": [
+        "nicholls state colonels"
+      ],
+      "UNC": [
+        "south carolina"
+      ],
+      "NCW": [
+        "coastal carolina"
+      ],
+      "NDSU": [
+        "north texas"
+      ],
+      "NAU": [
+        "northern illinois"
+      ],
+      "UNCO": [
+        "notre dame"
+      ],
+      "UNI": [
+        "iowa state"
+      ],
+      "MWMO": [
+        "southeast missouri state redhawks"
+      ],
+      "OHNU": [
+        "ohio state"
+      ],
+      "PV": [
+        "arizona"
+      ],
+      "USD": [
+        "san diego state"
+      ],
+      "SDAK": [
+        "south alabama"
+      ],
+      "SDMT": [
+        "south carolina"
+      ],
+      "SEOK": [
+        "southeastern louisiana lions"
+      ],
+      "SIU": [
+        "southern miss"
+      ],
+      "SNU": [
+        "georgia southern"
+      ],
+      "SUU": [
+        "southern mississippi"
+      ],
+      "UCD": [
+        "uconn"
+      ],
+      "MARY": [
+        "maryland terrapins"
+      ],
+      "VSU": [
+        "virginia tech"
+      ],
+      "WUMO": [
+        "washington state"
+      ],
+      "WSMI": [
+        "miami"
+      ],
+      "UWO": [
+        "wisconsin badgers"
+      ]
+    }
+  },
+  "mens-college-basketball": {
+    "pm_code": {
+      "AKR": "akrn",
+      "ALA": "bama",
+      "ASU": "stl",
+      "UAPB": "arpb",
+      "APSU": "peay",
+      "BCU": "cook",
+      "BOIS": "boise",
+      "BGSU": "bg",
+      "CSUF": "mcns",
+      "CAM": "camp",
+      "CARK": "uca",
+      "COFC": "chls",
+      "CLT": "char",
+      "UTC": "chat",
+      "CHST": "chic",
+      "CLE": "clev",
+      "CCU": "ccar",
+      "COLO": "col",
+      "COLU": "clmb",
+      "DETM": "det",
+      "ECU": "ecar",
+      "ETAM": "amcm",
+      "EKU": "eky",
+      "EMU": "emic",
+      "FLA": "uf",
+      "FRES": "frsno",
+      "GWEB": "webb",
+      "IUIN": "iupui",
+      "UIW": "iw",
+      "IU": "ind",
+      "JAX": "jac",
+      "JXST": "jvst",
+      "LEM": "lmy",
+      "LR": "ualr",
+      "UL": "ull",
+      "LUC": "lchi",
+      "L-MD": "mary",
+      "ME": "maine",
+      "MASS": "umass",
+      "M-OH": "miami",
+      "MIZ": "mizz",
+      "MUR": "murr",
+      "NMSU": "nmst",
+      "UNO": "no",
+      "NIA": "niag",
+      "UNC": "nc",
+      "NU": "nw",
+      "ND": "ndame",
+      "OSU": "ohst",
+      "OU": "okla",
+      "ORE": "oreg",
+      "PRES": "pre",
+      "PUR": "purd",
+      "SIE": "siena",
+      "USA": "sbama",
+      "SC": "scar",
+      "UPST": "scus",
+      "SDST": "sfu",
+      "STO": "stnh",
+      "STBK": "ston",
+      "TA&M": "txam",
+      "TOW": "tows",
+      "TLSA": "tuls",
+      "RGV": "rio",
+      "USU": "utst",
+      "VAL": "valp",
+      "VAN": "vand",
+      "VILL": "nova"
+    },
+    "aliases": {
+      "APP": [
+        "appalachian state"
+      ],
+      "ASU": [
+        "st louis"
+      ],
+      "ARST": [
+        "arizona state"
+      ],
+      "BU": [
+        "boston univ"
+      ],
+      "CSUB": [
+        "csu bakersfield"
+      ],
+      "CSUF": [
+        "mcneese state"
+      ],
+      "ETAM": [
+        "texas a m commerce"
+      ],
+      "GRAM": [
+        "grambling state"
+      ],
+      "IUIN": [
+        "iupui"
+      ],
+      "M-OH": [
+        "miami fl"
+      ],
+      "MSM": [
+        "mt st mary s"
+      ],
+      "NICH": [
+        "nicholls state"
+      ],
+      "OMA": [
+        "nebraska omaha"
+      ],
+      "PRES": [
+        "presbyterian college"
+      ],
+      "JOES": [
+        "st joseph s"
+      ],
+      "SMC": [
+        "st mary s"
+      ],
+      "SHSU": [
+        "sam houston state"
+      ],
+      "UPST": [
+        "usc upstate"
+      ],
+      "SDST": [
+        "st francis pa"
+      ],
+      "USM": [
+        "southern mississippi"
+      ],
+      "UCI": [
+        "cal irvine"
+      ]
     }
   }
 }
